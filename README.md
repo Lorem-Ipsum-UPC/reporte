@@ -329,4 +329,3 @@ Esta caracterización guía la propuesta de valor, así como las decisiones de d
   - Reducción del tiempo de búsqueda y menor nivel de estrés.
   - Posibilidad de reservar estacionamiento en tiempo real, evitando incertidumbre.
   - Acceso a información centralizada sobre precios, disponibilidad y ubicación.
-  - 
