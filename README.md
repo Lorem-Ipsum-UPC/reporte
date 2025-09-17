@@ -181,6 +181,54 @@ En esta etapa representamos el intercambio de mensajes entre actores y bounded c
 Este modelado hace visible qué eventos impactan a cada contexto y cómo se encadenan sus reacciones. Además, ayuda a anticipar zonas de riesgo, como la duplicidad de reservas o fallas de telemetría (sensores inactivos), para diseñar medidas de resiliencia y validaciones cruzadas.
 
 ##### 4.1.1.3. Bounded Context Canvases
+1. IAM
+
+<img src="assets/chapter-4/IAMBCCanvas.jpg">
+
+
+2. Profile
+
+<img src="assets/chapter-4/ProfileBCCanvas.jpg">
+
+
+<div style="page-break-after: always;"></div>
+
+3. Parking Management
+
+<img src="assets/chapter-4/ParkingBCCanvas.jpg">
+
+
+4. Reservation
+
+<img src="assets/chapter-4/ReservationBCCanvas.jpg">
+
+
+<div style="page-break-after: always;"></div>
+
+5. Payment
+
+<img src="assets/chapter-4/PaymentBCCanvas.jpg">
+
+
+6. Review
+
+<img src="assets/chapter-4/ReviewBCCanvas.jpg">
+
+
+<div style="page-break-after: always;"></div>
+
+7. Notification
+
+<img src="assets/chapter-4/NotificationBCCanvas.jpg">
+
+
+8. IoT Management
+
+<img src="assets/chapter-4/IOTBCCanvas.jpg">
+
+
+<div style="page-break-after: always;"></div>
+
 
 #### 4.1.2 Context Mapping
 
