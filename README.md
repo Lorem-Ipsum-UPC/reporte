@@ -480,28 +480,68 @@ El mapa de empatía para **Dueños de Estacionamientos** identifica sus necesida
 
 ![Empathy Map Dueño de Estacionamiento](assets/chapter-2/Empathy%20Mapping%20Dueño%20de%20Estacionamiento.png)
 
-### 2.3.5. As-is Scenario Mapping
+### 2.4. Big Picture Event Storming
 
-El As-Is nos proporciona un análisis visual de los escenarios actuales para identificar oportunidades de mejora en la experiencia del usuario.
+El Big Picture Event Storming es una técnica colaborativa que permitió al equipo comprender el dominio del negocio de manera visual y participativa. Esta metodología se utilizó como una primera aproximación para mapear los procesos clave, identificar eventos de negocio significativos, analizar la interacción entre conductores, propietarios de estacionamientos y sistemas tecnológicos y descubrir oportunidades de mejora que guiarán el diseño de la solución. A través de la representación en una línea de tiempo de los eventos, se generó un lenguaje compartido entre todos los participantes, reduciendo ambigüedades y facilitando la alineación estratégica para las siguientes fases del desarrollo.
 
-**Segmento Conductores**
+Link Big Picture Event Storming: [Big Picture Event Storming](https://miro.com/welcomeonboard/bkluNG00NUlCbnR4TUFOb2dsSzdkSXgvcStOWmplZEtBVUp6TlNpTmNuRnlWT2doVFJJbk0yTjdOdStRWU9EcUFQbVhwdWFEWGhBblhFWnBIemlmY05OMnV3Tm5iYXVzQ25DbUFKWG1CNjlqS09ZaXNNTURYNlVnNWcvZUdZNElzVXVvMm53MW9OWFg5bkJoVXZxdFhRPT0hdjE=?share_link_id=755378133416)
 
-El "As-is Scenario Mapping" para **Conductores** resalta los desafíos y mejoras necesarias en la experiencia de estacionamiento, permitiendo optimizar las soluciones de **ParkeoYa**.
+**1. Preparing the Room**  
+El equipo configuró el entorno de trabajo colaborativo. Se creó un Miro colaborativo para capturar los eventos en tiempo real y se definió el objetivo de la sesión: comprender el dominio de gestión inteligente de estacionamientos mediante IoT y trazar la línea de tiempo completa de eventos.
 
-<p align="center"><em>As-is Scenario Mapping: Conductor</em></p>
+**2. Energizing the audience**  
+Se realizaron dinámicas iniciales para que todos los participantes entendieran la importancia del proceso. Se presentaron ejemplos simples de “eventos de negocio” siguiendo la guia de "Step by Step Guide to run your Big Picture Event Storming" y cómo estos sirven como insumo para comprender el sistema.
 
-![As is Scenario](assets/chapter-2/As-Is%20Scenario%20Mapping%20Conductor.png) 
+**3. Briefing and Presenting the Agenda**  
+Se explicó el alcance de la sesión:
 
-**Segmento Dueños de Playas de estacionamientos**
+- Analizar cómo interactúan los conductores y los propietarios de estacionamientos.
 
-El "As-is Scenario Mapping" para **Dueños de Playas de Estacionamientos** identifica sus desafíos y necesidades, desde la preparación del espacio hasta la gestión post-servicio, ayudando a mejorar la eficiencia y satisfacción en la gestión de sus estacionamientos con ParkeoYa.
+- Identificar los eventos clave desde que un conductor busca un estacionamiento hasta el pago y salida.
 
-<p align="center"><em>As-is Scenario Mapping: Dueños de Playas de Estacionamientos</em></p>
+- Identificar a los actores y servicios externos.
 
-![As is Scenario](assets/chapter-2/As-Is%20Scenario%20Mapping%20Dueño%20de%20Playa%20de%20Estacionamiento.png)
+**4. Generating Domain Events**  
+Los participantes propusieron todos los eventos posibles sin orden específico, anotándolos en tarjetas (físicas o virtuales).
 
+![EventStorming](./assets/chapter-2/Event%20Storming.png)
 
-## 2.4. Ubiquitous Language
+**5. Sorting Domain Events**  
+Se organizó la secuencia de eventos siguiendo una línea de tiempo lógica desde el inicio (creación de cuenta) hasta el final (visualización de reportes). Esto permitió visualizar de forma clara el flujo completo y detectar posibles cuellos de botella o redundancias.
+
+![SortingDomainEvents](./assets/chapter-2/Sorting%20Domain%20Events.png)
+
+**6. Adding Actors and External Systems**  
+Se identificaron los actores clave que participan en los eventos:
+
+- Conductor (usuario de la app).
+- Dueño del estacionamiento (gestiona disponibilidad y tarifas).
+- Sistema IoT (sensores para disponibilidad).
+
+Además, se incluyeron sistemas como las aplicaciones y servicios de pagos.
+
+![AddingActorsandExternalSystems](./assets/chapter-2/Adding%20Actors%20and%20External%20Systems.png)
+
+**7. Storytelling**  
+El equipo narró la experiencia desde la perspectiva del conductor:
+Un conductor se registra, ingresa a la aplicación, busca una playa de estacionamiento, consulta disponibilidad de espacios, realiza una reserva y al llegar hace check-in automáticamente gracias al sensor IoT. El sistema contabiliza el tiempo y, al finalizar, determina si hay penalidades. Los datos generados son reportados al dueño de la playa de estacionamiento, quien recibe métricas claras para la gestión.
+
+Y desde la perspectiva del dueño:
+Un dueño se registra, ingresa a la aplicación, registra su playa de estacionamiento, registra los espacios, establece tarifas, instala los dispositivos IoT, recibe reservas y reportes de ingresos.
+
+**8. Reverse Storytelling**  
+Se utilizó la técnica de narración inversa para verificar la consistencia del flujo: Comenzando desde el cierre de sesión y el reporte final del dueño y retrocediendo paso a paso hasta el evento inicial de creación de cuenta. Esto ayudó a confirmar que no faltaba ningún evento crítico y que las políticas de negocio estaban correctamente representadas.
+
+**9. Closing**  
+Se recopilaron los principales aprendizajes de la sesión:
+
+- El sistema debe manejar eventos críticos en tiempo real (check-in, check-out, disponibilidad).
+
+- La automatización mediante IoT es la clave diferenciadora frente a soluciones convencionales.
+
+- Es importante documentar políticas de negocio claras para evitar conflictos (tiempo de gracia, tarifas, reembolsos).
+
+## 2.5. Ubiquitous Language
 
 Se presenta una lista que contiene los términos del dominio del negocio y su definición.
 
@@ -544,6 +584,7 @@ Se presenta una lista que contiene los términos del dominio del negocio y su de
 - **Backend:** Infraestructura que procesa y administra los datos de la app, incluyendo disponibilidad de espacios y perfiles de usuarios.
   
 - **Sensor:** Dispositivo que detecta un estímulo o cambio en su entorno.
+
 
 
 
