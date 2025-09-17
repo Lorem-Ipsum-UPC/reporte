@@ -49,7 +49,7 @@
 </body>
 
 <p align="center">
-<br><strong>2025-02</strong></p>
+<br><strong> Septiempre, 2025</strong></p>
 <br>
 
 # Registro de Versiones del Informe
@@ -59,7 +59,6 @@
 | 1.0         | 31/08/2025| Juan Calisaya | Creación del documento de trabajo en formato Markdown. |
 | 1.1         | 02/09/2025| Bárbara Espinoza | Realización del Capítulo 1 |
 | 1.2         | 03/09/2025| Bárbara Espinoza | Realización del Capítulo 2 |
-| 1.3         | 03/09/2025| Bárbara Espinoza | Realización del To-Be Scenario Mapping en el Capítulo 3 |
 
 
 # Project Report Collaboration Insights 
@@ -114,19 +113,18 @@ Evidencia de colaboración
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-- [2.4. Ubiquitous Language](#24-ubiquitous-language)
+- [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+- [2.5. Ubiquitous Language](#25-ubiquitous-language)
 
   ## [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-- [3.2. User Stories](#32-user-stories)
-- [3.3. Impact Mapping](#33-impact-mapping)
-- [3.4. Product Backlog](#34-product-backlog)
+- [3.1. User Stories](#31-user-stories)
+- [3.2. Impact Mapping](#32-impact-mapping)
+- [3.3. Product Backlog](#33-product-backlog)
 
 ## [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
 
 - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
-  - [4.1.1. EventStorming](#411-eventstorming)
+  - [4.1.1. Design Level EventStorming](#411-design-level-eventstorming)
     - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
     - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
     - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
@@ -193,8 +191,5 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 </td>
   </tr>
 </table>
-
-
-# Objetivos SMART 
 
 ---
