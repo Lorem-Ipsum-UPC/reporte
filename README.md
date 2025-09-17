@@ -56,7 +56,129 @@ El objetivo de la sesión de **EventStorming** fue mapear los **eventos de domin
 
 ##### 4.1.1.1. Candidate Context Discovery
 
+En esta subsección se describen los bounded contexts candidatos, sus límites de responsabilidad, datos propietarios, contratos de interacción (sincronía/asíncronía) y eventos de dominio. La definición se alinea con el EventStorming previo y con las épicas e historias del Cap. III.
+
+Nota de convenciones
+- Roles: Conductor, Propietario.
+- Estados típicos de Reserva: creada, bloqueada, confirmada, en-uso, extendida, completada, cancelada, expirada, no-show.
+- Los eventos de dominio se nombran en pasado y en español: <Hecho>Registrado, <Entidad>Creada, etc.
+
+
+
+##### Bounded Context: IAM (Identity & Access Management)
+
+- Descripción
+  - Gestiona identidad, autenticación y autorización para todos los usuarios. Emite y valida tokens (JWT) y administra sesiones.
+- Responsabilidades
+  - Registro y verificación de cuentas; login/logout; recuperación de acceso; emisión/rotación de tokens.
+  - Gestión de roles y permisos (conductor, propietario, admin) y revocación de sesiones comprometidas.
+
+<img src="assets/chapter-4/IAMBoundedCandidateContext.png">
+
+
+—
+
+##### Bounded Context: Profile
+
+- Descripción
+  - Mantiene, gestiona y crea perfiles y preferencias de usuarios. Diferencia entre PerfilConductor y PerfilPropietario.
+- Responsabilidades
+  - CRUD de perfiles, foto y datos de contacto; preferencias de notificaciones.
+  - Para propietarios: datos fiscales y preferencias comerciales básicas.
+
+
+<img src="assets/chapter-4/ProfileBoundedCandidateContext.png">
+
+—
+
+##### Bounded Context: Parking Management
+
+- Descripción
+  - Administra estacionamientos y espacios, sus atributos, tarifas y horarios; provee consultas de disponibilidad.
+- Responsabilidades
+  - Alta/edición de estacionamientos (propietario verificado), gestión de espacios y tarifas/horarios.
+  - Cálculo de disponibilidad combinando reservas activas y estado IoT.
+
+<img src="assets/chapter-4/ParkingBoundedCContext.png">
+
+
+—
+
+##### Bounded Context: Reservations
+
+- Descripción
+  - Encargado de gestionar las reservas de espacios de estacionamiento. Permite crear, consultar y actualizar el estado de una reserva, asociándola a un conductor y un estacionamiento.
+- Responsabilidades
+  - Generar una nueva reserva.
+  - Asociar pagos a reservas.
+  - Consultar disponibilidad de espacios.
+  - Cambiar el estado de la reserva (creada, pagada, cancelada).
+
+
+
+<img src="assets/chapter-4/ReservationsBoundedCContext.png">
+
+
+—
+
+##### Bounded Context: Payment
+
+- Descripción
+  - Procesa pagos de reservas. Aplica comisión del modelo de negocio.
+- Responsabilidades
+  - Preautorizar al crear/confirmar.
+  - Calcular la comisión fija del 5% por cada pago de reserva y reflejarla en la liquidación neta.
+
+<img src="assets/chapter-4/PaymentBoundedCContext.png">
+—
+
+##### Bounded Context: Review 
+
+- Descripción
+  - Gestiona calificaciones y reseñas sobre los estacionamientos luego de su uso; así mismo expone su reputación agregada por cada uno.
+- Responsabilidades
+  - Registrar reseñas 1–5 estrellas con categorías; moderación básica; cálculo de promedios. Poder actulizarlo y eliminarlo.
+
+<img src="assets/chapter-4/ReviewBoundedCContext.png">
+—
+
+##### Bounded Context: IoT Management
+
+- Descripción
+  - Gestiona los dispositivos IoT instalados en cada espacio de estacionamiento, permitiendo reportar en tiempo real la disponibilidad de espacios.
+- Responsabilidades
+  - Registrar y asociar dispositivos IoT a espacios.
+  - Establecer estados de ocupación (libre/ocupado).
+  - Consultar disponibilidad desde reservas o frontends.
+  - Validar funcionamiento y batería del dispositivo.
+
+<img src="assets/chapter-4/IOTBoundedCContext.png">
+—
+
+##### Bounded Context: Notification
+
+- Descripción
+  - Enviar notificaciones a los usuarios del sistema, relacionadas con el estado de pagos o reservas, u otros eventos clave.
+- Responsabilidades
+  - Crear notificaciones personalizadas.
+  - Asociar mensajes a usuarios específicos.
+  - Notificar eventos como éxito/fallo en pago o reserva.
+  - Consultar historial de notificaciones por usuario.
+
+<img src="assets/chapter-4/NotificationBoundedCandidateContext.png">
+
+—
+
 ##### 4.1.1.2. Domain Message Flows Modeling
+
+En esta etapa representamos el intercambio de mensajes entre actores y bounded contexts para entender cómo se coordina el sistema extremo a extremo. A modo ilustrativo:
+
+- Cuando un sensor registra el ingreso de un vehículo, emite el evento: EspacioOcupadoDetectado.
+- Si un conductor solicita una reserva desde la app, se ejecuta el comando: CrearReserva/BloquearEspacio y, tras las validaciones, se publica el evento: ReservaConfirmada.
+- Al completarse el cobro, se publica el evento: PagoProcesado (o PagoCapturado), que habilita la verificación/actualización del estado de la reserva.
+- Cuando el sensor detecta la salida del vehículo, se libera el espacio mediante el evento: EspacioLiberadoDetectado.
+
+Este modelado hace visible qué eventos impactan a cada contexto y cómo se encadenan sus reacciones. Además, ayuda a anticipar zonas de riesgo, como la duplicidad de reservas o fallas de telemetría (sensores inactivos), para diseñar medidas de resiliencia y validaciones cruzadas.
 
 ##### 4.1.1.3. Bounded Context Canvases
 
