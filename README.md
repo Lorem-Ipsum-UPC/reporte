@@ -234,7 +234,7 @@ Este modelado hace visible qué eventos impactan a cada contexto y cómo se enca
 
 **Descripción de Relaciones**
 
-- *IAM → Profile / Reservations / Subscription / Notification / Payment*  
+- *IAM → Profile / Reservations / Notification / Payment*  
   El contexto de Identidad y Acceso permite que el usuario acceda a las funcionalidades del sistema.
 
 - *Profile → Parking / Reservations*  
@@ -243,8 +243,8 @@ Este modelado hace visible qué eventos impactan a cada contexto y cómo se enca
 - *Reservations ↔ Parking*  
   Se comunica para consultar disponibilidad y reservar espacios.
 
-- *Reservations ↔ Payment ↔ Subscription*  
-  La reserva requiere validación de pagos; las suscripciones también dependen del sistema de pagos.
+- *Reservations ↔ Payment*  
+  La reserva requiere validación de pagos.
 
 - *Payment → Notification*  
   Notifica al usuario el resultado de su pago.
@@ -1869,7 +1869,7 @@ El Bounded Context de **Payment** es responsable de gestionar los pagos realizad
 
 ##### 4.2.8.1. Domain Layer
 
-La capa de dominio encapsula las entidades centrales relacionadas a pagos. Utiliza una jerarquía de agregados compuesta por **ReservationPayment** y **SubscriptionPayment**, ambas heredan de un value object abstracto **Payment** que centraliza atributos comunes. Define además interfaces de Domain Services que contienen la lógica de negocio transaccional.
+La capa de dominio encapsula las entidades centrales relacionadas a pagos. Utiliza una jerarquía de agregados compuesta por **ReservationPayment**, ambas heredan de un value object abstracto **Payment** que centraliza atributos comunes. Define además interfaces de Domain Services que contienen la lógica de negocio transaccional.
 
 **Aggregates**
 
@@ -1886,23 +1886,12 @@ La capa de dominio encapsula las entidades centrales relacionadas a pagos. Utili
 |**Método**|**Descripción**|
 | :-: | :-: |
 |ReservationPayment(CreatePaymentCommand, Long)|Constructor que inicializa un pago de reserva con los datos de pago y el reservationId.|
-|boolean isForSubscription()|Indica si el pago es para suscripción (false).|
 |boolean isForReservation()|Indica si el pago es para reserva (true).|
-
-**Aggregate: SubscriptionPayment**
-
-**Descripción:** Representa un pago realizado por una suscripción al sistema.
-
-|**Atributo**|**Descripción**|**Tipo**|
-| :-: | :-: | :-: |
-|subscriptionId|Identificador de la suscripción asociada|Long|
 
 **Métodos:**
 
 |**Método**|**Descripción**|
 | :-: | :-: |
-|SubscriptionPayment(CreatePaymentCommand, Long)|Constructor que inicializa un pago de suscripción con los datos de pago y el subscriptionId.|
-|boolean isForSubscription()|Indica si el pago es para suscripción (true).|
 |boolean isForReservation()|Indica si el pago es para reserva (false).|
 
 **Value Objects**
@@ -1928,13 +1917,12 @@ Representa un pago genérico que centraliza los atributos comunes para todos los
 |**Nombre**|**Descripción**|
 | :- | :- |
 |Payment(CreatePaymentCommand)|Constructor que inicializa los atributos comunes del pago.|
-|boolean isForSubscription()|Método abstracto para identificar si es pago de suscripción.|
 |boolean isForReservation()|Método abstracto para identificar si es pago de reserva.|
 
 **Domain Services**
 
 **Descripción:**  
-Los Domain Services en este contexto son **interfaces** que definen operaciones de negocio relacionadas con los aggregates **ReservationPayment** y **SubscriptionPayment**. Permiten separar reglas de negocio que no pertenecen directamente a una entidad o value object.
+Los Domain Services en este contexto son **interfaces** que definen operaciones de negocio relacionadas con los aggregates **ReservationPayment**. Permiten separar reglas de negocio que no pertenecen directamente a una entidad o value object.
 
 **PaymentCommandService**
 
@@ -1944,7 +1932,6 @@ Interfaz que define operaciones de negocio relacionadas con la creación de pago
 |**Nombre**|**Descripción**|
 | :- | :- |
 |Optional<ReservationPayment> handleReservationPayment(CreatePaymentCommand command, Long reservationId)|Procesa el comando para crear un nuevo pago de reserva.|
-|Optional<SubscriptionPayment> handleSubscriptionPayment(CreatePaymentCommand command, Long subscriptionId)|Procesa el comando para crear un nuevo pago de suscripción.|
 
 ##### 4.2.8.2. Interface Layer
 
@@ -1958,7 +1945,6 @@ Gestiona las operaciones externas relacionadas con los pagos en Smart Parking.
 |**Método**|**Descripción**|**HTTP**|**Respuesta**|
 | :-: | :-: | :-: | :-: |
 |createReservationPayment(CreatePaymentResource resource, Long reservationId)|Crea un nuevo pago de reserva|POST /api/v1/payments/reservation/{reservationId}|Recurso de pago creado|
-|createSubscriptionPayment(CreatePaymentResource resource, Long subscriptionId)|Crea un nuevo pago de suscripción|POST /api/v1/payments/subscription/{subscriptionId}|Recurso de pago creado|
 
 ##### 4.2.8.3. Application Layer
 
@@ -1972,21 +1958,10 @@ Gestiona los comandos relacionados con la creación de pagos de reservas y suscr
 |**Método**|**Descripción**|
 | :-: | :-: |
 |handleReservationPayment(CreatePaymentCommand, Long)|Crea un nuevo pago de reserva y lo persiste en la base de datos.|
-|handleSubscriptionPayment(CreatePaymentCommand, Long)|Crea un nuevo pago de suscripción y lo persiste en la base de datos.|
 
 ##### 4.2.8.4. Infrastructure Layer
 
-Esta capa proporciona las implementaciones de persistencia para los agregados SubscriptionPayment y ReservationPayment. A través de los repositorios SubscriptionPaymentRepository y ReservationPaymentRepository, se gestionan operaciones como guardar nuevos pagos, actualizar estados, buscar por ID o recuperar todos los registros.
-
-**SubscriptionPaymentRepository**
-
-**Descripción:**
-Repositorio encargado de gestionar las operaciones de persistencia para el aggregate SubscriptionPayment.
-
-|**Método**|**Descripción**|
-| :- | :- |
-|findById(Integer id)|Encuentra un pago de suscripción por su ID.|
-|findAll()|Devuelve todos los pagos de suscripción registrados.|
+Esta capa proporciona las implementaciones de persistencia para ReservationPayment. A través del repositorio ReservationPaymentRepository, se gestionan operaciones como guardar nuevos pagos, actualizar estados, buscar por ID o recuperar todos los registros.
 
 **ReservationPaymentRepository**
 
