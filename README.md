@@ -500,8 +500,7 @@ El IAM Bounded Context gestiona la autenticación y autorización de usuarios, e
 
 El diagrama de clases muestra cómo se relacionan las entidades User y Role, así como los objetos de valor asociados a ellas.
 
-!["IAM Class Diagram"](ChapterIV-images/IAMClassDiagram.png)
-
+<img src="assets/chapter-4/DC-IAM.png" alt="IAM Class Diagram">
 <div style="page-break-after: always;"></div>
 
 ###### 4.2.1.6.2. Bounded Context Database Design Diagram
@@ -762,7 +761,7 @@ El Profile Bounded Context centraliza la gestión de la información de perfil d
 
 El diagrama de clases muestra la relación entre las entidades Driver y ParkingOwner, así como los objetos de valor asociados a ellas.
 
-!["Profile Management Class Diagram"](ChapterIV-images/SmartParking_Class_Diagram-Profile.png)
+<img src="assets/chapter-4/DC-Profile.png" alt="Profile Class Diagram">
 
 <div style="page-break-after: always;"></div>
 
@@ -977,7 +976,7 @@ El Parking Management Bounded Context se encarga de toda la lógica relacionada 
 
 En el diagrama de clases se observa la relación entre las entidades Parking y ParkingSpot, así como los objetos de valor asociados a ellas.
 
-!["Parking Management Class Diagram"](ChapterIV-images/ParkingmanagementClassDiagram.png)
+<img src="assets/chapter-4/DC-Parking.png" alt="Parking Class Diagram">
 
 <div style="page-break-after: always;"></div>
 
@@ -1188,7 +1187,7 @@ El Reservation Bounded Context permite a los conductores realizar, modificar o c
 
 El diagrama de clases muestra la relación entre las entidades Reservation y ReservationPayment, así como los objetos de valor asociados a ellas.
 
-!["Reservation Class Diagram"](ChapterIV-images/class-diagram-reservation.png)
+<img src="assets/chapter-4/DC-Reservation.png" alt="Reservations Class Diagram">
 
 <div style="page-break-after: always;"></div>
 
@@ -1364,7 +1363,7 @@ El Review Bounded Context centraliza la creación, almacenamiento y consulta de 
 
 En el diagrama de clases del contexto Review, el agregado raíz es Review, que se compone de atributos como id (Long), rating (Rating), comment (Comment), createdAt y updatedAt (Date). Proporciona métodos como getRating(), getComment(), updateRating(int) y updateComment(String) para leer y modificar su estado validando invariantes de dominio (por ejemplo, rango de rating y longitud de comentario). El agregado Review está relacionado con las entidades User y Parking, cada una con sus propios campos esenciales (id, email, name, address, etc.) y métodos de acceso (getId(), getEmail(), getName(), getAddress()).
 
-![Review Context Class Diagram](ChapterIV-images/ReviewBoundedContextClassDiagram.png)
+<img src="assets/chapter-4/DC-Review.png" alt="Review Class Diagram">
 
 <div style="page-break-after: always;"></div>
 
@@ -1504,7 +1503,7 @@ El Notification Bounded Context es el encargado del manejo de notificaciones den
 
 En el diagrama de clases del contexto Notifications, el agregado raíz es Notification, con atributos como id (Long), type (NotificationType), message (NotificationMessage) y createdAt (Date). Ofrece métodos como getType(), getMessage() y el constructor que valida la no-nullidad del mensaje y tipo. El agregado Notification se asocia con la entidad User, definida con campos como id, email y timestamps, y métodos getId()/getEmail().
 
-![Notification Context Class Diagram](ChapterIV-images/NotificationBoundedContextClassDiagram.png)
+<img src="assets/chapter-4/DC-Notification.png" alt="Notification Class Diagram">
 
 <div style="page-break-after: always;"></div>
 
@@ -1851,7 +1850,7 @@ El diagrama de componentes del Device Management API organiza su lógica en cuat
 
  El diagrama muestra las entidades ParkingSpot e IoTDevice con sus atributos y métodos clave, destacando su relación 1:1 dentro del contexto de gestión IoT para monitorear disponibilidad de espacios mediante dispositivos físicos.
 
-![IoT Management Context Class Diagram](ChapterIV-images/IotManagementBoundedContextClassDiagram.png)
+<img src="assets/chapter-4/DC-Device.png" alt="Device Class Diagram">
 
 <div style="page-break-after: always;"></div>
 
@@ -2016,7 +2015,7 @@ Repositorio encargado de gestionar las operaciones de persistencia para el aggre
 
 El diagrama de clases muestra cómo se relacionan las entidades Payment y PaymentMethod, así como los objetos de valor asociados a ellas.
 
-!["Payment Class Diagram"](ChapterIV-images/PaymentClassDiagram.png)
+<img src="assets/chapter-4/DC-Payment.png" alt="Payment Class Diagram">
 
 <div style="page-break-after: always;"></div>
 
