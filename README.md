@@ -267,7 +267,8 @@ Este modelado hace visible qué eventos impactan a cada contexto y cómo se enca
 
 Se describe el diagrama de contexto del sistema SmartParking, que define los límites del sistema y cómo interactúa con los segmentos objetivo y servicios externos.
 
-!["System Context Diagram"](assets/chapter-4/c4-context.png)
+<img width="963" height="794" alt="image" src="https://github.com/user-attachments/assets/666d6a07-5101-4ab2-87d3-bc8ff2adc79a" />
+
 
 ##### 4.1.3.2. Software Architecture Container Level Diagrams
 
