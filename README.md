@@ -763,7 +763,7 @@ Link de entrevistas: [Link de Entrevistas](https://upcedupe-my.sharepoint.com/:v
 | Lugar de residencia | Villa Maria |
 | Enlace del video | [Entrevista Leandro](https://www.youtube.com/watch?v=_RbKISOL-Qo) |
 | Duración | 4 minutos y 58 segundos |
-| Imagen |  <img width="400" alt="image" src="https://github.com/user-attachments/assets/9b5286e3-cd07-4b4f-b6c1-a3bcc26e2f54" /> |
+| Imagen |  <img src="./assets/chapter-2/Entrevista Leandro.png" width="400" /> |
 | Resumen de la entrevista | Leandro compartió su experiencia como conductor frecuente en la ciudad y respondió a varias de las preguntas que le planteamos. Mencionó que necesita estacionar casi todos los días, tanto por razones laborales como personales, y que suele dedicar entre 15 y 20 minutos en promedio para encontrar un espacio disponible. Actualmente no utiliza ninguna aplicación específica para buscar estacionamiento, aunque considera que una herramienta que muestre la disponibilidad en tiempo real sería muy útil, ya que le permitiría ahorrar tiempo y reducir el estrés diario. Al momento de elegir dónde estacionar, Leandro prioriza la proximidad a su destino, aunque también toma en cuenta el costo y, en menor medida, la seguridad. Comentó que le parecería muy práctico que los estacionamientos contaran con luces indicadoras que señalen desde lejos si hay espacios disponibles, y valoró la posibilidad de recibir rutas recomendadas en función del tráfico para llegar más rápido a un lugar libre. |
 
 | Entrevista | 3 |
@@ -1123,6 +1123,7 @@ Se presenta una lista que contiene los términos del dominio del negocio y su de
 - **Backend:** Infraestructura que procesa y administra los datos de la app, incluyendo disponibilidad de espacios y perfiles de usuarios.
   
 - **Sensor:** Dispositivo que detecta un estímulo o cambio en su entorno.
+
 
 
 
