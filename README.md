@@ -273,7 +273,7 @@ Se describe el diagrama de contexto del sistema SmartParking, que define los lí
 
 Se presenta el diagrama de contenedores del sistema SmartParking, que detalla los principales componentes internos y sus interacciones entre sí y con sistemas externos.
 
-!["Container Diagram"](assets/chapter-4/c4-container.png)
+<img width="1592" height="821" alt="image" src="https://github.com/user-attachments/assets/c074d0a7-f49b-419c-a97d-2f6b7f938686" />
 
 <div style="page-break-after: always;"></div>
 
