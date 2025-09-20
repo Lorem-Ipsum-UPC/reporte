@@ -59,19 +59,28 @@
 | 1.0         | 31/08/2025| Juan Calisaya | Creación del documento de trabajo en formato Markdown. |
 | 1.1         | 02/09/2025| Bárbara Espinoza | Realización del Capítulo 1 |
 | 1.2         | 03/09/2025| Bárbara Espinoza | Realización del Capítulo 2 |
-
+| 1.3         | 15/09/2025| Juan Calissaya y Alessandro David | Realización del Capítulo 3 |
+| 1.4         | 20/09/2025| Alessandro David, Nelson Serrano y Tyrone Sotil | Realización del Capítulo 4 |
 
 # Project Report Collaboration Insights 
 
 Enlace al repositorio del informe en GitHub:
-https://github.com/Lorem-Ipsum-UPC/reporte 
+[Repositorio de GitHub](https://github.com/Lorem-Ipsum-UPC/reporte)
 
 ---
 
 ## TB1
 
 **Descripción de las actividades realizadas:**
-- **Espinoza Delgado, Bárbara Antonella**: Colaboré con la realización del capítulo 1 2 y 3 del informe cumpliendo con el formato en Markdown y estando pendiente de las correcciones y partes faltantes.
+- **Espinoza Delgado, Bárbara Antonella**: Colaboré con la realización del capítulo 1 y 2 del informe cumpliendo con el formato en Markdown y estando pendiente de las correcciones y partes faltantes.
+
+- **Calisaya Sánchez, Juan Jesús**: Colaboré con la realización del capítulo 3 del informe , especificamente, la realización de epicas y user stories.
+  
+- **David Polanco, Alessandro Alonso**: Colaboré con la realización del capítulo 3 y 4 del informe , especificamente, la realización del impact mapping y Strategic-Level Domain-Driven Design.
+  
+- **Serrano Ircañaupa, Nelson Elias**: Colaboré con la realización del capítulo 4 del informe , especificamente, la realización de Diagramas C4 y Bounded Context Canvas.
+  
+- **Sotil Vasquez, Tyrone Raí**: Colaboré con la realización del capítulo 4 del informe , especificamente, la realización de Diagramas C4, diagramas de clases y diagramas de base de datos.
 
 Evidencia de colaboración
 
@@ -1114,4 +1123,5 @@ Se presenta una lista que contiene los términos del dominio del negocio y su de
 - **Backend:** Infraestructura que procesa y administra los datos de la app, incluyendo disponibilidad de espacios y perfiles de usuarios.
   
 - **Sensor:** Dispositivo que detecta un estímulo o cambio en su entorno.
+
 
