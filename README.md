@@ -282,7 +282,7 @@ Se presenta el diagrama de contenedores del sistema SmartParking, que detalla lo
 
 Se presenta el diagrama de despliegue del sistema SmartParking, que ilustra cómo se implementan los contenedores en la infraestructura física y virtual.
 
-!["Deployment Diagram"](assets/chapter-4/c4-deployment.png)
+<img width="1689" height="807" alt="image" src="https://github.com/user-attachments/assets/461b6a86-afad-4cb2-9feb-ccb5d1610b0b" />
 
 <div style="page-break-after: always;"></div>
 
