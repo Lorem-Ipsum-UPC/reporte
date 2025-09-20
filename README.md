@@ -1,25 +1,8 @@
 ## Capítulo III: Requirements Specification
 
-### 3.1. To-Be Scenario Mapping
+### 3.2. User Stories
 
-**Segmento Conductores**
-
-El "To-Be Scenario Mapping" para **Conductores** muestra los resultados esperados para los conductores urbanos frecuentes que necesitan tener rapido acceso a estacionamientos
-
-<p align="center"><em>Escenario ideal para conductores que buscan estacionar y pagar sin complicaciones.</em></p>
-
-
-![To Be Scenario Conductores](assets/chapter-3/To-Be%20Scenario%20Mapping%20Conductor.png)
-
-**Segmento Dueños de Playas de Estacionamiento**
-
-El "To-Be Scenario Mapping" para **Dueños de Playas de Estacionamiento** muestra los resultados esperados para la gestion de estacionamientos brinadas por **ParkeoYa**.
-
-<p align="center"><em>Escenario ideal para Dueños de playas de estacionamiento.</em></p>
-
-![To Be Scenario Dueños de Playas de Estacionamiento](assets/chapter-3/To-Be%20Scenario%20Mapping%20Dueño%20de%20Playa%20de%20Estacionamiento.png)
-
-### EPICS
+#### Epics
 
 | **Epic ID** | **Título** | **Descripción** |
 |-------------|------------|-----------------|
@@ -39,9 +22,7 @@ El "To-Be Scenario Mapping" para **Dueños de Playas de Estacionamiento** muestr
 | **EP14** | Analytics y Business Intelligence | Proporcionar insights valiosos a los propietarios sobre ocupación, ingresos y patrones de uso mediante dashboards y reportes inteligentes. |
 | **EP15** | Sostenibilidad y Movilidad Urbana | Medir y comunicar el impacto de la solución en la reducción de congestión vehicular y emisiones de CO₂ en la ciudad. |
 
-
-### 3.2. User Stories
-
+#### User Stories
 | **Epic / Story ID** | **Título** | **Descripción** | **Criterios de Aceptación** | **Relacionado con (Epic ID)** |
 |---------------------|------------|-----------------|----------------------------|-------------------------------|
 | **US01** | Landing page con propuesta de valor clara | **Como** visitante interesado en soluciones de estacionamiento **quiero** ver una landing page que explique claramente cómo ParkeoYa usa IoT para resolver la pérdida de tiempo buscando estacionamiento **para** decidir si la solución me conviene | **Escenario 01**: Dado que accedo a la landing page de ParkeoYa, cuando navego por las secciones principales, entonces veo información clara sobre cómo los sensores IoT detectan espacios libres y permiten reservar con anticipación.<br>**Escenario 02**: Dado que soy propietario de estacionamiento, cuando reviso testimonios en la landing, entonces puedo leer casos específicos de propietarios que aumentaron ocupación 20% en 3 meses. | **EP01** |
@@ -114,5 +95,6 @@ El "To-Be Scenario Mapping" para **Dueños de Playas de Estacionamiento** muestr
 | EP14    | US28          | Analytics predictivos para optimización                      | Media     |
 | EP15    | US29          | Medición de impacto ambiental                                | Baja      |
 | EP15    | US30          | Programa de movilidad sostenible                             | Baja      |
+
 
 
