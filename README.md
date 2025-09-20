@@ -508,7 +508,7 @@ El diagrama de clases muestra cómo se relacionan las entidades User y Role, as�
 
 En el diagrama de base, se observa la tabla users y roles, así como la relación entre estas.
 
-!["IAM Database Diagram"](ChapterIV-images/vertabelo-iam.jpg)
+<img src="assets/chapter-4/bc-iam-diagramabasededatos.png" alt="IAM database image" height="300px">
 
 <div style="page-break-after: always;"></div>
 
@@ -770,7 +770,7 @@ El diagrama de clases muestra la relación entre las entidades Driver y ParkingO
 
 El diagrama de base muestra las tablas drivers y parking\_owners, así como la relación entre estas.
 
-!["Profile Management Database Diagram"](ChapterIV-images/vertabelo-profile.jpg)
+<img src="assets/chapter-4/bc-profile-diagramabasededatos.png" alt="Profile database image" height="300px">
 
 <div style="page-break-after: always;"></div>
 
@@ -985,7 +985,8 @@ En el diagrama de clases se observa la relación entre las entidades Parking y P
 
 El diagrama de base muestra la tabla parkings y parking_spots, así como la relación entre estas.
 
-!["Parking Management Database Design Diagram"](ChapterIV-images/vertabelo-parking.jpg)
+<img src="assets/chapter-4/bc-parking-diagramabasededatos.png" alt="Parking database image" height="300px">
+
 
 <div style="page-break-after: always;"></div>
 
@@ -1195,7 +1196,7 @@ El diagrama de clases muestra la relación entre las entidades Reservation y Res
 
 El diagrama de base muestra la tabla reservations y reservation_payments, así como la relación entre estas.
 
-!["Reservation Database Diagram"](ChapterIV-images/vertabelo-reservation.jpg)
+<img src="assets/chapter-4/bc-reservation-diagramabasededatos.png" alt="Reservation database image" height="300px">
 
 <div style="page-break-after: always;"></div>
 
@@ -1378,7 +1379,7 @@ El diagrama de base de datos del bounded context **Review** muestra tres tablas 
 
 Las relaciones refuerzan la integridad referencial: cada reseña (`reviews`) apunta a un usuario y a un parking, garantizando que solo puedan existir reseñas para usuarios y parkings válidos.
 
-![Review Context Database Diagram](ChapterIV-images/vertabelo-review.jpg)
+<img src="assets/chapter-4/bc-reviews-diagramabasededatos.png" alt="Review database image" height="300px">
 
 <div style="page-break-after: always;"></div>
 
@@ -1515,7 +1516,7 @@ El diagrama de base de datos del bounded context **Notifications** muestra dos t
 
 La clave foránea `notifications.user_id` asegura que cada notificación esté asociada a un usuario existente, facilitando el seguimiento y filtrado de notificaciones por destinatario.  
 
-![Notification Context Database Diagram](ChapterIV-images/vertabelo-notification.jpg)
+<img src="assets/chapter-4/bc-notification-diagramabasededatos.png" alt="Notification database image" height="300px">
 
 <div style="page-break-after: always;"></div>
 
@@ -1857,8 +1858,9 @@ El diagrama de componentes del Device Management API organiza su lógica en cuat
 ###### 4.2.7.6.2. Bounded Context Database Design Diagram
 
  El esquema de base de datos detalla las tablas parking_spots e iot_devices, sus campos y claves foráneas, reflejando la estructura persistente del dominio para registrar dispositivos asociados a espacios de estacionamiento.
- 
-![IoT Management Context Database Diagram](ChapterIV-images/vertabelo-iot.jpg)
+
+
+<img src="assets/chapter-4/bc-iot-diagramabasededatos.png" alt="Iot database image" height="300px">
 
 <div style="page-break-after: always;"></div>
 
@@ -2022,7 +2024,7 @@ El diagrama de clases muestra cómo se relacionan las entidades Payment y Paymen
 
 El diagrama de base muestra la tabla payments y payment_methods, así como la relación entre estas.
 
-!["Payment Database Design Diagram"](ChapterIV-images/vertabelo-payment.jpg)
+<img src="assets/chapter-4/bc-payment-diagramabasededatos.png" alt="Payment database image" height="300px">
 
 ---
 
