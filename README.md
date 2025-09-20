@@ -1980,17 +1980,17 @@ No aplica para este caso
 
 #### 4.2.8. Bounded Context: Payment
 
-El Bounded Context de **Payment** es responsable de gestionar los pagos realizados por los usuarios, ya sea por reservas de estacionamientos o suscripciones en el sistema Smart Parking. Permite crear pagos con datos de tarjeta, diferenciando si son para una reserva o una suscripción. Este contexto implementa una jerarquía de agregados y una estructura de persistencia unificada.
+El Bounded Context de **Payment** es responsable de gestionar los pagos realizados por los usuarios exclusivamente para reservas de estacionamientos en el sistema Smart Parking. Permite crear pagos con datos de tarjeta para una reserva específica. Este contexto implementa una jerarquía de agregados y una estructura de persistencia unificada.
 
 ##### 4.2.8.1. Domain Layer
 
-La capa de dominio encapsula las entidades centrales relacionadas a pagos. Utiliza una jerarquía de agregados compuesta por **ReservationPayment**, ambas heredan de un value object abstracto **Payment** que centraliza atributos comunes. Define además interfaces de Domain Services que contienen la lógica de negocio transaccional.
+La capa de dominio encapsula las entidades centrales relacionadas a pagos. Utiliza una jerarquía compuesta por el aggregate ReservationPayment, que hereda de un value object abstracto Payment que centraliza atributos comunes. Define además interfaces de *Domain Services* que contienen la lógica de negocio transaccional.
 
 **Aggregates**
 
 **Aggregate: ReservationPayment**
 
-**Descripción:** Representa un pago realizado por la reserva de un estacionamiento.
+**Descripción:** Representa un pago realizado por la **reserva de un estacionamiento**.
 
 |**Atributo**|**Descripción**|**Tipo**|
 | :-: | :-: | :-: |
@@ -2000,21 +2000,15 @@ La capa de dominio encapsula las entidades centrales relacionadas a pagos. Utili
 
 |**Método**|**Descripción**|
 | :-: | :-: |
-|ReservationPayment(CreatePaymentCommand, Long)|Constructor que inicializa un pago de reserva con los datos de pago y el reservationId.|
-|boolean isForReservation()|Indica si el pago es para reserva (true).|
-
-**Métodos:**
-
-|**Método**|**Descripción**|
-| :-: | :-: |
-|boolean isForReservation()|Indica si el pago es para reserva (false).|
+|ReservationPayment(CreatePaymentCommand, Long)|Constructor que inicializa un pago de reserva con los datos de pago y el `reservationId`.|
+|boolean isForReservation()|Indica si el pago es para reserva (`true`).|
 
 **Value Objects**
 
 **Payment**
 
 **Descripción:**  
-Representa un pago genérico que centraliza los atributos comunes para todos los pagos del sistema. Es una entidad abstracta.
+Representa un pago genérico que centraliza los atributos comunes para todos los pagos del sistema. Es una entidad **abstracta**.
 
 **Atributos:**
 
@@ -2037,7 +2031,7 @@ Representa un pago genérico que centraliza los atributos comunes para todos los
 **Domain Services**
 
 **Descripción:**  
-Los Domain Services en este contexto son **interfaces** que definen operaciones de negocio relacionadas con los aggregates **ReservationPayment**. Permiten separar reglas de negocio que no pertenecen directamente a una entidad o value object.
+Los Domain Services en este contexto son **interfaces** que definen operaciones de negocio relacionadas con el aggregate **ReservationPayment**. Permiten separar reglas de negocio que no pertenecen directamente a una entidad o value object.
 
 **PaymentCommandService**
 
@@ -2048,9 +2042,11 @@ Interfaz que define operaciones de negocio relacionadas con la creación de pago
 | :- | :- |
 |Optional<ReservationPayment> handleReservationPayment(CreatePaymentCommand command, Long reservationId)|Procesa el comando para crear un nuevo pago de reserva.|
 
+---
+
 ##### 4.2.8.2. Interface Layer
 
-Esta capa define los puntos de entrada externos para gestionar los pagos. A través de controladores REST se exponen operaciones para crear pagos de reservas y suscripciones.
+Esta capa define los puntos de entrada externos para gestionar los pagos. A través de controladores REST se exponen operaciones para crear pagos de **reservas**.
 
 **Controlador: PaymentsController**
 
@@ -2061,41 +2057,45 @@ Gestiona las operaciones externas relacionadas con los pagos en Smart Parking.
 | :-: | :-: | :-: | :-: |
 |createReservationPayment(CreatePaymentResource resource, Long reservationId)|Crea un nuevo pago de reserva|POST /api/v1/payments/reservation/{reservationId}|Recurso de pago creado|
 
+---
+
 ##### 4.2.8.3. Application Layer
 
-La capa de aplicación contiene la lógica de negocio que orquesta la creación de pagos. Coordina los comandos entre la capa de interfaz y la de dominio.
+La capa de aplicación contiene la lógica de negocio que orquesta la creación de pagos de reserva. Coordina los comandos entre la capa de interfaz y la de dominio.
 
 **Clase: PaymentCommandServiceImpl**
 
 **Descripción:**  
-Gestiona los comandos relacionados con la creación de pagos de reservas y suscripciones.
+Gestiona los comandos relacionados con la creación de pagos de reservas.
 
 |**Método**|**Descripción**|
 | :-: | :-: |
 |handleReservationPayment(CreatePaymentCommand, Long)|Crea un nuevo pago de reserva y lo persiste en la base de datos.|
 
+---
+
 ##### 4.2.8.4. Infrastructure Layer
 
-Esta capa proporciona las implementaciones de persistencia para ReservationPayment. A través del repositorio ReservationPaymentRepository, se gestionan operaciones como guardar nuevos pagos, actualizar estados, buscar por ID o recuperar todos los registros.
+Esta capa proporciona las implementaciones de persistencia para `ReservationPayment`. A través del repositorio `ReservationPaymentRepository`, se gestionan operaciones como guardar nuevos pagos, actualizar estados, buscar por ID o recuperar todos los registros.
 
 **ReservationPaymentRepository**
 
-**Descripción:**
-Repositorio encargado de gestionar las operaciones de persistencia para el aggregate ReservationPayment.
+**Descripción:**  
+Repositorio encargado de gestionar las operaciones de persistencia para el aggregate `ReservationPayment`.
 
 |**Método**|**Descripción**|
 | :- | :- |
-|findById(Integer id)|Encuentra un pago de reserva por su ID.|
+|save(ReservationPayment payment)|Persiste o actualiza un pago de reserva.|
+|findById(Long id)|Encuentra un pago de reserva por su ID.|
 |findAll()|Devuelve todos los pagos de reserva registrados.|
 
 <div style="page-break-after: always;"></div>
 
-
 ##### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
 
--**Backend**
+- **Backend**
 
- Payment Bouded Context es el responsable de gestionar los pagos dentro de SmartParking, este contexto permite realizar transacciones seguras, coordinar la lógica asociada y almacenar los datos financieros necesarios. Las capas de interfaz, aplicación, dominio e infraestructura trabajan juntas para ofrecer un procesamiento confiable.
+Payment Bounded Context es el responsable de gestionar los pagos dentro de SmartParking; este contexto permite realizar transacciones seguras, coordinar la lógica asociada y almacenar los datos financieros necesarios. Las capas de interfaz, aplicación, dominio e infraestructura trabajan juntas para ofrecer un procesamiento confiable.
 
 <img src="assets/chapter-4/payment-bc-component-backend.png" alt="payment bc component backend image" height="350px">
 
@@ -2113,7 +2113,7 @@ El diagrama de clases muestra cómo se relacionan las entidades Payment y Paymen
 
 ###### 4.2.8.6.2. Bounded Context Database Design Diagram
 
-El diagrama de base muestra la tabla payments y payment_methods, así como la relación entre estas.
+El diagrama de base muestra la tabla `payments` y `payment_methods`, así como la relación entre estas.
 
 <img src="assets/chapter-4/bc-payment-diagramabasededatos.png" alt="Payment database image" height="300px">
 
