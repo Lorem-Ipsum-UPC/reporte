@@ -122,7 +122,7 @@ Evidencia de colaboración
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-- [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+- [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
 - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 
   ## [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
@@ -753,7 +753,7 @@ Link de entrevistas: [Link de Entrevistas](https://upcedupe-my.sharepoint.com/:v
 | Lugar de residencia | Surco |
 | Enlace del video | [Entrevista Joan](https://www.youtube.com/watch?v=8MtQq3fYY3s) |
 | Duración | 6 minutos y 6 segundos |
-| Imagen |  <img src="/assets/chapter-2/conductor-balbin.jpg" width="400" /> |
+| Imagen |  <img src="./assets/chapter-2/conductor-balbin.jpg" width="400" /> |
 | Resumen de la entrevista | Balbín utiliza su auto todos los días para ir a la universidad y a su trabajo como desarrollador web en una ONG. Esto lo obliga a buscar estacionamiento constantemente, lo cual puede tomarle entre 10 a 20 minutos, dependiendo del tráfico y la zona. Actualmente no usa ninguna aplicación para encontrar estacionamiento, pero considera que una app con información en tiempo real sería muy útil, ya que le ahorraría tiempo y evitaría dar vueltas innecesarias. También le gustaría que la app recomiende rutas según el tráfico, lo cual considera clave para optimizar sus desplazamientos. Está dispuesto a pagar una tarifa adicional por reservar un espacio, siempre que esto le garantice seguridad y cercanía. Aunque valora la seguridad, prioriza el costo y la proximidad al momento de elegir un estacionamiento. Ha vivido situaciones frustrantes, como perder tiempo en el tráfico, no encontrar espacios libres o que otro conductor le gane el lugar. Por ello, valora la posibilidad de saber en tiempo real si hay espacios disponibles e incluso recibir alertas si ocurre algo sospechoso con su vehículo. |
 
 | Entrevista | 2 |
@@ -1019,7 +1019,7 @@ El mapa de empatía para **Dueños de Estacionamientos** identifica sus necesida
 
 ![Empathy Map Dueño de Estacionamiento](assets/chapter-2/Empathy%20Mapping%20Dueño%20de%20Estacionamiento.png)
 
-### 2.4. Big Picture Event Storming
+## 2.4. Big Picture Event Storming
 
 El Big Picture Event Storming es una técnica colaborativa que permitió al equipo comprender el dominio del negocio de manera visual y participativa. Esta metodología se utilizó como una primera aproximación para mapear los procesos clave, identificar eventos de negocio significativos, analizar la interacción entre conductores, propietarios de estacionamientos y sistemas tecnológicos y descubrir oportunidades de mejora que guiarán el diseño de la solución. A través de la representación en una línea de tiempo de los eventos, se generó un lenguaje compartido entre todos los participantes, reduciendo ambigüedades y facilitando la alineación estratégica para las siguientes fases del desarrollo.
 
@@ -1123,5 +1123,6 @@ Se presenta una lista que contiene los términos del dominio del negocio y su de
 - **Backend:** Infraestructura que procesa y administra los datos de la app, incluyendo disponibilidad de espacios y perfiles de usuarios.
   
 - **Sensor:** Dispositivo que detecta un estímulo o cambio en su entorno.
+
 
 
