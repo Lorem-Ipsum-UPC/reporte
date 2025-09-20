@@ -124,4 +124,3 @@ Cada User Story incluye escenarios de camino feliz (Happy Path) y caminos altern
 | 35 | TS04 | Detección básica de ocupación | Lógica/firmware del sensor para detectar entrada/salida y reportar | 5 |
 | 36 | TS05 | Sincronización Edge-Cloud básica | Edge server envia batches de eventos al cloud y maneja desconexiones | 5 |
 | 37 | US32 | Pago básico con tarjeta | Procesar pagos con tarjeta y gestionar errores/reintentos | 5 |
-...existing code...
