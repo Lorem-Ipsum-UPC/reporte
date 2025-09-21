@@ -10,15 +10,15 @@ Cada User Story incluye escenarios de camino feliz (Happy Path) y caminos altern
 
 | **Epic ID** | **Título** | **Descripción** |
 |-------------|------------|-----------------|
-| **EP01** | **Presencia Digital y Captación** | Como startup, necesitamos establecer una presencia digital sólida que comunique nuestra propuesta de valor IoT y atraiga tanto a conductores como propietarios de estacionamientos. |
+| **EP01** | **Presencia Digital y Adquisición** | Como startup, necesitamos establecer una presencia digital sólida que comunique nuestra propuesta de valor IoT y atraiga tanto a conductores como propietarios de estacionamientos. |
 | **EP02** | **Onboarding y Autenticación** | Como plataforma, necesitamos un sistema de registro y autenticación seguro que diferencie entre conductores y propietarios, facilitando un acceso rápido y protegido. |
-| **EP03** | **Gestión de Perfiles** | Como usuarios (conductores y propietarios), necesitamos gestionar nuestros perfiles con información personalizada y relevante para cada tipo de usuario. |
+| **EP03** | **Gestión de Perfiles Segmentados** | Como usuarios (conductores y propietarios), necesitamos gestionar nuestros perfiles con información personalizada y relevante para cada tipo de usuario. |
 | **EP04** | **Sistema de Reservas** | Como conductor, necesito encontrar, reservar y acceder a espacios de estacionamiento de manera rápida y confiable para optimizar mi tiempo de búsqueda. |
-| **EP05** | **Gestión de Estacionamientos** | Como propietario, necesito registrar, configurar y administrar mis espacios de estacionamiento para maximizar ocupación e ingresos. |
+| **EP05** | **Gestión de Estacionamientos con IoT** | Como propietario, necesito registrar, configurar y administrar mis espacios de estacionamiento con iot para maximizar ocupación e ingresos. |
 | **EP06** | **Monetización por Comisiones** | Como plataforma, necesitamos generar ingresos sostenibles mediante un modelo de comisiones por transacción que agregue valor a propietarios y conductores. |
 | **EP07** | **Sistema de Calificaciones** | Como usuarios de la plataforma, necesitamos un sistema de reputación que genere confianza y mejore la calidad del servicio mediante feedback bidireccional. |
 | **EP08** | **Notificaciones en Tiempo Real** | Como usuario, necesito recibir alertas oportunas sobre el estado de mis reservas, disponibilidad y eventos relevantes para mantenerme informado. |
-| **EP09** | **Backend API y Microservicios** | Como desarrollador, necesito una API robusta y escalable que soporte todas las operaciones de negocio con alta disponibilidad y rendimiento. |
+| **EP09** | **Backend API** | Como desarrollador, necesito una API robusta y escalable que soporte todas las operaciones de negocio con alta disponibilidad y rendimiento. |
 | **EP10** | **Frontend Multiplataforma** | Como desarrollador, necesito interfaces de usuario intuitivas y responsivas tanto para aplicación móvil como web que brinden una excelente experiencia de usuario. |
 | **EP11** | **Infraestructura IoT** | Como sistema, necesito gestionar dispositivos IoT distribuidos y edge servers para garantizar comunicación confiable y datos precisos en tiempo real. |
 | **EP12** | **Procesamiento de Pagos** | Como plataforma, necesito procesar transacciones de forma segura, rápida y confiable cumpliendo con estándares de seguridad financiera. |
