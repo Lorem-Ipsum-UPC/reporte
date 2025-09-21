@@ -171,7 +171,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
       Calisaya Sánchez Juan Jesús: <br><br>
       David Polanco, Alessandro Alonso: <br><br>
       Espinoza Delgado, Bárbara Antonella: En grupo logramos organizarnos de forma adecuada para desarrollar el trabajo, distribuyendo responsabilidades entre los integrantes. Se llevaron a cabo reuniones para coordinar las actividades y se utilizó GitHub como herramienta para dar seguimiento al progreso de cada miembro y Discord para realizar las reuniones semanales. <br><br>
-      Serrano Ircañaupa, Nelson Elias: <br><br>
+      Serrano Ircañaupa, Nelson Elias: En grupo manejamos lo que debe hacer cada integrante, se hicieron discusiones de equipo para una mejora continua de los diagramas, avances en los capítulos. Me tocó elaborar el diagrama c4 y así mismo para los bounded context, estos puntos se desarrollaron en plataformas colaborativas de Visual Paradigm para que todos participen.<br><br>
       Sotil Vasquez, Tyrone Raí: <br><br>
     </td>
     <td><b>TB1:</b> Conseguimos organizarnos de manera eficiente, asignando las tareas de forma equitativa y empleando herramientas como GitHub para dar un seguimiento claro al progreso. Compartimos ideas, resolvimos dudas de forma colectiva y mantuvimos una comunicación continua a través de reuniones de coordinación. Esta experiencia fortaleció nuestras capacidades de trabajo colaborativo y evidenció el valor de la planificación y la cooperación para cumplir objetivos en común.
@@ -184,7 +184,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
       Calisaya Sánchez Juan Jesús: <br><br>
       David Polanco, Alessandro Alonso: <br><br>
       Espinoza Delgado, Bárbara Antonella: Se coordinó de manera conjunta la repartición de tareas a realizar para esta entrega tomando en cuenta las habilidades de cada integrante, asi como a traves de las reuniones nos hemos ayudado unos a otros a solventar dudas o dar recordatorios sobre los plazos de entrega del trabajo. <br><br>
-      Serrano Ircañaupa, Nelson Elias: <br><br>
+      Serrano Ircañaupa, Nelson Elias: Para este apartado se coordinó y debatió el avance de las tareas de los diagramas c4 para verificar los contextos y contenedores de la aplicación. También gracias al event storming se pudo obtener los bounded context candidatos para representarlos en el diagrama de arquitectura de componentes. Se cumplió satisfactoriamente este punto.<br><br>
       Sotil Vasquez, Tyrone Raí: <br><br>
     </td>
     <td><b>TB1:</b> Colaboramos de forma coordinada, repartiendo las tareas de manera justa y definiendo metas semanales en reuniones periódicas. Hicimos uso de GitHub y mantuvimos una comunicación continua para aclarar dudas, realizar ajustes y supervisar los avances de manera conjunta. Promovimos un entorno inclusivo en el que cada integrante aportó sus ideas, alcanzando consensos en las decisiones y garantizando transparencia durante todo el proceso. Gracias a esta organización compartida y al compromiso colectivo, conseguimos finalizar el trabajo dentro del plazo previsto.
