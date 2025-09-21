@@ -123,7 +123,7 @@ Enlace al repositorio del informe en GitHub:
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-- [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
+- [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
 - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 
   ## [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
@@ -598,8 +598,6 @@ Esta caracterización guía la propuesta de valor, así como las decisiones de d
   - Reducción del tiempo de búsqueda y menor nivel de estrés.
   - Posibilidad de reservar estacionamiento en tiempo real, evitando incertidumbre.
   - Acceso a información centralizada sobre precios, disponibilidad y ubicación.
-
----
 
 # Capítulo II: Requirements Elicitation & Analysis
 
@@ -3496,4 +3494,3 @@ A continuación se presentan los videos generados como parte del desarrollo del 
 ⦁	Diagramas de contexto, contenedores, componentes: [Diagramas C4](https://online.visual-paradigm.com/share.jsp?id=333233333733382d34)
 
 ⦁	Video Exposición TB1: [Expo TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/Ea50aorvEeNKgYw_99e88oQBsCoptbHVCNW4Ae-fnSQ46A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Gsjoh)
-
