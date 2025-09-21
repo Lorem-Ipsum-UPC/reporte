@@ -3469,7 +3469,7 @@ ParkeoYa debería reforzar su rol en la movilidad sostenible, impulsando iniciat
 
 # Bibliografia
 
-⦁	Ali, G., Ali, T., Irfan, M., Draz, U., Sohail, M., Glowacz, A., … Martis, C. (2020). IoT-based smart parking system using deep long short-memory network. Electronics, 9(10), 1696. https://doi.org/10.3390/electronics9101696[Consulta: 01 de Septiembre de 2025]
+⦁	Ali, G., Ali, T., Irfan, M., Draz, U., Sohail, M., Glowacz, A., … Martis, C. (2020). IoT-based smart parking system using deep long short-memory network. Electronics, 9(10), 1696. https://doi.org/10.3390/electronics9101696 [Consulta: 01 de Septiembre de 2025]
 
 ⦁	Asociación Automotriz del Perú. (2023). INFORME DEL SECTOR AUTOMOTOR: Diciembre 2024. Recuperado de: https://aap.org.pe/informes-estadisticos/diciembre-2024/Informe-Diciembre-2024.pdf [Consulta: 01 de Septiembre de 2025]
 
