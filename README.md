@@ -242,7 +242,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
     <td>
       <b>TB1:</b><br>
       <b>Calisaya Sánchez Juan Jesús:</b> <br><br>
-      <b>David Polanco, Alessandro Alonso:</b> <br><br>
+      <b>David Polanco, Alessandro Alonso:</b>Durante la sesión de EventStorming y el Candidate Context Discovery, se asumió un liderazgo compartido entre los integrantes para organizar el flujo de actividades. En mi caso, participé proponiendo la estructura del tablero en Miro y guiando la secuencia de eventos y comandos, mientras otros compañeros aportaron en la validación de reglas de negocio y políticas.<br><br>
       <b>Espinoza Delgado, Bárbara Antonella:</b> En grupo logramos organizarnos de forma adecuada para desarrollar el trabajo, distribuyendo responsabilidades entre los integrantes. Se llevaron a cabo reuniones para coordinar las actividades y se utilizó GitHub como herramienta para dar seguimiento al progreso de cada miembro y Discord para realizar las reuniones semanales. <br><br>
       <b>Serrano Ircañaupa, Nelson Elias:</b> En grupo manejamos lo que debe hacer cada integrante, se hicieron discusiones de equipo para una mejora continua de los diagramas, avances en los capítulos. Me tocó elaborar el diagrama c4 y así mismo para los bounded context, estos puntos se desarrollaron en plataformas colaborativas de Visual Paradigm para que todos participen.<br><br>
       <b>Sotil Vasquez, Tyrone Raí:</b> Trabajamos de manera colaborativa, asumiendo responsabilidades compartidas y brindando liderazgo conjunto dentro del equipo. Se coordinaron fechas limite de entrega de tareas promoviendo un ambiente de cooperación y asegurando el cumplimiento de los objetivos del proyecto.<br><br>
@@ -255,7 +255,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
     <td>
       <b>TB1:</b><br>
       <b>Calisaya Sánchez Juan Jesús:</b> <br><br>
-      <b>David Polanco, Alessandro Alonso:</b> <br><br>
+      <b>David Polanco, Alessandro Alonso:</b> Se promovió un entorno colaborativo al organizar reuniones virtuales para alinear las metas de esta entrega. Definimos de forma conjunta los pasos a seguir y planificamos las tareas asignando responsables según las fortalezas de cada miembro. De esta forma se logró cumplir el objetivo de entregar la especificación de bounded contexts con evidencia clara en Miro y en el informe, asegurando que todos los integrantes participaran activamente en el proceso.<br><br>
       <b>Espinoza Delgado, Bárbara Antonella:</b> Se coordinó de manera conjunta la repartición de tareas a realizar para esta entrega tomando en cuenta las habilidades de cada integrante, asi como a traves de las reuniones nos hemos ayudado unos a otros a solventar dudas o dar recordatorios sobre los plazos de entrega del trabajo. <br><br>
       <b>Serrano Ircañaupa, Nelson Elias:</b> Para este apartado se coordinó y debatió el avance de las tareas de los diagramas c4 para verificar los contextos y contenedores de la aplicación. También gracias al event storming se pudo obtener los bounded context candidatos para representarlos en el diagrama de arquitectura de componentes. Se cumplió satisfactoriamente este punto.<br><br>
       <b>Sotil Vasquez, Tyrone Raí:</b> Se organizaron reuniones en el server de Discord para dividir las partes a realizar, buscando que estas sean equitativas a las habilidades de cada uno. Además el uso de Github nos permitió visualizar los avances y cantidad de aportes que cada integrante realizaba.<br><br>
