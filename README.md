@@ -3494,3 +3494,6 @@ A continuación se presentan los videos generados como parte del desarrollo del 
 ⦁	Vertabelo Diagrama de base de datos: [Diagrama de Base de Datos](https://my.vertabelo.com/doc/EtM0WmAwKaJIYXqhDB3EQZ8O5SrO8hll)
 
 ⦁	Diagramas de contexto, contenedores, componentes: [Diagramas C4](https://online.visual-paradigm.com/share.jsp?id=333233333733382d34)
+
+⦁	Video Exposición TB1: [Expo TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/Ea50aorvEeNKgYw_99e88oQBsCoptbHVCNW4Ae-fnSQ46A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Gsjoh)
+
