@@ -218,11 +218,11 @@ Enlace al repositorio del informe en GitHub:
       - [4.2.8.6.1. Bounded Context Domain Layer Class Diagrams](#42861-bounded-context-domain-layer-class-diagrams)
       - [4.2.8.6.2. Bounded Context Database Design Diagram](#42862-bounded-context-database-design-diagram)
         
-## [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+### [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Video About the Team](#video-about-the-team)
 
-## [Bibliografía](#bibliografía)
-## [Anexos](#anexos)
+### [Bibliografía](#bibliografía)
+### [Anexos](#anexos)
 
 --- 
 
@@ -244,7 +244,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
       <b>Calisaya Sánchez Juan Jesús:</b> <br><br>
       <b>David Polanco, Alessandro Alonso:</b> <br><br>
       <b>Espinoza Delgado, Bárbara Antonella:</b> En grupo logramos organizarnos de forma adecuada para desarrollar el trabajo, distribuyendo responsabilidades entre los integrantes. Se llevaron a cabo reuniones para coordinar las actividades y se utilizó GitHub como herramienta para dar seguimiento al progreso de cada miembro y Discord para realizar las reuniones semanales. <br><br>
-      <b>Serrano Ircañaupa, Nelson Elias:</b> <br><br>
+      <b>Serrano Ircañaupa, Nelson Elias:</b> En grupo manejamos lo que debe hacer cada integrante, se hicieron discusiones de equipo para una mejora continua de los diagramas, avances en los capítulos. Me tocó elaborar el diagrama c4 y así mismo para los bounded context, estos puntos se desarrollaron en plataformas colaborativas de Visual Paradigm para que todos participen.<br><br>
       <b>Sotil Vasquez, Tyrone Raí:</b> Trabajamos de manera colaborativa, asumiendo responsabilidades compartidas y brindando liderazgo conjunto dentro del equipo. Se coordinaron fechas limite de entrega de tareas promoviendo un ambiente de cooperación y asegurando el cumplimiento de los objetivos del proyecto.<br><br>
     </td>
     <td><b>TB1:</b> Conseguimos organizarnos de manera eficiente, asignando las tareas de forma equitativa y empleando herramientas como GitHub para dar un seguimiento claro al progreso. Compartimos ideas, resolvimos dudas de forma colectiva y mantuvimos una comunicación continua a través de reuniones de coordinación. Esta experiencia fortaleció nuestras capacidades de trabajo colaborativo y evidenció el valor de la planificación y la cooperación para cumplir objetivos en común.
@@ -257,7 +257,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
       <b>Calisaya Sánchez Juan Jesús:</b> <br><br>
       <b>David Polanco, Alessandro Alonso:</b> <br><br>
       <b>Espinoza Delgado, Bárbara Antonella:</b> Se coordinó de manera conjunta la repartición de tareas a realizar para esta entrega tomando en cuenta las habilidades de cada integrante, asi como a traves de las reuniones nos hemos ayudado unos a otros a solventar dudas o dar recordatorios sobre los plazos de entrega del trabajo. <br><br>
-      <b>Serrano Ircañaupa, Nelson Elias:</b> <br><br>
+      <b>Serrano Ircañaupa, Nelson Elias:</b> Para este apartado se coordinó y debatió el avance de las tareas de los diagramas c4 para verificar los contextos y contenedores de la aplicación. También gracias al event storming se pudo obtener los bounded context candidatos para representarlos en el diagrama de arquitectura de componentes. Se cumplió satisfactoriamente este punto.<br><br>
       <b>Sotil Vasquez, Tyrone Raí:</b> Se organizaron reuniones en el server de Discord para dividir las partes a realizar, buscando que estas sean equitativas a las habilidades de cada uno. Además el uso de Github nos permitió visualizar los avances y cantidad de aportes que cada integrante realizaba.<br><br>
     </td>
     <td><b>TB1:</b> Colaboramos de forma coordinada, repartiendo las tareas de manera justa y definiendo metas semanales en reuniones periódicas. Hicimos uso de GitHub y mantuvimos una comunicación continua para aclarar dudas, realizar ajustes y supervisar los avances de manera conjunta. Promovimos un entorno inclusivo en el que cada integrante aportó sus ideas, alcanzando consensos en las decisiones y garantizando transparencia durante todo el proceso. Gracias a esta organización compartida y al compromiso colectivo, conseguimos finalizar el trabajo dentro del plazo previsto.
