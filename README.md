@@ -82,8 +82,9 @@ Enlace al repositorio del informe en GitHub:
   
 - **Sotil Vasquez, Tyrone Raí**: Colaboré con la realización del capítulo 4 del informe , especificamente, la realización de Diagramas C4, diagramas de clases y diagramas de base de datos.
 
-Evidencia de colaboración
+**Evidencia de colaboración**
 
+<img src="./assets/chapter-1/CommitsTB1.png" alt="Commits TB1">
 
 # Contenido
 
@@ -144,17 +145,80 @@ Evidencia de colaboración
     - [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
 
 - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-  - [4.2.X. Bounded Context: &lt;Bounded Context Name&gt;](#42x-bounded-context-bounded-context-name)
-    - [4.2.X.1. Domain Layer](#42x1-domain-layer)
-    - [4.2.X.2. Interface Layer](#42x2-interface-layer)
-    - [4.2.X.3. Application Layer](#42x3-application-layer)
-    - [4.2.X.4. Infrastructure Layer](#42x4-infrastructure-layer)
-    - [4.2.X.5. Bounded Context Software Architecture Component Level Diagrams](#42x5-bounded-context-software-architecture-component-level-diagrams)
-    - [4.2.X.6. Bounded Context Software Architecture Code Level Diagrams](#42x6-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.X.6.1. Bounded Context Domain Layer Class Diagrams](#42x61-bounded-context-domain-layer-class-diagrams)
-      - [4.2.X.6.2. Bounded Context Database Design Diagram](#42x62-bounded-context-database-design-diagram)
-
-## [Conclusiones](#conclusiones)
+  - [4.2.1. Bounded Context: Identity and Access Management](#421-bounded-context-identity-and-access-management)
+    - [4.2.1.1. Domain Layer](#4211-domain-layer)
+    - [4.2.1.2. Interface Layer](#4212-interface-layer)
+    - [4.2.1.3. Application Layer](#4213-application-layer)
+    - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
+    - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
+      - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
+  - [4.2.2. Bounded Context: Profile Management](#422-bounded-context-profile-management)
+    - [4.2.2.1. Domain Layer](#4221-domain-layer)
+    - [4.2.2.2. Interface Layer](#4222-interface-layer)
+    - [4.2.2.3. Application Layer](#4223-application-layer)
+    - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
+    - [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams](#4225-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
+      - [4.2.2.6.2. Bounded Context Database Design Diagram](#42262-bounded-context-database-design-diagram)
+  - [4.2.3. Bounded Context: Parking Management](#423-bounded-context-parking-management)
+    - [4.2.3.1. Domain Layer](#4231-domain-layer)
+    - [4.2.3.2. Interface Layer](#4232-interface-layer)
+    - [4.2.3.3. Application Layer](#4233-application-layer)
+    - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
+    - [4.2.3.5. Bounded Context Software Architecture Component Level Diagrams](#4235-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
+      - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
+  - [4.2.4. Bounded Context: Reservation](#424-bounded-context-reservation)
+    - [4.2.4.1. Domain Layer](#4241-domain-layer)
+    - [4.2.4.2. Interface Layer](#4242-interface-layer)
+    - [4.2.4.3. Application Layer](#4243-application-layer)
+    - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
+    - [4.2.4.5. Bounded Context Software Architecture Component Level Diagrams](#4245-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
+      - [4.2.4.6.2. Bounded Context Database Design Diagram](#42462-bounded-context-database-design-diagram)
+  - [4.2.5. Bounded Context: Review](#425-bounded-context-review)
+    - [4.2.5.1. Domain Layer](#4251-domain-layer)
+    - [4.2.5.2. Interface Layer](#4252-interface-layer)
+    - [4.2.5.3. Application Layer](#4253-application-layer)
+    - [4.2.5.4. Infrastructure Layer](#4254-infrastructure-layer)
+    - [4.2.5.5. Bounded Context Software Architecture Component Level Diagrams](#4255-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.5.6. Bounded Context Software Architecture Code Level Diagrams](#4256-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.5.6.1. Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)
+      - [4.2.5.6.2. Bounded Context Database Design Diagram](#42562-bounded-context-database-design-diagram)
+  - [4.2.6. Bounded Context: Notification](#426-bounded-context-notification)
+    - [4.2.6.1. Domain Layer](#4261-domain-layer)
+    - [4.2.6.2. Interface Layer](#4262-interface-layer)
+    - [4.2.6.3. Application Layer](#4263-application-layer)
+    - [4.2.6.4. Infrastructure Layer](#4264-infrastructure-layer)
+    - [4.2.6.5. Bounded Context Software Architecture Component Level Diagrams](#4265-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.6.6. Bounded Context Software Architecture Code Level Diagrams](#4266-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.6.6.1. Bounded Context Domain Layer Class Diagrams](#42661-bounded-context-domain-layer-class-diagrams)
+      - [4.2.6.6.2. Bounded Context Database Design Diagram](#42662-bounded-context-database-design-diagram)
+  - [4.2.7. Bounded Context: Device Management](#427-bounded-context-device-management)
+    - [4.2.7.1. Domain Layer](#4271-domain-layer)
+    - [4.2.7.2. Interface Layer](#4272-interface-layer)
+    - [4.2.7.3. Application Layer](#4273-application-layer)
+    - [4.2.7.4. Infrastructure Layer](#4274-infrastructure-layer)
+    - [4.2.7.5. Bounded Context Software Architecture Component Level Diagrams](#4275-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.7.6. Bounded Context Software Architecture Code Level Diagrams](#4276-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.7.6.1. Bounded Context Domain Layer Class Diagrams](#42761-bounded-context-domain-layer-class-diagrams)
+      - [4.2.7.6.2. Bounded Context Database Design Diagram](#42762-bounded-context-database-design-diagram)
+  - [4.2.8. Bounded Context: Payment](#428-bounded-context-payment)
+    - [4.2.8.1. Domain Layer](#4281-domain-layer)
+    - [4.2.8.2. Interface Layer](#4282-interface-layer)
+    - [4.2.8.3. Application Layer](#4283-application-layer)
+    - [4.2.8.4. Infrastructure Layer](#4284-infrastructure-layer)
+    - [4.2.8.5. Bounded Context Software Architecture Component Level Diagrams](#4285-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.8.6. Bounded Context Software Architecture Code Level Diagrams](#4286-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.8.6.1. Bounded Context Domain Layer Class Diagrams](#42861-bounded-context-domain-layer-class-diagrams)
+      - [4.2.8.6.2. Bounded Context Database Design Diagram](#42862-bounded-context-database-design-diagram)
+        
+## [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Video About the Team](#video-about-the-team)
 
 ## [Bibliografía](#bibliografía)
@@ -177,11 +241,11 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
     <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
     <td>
       <b>TB1:</b><br>
-      Calisaya Sánchez Juan Jesús: <br><br>
-      David Polanco, Alessandro Alonso: <br><br>
-      Espinoza Delgado, Bárbara Antonella: En grupo logramos organizarnos de forma adecuada para desarrollar el trabajo, distribuyendo responsabilidades entre los integrantes. Se llevaron a cabo reuniones para coordinar las actividades y se utilizó GitHub como herramienta para dar seguimiento al progreso de cada miembro y Discord para realizar las reuniones semanales. <br><br>
-      Serrano Ircañaupa, Nelson Elias: <br><br>
-      Sotil Vasquez, Tyrone Raí: <br><br>
+      <b>Calisaya Sánchez Juan Jesús:</b> <br><br>
+      <b>David Polanco, Alessandro Alonso:</b> <br><br>
+      <b>Espinoza Delgado, Bárbara Antonella:</b> En grupo logramos organizarnos de forma adecuada para desarrollar el trabajo, distribuyendo responsabilidades entre los integrantes. Se llevaron a cabo reuniones para coordinar las actividades y se utilizó GitHub como herramienta para dar seguimiento al progreso de cada miembro y Discord para realizar las reuniones semanales. <br><br>
+      <b>Serrano Ircañaupa, Nelson Elias:</b> <br><br>
+      <b>Sotil Vasquez, Tyrone Raí:</b> Trabajamos de manera colaborativa, asumiendo responsabilidades compartidas y brindando liderazgo conjunto dentro del equipo. Se coordinaron fechas limite de entrega de tareas promoviendo un ambiente de cooperación y asegurando el cumplimiento de los objetivos del proyecto.<br><br>
     </td>
     <td><b>TB1:</b> Conseguimos organizarnos de manera eficiente, asignando las tareas de forma equitativa y empleando herramientas como GitHub para dar un seguimiento claro al progreso. Compartimos ideas, resolvimos dudas de forma colectiva y mantuvimos una comunicación continua a través de reuniones de coordinación. Esta experiencia fortaleció nuestras capacidades de trabajo colaborativo y evidenció el valor de la planificación y la cooperación para cumplir objetivos en común.
 </td>
@@ -190,11 +254,11 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
     <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
     <td>
       <b>TB1:</b><br>
-      Calisaya Sánchez Juan Jesús: <br><br>
-      David Polanco, Alessandro Alonso: <br><br>
-      Espinoza Delgado, Bárbara Antonella: Se coordinó de manera conjunta la repartición de tareas a realizar para esta entrega tomando en cuenta las habilidades de cada integrante, asi como a traves de las reuniones nos hemos ayudado unos a otros a solventar dudas o dar recordatorios sobre los plazos de entrega del trabajo. <br><br>
-      Serrano Ircañaupa, Nelson Elias: <br><br>
-      Sotil Vasquez, Tyrone Raí: <br><br>
+      <b>Calisaya Sánchez Juan Jesús:</b> <br><br>
+      <b>David Polanco, Alessandro Alonso:</b> <br><br>
+      <b>Espinoza Delgado, Bárbara Antonella:</b> Se coordinó de manera conjunta la repartición de tareas a realizar para esta entrega tomando en cuenta las habilidades de cada integrante, asi como a traves de las reuniones nos hemos ayudado unos a otros a solventar dudas o dar recordatorios sobre los plazos de entrega del trabajo. <br><br>
+      <b>Serrano Ircañaupa, Nelson Elias:</b> <br><br>
+      <b>Sotil Vasquez, Tyrone Raí:</b> Se organizaron reuniones en el server de Discord para dividir las partes a realizar, buscando que estas sean equitativas a las habilidades de cada uno. Además el uso de Github nos permitió visualizar los avances y cantidad de aportes que cada integrante realizaba.<br><br>
     </td>
     <td><b>TB1:</b> Colaboramos de forma coordinada, repartiendo las tareas de manera justa y definiendo metas semanales en reuniones periódicas. Hicimos uso de GitHub y mantuvimos una comunicación continua para aclarar dudas, realizar ajustes y supervisar los avances de manera conjunta. Promovimos un entorno inclusivo en el que cada integrante aportó sus ideas, alcanzando consensos en las decisiones y garantizando transparencia durante todo el proceso. Gracias a esta organización compartida y al compromiso colectivo, conseguimos finalizar el trabajo dentro del plazo previsto.
 </td>
@@ -3379,3 +3443,54 @@ El diagrama de base muestra la tabla `payments` y `payment_methods`, así como l
 
 <div style="page-break-after: always;"></div>
 
+# Conclusiones y recomendaciones
+### Conclusiones
+
+⦁	**TB1:** Para esta primera entrega se logró sentar las bases del proyecto, logrando que todos los integrantes del equipo comprendieran el tema y la estructura que se realizará durante todo el ciclo, incluyendo la definición de los usuarios objetivo, epicas, historias de usuario, bounded contexts, diagramas C4, diagramas de clases y diagramas de base de datos.
+
+### Recomendaciones
+
+⦁	**Ampliación de funcionalidades:**
+Se sugiere continuar con el desarrollo de características que aporten mayor valor tanto a los usuarios como a los administradores. Entre ellas, destacan la integración de métodos de pago automatizados, notificaciones en tiempo real sobre disponibilidad y opciones de personalización. Asimismo, la incorporación de sensores IoT para detectar en tiempo real la ocupación de los estacionamientos fortalecerá la precisión del sistema y la experiencia del usuario.
+
+⦁	**Crecimiento geográfico y sectorial:**
+Luego del éxito inicial, ParkeoYa debería considerar su expansión hacia nuevas ciudades con alta demanda de estacionamiento, así como explorar oportunidades en sectores específicos como aeropuertos, centros comerciales y eventos masivos, donde la gestión eficiente de espacios es crucial.
+
+⦁	**Estrategia de marketing y sensibilización:**
+Es fundamental diseñar campañas de marketing digital dirigidas tanto a conductores como a administradores de estacionamientos. El uso de testimonios y casos de éxito que evidencien mejoras en tiempos de búsqueda puede incrementar la adopción. Asimismo, se recomienda educar a los usuarios sobre los beneficios que la plataforma aporta a la sostenibilidad urbana.
+
+⦁	**Monitoreo y mejora continua:**
+La implementación de un sistema de análisis constante de datos de uso y ocupación permitirá anticipar tendencias, ajustar estrategias y corregir deficiencias. Este enfoque garantizará una experiencia de usuario cada vez más optimizada y adaptable a nuevas necesidades.
+
+⦁	**Compromiso con la sostenibilidad:**
+ParkeoYa debería reforzar su rol en la movilidad sostenible, impulsando iniciativas que reduzcan la huella de carbono y colaborando con proyectos de ciudades inteligentes. Esto no solo fortalecerá su posicionamiento como plataforma tecnológica, sino también como un aliado clave en la construcción de entornos urbanos más responsables y sostenibles.
+
+<div style="page-break-after: always;"></div>
+
+# Bibliografia
+
+⦁	Ali, G., Ali, T., Irfan, M., Draz, U., Sohail, M., Glowacz, A., … Martis, C. (2020). IoT-based smart parking system using deep long short-memory network. Electronics, 9(10), 1696. https://doi.org/10.3390/electronics9101696[Consulta: 01 de Septiembre de 2025]
+
+⦁	Asociación Automotriz del Perú. (2023). INFORME DEL SECTOR AUTOMOTOR: Diciembre 2024. Recuperado de: https://aap.org.pe/informes-estadisticos/diciembre-2024/Informe-Diciembre-2024.pdf [Consulta: 01 de Septiembre de 2025]
+
+⦁	Lima Cómo Vamos. (2023). Reporte de movilidad urbana 2023. Recuperado de: https://www.limacomovamos.org/wp-content/uploads/2022/06/Reporte-%C2%BFCo%CC%81mo-nos-movemos__LCV-LE-2022_compressed.pdf [Consulta: 01 de Septiembre de 2025]
+
+⦁	Shen, L., Wu, X., Li, R., Chen, J., & Zhao, Y. (2020). Logistics sustainability practices: An IoT-enabled smart indoor parking system for industrial hazardous-chemical vehicles. International Journal of Production Research, 58(11), 3350–3367. https://doi.org/10.1080/00207543.2020.1720928 [Consulta: 01 de Septiembre de 2025]
+
+# Anexos
+
+A continuación se presentan los videos generados como parte del desarrollo del proyecto.
+
+⦁	Needfinding Interviews: [Link de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/EYQhtWUIDpVJmC_4vrNvyeEBVwPe0lza4GruF-bIEb73Ww?e=OLnD12)
+
+⦁	Forms Conductores: [Link de Forms Conductores](https://forms.gle/4iHuvEREBSzFWc9y6)
+
+⦁	Forms Dueños: [Link de Forms Dueños](https://forms.gle/TszFqNakzyBn1D6o7)
+
+⦁	Miro Big Picture EventStorming: [Big Picture Event Storming](https://miro.com/app/board/uXjVJHVh__o=/?share_link_id=669977582700)
+
+⦁	Lucidchart Diagrama de clases: [Diagrama de Clases](https://lucid.app/lucidchart/3c51363f-6bff-443d-b016-ebfeac3b1a74/edit?viewport_loc=-2574%2C-858%2C3244%2C1620%2C0_0&invitationId=inv_656ffc0a-b4cc-4dc0-9388-35c5fca0ce82)
+
+⦁	Vertabelo Diagrama de base de datos: [Diagrama de Base de Datos](https://my.vertabelo.com/doc/EtM0WmAwKaJIYXqhDB3EQZ8O5SrO8hll)
+
+⦁	Diagramas de contexto, contenedores, componentes: [Diagramas C4](https://online.visual-paradigm.com/share.jsp?id=333233333733382d34)
