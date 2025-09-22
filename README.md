@@ -205,7 +205,44 @@ Enlace al repositorio del informe en GitHub: [Repositorio de GitHub](https://git
     - [4.2.8.6. Bounded Context Software Architecture Code Level Diagrams](#4286-bounded-context-software-architecture-code-level-diagrams)
       - [4.2.8.6.1. Bounded Context Domain Layer Class Diagrams](#42861-bounded-context-domain-layer-class-diagrams)
       - [4.2.8.6.2. Bounded Context Database Design Diagram](#42862-bounded-context-database-design-diagram)
-        
+## [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+- [5.1. Style Guidelines](#51-style-guidelines)
+    - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
+    - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
+  - [5.2. Information Architecture](#52-information-architecture)
+    - [5.2.1. Organization Systems](#521-organization-systems)
+    - [5.2.2. Labeling Systems](#522-labeling-systems)
+    - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
+    - [5.2.4. Searching Systems](#524-searching-systems)
+    - [5.2.5. Navigation Systems](#525-navigation-systems)
+  - [5.3. Landing Page UI Design](#53-landing-page-ui-design)
+    - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
+    - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
+  - [5.4. Applications UX/UI Design](#54-applications-uxui-design)
+    - [5.4.1. Applications Wireframes](#541-applications-wireframes)
+    - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
+    - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
+    - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
+  - [5.5. Applications Prototyping](#55-applications-prototyping)
+    
+## [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation-&-deployment)
+- [6.1. Software Configuration Management](#61-software-configuration-management)
+    - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+    - [6.1.2. Source Code Management](#612-source-code-management)
+    - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
+    - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+  - [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)
+    - [6.2.1. Sprint 1](#621-sprint-1)
+      - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+      - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
+      - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)
+      - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
+      - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
+      - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+                
 ### [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Video About the Team](#video-about-the-team)
 ### [Bibliografía](#bibliografía)
@@ -1527,8 +1564,6 @@ Este modelado hace visible qué eventos impactan a cada contexto y cómo se enca
 
 ![Context Mapping](assets/chapter-4/CONTEXTMAPING.jpeg)
 
----
-
 <div style="page-break-after: always;"></div>
 
 #### 4.1.3. Software Architecture
@@ -1760,23 +1795,19 @@ La capa de infraestructura se encarga de la interacción con fuentes externas de
 
 ##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
--**Backend**
+- **Backend**
 
 El IAM Bounded Context gestiona la autenticación y autorización de usuarios, estructurado en capas que incluyen lógica de negocio, coordinación de casos de uso, persistencia e interfaces HTTP. La interfaz recibe solicitudes desde las aplicaciones web y móvil, delegándolas a la capa de aplicación, que a su vez interactúa con la lógica de dominio y con la infraestructura para acceder a datos. Además, expone un servicio externo para coordinar acciones relacionadas con perfiles desde otros bounded contexts, asegurando una integración segura y coherente del sistema de identidad.
 
 <img src="assets/chapter-4/IAM-bc-component-backend.png" alt="IAM bc component backend image" height="350px">
 
-<div style="page-break-after: always;"></div>
-
--**WebApp**
+- **WebApp**
 
 El diagrama de componentes del IAM Bounded Context representa los elementos encargados de gestionar la autenticación y registro de usuarios dentro de la aplicación SmartParking, incluyendo componentes de interfaz como Sign In Component y Sign Up Component, que capturan credenciales y datos de registro, y un AuthService que centraliza la lógica de autenticación comunicándose con la API REST y gestionando la transformación de datos mediante el IAMAssembler, garantizando una separación limpia entre la vista, la lógica y la comunicación con los servicios backend.
 
 <img src="assets/chapter-4/IAM-bc-component-webapp.png" alt="IAM bc component webapp image" height="350px">
 
-<div style="page-break-after: always;"></div>
-
--**mobileApp**
+- **MobileApp**
 
 El diagrama de componentes del bounded context Profile muestra los componentes encargados de la gestión de perfiles de conductores en la aplicación móvil, incluyendo un widget para la edición de datos de usuario, un servicio de perfil que centraliza la lógica de negocio relacionada y un ensamblador que adapta los datos entre las estructuras de backend y los modelos del frontend. El flujo parte del Driver Card Edit Widget hacia el DriverService, que transforma los datos usando el ProfileAssembler y gestiona las solicitudes a la API RESTful, permitiendo la edición y recuperación de información de perfil de forma eficiente y estructurada.
 
@@ -1791,13 +1822,12 @@ El diagrama de componentes del bounded context Profile muestra los componentes e
 El diagrama de clases muestra cómo se relacionan las entidades User y Role, así como los objetos de valor asociados a ellas.
 
 <img src="assets/chapter-4/DC-IAM.png" alt="IAM Class Diagram">
-<div style="page-break-after: always;"></div>
 
 ###### 4.2.1.6.2. Bounded Context Database Design Diagram
 
 En el diagrama de base, se observa la tabla users y roles, así como la relación entre estas.
 
-<img src="assets/chapter-4/bc-iam-diagramabasededatos.png" alt="IAM database image" height="300px">
+<img src="assets/chapter-4/bc-iam-diagramabasededatos.png" alt="IAM database image">
 
 <div style="page-break-after: always;"></div>
 
@@ -2037,23 +2067,19 @@ La capa de infraestructura proporciona la implementación de persistencia para l
 
 ##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 
--**Backend**
+- **Backend**
 
 El Profile Bounded Context centraliza la gestión de la información de perfil de los usuarios, incluyendo su estructura de dominio, lógica de aplicación, almacenamiento persistente e interfaces expuestas vía HTTP. Su arquitectura facilita tanto el acceso directo desde aplicaciones cliente como la colaboración con otros contextos a través de su fachada de contexto, permitiendo así la reutilización controlada de funciones relacionadas con los perfiles sin romper la encapsulación.
 
 <img src="assets/chapter-4/profile-bc-component-backend.png" alt="profile bc component backend image" height="350px">
 
-<div style="page-break-after: always;"></div>
-
--**WebApp**
+- **WebApp**
 
 El diagrama de componentes del Profile Bounded Context describe la estructura de componentes dedicados a la gestión de perfiles de propietarios de estacionamientos, donde el Owner Car Edit Component permite visualizar y editar información personal, mientras que el OwnerService orquesta las operaciones y coordina con ProfileAssembler para transformar datos entre el frontend y la API RESTful, estableciendo una arquitectura desacoplada que facilita el mantenimiento y la evolución de las funcionalidades de perfil.
 
 <img src="assets/chapter-4/profile-bc-component-webapp.png" alt="profile bc component webapp image" height="350px">
 
-<div style="page-break-after: always;"></div>
-
--**MobileApp**
+- **MobileApp**
 
 El diagrama de componentes del bounded context Profile muestra los componentes encargados de la gestión de perfiles de conductores en la aplicación móvil, incluyendo un widget para la edición de datos de usuario, un servicio de perfil que centraliza la lógica de negocio relacionada y un ensamblador que adapta los datos entre las estructuras de backend y los modelos del frontend. El flujo parte del Driver Card Edit Widget hacia el DriverService, que transforma los datos usando el ProfileAssembler y gestiona las solicitudes a la API RESTful, permitiendo la edición y recuperación de información de perfil de forma eficiente y estructurada.
 
@@ -2068,8 +2094,6 @@ El diagrama de componentes del bounded context Profile muestra los componentes e
 El diagrama de clases muestra la relación entre las entidades Driver y ParkingOwner, así como los objetos de valor asociados a ellas.
 
 <img src="assets/chapter-4/DC-Profile.png" alt="Profile Class Diagram">
-
-<div style="page-break-after: always;"></div>
 
 ###### 4.2.2.6.2. Bounded Context Database Design Diagram
 
@@ -2264,27 +2288,21 @@ La capa de infraestructura implementa los mecanismos de persistencia para los es
 
 <div style="page-break-after: always;"></div>
 
-
 ##### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 
-
--**Backend**
+- **Backend**
 
 El Parking Management Bounded Context se encarga de toda la lógica relacionada con la administración de estacionamientos, desde la definición de espacios disponibles hasta la gestión de su estado. Mediante una separación clara por capas, permite recibir solicitudes externas, procesarlas con lógica de aplicación coordinada, aplicar las reglas de dominio y persistir los datos. Ofrece también una fachada que permite a otros bounded contexts consumir funcionalidades específicas del sistema de gestión de parkings de forma segura y acotada.
 
 <img src="assets/chapter-4/parking-bc-component-backend.png" alt="parking bc component backend image" height="350px">
 
-<div style="page-break-after: always;"></div>
-
--**WebApp**
+- **WebApp**
 
 El diagrama de componentes del Parking Management Bounded Context detalla los elementos encargados de administrar los espacios de estacionamiento, incluyendo componentes visuales como Parking Address Picker, Parking Card, Parking List y Parking Spot Viewer, que permiten interactuar con mapas, listas y tarjetas informativas, coordinados por un ParkingService que gestiona la lógica de negocio y delega la transformación de datos a ParkingAssembler, estableciendo un flujo ordenado de interacción entre UI, lógica de negocio y servicios backend.
 
 <img src="assets/chapter-4/parking-bc-component-webapp.png" alt="parking bc component webapp image" height="350px">
 
-<div style="page-break-after: always;"></div>
-
--**MobileApp**
+- **MobileApp**
 
 El diagrama de componentes del bounded context Parking Management detalla los componentes que permiten a los conductores visualizar y consultar información de los estacionamientos disponibles. Incluye widgets como Parking Card, Parking Info, Parking Map y Parking Spot Viewer, que presentan desde vistas resumidas hasta mapas interactivos y disponibilidad de espacios en tiempo real. Todos los widgets consumen lógica del ParkingService, encargado de coordinar operaciones y transformar datos mediante el ParkingAssembler. Este ensamblador adapta los DTOs del backend a modelos de dominio del frontend, con las solicitudes a la API RESTful realizándose a través de HTTPS y JSON.
 
@@ -2300,14 +2318,11 @@ En el diagrama de clases se observa la relación entre las entidades Parking y P
 
 <img src="assets/chapter-4/DC-Parking.png" alt="Parking Class Diagram">
 
-<div style="page-break-after: always;"></div>
-
 ###### 4.2.3.6.2. Bounded Context Database Design Diagram
 
 El diagrama de base muestra la tabla parkings y parking_spots, así como la relación entre estas.
 
 <img src="assets/chapter-4/bc-parking-diagramabasededatos.png" alt="Parking database image" height="300px">
-
 
 <div style="page-break-after: always;"></div>
 
@@ -2495,21 +2510,17 @@ Administra la persistencia de reservas en la base de datos.
 
 ##### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
 
--**Backend**
+- **Backend**
 
 El Reservation Bounded Context permite a los conductores realizar, modificar o cancelar reservas de estacionamiento, conectándose a los sistemas de parqueo y perfil mediante servicios externos. Implementa una arquitectura en capas para organizar la lógica de negocio, persistencia y exposición de servicios vía HTTP, lo que permite una orquestación robusta y modular de las funcionalidades de reserva, manteniendo una clara separación de responsabilidades y promoviendo el desacoplamiento.
 
 <img src="assets/chapter-4/reservation-bc-component-backend.png" alt="reservation bc component backend image" height="350px">
 
-<div style="page-break-after: always;"></div>
-
--**WebApp**
+- **WebApp**
 
 No aplica para este caso
 
-<div style="page-break-after: always;"></div>
-
--**MobileApp**
+- **MobileApp**
 
 El diagrama de componentes del bounded context Reservation describe los componentes que gestionan las reservas de estacionamiento realizadas por conductores en la aplicación móvil. Incluye widgets para mostrar tarjetas individuales de reserva y listas filtradas de reservas por estado, ambos conectados a un ReservationService que maneja la lógica de negocio para crear, recuperar y administrar reservas. Un ReservationAssembler se encarga de transformar datos entre DTOs y modelos de dominio, facilitando la presentación adecuada en la aplicación. La API RESTful gestiona las operaciones a través de peticiones seguras JSON sobre HTTPS.
 
@@ -2523,8 +2534,6 @@ El diagrama de componentes del bounded context Reservation describe los componen
 El diagrama de clases muestra la relación entre las entidades Reservation y ReservationPayment, así como los objetos de valor asociados a ellas.
 
 <img src="assets/chapter-4/DC-Reservation.png" alt="Reservations Class Diagram">
-
-<div style="page-break-after: always;"></div>
 
 ###### 4.2.4.6.2. Bounded Context Database Design Diagram
 
@@ -2682,26 +2691,21 @@ Administra la persistencia de las reseñas en el sistema.
 
 ##### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
-
-
--**Backend**
+- **Backend**
 
 El Review Bounded Context centraliza la creación, almacenamiento y consulta de reseñas de parkings, integrándose con los bounded contexts de perfil y estacionamiento para enriquecer el contenido y garantizar la autenticidad de las evaluaciones. Gracias a sus capas claramente definidas, puede recibir peticiones HTTP, coordinar la lógica necesaria y persistir los datos, además de interactuar con servicios externos para validar información relacionada con usuarios y parkings.
 
 <img src="assets/chapter-4/review-bc-component-backend.png" alt="review bc component backend image" height="350px">
 
-
 <div style="page-break-after: always;"></div>
 
--**WebApp**
+- **WebApp**
 
 El diagrama de componentes del Review Bounded Context abarca los elementos responsables de la gestión de reseñas de usuarios sobre estacionamientos y reservas, incluyendo el Review Card Component que muestra reseñas individuales y el Review List Component que permite listar, ordenar y filtrar reseñas, todo gestionado por el ReviewService, el cual administra la lógica y las operaciones de reseñas en conjunto con el ReviewAssembler, encargado de transformar los datos entre backend y frontend para una correcta visualización y manipulación.
 
 <img src="assets/chapter-4/review-bc-component-webapp.png" alt="review bc component webapp image" height="350px">
 
-<div style="page-break-after: always;"></div>
-
--**MobileApp**
+- **MobileApp**
 
 El diagrama de componentes del bounded context Review presenta los componentes de la aplicación móvil responsables de la gestión de opiniones y calificaciones de los conductores sobre estacionamientos. Contiene widgets para mostrar reseñas individuales y listados ordenables y filtrables, todos gestionados por el ReviewService, que centraliza la lógica de negocio y la comunicación con el backend. El ReviewAssembler convierte los datos entre estructuras de backend y modelos de presentación, garantizando coherencia y formato adecuado en la aplicación. La interacción con la API RESTful se realiza mediante peticiones HTTPS con contenido en JSON.
 
@@ -2713,16 +2717,11 @@ El diagrama de componentes del bounded context Review presenta los componentes d
 
 ###### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
 
-
 En el diagrama de clases del contexto Review, el agregado raíz es Review, que se compone de atributos como id (Long), rating (Rating), comment (Comment), createdAt y updatedAt (Date). Proporciona métodos como getRating(), getComment(), updateRating(int) y updateComment(String) para leer y modificar su estado validando invariantes de dominio (por ejemplo, rango de rating y longitud de comentario). El agregado Review está relacionado con las entidades User y Parking, cada una con sus propios campos esenciales (id, email, name, address, etc.) y métodos de acceso (getId(), getEmail(), getName(), getAddress()).
 
 <img src="assets/chapter-4/DC-Review.png" alt="Review Class Diagram">
 
-<div style="page-break-after: always;"></div>
-
 ###### 4.2.5.6.2. Bounded Context Database Design Diagram
-
-
 
 El diagrama de base de datos del bounded context **Review** muestra tres tablas principales:
 - **reviews**: con campos `id` (clave primaria, BIGINT), `user_id` (BIGINT, clave foránea a `users.id`), `parking_id` (BIGINT, clave foránea a `parkings.id`), `rating` (INT), `comment` (VARCHAR(500)), `created_at` y `updated_at` (TIMESTAMP).
@@ -2836,29 +2835,23 @@ Interfaz de mensajería encargada de enviar notificaciones a dispositivos median
 |-----------|----------------|
 | `send(NotificationMessage message)` | Envía una notificación push al dispositivo destino. |
 
----
-
 <div style="page-break-after: always;"></div>
 
 ##### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
 
-**- Backend**
+- **Backend**
 
 El Notification Bounded Context es el encargado del manejo de notificaciones dentro del sistema, este contexto permite a los usuarios recibir alertas y mensajes relevantes relacionados con reservas, pagos o eventos. Sus componentes están organizados para aceptar solicitudes, procesar lógica de envío y gestionar la persistencia de notificaciones.
 
 <img src="assets/chapter-4/notification-bc-component-backend.png" alt="notification bc component backend image" height="350px">
 
-<div style="page-break-after: always;"></div>
-
-**- WebApp**
+- **WebApp**
 
 El diagrama de componentes de la Web Application en el bounded context de Notificaciones representa los elementos que gestionan la visualización y recuperación de notificaciones en el frontend web de SmartParking. Incluye componentes como NotificationComponent (interfaz de usuario), NotificationService (lógica para acceder al backend) y NotificationAssembler (utilitario que transforma los modelos del backend a modelos de vista). 
 
 <img src="assets/chapter-4/notification-bc-component-webapp.png" alt="notification bc component webapp image" height="350px">
 
-<div style="page-break-after: always;"></div>
-
-**- MobileApp**
+- **MobileApp**
 
 La arquitectura de la aplicación móvil para el contexto de Notificaciones refleja la estructura en capas del frontend Flutter. Comienza con NotificationScreen, el componente de interfaz que presenta las notificaciones al usuario. Esta pantalla delega el control de estado a NotificationBloc, que gestiona los eventos y estados asociados. A su vez, este interactúa con NotificationApiService, el cual comunica con el backend REST y utiliza NotificationAssembler para adaptar los datos.
 
@@ -2873,8 +2866,6 @@ La arquitectura de la aplicación móvil para el contexto de Notificaciones refl
 En el diagrama de clases del contexto Notifications, el agregado raíz es Notification, con atributos como id (Long), type (NotificationType), message (NotificationMessage) y createdAt (Date). Ofrece métodos como getType(), getMessage() y el constructor que valida la no-nullidad del mensaje y tipo. El agregado Notification se asocia con la entidad User, definida con campos como id, email y timestamps, y métodos getId()/getEmail().
 
 <img src="assets/chapter-4/DC-Notification.png" alt="Notification Class Diagram">
-
-<div style="page-break-after: always;"></div>
 
 ###### 4.2.6.6.2. Bounded Context Database Design Diagram
 
@@ -3205,30 +3196,23 @@ Gestiona la persistencia de edge servers, permitiendo verificar existencia y con
 
 ##### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
 
-
-**- Backend**
+- **Backend**
 
 El diagrama de componentes del Device Management API organiza su lógica en cuatro capas: Domain, Application, Infrastructure e Interfaces, que gestionan las reglas de negocio, casos de uso, persistencia de datos y la exposición de operaciones mediante HTTP. Incluye además un Device Context Facade que permite a otros bounded contexts acceder a funcionalidades específicas. La comunicación con la base de datos se realiza vía JDBC y las aplicaciones cliente interactúan a través de JSON/HTTPS.
 
 <img src="assets/chapter-4/device-bc-component-backend.png" alt="device bc component backend image" height="350px">
 
-<div style="page-break-after: always;"></div>
-
-
-**- WebApp**
+- **WebApp**
 
 El diagrama de componentes del Device Management Frontend presenta una interfaz web con el Device Table Component, que muestra y gestiona dispositivos registrados, y el Device Monitoring Component, que supervisa su estado en tiempo real. Ambos se apoyan en los servicios Device Service y Edge Server Service para la lógica de gestión y control, delegando a Device Assembler la transformación de datos entre backend y frontend.
 
 <img src="assets/chapter-4/device-bc-component-webapp.png" alt="device bc component webapp image" height="350px">
 
-<div style="page-break-after: always;"></div>
-
-**- Mobile**
+- **Mobile**
 
 No aplica para este caso
 
 <div style="page-break-after: always;"></div>
-
 
 ##### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -3238,12 +3222,9 @@ No aplica para este caso
 
 <img src="assets/chapter-4/DC-Device.png" alt="Device Class Diagram">
 
-<div style="page-break-after: always;"></div>
-
 ###### 4.2.7.6.2. Bounded Context Database Design Diagram
 
- El esquema de base de datos detalla las tablas parking_spots e iot_devices, sus campos y claves foráneas, reflejando la estructura persistente del dominio para registrar dispositivos asociados a espacios de estacionamiento.
-
+El esquema de base de datos detalla las tablas parking_spots e iot_devices, sus campos y claves foráneas, reflejando la estructura persistente del dominio para registrar dispositivos asociados a espacios de estacionamiento.
 
 <img src="assets/chapter-4/bc-iot-diagramabasededatos.png" alt="Iot database image" height="300px">
 
@@ -3313,8 +3294,6 @@ Interfaz que define operaciones de negocio relacionadas con la creación de pago
 | :- | :- |
 |Optional<ReservationPayment> handleReservationPayment(CreatePaymentCommand command, Long reservationId)|Procesa el comando para crear un nuevo pago de reserva.|
 
----
-
 ##### 4.2.8.2. Interface Layer
 
 Esta capa define los puntos de entrada externos para gestionar los pagos. A través de controladores REST se exponen operaciones para crear pagos de **reservas**.
@@ -3328,8 +3307,6 @@ Gestiona las operaciones externas relacionadas con los pagos en Smart Parking.
 | :-: | :-: | :-: | :-: |
 |createReservationPayment(CreatePaymentResource resource, Long reservationId)|Crea un nuevo pago de reserva|POST /api/v1/payments/reservation/{reservationId}|Recurso de pago creado|
 
----
-
 ##### 4.2.8.3. Application Layer
 
 La capa de aplicación contiene la lógica de negocio que orquesta la creación de pagos de reserva. Coordina los comandos entre la capa de interfaz y la de dominio.
@@ -3342,8 +3319,6 @@ Gestiona los comandos relacionados con la creación de pagos de reservas.
 |**Método**|**Descripción**|
 | :-: | :-: |
 |handleReservationPayment(CreatePaymentCommand, Long)|Crea un nuevo pago de reserva y lo persiste en la base de datos.|
-
----
 
 ##### 4.2.8.4. Infrastructure Layer
 
@@ -3370,8 +3345,6 @@ Payment Bounded Context es el responsable de gestionar los pagos dentro de Smart
 
 <img src="assets/chapter-4/payment-bc-component-backend.png" alt="payment bc component backend image" height="350px">
 
-<div style="page-break-after: always;"></div>
-
 ##### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
 
 ###### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
@@ -3380,15 +3353,59 @@ El diagrama de clases muestra cómo se relacionan las entidades Payment y Paymen
 
 <img src="assets/chapter-4/DC-Payment.png" alt="Payment Class Diagram">
 
-<div style="page-break-after: always;"></div>
-
 ###### 4.2.8.6.2. Bounded Context Database Design Diagram
 
 El diagrama de base muestra la tabla `payments` y `payment_methods`, así como la relación entre estas.
 
 <img src="assets/chapter-4/bc-payment-diagramabasededatos.png" alt="Payment database image" height="300px">
 
----
+<div style="page-break-after: always;"></div>
+
+## Capítulo V: Solution UI/UX Design
+
+### 5.1. Style Guidelines
+#### 5.1.1. General Style Guidelines
+#### 5.1.2. Web, Mobile and IoT Style Guidelines
+
+### 5.2. Information Architecture
+#### 5.2.1. Organization Systems
+#### 5.2.2. Labeling Systems
+#### 5.2.3. SEO Tags and Meta Tags
+#### 5.2.4. Searching Systems
+#### 5.2.5. Navigation Systems
+
+### 5.3. Landing Page UI Design
+#### 5.3.1. Landing Page Wireframe
+#### 5.3.2. Landing Page Mock-up
+
+### 5.4. Applications UX/UI Design
+#### 5.4.1. Applications Wireframes
+#### 5.4.2. Applications Wireflow Diagrams
+#### 5.4.3. Applications Mock-ups
+#### 5.4.4. Applications User Flow Diagrams
+
+### 5.5. Applications Prototyping
+
+
+## Capítulo VI: Product Implementation, Validation & Deployment
+
+### 6.1. Software Configuration Management
+#### 6.1.1. Software Development Environment Configuration
+#### 6.1.2. Source Code Management
+#### 6.1.3. Source Code Style Guide & Conventions
+#### 6.1.4. Software Deployment Configuration
+
+### 6.2. Landing Page, Services & Applications Implementation
+#### 6.2.1. Sprint 1
+##### 6.2.1.1. Sprint Planning 1
+##### 6.2.1.2. Aspect Leaders and Collaborators
+##### 6.2.1.3. Sprint Backlog 1
+##### 6.2.1.4. Development Evidence for Sprint Review
+##### 6.2.1.5. Testing Suite Evidence for Sprint Review
+##### 6.2.1.6. Execution Evidence for Sprint Review
+##### 6.2.1.7. Services Documentation Evidence for Sprint Review
+##### 6.2.1.8. Software Deployment Evidence for Sprint Review
+##### 6.2.1.9. Team Collaboration Insights during Sprint
 
 <div style="page-break-after: always;"></div>
 
