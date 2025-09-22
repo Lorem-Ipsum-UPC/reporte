@@ -50,7 +50,8 @@
 
 <p align="center">
 <br><strong> Septiempre, 2025</strong></p>
-<br>
+
+<div style="page-break-after: always;"></div>
 
 # Registro de Versiones del Informe
 
@@ -64,22 +65,15 @@
 
 # Project Report Collaboration Insights 
 
-Enlace al repositorio del informe en GitHub:
-[Repositorio de GitHub](https://github.com/Lorem-Ipsum-UPC/reporte)
-
----
+Enlace al repositorio del informe en GitHub: [Repositorio de GitHub](https://github.com/Lorem-Ipsum-UPC/reporte)
 
 ## TB1
 
 **Descripción de las actividades realizadas:**
 - **Espinoza Delgado, Bárbara Antonella**: Colaboré con la realización del capítulo 1 y 2 del informe cumpliendo con el formato en Markdown y estando pendiente de las correcciones y partes faltantes.
-
 - **Calisaya Sánchez, Juan Jesús**: Colaboré con la realización del capítulo 3 del informe , especificamente, la realización de epicas y user stories.
-  
 - **David Polanco, Alessandro Alonso**: Colaboré con la realización del capítulo 3 y 4 del informe , especificamente, la realización del impact mapping y Strategic-Level Domain-Driven Design.
-  
 - **Serrano Ircañaupa, Nelson Elias**: Colaboré con la realización del capítulo 4 del informe , especificamente, la realización de Diagramas C4 y Bounded Context Canvas.
-  
 - **Sotil Vasquez, Tyrone Raí**: Colaboré con la realización del capítulo 4 del informe , especificamente, la realización de Diagramas C4, diagramas de clases y diagramas de base de datos.
 
 **Evidencia de colaboración**
@@ -88,15 +82,11 @@ Enlace al repositorio del informe en GitHub:
 
 # Contenido
 
----
-
-#### Tabla de contenidos 
-
-
-## Tabla de contenidos
+### Tabla de contenidos
 ### [Registro de versiones del informe](#registro-de-versiones-del-informe)
 ### [Project Report Collaboration Insights](#project-report-collaboration-insights)
 ### [Student Outcome](#student-outcome)
+
 ## [Capítulo I: Introducción](#capítulo-i-introducción)
 - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -123,16 +113,15 @@ Enlace al repositorio del informe en GitHub:
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-- [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+- [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
 - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 
-  ## [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+## [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
 - [3.1. User Stories](#31-user-stories)
 - [3.2. Impact Mapping](#32-impact-mapping)
 - [3.3. Product Backlog](#33-product-backlog)
 
 ## [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-
 - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
   - [4.1.1. Design Level EventStorming](#411-design-level-eventstorming)
     - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
@@ -143,7 +132,6 @@ Enlace al repositorio del informe en GitHub:
     - [4.1.3.1. Software Architecture Context Level Diagrams](#4131-software-architecture-context-level-diagrams)
     - [4.1.3.2. Software Architecture Container Level Diagrams](#4132-software-architecture-container-level-diagrams)
     - [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
-
 - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
   - [4.2.1. Bounded Context: Identity and Access Management](#421-bounded-context-identity-and-access-management)
     - [4.2.1.1. Domain Layer](#4211-domain-layer)
@@ -220,11 +208,10 @@ Enlace al repositorio del informe en GitHub:
         
 ### [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Video About the Team](#video-about-the-team)
-
 ### [Bibliografía](#bibliografía)
 ### [Anexos](#anexos)
 
---- 
+<div style="page-break-after: always;"></div>
 
 # Student Outcome
 
@@ -241,7 +228,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
     <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
     <td>
       <b>TB1:</b><br>
-      <b>Calisaya Sánchez Juan Jesús:</b> En esta etapa del proyecto, formé parte de reuniones tanto presenciales como virtuales, en las cuales aporté propuestas relevantes para definir el flujo del negocio, lo que contribuyó a generar claridad y alineamiento dentro del equipo.<br><br>
+      <b>Calisaya Sánchez Juan Jesús:</b> En esta etapa del proyecto, formé parte de reuniones tanto presenciales como     virtuales, en las cuales aporté propuestas relevantes para definir el flujo del negocio, lo que contribuyó a generar claridad y alineamiento dentro del equipo.<br><br>
       <b>David Polanco, Alessandro Alonso:</b>Durante la sesión de EventStorming y el Candidate Context Discovery, se asumió un liderazgo compartido entre los integrantes para organizar el flujo de actividades. En mi caso, participé proponiendo la estructura del tablero en Miro y guiando la secuencia de eventos y comandos, mientras otros compañeros aportaron en la validación de reglas de negocio y políticas.<br><br>
       <b>Espinoza Delgado, Bárbara Antonella:</b> En grupo logramos organizarnos de forma adecuada para desarrollar el trabajo, distribuyendo responsabilidades entre los integrantes. Se llevaron a cabo reuniones para coordinar las actividades y se utilizó GitHub como herramienta para dar seguimiento al progreso de cada miembro y Discord para realizar las reuniones semanales. <br><br>
       <b>Serrano Ircañaupa, Nelson Elias:</b> En grupo manejamos lo que debe hacer cada integrante, se hicieron discusiones de equipo para una mejora continua de los diagramas, avances en los capítulos. Me tocó elaborar el diagrama c4 y así mismo para los bounded context, estos puntos se desarrollaron en plataformas colaborativas de Visual Paradigm para que todos participen.<br><br>
@@ -265,7 +252,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
   </tr>
 </table>
 
----
+<div style="page-break-after: always;"></div>
 
 # Capítulo I: Introduccion
 
@@ -291,7 +278,6 @@ Con esta solución buscamos optimizar el uso de los estacionamientos, mejorar la
 | **Espinoza Delgado, Bárbara Antonella - u201911727** <br><br> <img src="./assets/chapter-1/Messo.jpeg" alt="Barbara Espinoza Photo" width="100px"/>| Mi nombre es Bárbara Antonella Espinoza Delgado, soy estudiante de Ingeniería de Software de 8vo ciclo. Tengo experiencia en trabajos en equipo y me considero una persona puntual con la realización y entrega de las tareas pendientes. |
 | **Serrano Ircañaupa, Nelson Elias - u202214733** <br><br> <img src="./assets/chapter-1/Nelson.jpg" width="100px"/> | Me llamo Nelson Serrano, soy un entusiasta de la tecnología con gran interés en el backend, las redes y la ciberseguridad. Disfruto aprender nuevas herramientas de desarrollo, explorar entornos de seguridad informática y trabajar en proyectos que combinan programación con buenas prácticas de software. Mis principales fortalezas son el desarrollo backend, la gestión de bases de datos y el análisis de vulnerabilidades, lo que me permite aportar valor en proyectos que requieren robustez, organización y seguridad. |
 | **Sotil Vasquez, Tyrone Raí - u202017267** <br><br> <img src="./assets/chapter-1/tyrone.png" width="100px"/> | Me llamo Tyrone Sotil, soy un apasionado tanto de la programación como de la creación de contenido. Mis hobbies incluyen la edición de videos, jugar videojuegos y la programación de páginas web. Mis principales fortalezas son la programación frontend, el diseño de imágenes/videos y los procesos de automatización o conexiones con IA |
-
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
@@ -351,7 +337,7 @@ El dominio de este proyecto es la gestión inteligente de estacionamientos urban
 
 - Congestión vehicular y contaminación: La búsqueda de espacios aumenta el tráfico y las emisiones de CO₂.
 
-**Gap**
+**Gap**  
 Actualmente, las soluciones disponibles son convencionales y poco integradas:
 
 - No permiten reservas anticipadas de espacios.
@@ -599,21 +585,17 @@ Esta caracterización guía la propuesta de valor, así como las decisiones de d
   - Posibilidad de reservar estacionamiento en tiempo real, evitando incertidumbre.
   - Acceso a información centralizada sobre precios, disponibilidad y ubicación.
 
+<div style="page-break-after: always;"></div>
+
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
 
-**Parkimeter**
+**Parkimeter:** Parkimeter es una solución digital enfocada en la gestión y reserva de espacios de estacionamiento. Su plataforma facilita a los usuarios la búsqueda, comparación y reserva de plazas en distintas ubicaciones. También ofrece funcionalidades como visualización de tarifas, disponibilidad en tiempo real y otros servicios útiles que simplifican el proceso de estacionamiento para los conductores.
 
-Parkimeter es una solución digital enfocada en la gestión y reserva de espacios de estacionamiento. Su plataforma facilita a los usuarios la búsqueda, comparación y reserva de plazas en distintas ubicaciones. También ofrece funcionalidades como visualización de tarifas, disponibilidad en tiempo real y otros servicios útiles que simplifican el proceso de estacionamiento para los conductores.
+**ElParking:** ElParking brinda a los usuarios la posibilidad de localizar, reservar y pagar por estacionamientos desde una misma plataforma. Su sistema incorpora datos actualizados sobre espacios disponibles, además de permitir el pago de parquímetros, seguimiento de sanciones de tránsito y otros servicios complementarios que optimizan la experiencia del conductor.
 
-**ElParking**
-
-ElParking brinda a los usuarios la posibilidad de localizar, reservar y pagar por estacionamientos desde una misma plataforma. Su sistema incorpora datos actualizados sobre espacios disponibles, además de permitir el pago de parquímetros, seguimiento de sanciones de tránsito y otros servicios complementarios que optimizan la experiencia del conductor.
-
-**Aparcados**
-
-Aparcados es una aplicación enfocada en simplificar la búsqueda de estacionamientos urbanos según las necesidades del usuario. Aunque cuenta con versión web, su versión móvil es la más utilizada debido a su interfaz amigable y diseño visual atractivo, lo que la convierte en una herramienta práctica para conductores en movimiento.
+**Aparcados:** Aparcados es una aplicación enfocada en simplificar la búsqueda de estacionamientos urbanos según las necesidades del usuario. Aunque cuenta con versión web, su versión móvil es la más utilizada debido a su interfaz amigable y diseño visual atractivo, lo que la convierte en una herramienta práctica para conductores en movimiento.
 
 ### 2.1.1. Análisis competitivo
 
@@ -860,7 +842,6 @@ Link de entrevistas: [Link de Entrevistas](https://upcedupe-my.sharepoint.com/:v
 | Imagen | <img src="assets/chapter-2/dueño-playa-carlos.jpg" width="400" /> |
 | Resumen de la entrevista | Carlos tiene 20 años y vive en La Molina, donde administra un estacionamiento. Se considera una persona organizada, resolutiva y orientada a mantener el orden, aunque reconoce que durante momentos de alta afluencia la gestión puede volverse complicada. Respecto al control de los espacios, menciona que usualmente es sencillo, pero se dificulta cuando hay gran movimiento o los conductores no respetan los espacios asignados. Por esta razón, valora la posibilidad de contar con información en tiempo real sobre la disponibilidad, lo cual evitaría revisiones físicas continuas y mejoraría la eficiencia operativa. Actualmente no utiliza sistemas digitales de reservas, pero acepta pagos mediante Yape y Plin, métodos que considera ágiles y populares entre sus clientes. Carlos considera que la automatización de reservas y pagos sería altamente beneficiosa, ya que permitiría organizar mejor los tiempos de permanencia, agilizar los ingresos y salidas, y llevar un control más preciso de los cobros. Resalta la importancia de ofrecer métodos de pago seguros y rápidos para mejorar la experiencia del cliente. Además, está convencido de que una aplicación que integre la gestión de espacios, reservas y pagos facilitaría el control detallado de la ocupación, ingresos diarios y aumentaría la transparencia en su administración. Entre los principales desafíos que enfrenta señala la organización en horarios de alta demanda y el seguimiento manual de los pagos. Finalmente, le gustaría que una app permita a los clientes registrar su tiempo de permanencia, calcule automáticamente el costo, notifique la disponibilidad en tiempo real y genere reportes de ocupación y rotación para tomar decisiones más estratégicas. |
 
-
 | Entrevista | 3 |
 |--------------|---------------------------|
 | Nombres y Apellidos | Alexandra Teves |
@@ -883,26 +864,21 @@ En el segmento 1, los conductores suelen buscar estacionamiento varias veces a l
 
 <img src="assets/chapter-2/Pregunta 3 Conductores.png"/>
 
-
 Consideran muy importante conocer la disponibilidad de estacionamiento en tiempo real para asi no perder tiempo en verificar si la playa de estacionamiento cuenta con un espacio libre.
 
 <img src="assets/chapter-2/Pregunta 4 Conductores.png"/>
-
 
 Algunos consideran que la proximidad y la seguridad del estacionamiento al lugar al que se dirigen es lo mas importante, pero todos coinciden que tanto costo, proximidad y seguridad son aspectos importantes a tener en cuenta al elegir una playa de estacionamiento.
 
 <img src="assets/chapter-2/Pregunta 5 Conductores.png"/>
 
-
 En cuanto a utilidad de sensores y luces que indiquen disponibilidad de un espacio, todos consideran que es un aspecto útil que deberian tener las playas de estacionamiento.
 
 <img src="assets/chapter-2/Pregunta 6 Conductores.png"/>
 
-
 A cerca de recibir recomendaciones de playas de estacionamiento mas cercanas a donde se dirigen, a todos les gustaria tener esa opción.
 
 <img src="assets/chapter-2/Pregunta 7 Conductores.png"/>
-
 
 Finalmente, algunas de las mejoras que quisieran en las playas de estacionamiento son el ver la disponibilidad en tiempo real, saber si el aforo está copado y que se hagan notar para que sea más fácil para los conductores saber que ahi pueden dejar su vehículo y que tengan una aplicación que le indique donde hay estacionamientos libres o cercanos.
 
@@ -920,16 +896,13 @@ En el segmento 2, los dueños de playas de estacionamiento, consideran que cuand
 
 <img src="assets/chapter-2/Pregunta 3 Dueños.png"/>
 
-
 Entre los beneficios que ven en la automatización de pagos y reservas consideran que esto simplificaría su labor, mejoraría la experiencia de los clientes, daría una mejor organizacion de los tiempos de permanencia y un mejor control de cobros e ingresos.
 
 <img src="assets/chapter-2/Pregunta 4 Dueños.png"/>
 
-
 Todos consideran que ofrecer opciones de pago seguras y rápidas a los clientes es muy relevante
 
 <img src="assets/chapter-2/Pregunta 5 Dueños.png"/>
-
 
 En cuanto a la mejora de la eficiencia al usar un sistema que gestione datos y pagos, los entrevistados consideran que ayudaria con la gestión general, evitaria atender a muchos clientes formados en una cola, facilitaría los calculo, y en cuanto a la inclusión de sensores y luces que indiquen disponibilidad de un espacios, creen que les ahorraría el tener que hacer rondas y ayudaria a avisar a los autos cuando hay o no hay espacio disponible.
 
@@ -937,11 +910,9 @@ En cuanto a la mejora de la eficiencia al usar un sistema que gestione datos y p
 
 <img src="assets/chapter-2/Pregunta 10 Dueños.png"/>
 
-
 A cerca de recibir reportes o análisis sobre la ocupación y rotacion de los vehículos estacionados, a todos les gustaria tener esa opción.
 
 <img src="assets/chapter-2/Pregunta 9 Dueños.png"/>
-
 
 Finalmente, algunas de las funcionalidades que quisieran en una aplicación de gestión son el dar reportes de ingresos, permitir a los clientes registrar el tiempo de permanencia previo a su llegada, calcule automaticamente los costos y tarifas y que hayan indicadores visuales para señalar la disponibilidad como en los centros comerciales.
 
@@ -970,6 +941,7 @@ La "User Persona" de Miguel Castro representa a propietarios de estacionamientos
 <p align="center"><em>User Persona: Dueño de Estacionamiento</em></p>
 
 ![User Person 2](assets/chapter-2/User%20Persona%20Dueño%20de%20Estacionamiento.png)
+
 ### 2.3.2. User Task Matrix
 
 En el User Task Matrix hemos identificado las actividades que realizan nuestros dos segmentos y hemos evaluado la importancia de cada una de estas tareas para cada segmento.
@@ -987,9 +959,6 @@ En el User Task Matrix hemos identificado las actividades que realizan nuestros 
 - BAJA
 
 A través del User Task Matrix, podemos identificar las frecuencias e importancias entre los diferentes segmentos que presentamos y usar esta información como guía.
-
-#### Usuarios:
-Para los usuarios, las tareas que presentan mayor frecuencia son:
 
 | **Segmento Objetivo**            | **Tarea**                                                                       | **Frecuencia** | **Importancia**  |
 |----------------------------------|---------------------------------------------------------------------------------|----------------|------------------|
@@ -1266,8 +1235,6 @@ Cada User Story incluye escenarios de camino feliz (Happy Path) y caminos altern
 | **EP12** | **Procesamiento de Pagos** | - | - | - |
 | **US33** | Pago básico con tarjeta | Como conductor quiero pagar reservas con tarjeta para completar transacciones de forma segura | **Escenario 1: Pago exitoso con tarjeta válida**<br>**Given** que un conductor selecciona método de pago con tarjeta válida registrada<br>**When** confirma pago de reserva<br>**Then** se procesa transacción exitosamente y recibe confirmación con número de transacción<br><br>**Escenario 2: Error de tarjeta rechazada**<br>**Given** que la tarjeta del conductor es rechazada por el banco<br>**When** intenta procesar pago<br>**Then** ve mensaje específico del error ("Fondos insuficientes", "Tarjeta vencida") con opción de método alternativo<br><br>**Escenario 3: Reintento por error temporal**<br>**Given** que ocurre error temporal en procesador de pagos<br>**When** falla el primer intento de cobro<br>**Then** el sistema reintenta automáticamente una vez después de 30 segundos | **EP12** |
 
-
-
 ### 3.2. Impact Mapping
 
 ![Impact Mapping](assets/chapter-3/impact-mapping.jpg)
@@ -1334,8 +1301,6 @@ El trabajo se estructuró en cuatro actividades principales:
 > **Duración total:** 3.5 h (1h45m EventStorming + 1h30m Candidate Context Discovery + 15m Domain Storytelling inicial + 15m cierre).  
 > **Participantes:** Todo el equipo (conductores/propietarios representados por el Product Owner) y un facilitador DDD.
 
----
-
 #### 4.1.1 Design Level EventStorming
 
 ##### Propósito y alcance
@@ -1369,9 +1334,7 @@ El objetivo de la sesión de **EventStorming** fue mapear los **eventos de domin
 - **Compensación por falla:** reembolso automático y crédito si el sensor se equivoca.  
 - **SLA de sensores:** batería/conectividad bajo umbral → alerta preventiva.  
 
-
 <img src="img/eventstorming.jpg">
-
 
 ##### 4.1.1.1. Candidate Context Discovery
 
@@ -1382,8 +1345,6 @@ Nota de convenciones
 - Estados típicos de Reserva: creada, bloqueada, confirmada, en-uso, extendida, completada, cancelada, expirada, no-show.
 - Los eventos de dominio se nombran en pasado y en español: <Hecho>Registrado, <Entidad>Creada, etc.
 
-
-
 ##### Bounded Context: IAM (Identity & Access Management)
 
 - Descripción
@@ -1392,10 +1353,9 @@ Nota de convenciones
   - Registro y verificación de cuentas; login/logout; recuperación de acceso; emisión/rotación de tokens.
   - Gestión de roles y permisos (conductor, propietario, admin) y revocación de sesiones comprometidas.
 
-<img src="assets/chapter-4/IAMBoundedCandidateContext.png">
-
-
-—
+<p align="center">
+  <img src="assets/chapter-4/IAMBoundedCandidateContext.png" width="500">
+</p>
 
 ##### Bounded Context: Profile
 
@@ -1405,10 +1365,9 @@ Nota de convenciones
   - CRUD de perfiles, foto y datos de contacto; preferencias de notificaciones.
   - Para propietarios: datos fiscales y preferencias comerciales básicas.
 
-
-<img src="assets/chapter-4/ProfileBoundedCandidateContext.png">
-
-—
+<p align="center">
+  <img src="assets/chapter-4/ProfileBoundedCandidateContext.png" width="500">
+</p>
 
 ##### Bounded Context: Parking Management
 
@@ -1418,10 +1377,9 @@ Nota de convenciones
   - Alta/edición de estacionamientos (propietario verificado), gestión de espacios y tarifas/horarios.
   - Cálculo de disponibilidad combinando reservas activas y estado IoT.
 
-<img src="assets/chapter-4/ParkingBoundedCContext.png">
-
-
-—
+<p align="center">
+  <img src="assets/chapter-4/ParkingBoundedCContext.png" width="500">
+</p>
 
 ##### Bounded Context: Reservations
 
@@ -1433,12 +1391,9 @@ Nota de convenciones
   - Consultar disponibilidad de espacios.
   - Cambiar el estado de la reserva (creada, pagada, cancelada).
 
-
-
-<img src="assets/chapter-4/ReservationsBoundedCContext.png">
-
-
-—
+<p align="center">
+  <img src="assets/chapter-4/ReservationsBoundedCContext.png" width="500">
+</p>
 
 ##### Bounded Context: Payment
 
@@ -1448,8 +1403,9 @@ Nota de convenciones
   - Preautorizar al crear/confirmar.
   - Calcular la comisión fija del 5% por cada pago de reserva y reflejarla en la liquidación neta.
 
-<img src="assets/chapter-4/PaymentBoundedCContext.png">
-—
+<p align="center">
+  <img src="assets/chapter-4/PaymentBoundedCContext.png" width="500">
+</p>
 
 ##### Bounded Context: Review 
 
@@ -1458,8 +1414,9 @@ Nota de convenciones
 - Responsabilidades
   - Registrar reseñas 1–5 estrellas con categorías; moderación básica; cálculo de promedios. Poder actulizarlo y eliminarlo.
 
-<img src="assets/chapter-4/ReviewBoundedCContext.png">
-—
+<p align="center">
+  <img src="assets/chapter-4/ReviewBoundedCContext.png" width="500">
+</p>
 
 ##### Bounded Context: IoT Management
 
@@ -1471,8 +1428,9 @@ Nota de convenciones
   - Consultar disponibilidad desde reservas o frontends.
   - Validar funcionamiento y batería del dispositivo.
 
-<img src="assets/chapter-4/IOTBoundedCContext.png">
-—
+<p align="center">
+  <img src="assets/chapter-4/IOTBoundedCContext.png" width="500">
+</p>
 
 ##### Bounded Context: Notification
 
@@ -1484,9 +1442,9 @@ Nota de convenciones
   - Notificar eventos como éxito/fallo en pago o reserva.
   - Consultar historial de notificaciones por usuario.
 
-<img src="assets/chapter-4/NotificationBoundedCandidateContext.png">
-
-—
+<p align="center">
+  <img src="assets/chapter-4/NotificationBoundedCandidateContext.png" width="500">
+</p>
 
 ##### 4.1.1.2. Domain Message Flows Modeling
 
@@ -1504,11 +1462,9 @@ Este modelado hace visible qué eventos impactan a cada contexto y cómo se enca
 
 <img src="assets/chapter-4/IAMBCCanvas.jpg">
 
-
 2. Profile
 
 <img src="assets/chapter-4/ProfileBCCanvas.jpg">
-
 
 <div style="page-break-after: always;"></div>
 
@@ -1516,11 +1472,9 @@ Este modelado hace visible qué eventos impactan a cada contexto y cómo se enca
 
 <img src="assets/chapter-4/ParkingBCCanvas.jpg">
 
-
 4. Reservation
 
 <img src="assets/chapter-4/ReservationBCCanvas.jpg">
-
 
 <div style="page-break-after: always;"></div>
 
@@ -1528,18 +1482,15 @@ Este modelado hace visible qué eventos impactan a cada contexto y cómo se enca
 
 <img src="assets/chapter-4/PaymentBCCanvas.jpg">
 
-
 6. Review
 
 <img src="assets/chapter-4/ReviewBCCanvas.jpg">
-
 
 <div style="page-break-after: always;"></div>
 
 7. Notification
 
 <img src="assets/chapter-4/NotificationBCCanvas.jpg">
-
 
 8. IoT Management
 
