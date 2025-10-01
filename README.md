@@ -3379,7 +3379,7 @@ La tipografía en ParkeoYa cumple un rol esencial en la claridad visual y la usa
 
 La estructura tipográfica se organiza en cuatro niveles jerárquicos: **headings** (títulos), **body** (texto principal), **buttons** (botones) y **links** (enlaces), garantizando uniformidad visual en toda la interfaz.
 
-<img src="assets/chapter-5/Tipografía.png" alt="Tipografia" height="500px">
+<img src="assets/chapter-5/Tipografia.png" alt="Tipografia" height="500px">
 
 **Colores**  
 La paleta cromática de ParkeoYa integra gradientes de azul, turquesa y verde. Esta combinación simboliza confiabilidad tecnológica y eficiencia en movilidad urbana:
