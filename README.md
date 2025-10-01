@@ -3364,15 +3364,124 @@ El diagrama de base muestra la tabla `payments` y `payment_methods`, así como l
 ## Capítulo V: Solution UI/UX Design
 
 ### 5.1. Style Guidelines
+
+En ParkeoYa, procuramos ofrecer una experiencia visual contemporánea, nítida y uniforme en todos los dispositivos. Estas directrices aseguran una identidad cohesiva en la plataforma web, móvil e incluso en su integración con sistemas IoT. Nos fundamentamos en principios de diseño orientados a la simplicidad, accesibilidad y coherencia visual.
+
 #### 5.1.1. General Style Guidelines
+
+**Branding**  
+La identidad de marca de ParkeoYa se concentra en proyectar confianza, accesibilidad y eficiencia urbana. Empleamos una paleta cromática basada en tonalidades azules, turquesa y verde, evocando innovación tecnológica, profesionalismo, movilidad inteligente y dinamismo urbano. Esta combinación genera una atmósfera moderna, fiable y alineada con el propósito de la plataforma.
+
+<img src="assets/chapter-5/Logo.jpg" alt="Logo" height="300px">
+
+**Tipografía**  
+La tipografía en ParkeoYa cumple un rol esencial en la claridad visual y la usabilidad de la aplicación móvil. Se eligieron fuentes modernas, limpias y altamente legibles que permiten a los usuarios identificar rápidamente la información clave, mejorando así la experiencia general de navegación.
+
+La estructura tipográfica se organiza en cuatro niveles jerárquicos: **headings** (títulos), **body** (texto principal), **buttons** (botones) y **links** (enlaces), garantizando uniformidad visual en toda la interfaz.
+
+<img src="assets/chapter-5/Tipografía.png" alt="Tipografia" height="500px">
+
+**Colores**  
+La paleta cromática de ParkeoYa integra gradientes de azul, turquesa y verde. Esta combinación simboliza confiabilidad tecnológica y eficiencia en movilidad urbana:
+
+<img src="assets/chapter-5/Colores.png" alt="Colores" height="500px">
+
+**Espaciado** 
+El sistema de espaciado sigue una escala base de 8px para mantener un ritmo visual armonioso:
+
+- Márgenes y Padding: 8px, 16px, 24px, 32px
+- Separación entre secciones principales: 48px, 64px
+
+Este sistema facilita interfaces ordenadas, equilibradas y de navegación intuitiva.
+
+**Iconografía**  
+Los iconos en ParkeoYa son minimalistas y fácilmente identificables, apropiados para acciones recurrentes como buscar, reservar, guardar o compartir ubicación. La iconografía se fundamenta en los estándares de Material Design Icons, asegurando consistencia visual multiplataforma.
+
+- Buscar: Icono de lupa 
+- Reservar: Icono de lista 
+- Confirmar: Icono de check 
+- Ubicación: Icono de GPS
+
+**Tono de Comunicación**  
+El lenguaje de ParkeoYa es directo, amigable y eficiente. Buscamos establecer una relación de confianza con el usuario, transmitiendo practicidad, claridad y profesionalismo mientras mantenemos un enfoque cercano y orientado a resolver necesidades urbanas reales.
+
 #### 5.1.2. Web, Mobile and IoT Style Guidelines
+
+**Web Style Guidelines**  
+ParkeoYa proporciona una experiencia fluida en dispositivos de escritorio, adaptándose dinámicamente a diversos tamaños de pantalla:
+
+- **Diseño Responsivo:** Priorizamos un layout adaptativo que se ajusta orgánicamente a diferentes resoluciones, implementando patrones de escaneo visual tipo F para optimizar la lectura y comprensión del contenido.
+
+- **Navegación:** Implementamos una barra de navegación superior con acceso directo a secciones clave (Inicio, Mi Playa, Mis ingresos, Perfil). En pantallas reducidas, la navegación se compacta mediante un menú hamburguesa para optimizar el espacio disponible.
+
+- **Accesibilidad:** Las interacciones están diseñadas para ser intuitivas, con iconografía clara y espaciado generoso. Los elementos interactivos mantienen alto contraste cromático para maximizar visibilidad y usabilidad.
+
+**Mobile Style Guidelines**  
+En la versión móvil de ParkeoYa, priorizamos la usabilidad táctil manteniendo coherencia visual con la plataforma web pero optimizando la interfaz para pantallas compactas:
+
+- **Elementos Interactivos:** Empleamos botones amplios y áreas de toque generosas para facilitar la interacción en pantallas táctiles, minimizando errores de selección.
+
+- **Disposición de Contenido:** Los elementos se organizan priorizando funciones principales como búsqueda de estacionamiento y reserva inmediata, asegurando acceso rápido sin desplazamientos excesivos.
+
+- **Optimización del Contenido:** La información se adapta eficientemente, garantizando que datos relevantes como disponibilidad en tiempo real, precio y ubicación estén siempre visibles en la vista principal.
+
+**IoT Style Guidelines**  
+El emulador Wokwi permite simular la interacción con dispositivos IoT como sensores de ocupación. Esto habilita a la aplicación para mostrar información sobre disponibilidad de espacios de estacionamiento en tiempo real.
+
+- **Simulación de Sensores:** La aplicación presenta una representación visual intuitiva del estado de los sensores, indicando mediante código de colores si un espacio está ocupado (rojo), disponible (verde) o en espera del usuario que reservó el espacio (amarillo).
+
+- **Interacción Usuario-IoT:** Las actualizaciones de estado de los sensores son instantáneas y visuales, permitiendo a los usuarios identificar rápidamente espacios disponibles mediante mapas interactivos con indicadores cromáticos claros.
 
 ### 5.2. Information Architecture
 #### 5.2.1. Organization Systems
+
+ParkeoYa implementa diversos sistemas organizacionales para garantizar que los conductores encuentren y utilicen las funcionalidades principales de manera ágil e intuitiva.
+
+- **Jerárquico:** En las aplicaciones web y móvil, los elementos se organizan con una jerarquía visual clara basada en tamaños tipográficos (h1 a h3) y contrastes cromáticos de la paleta turquesa personalizada. Este enfoque permite a los usuarios identificar rápidamente lo más relevante en cada pantalla, como botones de buscar, reservar o ver disponibilidad en tiempo real.
+
+- **Secuencial:** Los flujos como el proceso de búsqueda y reserva de estacionamiento siguen una lógica paso a paso que conduce al usuario desde la búsqueda inicial hasta la confirmación de reserva, optimizando la experiencia mediante progresión lógica.
+
 #### 5.2.2. Labeling Systems
+
+Utilizamos un sistema de etiquetado simple, directo y reconocible para eliminar ambigüedades. Empleamos terminología concisa como:
+
+- Inicio, Buscar Parqueo, Mis Reservas, Mi Playa, Perfil
+
+- La iconografía universal complementa las etiquetas (buscar, ubicación, check) para reforzar el reconocimiento visual inmediato.
+
+- Las acciones principales están representadas por verbos concisos y botones con alta visibilidad cromática.
+
 #### 5.2.3. SEO Tags and Meta Tags
+
+**Landing Page**  
+- Title: ParkeoYa - Encuentra estacionamiento disponible al instante
+- Meta Description: ParkeoYa te permite localizar y reservar estacionamientos cercanos en segundos. Rápido, confiable y eficiente para tu movilidad urbana.
+- Meta Keywords: estacionamiento, parking, app de parqueo, reserva de estacionamiento, ParkeoYa, parqueo inteligente
+- Meta Author: ParkeoYa Development Team
+
+**Web App** 
+- Title: ParkeoYa App - Gestión de Playas Estacionamiento
+- Meta Description: Accede a tu cuenta ParkeoYa, administra tu Playa de Estacionamiento y genera ingresos extra.
+
+**Mobile App** 
+- Title: ParkeoYa App - Buscador de Estacionamientos
+- Meta Description: Accede a tu cuenta ParkeoYa, administra tus reservas activas y encuentra estacionamiento disponible cerca de ti fácilmente.
+
 #### 5.2.4. Searching Systems
+
+**¿Qué se puede buscar?:** Los conductores pueden buscar estacionamientos mediante ubicación actual (GPS) o rango de precios.
+
+**¿Qué filtros están disponibles?:** Rangos de precio, valoración de usuarios.
+
+**¿Cómo se presentan los resultados?:** Mediante tarjetas visuales con iconografía clara, indicadores de precio, distancia y disponibilidad en tiempo real, con botones de acción rápida (ver detalles, reservar ahora) o preferencia de precio.
+
 #### 5.2.5. Navigation Systems
+
+**Navegación Jerárquica:** Desde la pantalla principal, se accede a las secciones fundamentales mediante una barra de navegación persistente (web) o menú de navegación inferior (móvil), garantizando acceso inmediato a funcionalidades esenciales.
+
+**Navegación Global:** El menú principal permanece accesible en todo momento para transitar entre funcionalidades como "Buscar Parqueo", "Mis Reservas", "Mi Perfil" o "Historial".
+
+**Navegación Local:** Dentro de cada módulo, como "Detalles del Estacionamiento" o "Configuración de Cuenta", se incluyen submenús contextuales para acciones específicas: ver mapa, calificar servicio, contactar soporte, etc.
 
 ### 5.3. Landing Page UI Design
 #### 5.3.1. Landing Page Wireframe
