@@ -3377,20 +3377,23 @@ La identidad de marca de ParkeoYa se concentra en proyectar confianza, accesibil
 **Tipografía**  
 La tipografía en ParkeoYa cumple un rol esencial en la claridad visual y la usabilidad de la aplicación móvil. Se eligieron fuentes modernas, limpias y altamente legibles que permiten a los usuarios identificar rápidamente la información clave, mejorando así la experiencia general de navegación.
 
-La estructura tipográfica se organiza en cuatro niveles jerárquicos: **headings** (títulos), **body** (texto principal), **buttons** (botones) y **links** (enlaces), garantizando uniformidad visual en toda la interfaz.
+La estructura tipográfica se organiza en niveles jerárquicos: **headings** (títulos), **body** (texto principal), **buttons** (botones) y **links** (enlaces), garantizando uniformidad visual en toda la interfaz.
 
-<img src="assets/chapter-5/Tipografia.png" alt="Tipografia" height="500px">
+<img src="assets/chapter-5/Tipografia1.png" alt="Tipografia1" height="500px">
+
+<img src="assets/chapter-5/Tipografia2.png" alt="Tipografia2" height="500px">
 
 **Colores**  
 La paleta cromática de ParkeoYa integra gradientes de azul, turquesa y verde. Esta combinación simboliza confiabilidad tecnológica y eficiencia en movilidad urbana:
 
-<img src="assets/chapter-5/Colores.png" alt="Colores" height="500px">
+<img src="assets/chapter-5/ColoresPrincipales.png" alt="ColoresPrincipales" height="500px">
+
+<img src="assets/chapter-5/PaletaDeColores.png" alt="Colores" height="500px">
 
 **Espaciado** 
-El sistema de espaciado sigue una escala base de 8px para mantener un ritmo visual armonioso:
+El sistema de espaciado sigue una escala base de 4px para mantener un ritmo visual armonioso:
 
-- Márgenes y Padding: 8px, 16px, 24px, 32px
-- Separación entre secciones principales: 48px, 64px
+<img src="assets/chapter-5/Espaciado.png" alt="Espaciado" height="500px">
 
 Este sistema facilita interfaces ordenadas, equilibradas y de navegación intuitiva.
 
