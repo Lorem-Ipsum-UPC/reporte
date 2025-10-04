@@ -3391,6 +3391,41 @@ El diagrama de base muestra la tabla `payments` y `payment_methods`, así como l
 
 ### 6.1. Software Configuration Management
 #### 6.1.1. Software Development Environment Configuration
+
+**Gestión de Proyectos:**
+
+- Discord: Se implementó como plataforma principal para la comunicación sincrónica del equipo de desarrollo, facilitando canales especializados para discusiones técnicas, reuniones virtuales y comunicación de avances del proyecto en tiempo real.
+- WhatsApp: Se empleó como canal complementario de comunicación para mantener conectividad continua entre los integrantes del equipo, particularmente para coordinaciones urgentes y notificaciones rápidas.
+- GitFlow: Se adoptó como metodología de gestión de ramas en el control de versiones, proporcionando una estructura organizada para el manejo de features, releases y hotfixes, lo cual optimizó la colaboración en equipo y garantizó la integridad del código mediante flujos de trabajo estandarizados.
+- Trello: Se utilizó como sistema de gestión visual de tareas, permitiendo identificar y categorizar actividades pendientes, completadas y programadas para entregas futuras, facilitando el seguimiento del progreso del proyecto mediante tableros Kanban.
+
+**Gestión de Requisitos:**
+
+- Miro: Se empleó para la creación colaborativa de mapas mentales, diagramas de afinidad y canvas de modelo de negocio, facilitando la visualización y organización estructurada de requisitos funcionales y no funcionales, características del producto y objetivos estratégicos del proyecto.
+- Lucidchart: Se utilizó como herramienta para la elaboración de diagramas de clases.
+- Vertabelo: Se utilizó como herramienta para la elaboración de los diagramas de base de datos.
+
+**Diseño de Experiencia e Interfaz de Usuario:**
+
+- Figma: Se implementó como plataforma principal para el diseño de interfaz de usuario (UI) y experiencia de usuario (UX) del sistema SmartParking, permitiendo la creación colaborativa de prototipos interactivos, wireframes, mockups de alta fidelidad y sistemas de diseño que orientaron el desarrollo del producto final.
+- UXPressia: Se empleó como herramienta especializada para la elaboración de artefactos de investigación de usuarios, incluyendo customer journey maps, user personas y empathy maps, permitiendo visualizar y analizar profundamente la experiencia del usuario para fundamentar decisiones de diseño centradas en el usuario.
+
+**Desarrollo de Software:**
+
+- Visual Studio Code: Se utilizó como editor principal para la documentación técnica del proyecto, elaboración del informe y desarrollo de componentes web, aprovechando su extensibilidad mediante plugins y soporte multi-lenguaje.
+
+**Frameworks y Lenguajes de Programación:**
+
+- React: Framework basado en JavaScript utilizado para el desarrollo de la Landing Page, aprovechando su arquitectura basada en componentes reutilizables y virtual DOM para optimizar el rendimiento.
+- Java: Lenguaje de programación orientado a objetos utilizado para el desarrollo del backend del sistema, seleccionado por sus características de portabilidad multiplataforma, robustez en manejo de excepciones y ecosistema maduro de frameworks empresariales.
+- Next.js: Framework basado en React empleado para la construcción de la aplicación web principal y landing page, proporcionando renderizado del lado del servidor (SSR), generación de sitios estáticos (SSG), enrutamiento automático y optimización de rendimiento, lo que mejora tanto la experiencia del usuario como el posicionamiento SEO.
+- React Native: Framework multiplataforma desarrollado por Meta, utilizado para la construcción de aplicaciones móviles nativas para Android e iOS, permitiendo compartir gran parte del código entre plataformas mientras se mantiene el rendimiento y la apariencia nativa, optimizando así el tiempo de desarrollo y mantenimiento.
+
+**Documentación de Software:**
+
+- GitHub: Se implementó como plataforma centralizada para el control de versiones del código fuente, gestión de issues, pull requests y documentación técnica del proyecto mediante archivos README.md que detallan arquitectura, instalación, configuración y guías de contribución.
+- Structurizr: Se empleó para la elaboración de diagramas C4 (Context, Container, Component, Code) del sistema, utilizando su DSL (Domain-Specific Language) basado en sintaxis declarativa para generar documentación arquitectónica visual que representa la estructura estática del sistema en diferentes niveles de abstención.
+
 #### 6.1.2. Source Code Management
 #### 6.1.3. Source Code Style Guide & Conventions
 #### 6.1.4. Software Deployment Configuration
