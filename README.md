@@ -3427,7 +3427,113 @@ El diagrama de base muestra la tabla `payments` y `payment_methods`, así como l
 - Structurizr: Se empleó para la elaboración de diagramas C4 (Context, Container, Component, Code) del sistema, utilizando su DSL (Domain-Specific Language) basado en sintaxis declarativa para generar documentación arquitectónica visual que representa la estructura estática del sistema en diferentes niveles de abstención.
 
 #### 6.1.2. Source Code Management
+
+La administración y estructuración de las modificaciones del código se implementaron mediante una organización corporativa en la plataforma GitHub, estableciendo repositorios diferenciados por componente del sistema:
+
+**Organización:** https://github.com/Lorem-Ipsum-UPC  
+**Repositorio Landing Page:** https://github.com/Lorem-Ipsum-UPC/Landing-Page  
+**Repositorio Aplicación Web Frontend:** En desarrollo  
+**Repositorio Aplicación Móvil Frontend:** En desarrollo  
+**Repositorio Backend:** En desarrollo  
+
+**Estructura de Ramificación**  
+Cada repositorio implementa una estrategia de ramificación basada en GitFlow:
+- main: Rama de producción que almacena exclusivamente versiones estables y validadas del sistema, listas para despliegue en entornos productivos.
+- develop: Rama de integración continua donde se consolidan las características en desarrollo antes de su promoción a producción.
+- feature: Ramas dedicadas al desarrollo de funcionalidades específicas solicitadas por los usuarios, tanto para la landing page como para la aplicación web.
+
+**Nomenclatura de Ramas:** Se adopta la convención `[rama]/[descripción-funcionalidad]`
+
+**Convenciones de Commits**  
+Los mensajes de commit siguen el estándar "Conventional Commits" versión 1.0.0, implementando la estructura: `<type>[scope opcional]: <description>`
+
+**Componentes del mensaje:**  
+- type: Categoría del cambio realizado (feat, fix, docs, etc.)
+- scope: Contexto o módulo afectado por el cambio
+- description: Resumen conciso de las modificaciones implementadas
+
+**Tipología de Commits**  
+La convención garantiza que cada mensaje refleje con precisión la naturaleza del cambio:
+- feat: Implementación de nueva funcionalidad
+- fix: Corrección de defectos o errores
+- docs: Modificaciones en documentación
+- style: Ajustes de formato que no alteran la lógica (espaciado, puntuación, etc.)
+- refactor: Reestructuración de código sin modificar funcionalidad ni corregir errores
+- chore: Tareas de mantenimiento rutinarias (actualización de dependencias, configuración de archivos .gitignore)
+- test: Adición o corrección de pruebas unitarias o de integración
+- build: Cambios que afectan el proceso de compilación o construcción del proyecto
+- revert: Reversión de un commit anterior, especificando el hash del commit revertido
+
+Esta metodología asegura trazabilidad completa del historial de cambios y facilita la generación automática de changelogs.
+
 #### 6.1.3. Source Code Style Guide & Conventions
+
+**General**  
+Para todos los lenguajes, se aplicarán las siguientes directrices de nomenclatura:
+
+- **Convención en inglés**: Todos los nombres de variables, funciones, métodos, clases y archivos se nombrarán en inglés.
+- **Convención de nombres**:
+  - **camelCase**: Para nombres de variables, funciones y métodos.
+  - **PascalCase**: Para nombres de clases y componentes.
+  - **snake_case**: Para nombres de archivos.
+
+**Java:** [https://google.github.io/styleguide/javaguide.html](https://google.github.io/styleguide/javaguide.html)
+
+**Convenciones de Java:**
+- Los nombres de clases y tipos deben ser sustantivos en mayúscula inicial.
+- Los nombres de los métodos deben ser minúsculas.
+- El nombre de las variables debe ser en minúsculas y usar camelCase.
+- Para las sentencias `if`, `else`, `for`, `do` y `while` se deben usar `{ }`.
+- Los nombres de variables que son constantes deben ir en mayúsculas.
+
+**JavaScript:** [https://google.github.io/styleguide/jsguide.html](https://google.github.io/styleguide/jsguide.html)
+
+**Convenciones de JavaScript:**
+- Usar camelCase para variables y funciones.
+- Usar PascalCase para clases y constructores.
+- Usar MAYÚSCULAS_CON_GUIONES_BAJOS para constantes.
+- Usar `let` y `const` para declarar variables (evitar `var`).
+- Declarar las variables al inicio de su ámbito.
+- Incluir punto y coma al final de cada instrucción.
+- Usar `//` para comentarios de una línea y `/* */` para bloques de comentarios.
+- Escribir comentarios descriptivos en componentes, servicios y secciones complejas.
+- Aplicar principios de programación reactiva y patrones de diseño adecuados.
+
+**React:** [https://react.dev/learn/writing-markup-with-jsx](https://react.dev/learn/writing-markup-with-jsx)
+
+**Convenciones de React:**
+- **Nombres de componentes**: Usar PascalCase para componentes, por ejemplo, `UserProfile`.
+- **Nombres de archivos**: Los archivos de componentes deben nombrarse en PascalCase con extensión `.jsx` o `.tsx`, por ejemplo, `UserProfile.jsx`.
+- **Nombres de props**: Declarar props usando camelCase en JavaScript.
+- **Prefijos en componentes**: Los componentes de uso único deben llevar el prefijo `The`, por ejemplo, `TheHeader`. Los componentes base reutilizables deben llevar el prefijo `Base`, como `BaseButton`.
+- **Keys en listas**: Siempre proporcionar una `key` única al renderizar listas mediante `.map()`.
+- **Hooks**: Declarar hooks al inicio del componente funcional y seguir las reglas de hooks de React.
+- **Funciones de estado**: Utilizar `useState` y `useEffect` apropiadamente, evitando efectos secundarios innecesarios.
+
+**Next.js:** [https://nextjs.org/docs/app/building-your-application/routing](https://nextjs.org/docs/app/building-your-application/routing)
+
+**Convenciones de Next.js:**
+- **Estructura de carpetas**: Utilizar el App Router (carpeta `app/`) para enrutamiento basado en archivos.
+- **Nombres de archivos especiales**: Respetar convenciones como `page.tsx`, `layout.tsx`, `loading.tsx`, `error.tsx`.
+- **Server Components por defecto**: Los componentes son Server Components a menos que se especifique `'use client'`.
+- **Client Components**: Incluir directiva `'use client'` en la primera línea para componentes que requieren interactividad del cliente.
+- **Metadata**: Exportar objeto `metadata` o función `generateMetadata` para SEO.
+- **API Routes**: Crear API routes en `app/api/` usando convenciones de nombres de archivo.
+- **Optimización de imágenes**: Utilizar el componente `<Image>` de Next.js para optimización automática.
+
+**React Native:** [https://reactnative.dev/docs/style](https://reactnative.dev/docs/style)
+
+**Convenciones de React Native:**
+- **Nombres de componentes**: Usar PascalCase para componentes nativos, por ejemplo, `UserProfile`.
+- **Nombres de archivos**: Los archivos deben nombrarse en PascalCase con extensión `.jsx` o `.tsx`, por ejemplo, `UserProfile.tsx`.
+- **Estilos**: Crear objetos de estilo usando `StyleSheet.create()` para optimización de rendimiento.
+- **Nombres de estilos**: Utilizar camelCase para propiedades de estilo, por ejemplo, `container`, `buttonText`.
+- **Evitar estilos inline**: Preferir `StyleSheet` sobre estilos inline para mejor rendimiento.
+- **Componentes platform-specific**: Usar extensiones `.ios.tsx` y `.android.tsx` para código específico de plataforma.
+- **Hooks nativos**: Utilizar hooks como `useWindowDimensions`, `useColorScheme` para responsividad.
+- **Comentarios de documentación**: Usar `//` para comentarios de línea única y `/* */` para bloques multilínea.
+- **Componentes funcionales**: Priorizar componentes funcionales con hooks sobre componentes de clase.
+
 #### 6.1.4. Software Deployment Configuration
 
 ### 6.2. Landing Page, Services & Applications Implementation
