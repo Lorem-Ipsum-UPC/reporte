@@ -3492,8 +3492,68 @@ Utilizamos un sistema de etiquetado simple, directo y reconocible para eliminar 
 
 ### 5.4. Applications UX/UI Design
 #### 5.4.1. Applications Wireframes
+Para la aplicación de ParkeoYa, se han diseñado los bocetos de las pantallas que luego serán diseñadas más a detalle. A continuación, se presentan los wireframes de las pantallas de las aplicaciones web y móvil.
+
+**App Web - Dueño de Playa de Estacionamiento**  
+
+**App Móvil - Conductor**  
+- **Autenticación:** Pantallas de Registro de nuevo usuario, verificación, inicio de sesión y cambio de contraseña.
+  
+<img src="assets/chapter-5/WireframesAutenticaciónMovil.png" alt="WireframesAutenticaciónMovil">
+  
+- **Home:** Pantalla Home que dirigira al usuario al resto de funcionalidades.
+
+<img src="assets/chapter-5/WireframesHomeMovil.png" alt="WireframesHomeMovil">
+
+- **Perfil:** Pantallas que permitirán al usuario ver y modificar sus datos personales.
+
+<img src="assets/chapter-5/WireframesPerfilMovil.png" alt="WireframesPerfilMovil">
+
+- **Búsqueda de Estacionamiento:** Pantallas donde el usuario podrá encontrar playas de estacionamiento en el mapa y ver las reseñas de cada uno de ellos.
+  
+<img src="assets/chapter-5/WireframesBusquedaMovil.png" alt="WireframesBusquedaMovil">
+
+- **Reservar Estacionamiento:** Pantallas que muestran el proceso de reserva de un estaciónamiento en una playa seleccionada.
+  
+<img src="assets/chapter-5/WireframesReservaMovil.png" alt="WireframesReservaMovil">
+
+- **Gestión de Reserva:** Pantallas que permitirán al usuario ver y cancelar sus reservas realizadas.
+
+<img src="assets/chapter-5/WireframesDetallesReservaMovil.png" alt="WireframesDetallesReservaMovil">
+
+  
 #### 5.4.2. Applications Wireflow Diagrams
 #### 5.4.3. Applications Mock-ups
+
+Para la aplicación de ParkeoYa, se han diseñado pantallas que reflejan la experiencia de los usuarios al interactuar con la plataforma. A continuación, se presentan los mock-ups de las pantallas de las aplicaciones web y móvil.
+
+**App Web - Dueño de Playa de Estacionamiento**  
+
+**App Móvil - Conductor**  
+- **Autenticación:** Pantallas de Registro de nuevo usuario, verificación, inicio de sesión y cambio de contraseña.
+
+<img src="assets/chapter-5/MockupsAutenticaciónMovil.png" alt="MockupsAutenticaciónMovil">
+
+- **Home:** Pantalla Home que dirigira al usuario al resto de funcionalidades
+
+<img src="assets/chapter-5/MockupsHomeMovil.png" alt="MockupsHomeMovil">
+
+- **Perfil:** Pantallas que permitirán al usuario ver y modificar sus datos personales.
+
+<img src="assets/chapter-5/MockupsPerfilMovil.png" alt="MockupsPerfilMovil">
+  
+- **Busqueda de Estacionamiento:** Pantallas donde el usuario podrá encontrar playas de estacionamiento en el mapa y ver las reseñas de cada uno de ellos.
+
+<img src="assets/chapter-5/MockupsBusquedaMovil.png" alt="MockupsBusquedaMovil">
+  
+- **Reservar Estacionamiento:** Pantallas que muestran el proceso de reserva de un estaciónamiento en una playa seleccionada.
+  
+<img src="assets/chapter-5/MockupsReservaMovil.png" alt="MockupsReservaMovil">
+
+- **Gestión de Reserva:** Pantallas que permitirán al usuario ver y cancelar sus reservas realizadas.
+
+<img src="assets/chapter-5/MockupsDetallesReservaMovil.png" alt="MockupsDetallesReservaMovil">
+  
 #### 5.4.4. Applications User Flow Diagrams
 
 ### 5.5. Applications Prototyping
