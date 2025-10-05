@@ -3551,8 +3551,8 @@ Para todos los lenguajes, se aplicarán las siguientes directrices de nomenclatu
 | **Sprint-0 Review Summary** | Previamente al inicio del Sprint 1, el equipo acordó frameworks para cada aplicación, funcionalidades a realizar, guias de estilo y asignación de tareas. |
 | **Sprint-0 Retrospective Summary** | Como puntos de mejora se reconoce la necesidad de que todo el equipo tenga en claro las restricciones y limites del product backlog para evitar el desarrollo de funcionalidades extras no acordadas. |
 | **Sprint-1 Goal** | La meta de este primer Sprint es desarrollar una landing page completa y una primera versión de la aplicación web para para dueños de estacionamientos. Esto permitirá que los visitantes comprendan el producto y que los dueños tengan un MVP. Se confirmará cuando la landing page esté desplegada sin errores, funcione en todos los dispositivos y los dueños puedan registrarse, crear y visualizar su estacionamiento. |
-| **Sprint-1 Velocity** | - |
-| **Sprint-1 Story Points** | - |
+| **Sprint-1 Velocity** | 42 hours |
+| **Sprint-1 Story Points** | 44 |
 
 ##### 6.2.1.2. Aspect Leaders and Collaborators
 
@@ -3576,6 +3576,30 @@ En esta primera iteración se abordaron los siguientes aspectos principales:
 
 
 ##### 6.2.1.3. Sprint Backlog 1
+
+Durante este sprint, se trabajó en desarrollar las user stories referentes a la landing page, funcionalidades basicas del frontend y parte del backend.
+
+La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables.
+
+<img src="assets/chapter-6/TrelloSprint1.png" alt="Trello Sprint1">
+
+Trello: [Link de Trello](https://trello.com/b/7BD2h15m/sprint-1)
+
+| **User Story Id** | **User Story Title** | **Task Id** | **Task Title** | **Task Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|--------------------|----------------------|--------------|----------------|----------------------|------------------------|-----------------|-------------|
+| US01 | Sección hero con propuesta de valor IoT | T01 | Diseño de sección hero | Crear estructura y contenido visual para comunicar el valor IoT | 1 | Alessandro David | Done |
+| US02 | Barra de navegación intuitiva | T02 | Implementar navbar responsive | Diseñar y desarrollar barra de navegación clara y adaptable | 1 | Alessandro David | Done |
+| US03 | Acceso directo a registro desde landing | T03 | Crear botones de registro | Implementar CTA visibles para registro de Conductor o Propietario | 1 | Alessandro David | Done |
+| US04 | Registro diferenciado por tipo de usuario | T04 | Desarrollar formulario de registro | Crear registro con selección de rol y validaciones | 3 | Juan Calisaya | Done |
+| US05 | Inicio de sesión unificado | T05 | Implementar login con JWT | Desarrollar inicio de sesión con redirección según rol | 3 | Juan Calisaya | Done |
+| US07 | Perfil de propietario | T06 | Diseñar vista de perfil de propietario | Implementar gestión de información comercial y contacto | 3 | Alessandro David | Done |
+| US18 | Registro de estacionamiento | T07 | Crear formulario de registro de estacionamiento | Permitir al propietario registrar su local en la plataforma | 5 | Juan Calisaya | Done |
+| US19 | Configuración simple de espacios | T08 | Implementar editor de espacios | Definir cantidad, horarios y tarifas de estacionamiento | 5 | Alessandro David | Done |
+| US20 | Visualizar reservas de mi estacionamiento | T09 | Crear panel de reservas del propietario | Mostrar reservas activas y programadas con detalles | 5 | Alessandro David | Done |
+| US32 | Panel web para propietarios | T10 | Crear panel del propietario | Mostrar Panel web para gestión de estacionamientos | 7 | Alessandro David | Done |
+| TS01 | API de autenticación | T11 | Crear endpoints de autenticación | Desarrollar endpoints para login, registro y refresh token | 3 | Nelson Serrano | Done |
+| TS02 | API CRUD de estacionamientos | T12 | Desarrollar API CRUD estacionamientos | Crear endpoints para CRUD de estacionamientos y espacios | 5 | Nelson Serrano | Done |
+
 ##### 6.2.1.4. Development Evidence for Sprint Review
 ##### 6.2.1.5. Testing Suite Evidence for Sprint Review
 ##### 6.2.1.6. Execution Evidence for Sprint Review
