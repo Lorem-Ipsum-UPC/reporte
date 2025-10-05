@@ -3539,7 +3539,42 @@ Para todos los lenguajes, se aplicarán las siguientes directrices de nomenclatu
 ### 6.2. Landing Page, Services & Applications Implementation
 #### 6.2.1. Sprint 1
 ##### 6.2.1.1. Sprint Planning 1
+
+| Sprint # | Sprint 1 |
+|----------|----------|
+| **Sprint Planning Background** |
+| **Date** | 03 / 10 / 2025 |
+| **Time** | 15 : 00 horas |
+| **Location** | Discord |
+| **Prepared By** | Lorem Ipsum |
+| **Attendees** | Calisaya Sánchez, Juan Jesús  <br> David Polanco, Alessandro Alonso <br> Espinoza Delgado, Bárbara Antonella  <br> Serrano Ircañaupa, Nelson Elias  <br> Sotil Vasquez, Tyrone Raí |
+| **Sprint-0 Review Summary** | Previamente al inicio del Sprint 1, el equipo acordó frameworks para cada aplicación, funcionalidades a realizar, guias de estilo y asignación de tareas. |
+| **Sprint-0 Retrospective Summary** | Como puntos de mejora se reconoce la necesidad de que todo el equipo tenga en claro las restricciones y limites del product backlog para evitar el desarrollo de funcionalidades extras no acordadas. |
+| **Sprint-1 Goal** | La meta de este primer Sprint es desarrollar una landing page completa y una primera versión de la aplicación web para para dueños de estacionamientos. Esto permitirá que los visitantes comprendan el producto y que los dueños tengan un MVP. Se confirmará cuando la landing page esté desplegada sin errores, funcione en todos los dispositivos y los dueños puedan registrarse, crear y visualizar su estacionamiento. |
+| **Sprint-1 Velocity** | - |
+| **Sprint-1 Story Points** | - |
+
 ##### 6.2.1.2. Aspect Leaders and Collaborators
+
+Con el fin de garantizar una comunicación efectiva y una ejecución eficiente de las tareas, se desarrolló la **matriz LACX (Leadership and Collaboration Matrix)**, la cual permite identificar qué integrante del equipo lidera cada componente del proyecto y quiénes colaboran en su desarrollo.  
+
+En esta primera iteración se abordaron los siguientes aspectos principales:
+
+- **Aspect Name 1:** Landing Page    
+- **Aspect Name 2:** Web App Frontend (Dueños)  
+- **Aspect Name 3:** RESTful API - Backend Básico  
+- **Aspect Name 4:** Infraestructura y Despliegue 
+- **Aspect Name 5:** Documentación  
+
+| Team Member                             | GitHub User | Aspect Name 1 | Aspect Name 2 | Aspect Name 3 | Aspect Name 4 | Aspect Name 5 |
+|-----------------------------------------|:-----------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| **Calisaya Sánchez, Juan Jesús**        | JuanCali999 |       C       |       C       |       C       |       C       |       C       |
+| **David Polanco, Alessandro Alonso**    | Alesso2805  |       L       |       L       |       C       |       C       |       C       |
+| **Espinoza Delgado, Bárbara Antonella** | MesSobble   |       C       |       C       |       C       |       C       |       L       |
+| **Serrano Ircañaupa, Nelson Elias**     | NelsonUPC   |       C       |       C       |       L       |       C       |       C       |
+| **Sotil Vasquez, Tyrone Raí**           | Tyrone-J    |       C       |       C       |       C       |       L       |       C       |
+
+
 ##### 6.2.1.3. Sprint Backlog 1
 ##### 6.2.1.4. Development Evidence for Sprint Review
 ##### 6.2.1.5. Testing Suite Evidence for Sprint Review
@@ -3548,7 +3583,13 @@ Para todos los lenguajes, se aplicarán las siguientes directrices de nomenclatu
 ##### 6.2.1.8. Software Deployment Evidence for Sprint Review
 ##### 6.2.1.9. Team Collaboration Insights during Sprint
 
-<div style="page-break-after: always;"></div>
+**Landing Page**
+
+<img src="assets/chapter-6/CommitsLandingPage.png" alt="Commits Landing Page">
+
+**Web Application**
+
+<img src="assets/chapter-6/CommitsFrontWeb.png" alt="Commits Front Web">
 
 # Conclusiones y recomendaciones
 ### Conclusiones
