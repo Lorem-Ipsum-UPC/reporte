@@ -3487,6 +3487,11 @@ Utilizamos un sistema de etiquetado simple, directo y reconocible para eliminar 
 **Navegación Local:** Dentro de cada módulo, como "Detalles del Estacionamiento" o "Configuración de Cuenta", se incluyen submenús contextuales para acciones específicas: ver mapa, calificar servicio, contactar soporte, etc.
 
 ### 5.3. Landing Page UI Design
+
+Para esta sección utilizamos la herramienta Figma para diseñar los Wireframes y Mockups de la Landing Page.
+
+Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=1-4&t=bN4abyzGae5XnnGR-1)
+
 #### 5.3.1. Landing Page Wireframe
 En esta sección se mostrarán los wireframes en pantalla Desktop y mobile de la Landing Page.
 
@@ -3633,7 +3638,7 @@ Para la aplicación de ParkeoYa, se han diseñado pantallas que reflejan la expe
 
 Link del Prototipo: [Prototipo](https://www.figma.com/proto/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=2-110&t=javn3IzdBb8xNEo2-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=2%3A110&show-proto-sidebar=1)
 
-Link del video del Prototipo: [Prototipo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202017267_upc_edu_pe/ETj3uMZWKpBGgPWEeueSTXoBCMKoZNGsSzuRr0ZumT5Sew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=w7hDFP)
+Link del video del Prototipo: [Video Prototipo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202017267_upc_edu_pe/ETj3uMZWKpBGgPWEeueSTXoBCMKoZNGsSzuRr0ZumT5Sew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=w7hDFP)
 
 ## Capítulo VI: Product Implementation, Validation & Deployment
 
