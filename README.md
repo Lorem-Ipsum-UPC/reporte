@@ -3488,7 +3488,78 @@ Utilizamos un sistema de etiquetado simple, directo y reconocible para eliminar 
 
 ### 5.3. Landing Page UI Design
 #### 5.3.1. Landing Page Wireframe
+En esta sección se mostrarán los wireframes en pantalla Desktop y mobile de la Landing Page.
+
+**Desktop**
+
+- **Sección Inicio:**
+
+<img src="assets/chapter-5/WireframesLandingInicio.png" alt="Wireframes Landing Inicio">
+
+- **Sección Sobre Nosotros:** 
+  
+<img src="assets/chapter-5/WireframesLandingSobreNosotros.png" alt="Wireframes Landing Sobre Nosotros">
+
+- **Sección Características:** 
+
+<img src="assets/chapter-5/WireframesLandingCaracterisiticas.png" alt="Wireframes Landing Características">
+
+- **Sección Resultados:** 
+  
+<img src="assets/chapter-5/WireframesLandingResultados.png" alt="Wireframes Landing Resultados">
+
+
+- **Sección Beneficios:** 
+  
+<img src="assets/chapter-5/WireframesLandingBeneficios.png" alt="Wireframes Landing Beneficios">
+
+- **Sección Reseñas Y Contacto:**
+  
+<img src="assets/chapter-5/WireframesLandingReseñas.png" alt="Wireframes Landing Reseñas">
+
+- **Sección Footer:**
+  
+<img src="assets/chapter-5/WireframesLandingFooter.png" alt="Wireframes Landing Footer">
+
+**Mobile**
+
+<img src="assets/chapter-5/WireframesLandingMobile - copia.png" alt="Wireframes Landing Mobile">
+
 #### 5.3.2. Landing Page Mock-up
+
+A continuación se mostrarán los Mockups de la Landing Page tanto para Desktop como para mobile con una descripción de cada apartado.
+
+- **Sección Inicio:** En esta sección se muestra un poco de la aplicación y botones de redirección a las aplicaciones según el tipo de usuario.
+
+<img src="assets/chapter-5/LandingInicio.png" alt="Landing Inicio">
+
+**Sección Sobre Nosotros:** En esta sección se muestra la misión, vision, valores y descripción de nuestra startup.
+  
+<img src="assets/chapter-5/LandingSobreNosotros.png" alt="Landing Sobre Nosotros">
+
+- **Sección Características:** En esta sección se muestran las características principales de la solución IoT.
+
+<img src="assets/chapter-5/LandingCaracterisiticas.png" alt="Landing Características">
+
+- **Sección Resultados:** En esta sección se muestran los resultados que algunos de nuestros usuarios obtuvieron usando la aplicación.
+  
+<img src="assets/chapter-5/LandingResultados.png" alt="Landing Resultados">
+
+- **Sección Beneficios:** En esta sección se muestran los beneficios que se puede obtener usando la aplicación.
+  
+<img src="assets/chapter-5/LandingBeneficios.png" alt="Landing Beneficios">
+
+- **Sección Reseñas Y Contacto:** En esta sección se muestran algunas reseñas de nuestros usuarios y un apartado de contacto.
+  
+<img src="assets/chapter-5/LandingReseñas.png" alt="Landing Reseñas">
+
+- **Sección Footer:** En esta sección se muestra el Footer con enlaces de Producto, Soporte y Empresa.
+  
+<img src="assets/chapter-5/LandingFooter.png" alt="Landing Footer">
+
+**Mobile**
+
+<img src="assets/chapter-5/MockupsLandingMobile.png" alt="Mockups Landing Mobile">
 
 ### 5.4. Applications UX/UI Design
 #### 5.4.1. Applications Wireframes
@@ -3558,6 +3629,11 @@ Para la aplicación de ParkeoYa, se han diseñado pantallas que reflejan la expe
 
 ### 5.5. Applications Prototyping
 
+<img src="assets/chapter-5/Prototipo.png" alt="Prototipo">
+
+Link del Prototipo: [Prototipo](https://www.figma.com/proto/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=2-110&t=javn3IzdBb8xNEo2-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=2%3A110&show-proto-sidebar=1)
+
+Link del video del Prototipo: [Prototipo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202017267_upc_edu_pe/ETj3uMZWKpBGgPWEeueSTXoBCMKoZNGsSzuRr0ZumT5Sew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=w7hDFP)
 
 ## Capítulo VI: Product Implementation, Validation & Deployment
 
