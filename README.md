@@ -3800,18 +3800,27 @@ URL del repositorio para el Project Report en la organización de GitHub del equ
 
 **¿Cómo se han desarrollado las actividades de elaboración del informe?**
 
-Para el desarrollo del informe en este sprint se distribuyó los capítulos de esta manera:
+Para el desarrollo del informe y aplicaciones en este sprint se distribuyó los capítulos de esta manera:
 
 | Integrante     | Aporte en el informe                                                                                                                                                                                                                                                                   |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Tyrone**     |                                                                                                                                                                                                                                                                                        |
-| **Barbara**    | Sprint planning 1, Style Guidelines, Mobile and Landing Page Wirefframes and Mockups, Design App Prototyping, Source Code Management, User Flows, Wireflows, Sprint Backlog 1                                                                                                          |
-| **Alessandro** | Sprint 1, Source Code Management, Software Deployment Configuration, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Team Collaboration Insights during Sprint |
-| **Nelson**     |                                                                                                                                                                                                                                                                                        |
-| **Juan**       |                                                                                                                                                                                                                                                                                        |
+| **Tyrone**     | Mobile Wireframes and Mockups, Design App Prototyping.|
+| **Barbara**    | Sprint planning 1, Style Guidelines, Web and Landing Page Wireframes and Mockups, Design App Prototyping, Source Code Management, User Flows, Wireflows, Sprint Backlog 1  |
+| **Alessandro** | Sprint 1, Source Code Management, Software Deployment Configuration, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Team Collaboration Insights during Sprint, Landing Page and App Web Development, |
+| **Nelson**     |                                        |
+| **Juan**       |                                        |
 
 **Evidencia del commit:**
 
+- **Commits Landing Page**
+  
+<img src="assets/chapter-6/CommitsLandingPage.png" alt="CommitsLandingPage">
+
+- **Commits Web Frontend**
+
+<img src="assets/chapter-6/CommitsFrontendWeb.png" alt="CommitsFrontendWeb">
+
+- **Commits Informe**
 <img src="assets/chapter-6/evidence1.png" alt="Evidencia 1">
 
 <img src="assets/chapter-6/evidence2.png" alt="Evidencia 2">
