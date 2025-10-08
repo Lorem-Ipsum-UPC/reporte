@@ -3715,11 +3715,13 @@ En esta sección, se presentan los commits realizados en el repositorio de la la
 
 **Landing Page**
 
-<img src="assets/chapter-6/CommitsLandingPage.png" alt="Commits Landing Page">
+<img src="assets/chapter-6/commits-landingpage3.png" alt="Commits Landing Page">
+<img src="assets/chapter-6/commits-landingpage2.png" alt="Commits Landing Page">
+<img src="assets/chapter-6/commits-landingpage1.png" alt="Commits Landing Page">
 
 **Web Application**
 
-<img src="assets/chapter-6/CommitsFrontWeb.png" alt="Commits Front Web">
+<img src="assets/chapter-6/commits-frontendweb.png" alt="Commits Front Web">
 
 # Conclusiones y recomendaciones
 
