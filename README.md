@@ -3794,15 +3794,27 @@ https://parkeoya.vercel.app/register
 
 ##### 6.2.1.9. Team Collaboration Insights during Sprint
 
-**Landing Page**
+**Distribución de aportes en el informe:**
 
-<img src="assets/chapter-6/commits-landingpage3.png" alt="Commits Landing Page">
-<img src="assets/chapter-6/commits-landingpage2.png" alt="Commits Landing Page">
-<img src="assets/chapter-6/commits-landingpage1.png" alt="Commits Landing Page">
+URL del repositorio para el Project Report en la organización de GitHub del equipo: [https://github.com/Lorem-Ipsum-UPC/reporte](https://github.com/Lorem-Ipsum-UPC/reporte)
 
-**Web Application**
+**¿Cómo se han desarrollado las actividades de elaboración del informe?**
 
-<img src="assets/chapter-6/commits-frontendweb.png" alt="Commits Front Web">
+Para el desarrollo del informe en este sprint se distribuyó los capítulos de esta manera:
+
+| Integrante     | Aporte en el informe                                                                                                                                                                                                                                                                   |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Tyrone**     |                                                                                                                                                                                                                                                                                        |
+| **Barbara**    | Sprint planning 1, Style Guidelines, Mobile and Landing Page Wirefframes and Mockups, Design App Prototyping, Source Code Management, User Flows, Wireflows, Sprint Backlog 1                                                                                                          |
+| **Alessandro** | Sprint 1, Source Code Management, Software Deployment Configuration, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Team Collaboration Insights during Sprint |
+| **Nelson**     |                                                                                                                                                                                                                                                                                        |
+| **Juan**       |                                                                                                                                                                                                                                                                                        |
+
+**Evidencia del commit:**
+
+<img src="assets/chapter-6/evidence1.png" alt="Evidencia 1">
+
+<img src="assets/chapter-6/evidence2.png" alt="Evidencia 2">
 
 # Conclusiones y recomendaciones
 
