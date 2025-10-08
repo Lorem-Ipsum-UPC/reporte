@@ -3732,7 +3732,8 @@ Se realizaron pruebas iniciales con el objetivo de asegurar que la landing page 
 <img width="1510" height="618" alt="image" src="https://github.com/user-attachments/assets/86a526d2-9322-499a-a6a0-6b3527065552" />
 
 **Landing Page en teléfonos**
-<img width="420" height="907" alt="image" src="https://github.com/user-attachments/assets/2519a090-a05f-447a-bf7d-f6c19ab1cefe" />
+<img width="320" height="800" alt="image" src="https://github.com/user-attachments/assets/2519a090-a05f-447a-bf7d-f6c19ab1cefe" />
+
 
 **Landing Page en tablets**
 <img width="885" height="885" alt="image" src="https://github.com/user-attachments/assets/306f9516-09fb-4349-9cb2-253339991e1f" />
