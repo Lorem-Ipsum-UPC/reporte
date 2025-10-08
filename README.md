@@ -3734,7 +3734,31 @@ En esta sección, se presentan los commits realizados en el repositorio de la la
 
 ##### 6.2.1.6. Execution Evidence for Sprint Review
 
+En este sprint logramos, como primera fase de nuestro producto final, desarrollar nuestra landing page usando React y la capa frontend de nuestra web en NextJS. También se implementó un diseño responsive para dispositivos Android e iOS, y el respectivo despliegue de ambos productos se realizó en Netlify.
+
+### Landing Page
+
+<img src="assets/chapter-6/landingpage.png" alt="Landing Page">
+
+### Frontend Web
+
+<img src="assets/chapter-6/login.png" alt="Login">
+<img src="assets/chapter-6/register.png" alt="Register">
+<img src="assets/chapter-6/first-step.png" alt="First Step">
+<img src="assets/chapter-6/second-step.png" alt="Second Step">
+<img src="assets/chapter-6/third-step.png" alt="Third Step">
+<img src="assets/chapter-6/fourth-step.png" alt="Fourth Step">
+<img src="assets/chapter-6/fifth-step.png" alt="Fifth Step">
+<img src="assets/chapter-6/dashboard.png" alt="IoT Spaces">
+<img src="assets/chapter-6/iot-spaces.png" alt="Commits Front Web">
+<img src="assets/chapter-6/reservations.png" alt="Reservations">
+<img src="assets/chapter-6/finances.png" alt="Finances">
+<img src="assets/chapter-6/reviews.png" alt="Reviews">
+<img src="assets/chapter-6/config.png" alt="Configuration">
+
 ##### 6.2.1.7. Services Documentation Evidence for Sprint Review
+
+En el alcance del Sprint 1 se logró desarrollar la landing page y el frontend web, por lo que no se evidencia el empleo de web services.
 
 ##### 6.2.1.8. Software Deployment Evidence for Sprint Review
 
