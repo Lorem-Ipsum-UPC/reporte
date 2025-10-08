@@ -3762,6 +3762,16 @@ En el alcance del Sprint 1 se logró desarrollar la landing page y el frontend w
 
 ##### 6.2.1.8. Software Deployment Evidence for Sprint Review
 
+Se adjuntan links del despliegue (realizado en Netfliy y Vercel) tanto del Landing page como de la capa Frontend de la App Web:
+
+#### Landing Page
+
+https://parkeoya-lorem-ipsum.netlify.app/
+
+#### Frontend Web
+
+https://parkeoya.vercel.app/register
+
 ##### 6.2.1.9. Team Collaboration Insights during Sprint
 
 **Landing Page**
