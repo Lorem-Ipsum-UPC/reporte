@@ -55,21 +55,22 @@
 
 # Registro de Versiones del Informe
 
-| **Versión** | **Fecha** | **Autor** | **Descripción de Modificación** |
-|-------------|-----------|-----------|---------------------------------|
-| 1.0         | 31/08/2025| Juan Calisaya | Creación del documento de trabajo en formato Markdown. |
-| 1.1         | 02/09/2025| Bárbara Espinoza | Realización del Capítulo 1 |
-| 1.2         | 03/09/2025| Bárbara Espinoza | Realización del Capítulo 2 |
-| 1.3         | 15/09/2025| Juan Calissaya y Alessandro David | Realización del Capítulo 3 |
-| 1.4         | 20/09/2025| Alessandro David, Nelson Serrano y Tyrone Sotil | Realización del Capítulo 4 |
+| **Versión** | **Fecha**  | **Autor**                                       | **Descripción de Modificación**                        |
+| ----------- | ---------- | ----------------------------------------------- | ------------------------------------------------------ |
+| 1.0         | 31/08/2025 | Juan Calisaya                                   | Creación del documento de trabajo en formato Markdown. |
+| 1.1         | 02/09/2025 | Bárbara Espinoza                                | Realización del Capítulo 1                             |
+| 1.2         | 03/09/2025 | Bárbara Espinoza                                | Realización del Capítulo 2                             |
+| 1.3         | 15/09/2025 | Juan Calissaya y Alessandro David               | Realización del Capítulo 3                             |
+| 1.4         | 20/09/2025 | Alessandro David, Nelson Serrano y Tyrone Sotil | Realización del Capítulo 4                             |
 
-# Project Report Collaboration Insights 
+# Project Report Collaboration Insights
 
 Enlace al repositorio del informe en GitHub: [Repositorio de GitHub](https://github.com/Lorem-Ipsum-UPC/reporte)
 
 ## TB1
 
 **Descripción de las actividades realizadas:**
+
 - **Espinoza Delgado, Bárbara Antonella**: Colaboré con la realización del capítulo 1 y 2 del informe cumpliendo con el formato en Markdown y estando pendiente de las correcciones y partes faltantes.
 - **Calisaya Sánchez, Juan Jesús**: Colaboré con la realización del capítulo 3 del informe , especificamente, la realización de epicas y user stories.
 - **David Polanco, Alessandro Alonso**: Colaboré con la realización del capítulo 3 y 4 del informe , especificamente, la realización del impact mapping y Strategic-Level Domain-Driven Design.
@@ -83,45 +84,52 @@ Enlace al repositorio del informe en GitHub: [Repositorio de GitHub](https://git
 # Contenido
 
 ### Tabla de contenidos
+
 ### [Registro de versiones del informe](#registro-de-versiones-del-informe)
+
 ### [Project Report Collaboration Insights](#project-report-collaboration-insights)
+
 ### [Student Outcome](#student-outcome)
 
 ## [Capítulo I: Introducción](#capítulo-i-introducción)
+
 - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+  - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
 - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2 Lean UX Process](#122-lean-ux-process)
-        - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-        - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-        - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
+  - [1.2.2 Lean UX Process](#122-lean-ux-process)
+    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
 - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
 ## [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+
 - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
 - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
 - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.3.1. User Personas](#231-user-personas)
+  - [2.3.2. User Task Matrix](#232-user-task-matrix)
+  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+  - [2.3.4. Empathy Mapping](#234-empathy-mapping)
 - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
 - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 
 ## [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+
 - [3.1. User Stories](#31-user-stories)
 - [3.2. Impact Mapping](#32-impact-mapping)
 - [3.3. Product Backlog](#33-product-backlog)
 
 ## [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+
 - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
   - [4.1.1. Design Level EventStorming](#411-design-level-eventstorming)
     - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
@@ -205,10 +213,12 @@ Enlace al repositorio del informe en GitHub: [Repositorio de GitHub](https://git
     - [4.2.8.6. Bounded Context Software Architecture Code Level Diagrams](#4286-bounded-context-software-architecture-code-level-diagrams)
       - [4.2.8.6.1. Bounded Context Domain Layer Class Diagrams](#42861-bounded-context-domain-layer-class-diagrams)
       - [4.2.8.6.2. Bounded Context Database Design Diagram](#42862-bounded-context-database-design-diagram)
+
 ## [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+
 - [5.1. Style Guidelines](#51-style-guidelines)
-    - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
-    - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
+  - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
+  - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
   - [5.2. Information Architecture](#52-information-architecture)
     - [5.2.1. Organization Systems](#521-organization-systems)
     - [5.2.2. Labeling Systems](#522-labeling-systems)
@@ -224,13 +234,14 @@ Enlace al repositorio del informe en GitHub: [Repositorio de GitHub](https://git
     - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
     - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
   - [5.5. Applications Prototyping](#55-applications-prototyping)
-    
+
 ## [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation-&-deployment)
+
 - [6.1. Software Configuration Management](#61-software-configuration-management)
-    - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
-    - [6.1.2. Source Code Management](#612-source-code-management)
-    - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
-    - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+  - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+  - [6.1.2. Source Code Management](#612-source-code-management)
+  - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
+  - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
   - [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)
     - [6.2.1. Sprint 1](#621-sprint-1)
       - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
@@ -242,10 +253,13 @@ Enlace al repositorio del informe en GitHub: [Repositorio de GitHub](https://git
       - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
       - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
       - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
-                
+
 ### [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+
 - [Video About the Team](#video-about-the-team)
+
 ### [Bibliografía](#bibliografía)
+
 ### [Anexos](#anexos)
 
 <div style="page-break-after: always;"></div>
@@ -294,6 +308,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 # Capítulo I: Introduccion
 
 ## 1.1. Startup Profile
+
 ### 1.1.1. Descripción de la Startup
 
 Lorem Ipsum es una startup peruana del sector tecnológico orientada al desarrollo de soluciones inteligentes. Como solución a la ineficiente administración de espacios en zonas urbanas de alto tráfico, donde los conductores suelen perder tiempo valioso buscando disponibilidad de estacionamiento, hemos creado ParkeoYa.
@@ -308,15 +323,16 @@ Con esta solución buscamos optimizar el uso de los estacionamientos, mejorar la
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Perfiles de los Miembros del Equipo | Descripción de los Miembros del Equipo |
-|:-------------------|:------:|
-|  **Calisaya Sánchez Juan Jesús - u202121935** <br><br> <img src="./assets/chapter-1/juan.jpg" width="100px" alt="Juan Photo"> | Soy estudiante de Ingeniería de Software. Me considero una persona empática, colaboradora, responsable y con buenas habilidades de comunicación. Además de mis capacidades técnicas, estas cualidades me permitirán contribuir de manera efectiva al desarrollo exitoso del proyecto.	|
-| **David Polanco, Alessandro Alonso - u202122232** <br><br> <img src="./assets/chapter-1/alessandro.jpg" width="100px" alt="Juan Photo"> | Mi nombre es Alessandro David y tengo 22 años. Yo estoy cursando la carrera de Ingenieria de Software en la UPC y ando en 9no ciclo. Me gusto demasiado mi eleccion referente a la carrera dado que me interesan mucho todos los temas que tenga que ver con la tecnologia y las tendencias de este rubro. Me considero una persona empática, comprometida, y siempre atento a resolver cualquier problema que me concierna. Como integrante del grupo de Desarrollo de Soluciones IoT me comprometo a cooperar con todo lo asignado en el trabajo y apoyar a mis compañeros con cualquier duda que quieran absolver.	|
-| **Espinoza Delgado, Bárbara Antonella - u201911727** <br><br> <img src="./assets/chapter-1/Messo.jpeg" alt="Barbara Espinoza Photo" width="100px"/>| Mi nombre es Bárbara Antonella Espinoza Delgado, soy estudiante de Ingeniería de Software de 8vo ciclo. Tengo experiencia en trabajos en equipo y me considero una persona puntual con la realización y entrega de las tareas pendientes. |
-| **Serrano Ircañaupa, Nelson Elias - u202214733** <br><br> <img src="./assets/chapter-1/Nelson.jpg" width="100px"/> | Me llamo Nelson Serrano, soy un entusiasta de la tecnología con gran interés en el backend, las redes y la ciberseguridad. Disfruto aprender nuevas herramientas de desarrollo, explorar entornos de seguridad informática y trabajar en proyectos que combinan programación con buenas prácticas de software. Mis principales fortalezas son el desarrollo backend, la gestión de bases de datos y el análisis de vulnerabilidades, lo que me permite aportar valor en proyectos que requieren robustez, organización y seguridad. |
-| **Sotil Vasquez, Tyrone Raí - u202017267** <br><br> <img src="./assets/chapter-1/tyrone.png" width="100px"/> | Me llamo Tyrone Sotil, soy un apasionado tanto de la programación como de la creación de contenido. Mis hobbies incluyen la edición de videos, jugar videojuegos y la programación de páginas web. Mis principales fortalezas son la programación frontend, el diseño de imágenes/videos y los procesos de automatización o conexiones con IA |
+| Perfiles de los Miembros del Equipo                                                                                                                 |                                                                                                                                                                                                                                                                                        Descripción de los Miembros del Equipo                                                                                                                                                                                                                                                                                         |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **Calisaya Sánchez Juan Jesús - u202121935** <br><br> <img src="./assets/chapter-1/juan.jpg" width="100px" alt="Juan Photo">                        |                                                                                                                                                                 Soy estudiante de Ingeniería de Software. Me considero una persona empática, colaboradora, responsable y con buenas habilidades de comunicación. Además de mis capacidades técnicas, estas cualidades me permitirán contribuir de manera efectiva al desarrollo exitoso del proyecto.                                                                                                                                                                 |
+| **David Polanco, Alessandro Alonso - u202122232** <br><br> <img src="./assets/chapter-1/alessandro.jpg" width="100px" alt="Juan Photo">             | Mi nombre es Alessandro David y tengo 22 años. Yo estoy cursando la carrera de Ingenieria de Software en la UPC y ando en 9no ciclo. Me gusto demasiado mi eleccion referente a la carrera dado que me interesan mucho todos los temas que tenga que ver con la tecnologia y las tendencias de este rubro. Me considero una persona empática, comprometida, y siempre atento a resolver cualquier problema que me concierna. Como integrante del grupo de Desarrollo de Soluciones IoT me comprometo a cooperar con todo lo asignado en el trabajo y apoyar a mis compañeros con cualquier duda que quieran absolver. |
+| **Espinoza Delgado, Bárbara Antonella - u201911727** <br><br> <img src="./assets/chapter-1/Messo.jpeg" alt="Barbara Espinoza Photo" width="100px"/> |                                                                                                                                                                                       Mi nombre es Bárbara Antonella Espinoza Delgado, soy estudiante de Ingeniería de Software de 8vo ciclo. Tengo experiencia en trabajos en equipo y me considero una persona puntual con la realización y entrega de las tareas pendientes.                                                                                                                                                                                       |
+| **Serrano Ircañaupa, Nelson Elias - u202214733** <br><br> <img src="./assets/chapter-1/Nelson.jpg" width="100px"/>                                  |                                          Me llamo Nelson Serrano, soy un entusiasta de la tecnología con gran interés en el backend, las redes y la ciberseguridad. Disfruto aprender nuevas herramientas de desarrollo, explorar entornos de seguridad informática y trabajar en proyectos que combinan programación con buenas prácticas de software. Mis principales fortalezas son el desarrollo backend, la gestión de bases de datos y el análisis de vulnerabilidades, lo que me permite aportar valor en proyectos que requieren robustez, organización y seguridad.                                          |
+| **Sotil Vasquez, Tyrone Raí - u202017267** <br><br> <img src="./assets/chapter-1/tyrone.png" width="100px"/>                                        |                                                                                                                                     Me llamo Tyrone Sotil, soy un apasionado tanto de la programación como de la creación de contenido. Mis hobbies incluyen la edición de videos, jugar videojuegos y la programación de páginas web. Mis principales fortalezas son la programación frontend, el diseño de imágenes/videos y los procesos de automatización o conexiones con IA                                                                                                                                     |
 
 ## 1.2. Solution Profile
+
 ### 1.2.1. Antecedentes y problemática
 
 En las ciudades con alto flujo vehicular, la búsqueda de estacionamientos representa un problema crítico que genera congestión, pérdida de tiempo, contaminación ambiental y estrés en los conductores. La escasez de espacios adecuados y la falta de herramientas tecnológicas que permitan consultar disponibilidad o realizar reservas anticipadas incrementan la frustración y afectan la movilidad urbana. Ante esta situación, surge la necesidad de soluciones innovadoras basadas en tecnologías IoT y sensores inteligentes, que permitan una gestión en tiempo real de los espacios.
@@ -354,16 +370,19 @@ En esta sección se aplica la metodología Lean UX, cuyo alcance incluye la conc
 El dominio de este proyecto es la gestión inteligente de estacionamientos urbanos, facilitando la búsqueda, reserva y administración de espacios de parqueo mediante una aplicación móvil y web. La plataforma conecta a conductores con espacios disponibles en tiempo real, utilizando tecnologías IoT, sensores y geolocalización para optimizar la movilidad y mejorar la experiencia de los usuarios.
 
 **Customer Segments**
+
 - Conductores: Personas que necesitan encontrar estacionamiento de forma rápida, segura y sin complicaciones, especialmente en zonas urbanas congestionadas.
 
 - Propietarios de estacionamientos: Dueños de espacios interesados en rentabilizar su espacio, gestionando reservas, horarios y tarifas desde un panel digital.
 
 **Initial Segment**
+
 - Conductores urbanos jóvenes y adultos (18–50 años), usuarios frecuentes de smartphones que buscan optimizar su tiempo y tener experiencias de movilidad seguras y eficientes.
 
 - Propietarios de estacionamientos en zonas de alta demanda (comerciales y residenciales), interesados en monetizar su espacio de forma sencilla.
 
 **Pain Points**
+
 - Pérdida de tiempo: Los conductores invierten minutos valiosos buscando estacionamiento, sobre todo en horas pico.
 
 - Falta de visibilidad en tiempo real: Muchos estacionamientos carecen de sistemas digitales que informen sobre disponibilidad actualizada.
@@ -401,6 +420,7 @@ La estrategia se centra en el uso de sensores IoT, integración con aplicaciones
 #### 1.2.2.2. Lean UX Assumptions
 
 **Business Assumptions**
+
 - La solución IoT mejorará la eficiencia de los estacionamientos: Se asume que al integrar sensores IoT para detectar disponibilidad y habilitar reservas automáticas, los tiempos de búsqueda se reducirán significativamente.
 
 - El mercado está dispuesto a adoptar nuevas tecnologías: Se asume que conductores y propietarios verán valor en usar soluciones IoT para mejorar la experiencia de estacionamiento.
@@ -412,6 +432,7 @@ La estrategia se centra en el uso de sensores IoT, integración con aplicaciones
 - El proyecto es escalable: Se asume que puede implementarse tanto en pequeños estacionamientos como en empresas que cuenten con múltiples playas de estacionamientos.
 
 **Business Outcome Assumptions**
+
 - Incremento en las reservas de estacionamiento gracias a la disponibilidad y reservas en tiempo real.
 
 - Reducción de costos operativos para propietarios mediante la automatización de la gestión.
@@ -419,6 +440,7 @@ La estrategia se centra en el uso de sensores IoT, integración con aplicaciones
 - Mejora de la satisfacción del cliente, generando mayor recurrencia en el uso de la aplicación.
 
 **User Assumptions**
+
 - Los conductores preferirán un sistema automatizado, confiando en la tecnología IoT para encontrar y reservar espacios de manera rápida.
 
 - Los propietarios de estacionamientos adoptarán el sistema, al percibir beneficios en ingresos previos a la llegada de los vehículos y un mejor control de espacios.
@@ -426,11 +448,13 @@ La estrategia se centra en el uso de sensores IoT, integración con aplicaciones
 - La aplicación será intuitiva, de modo que tanto conductores como propietarios podrán usarla sin complicaciones ni tendrán que recurrir a un periodo largo de aprendizaje.
 
 **User Outcome Assumptions**
+
 - Conductores más satisfechos, al contar con reservas anticipadas, información en tiempo real y menos tiempo perdido en búsquedas.
 
 - Propietarios con mejor gestión de espacios, logrando mayor ocupación y rentabilidad a través de la plataforma digital.
 
 **Feature Assumptions**
+
 - Detección de disponibilidad mediante IoT: Sensores en cada espacio informan si está ocupado o libre en tiempo real.
 
 - Sistema de reservas automáticas: Conductores pueden reservar un espacio anticipadamente o en el momento.
@@ -442,6 +466,7 @@ La estrategia se centra en el uso de sensores IoT, integración con aplicaciones
 - Integración con pagos digitales: Cobro directo desde la app para agilizar la experiencia y reducir evasión.
 
 **Users**
+
 - Conductores urbanos que necesitan soluciones rápidas en zonas congestionadas.
 
 - Propietarios de playas de estacionamientos, interesados en maximizar ingresos y mejorar la experiencia del cliente.
@@ -449,6 +474,7 @@ La estrategia se centra en el uso de sensores IoT, integración con aplicaciones
 **User Outcomes**
 
 Segmento Conductores:
+
 - Acceder a una aplicación que muestre espacios en tiempo real.
 
 - Reservar y pagar con antelación o en el momento.
@@ -456,6 +482,7 @@ Segmento Conductores:
 - Reducir tiempos de búsqueda y planificar mejor los trayectos.
 
 Segmento Propietarios de playas de estacionamiento:
+
 - Incrementar la ocupación de los espacios.
 
 - Administrar reservas y tarifas en un solo sistema.
@@ -591,11 +618,13 @@ La plataforma se orienta a dos públicos principales:
 Esta caracterización guía la propuesta de valor, así como las decisiones de diseño, marketing y desarrollo del producto.
 
 **Propietarios de Playas de Estacionamiento**
+
 - Geográfico: Dueños de playas estacionamientos en zonas urbanas de alta demanda, tanto públicos como privados, especialmente en áreas comerciales y residenciales con gran flujo vehicular.
 
 - Psicográfico: Buscan optimizar la rentabilidad de sus espacios mediante automatización de procesos, reducción de la carga operativa y acceso a datos que les permitan tomar decisiones estratégicas. Valoran soluciones digitales que les den mayor control y formalización en su gestión.
 
 - Demográfico:
+
   - Edad: 25 – 55 años
   - Género: Masculino y femenino
   - Educación: Profesionales con formación en administración, ingeniería industrial o gestión de instalaciones.
@@ -607,11 +636,13 @@ Esta caracterización guía la propuesta de valor, así como las decisiones de d
   - Digitalización de la gestión, contribuyendo a la formalización del negocio.
 
 **Conductores Urbanos**
+
 - Geográfico: Personas que conducen en zonas de alta densidad vehicular, donde la oferta de estacionamientos es limitada (centros urbanos, áreas comerciales y residenciales).
 
 - Psicográfico: Priorizan soluciones que les ahorren tiempo, reduzcan la frustración de buscar estacionamiento y ofrezcan conveniencia. Valoran aplicaciones fáciles de usar que les permitan reservar y pagar en segundos.
 
 - Demográfico:
+
   - Edad: 18 – 50 años
   - Género: Masculino y femenino
   - Educación: Varía desde estudiantes universitarios hasta profesionales con formación técnica o superior.
@@ -639,254 +670,256 @@ Esta caracterización guía la propuesta de valor, así como las decisiones de d
 ## Competitive Analysis Landscape
 
 **¿Por qué llevar a cabo este análisis?**  
-Para identificar cómo **ParkeoYa** se posiciona frente a sus competidores en términos de servicios, ventajas competitivas y estrategias de mercado. Este análisis permitirá detectar oportunidades, diferenciar la propuesta de valor y tomar decisiones estratégicas de producto, marketing y crecimiento.  
+Para identificar cómo **ParkeoYa** se posiciona frente a sus competidores en términos de servicios, ventajas competitivas y estrategias de mercado. Este análisis permitirá detectar oportunidades, diferenciar la propuesta de valor y tomar decisiones estratégicas de producto, marketing y crecimiento.
 
-## Competidores  
+## Competidores
 
-| Competidor   | Imágen | Descripción  | Enlace   |
-|--------------|--------|--------------|----------|
-| **ParkeoYa** | <img src="assets/chapter-2/Logo.jpg" alt="Logo Aparcados" width="350" /> | Plataforma digital que conecta conductores con estacionamientos urbanos en tiempo real. Permite reservar, pagar y administrar espacios desde una app móvil y un portal web. Está orientada a reducir tiempos de búsqueda y mejorar la rentabilidad de los propietarios mediante IoT y automatización. | N/A |
-| **Parkimeter** | <img src="https://play-lh.googleusercontent.com/WL9JHoSKh73dQdMiWaGHQOZ85lnucjMYVf1Q-56BH8ZwH3al38dYtO_a5Hre7iL5nbD_=w480-h960-rw" alt="Logo Parkimeter" width="350" /> | App web y móvil con presencia internacional. Ofrece reserva de plazas de aparcamiento en diversas ciudades de Europa y Latinoamérica, destacando por sus descuentos y promociones. | [Parkimeter](https://parkimeter.com) |
-| **ElParking** | <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/4d/46/364d46f8-26c7-4424-5db7-0bef8aacfd3c/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.jpeg/434x0w.webp" width="350" /> | Aplicación española que permite no solo reservar estacionamientos, sino también pagar multas, parquímetros y otros servicios urbanos, ampliando su ecosistema de movilidad. | [ElParking](https://elparking.com) |
-| **Aparcados** | <img src="https://play-lh.googleusercontent.com/Y2FttakCUHoIQiHRq2POcB7lNV8RAKlQgdpdVSqyNrDkdxXlh_xyVhOPOT_dSSKicwM=w480-h960-rw" alt="Logo Aparcados" width="350" /> | App enfocada en la reserva de estacionamientos en España con expansión hacia Europa y Latinoamérica. Ofrece geolocalización y notificaciones en tiempo real. | [Aparcados](https://aparcados.com) |
+| Competidor     | Imágen                                                                                                                                                                                    | Descripción                                                                                                                                                                                                                                                                                           | Enlace                               |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| **ParkeoYa**   | <img src="assets/chapter-2/Logo.jpg" alt="Logo Aparcados" width="350" />                                                                                                                  | Plataforma digital que conecta conductores con estacionamientos urbanos en tiempo real. Permite reservar, pagar y administrar espacios desde una app móvil y un portal web. Está orientada a reducir tiempos de búsqueda y mejorar la rentabilidad de los propietarios mediante IoT y automatización. | N/A                                  |
+| **Parkimeter** | <img src="https://play-lh.googleusercontent.com/WL9JHoSKh73dQdMiWaGHQOZ85lnucjMYVf1Q-56BH8ZwH3al38dYtO_a5Hre7iL5nbD_=w480-h960-rw" alt="Logo Parkimeter" width="350" />                   | App web y móvil con presencia internacional. Ofrece reserva de plazas de aparcamiento en diversas ciudades de Europa y Latinoamérica, destacando por sus descuentos y promociones.                                                                                                                    | [Parkimeter](https://parkimeter.com) |
+| **ElParking**  | <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/4d/46/364d46f8-26c7-4424-5db7-0bef8aacfd3c/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.jpeg/434x0w.webp" width="350" /> | Aplicación española que permite no solo reservar estacionamientos, sino también pagar multas, parquímetros y otros servicios urbanos, ampliando su ecosistema de movilidad.                                                                                                                           | [ElParking](https://elparking.com)   |
+| **Aparcados**  | <img src="https://play-lh.googleusercontent.com/Y2FttakCUHoIQiHRq2POcB7lNV8RAKlQgdpdVSqyNrDkdxXlh_xyVhOPOT_dSSKicwM=w480-h960-rw" alt="Logo Aparcados" width="350" />                     | App enfocada en la reserva de estacionamientos en España con expansión hacia Europa y Latinoamérica. Ofrece geolocalización y notificaciones en tiempo real.                                                                                                                                          | [Aparcados](https://aparcados.com)   |
 
 ## Perfil – Overview
 
-| Empresa      | Overview |
-|--------------|----------|
-| **ParkeoYa** | Plataforma que integra sensores IoT, app móvil y portal web para reservar y pagar estacionamientos en tiempo real, reduciendo tiempos de búsqueda y aumentando la rentabilidad de propietarios. |
-| **Parkimeter**   | Aplicación internacional para reserva de estacionamientos con descuentos en múltiples ciudades de Europa y América Latina. |
-| **ElParking**    | Plataforma española que amplía su servicio más allá del estacionamiento, incluyendo pago de parquímetros y gestión de multas. |
-| **Aparcados**    | App española en expansión que ofrece reservas con geolocalización y notificaciones en tiempo real. |
+| Empresa        | Overview                                                                                                                                                                                        |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **ParkeoYa**   | Plataforma que integra sensores IoT, app móvil y portal web para reservar y pagar estacionamientos en tiempo real, reduciendo tiempos de búsqueda y aumentando la rentabilidad de propietarios. |
+| **Parkimeter** | Aplicación internacional para reserva de estacionamientos con descuentos en múltiples ciudades de Europa y América Latina.                                                                      |
+| **ElParking**  | Plataforma española que amplía su servicio más allá del estacionamiento, incluyendo pago de parquímetros y gestión de multas.                                                                   |
+| **Aparcados**  | App española en expansión que ofrece reservas con geolocalización y notificaciones en tiempo real.                                                                                              |
 
 ## Perfil de Marketing
 
 **Ventaja competitiva**
 
-| Empresa      | Ventaja competitiva |
-|--------------|----------------------|
-| **ParkeoYa** | Acceso en tiempo real a disponibilidad, tarifas dinámicas, reservas digitales y panel analítico para propietarios. |
-| **Parkimeter**   | Atractivos descuentos (hasta 70%) y sin gastos de gestión. |
-| **ElParking**    | Ecosistema completo que incluye multas, parquímetros y estacionamientos. |
-| **Aparcados**    | Geolocalización avanzada y notificaciones instantáneas. |
+| Empresa        | Ventaja competitiva                                                                                                |
+| -------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **ParkeoYa**   | Acceso en tiempo real a disponibilidad, tarifas dinámicas, reservas digitales y panel analítico para propietarios. |
+| **Parkimeter** | Atractivos descuentos (hasta 70%) y sin gastos de gestión.                                                         |
+| **ElParking**  | Ecosistema completo que incluye multas, parquímetros y estacionamientos.                                           |
+| **Aparcados**  | Geolocalización avanzada y notificaciones instantáneas.                                                            |
 
-**Mercado objetivo**    
+**Mercado objetivo**
 
-| Empresa      | Mercado objetivo |
-|--------------|------------------|
-| **ParkeoYa** | Conductores urbanos en ciudades congestionadas y propietarios de estacionamientos que buscan digitalizar y rentabilizar su gestión. |
-| **Parkimeter**   | Conductores internacionales que buscan estacionar en ciudades turísticas y urbanas. |
-| **ElParking**    | Conductores urbanos en España que buscan una solución integral de movilidad. |
-| **Aparcados**    | Conductores en España y América Latina que requieren reservas en tiempo real. |
+| Empresa        | Mercado objetivo                                                                                                                    |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| **ParkeoYa**   | Conductores urbanos en ciudades congestionadas y propietarios de estacionamientos que buscan digitalizar y rentabilizar su gestión. |
+| **Parkimeter** | Conductores internacionales que buscan estacionar en ciudades turísticas y urbanas.                                                 |
+| **ElParking**  | Conductores urbanos en España que buscan una solución integral de movilidad.                                                        |
+| **Aparcados**  | Conductores en España y América Latina que requieren reservas en tiempo real.                                                       |
 
-**Estrategias de marketing**  
+**Estrategias de marketing**
 
-| Empresa      | Estrategias de marketing |
-|--------------|---------------------------|
-| **ParkeoYa** | Campañas digitales segmentadas, alianzas con negocios e integración con apps de movilidad. |
-| **Parkimeter**   | Publicidad en línea y alianzas en destinos turísticos. |
-| **ElParking**    | Marketing digital apoyado por influencers y campañas urbanas. |
-| **Aparcados**    | Publicidad digital y campañas en redes sociales. |
+| Empresa        | Estrategias de marketing                                                                   |
+| -------------- | ------------------------------------------------------------------------------------------ |
+| **ParkeoYa**   | Campañas digitales segmentadas, alianzas con negocios e integración con apps de movilidad. |
+| **Parkimeter** | Publicidad en línea y alianzas en destinos turísticos.                                     |
+| **ElParking**  | Marketing digital apoyado por influencers y campañas urbanas.                              |
+| **Aparcados**  | Publicidad digital y campañas en redes sociales.                                           |
 
-## Perfil de Producto  
+## Perfil de Producto
 
-**Productos & Servicio**   
+**Productos & Servicio**
 
-| Empresa      | Productos & Servicios |
-|--------------|------------------------|
-| **ParkeoYa** | App móvil, panel web, sensores IoT, reservas digitales y pagos integrados. |
-| **Parkimeter**   | Reserva de estacionamientos en ciudades internacionales, con sistema de descuentos. |
-| **ElParking**    | Reservas, pago de parquímetros, gestión de multas y estacionamientos. |
-| **Aparcados**    | Reservas urbanas con geolocalización y notificaciones en tiempo real. |
+| Empresa        | Productos & Servicios                                                               |
+| -------------- | ----------------------------------------------------------------------------------- |
+| **ParkeoYa**   | App móvil, panel web, sensores IoT, reservas digitales y pagos integrados.          |
+| **Parkimeter** | Reserva de estacionamientos en ciudades internacionales, con sistema de descuentos. |
+| **ElParking**  | Reservas, pago de parquímetros, gestión de multas y estacionamientos.               |
+| **Aparcados**  | Reservas urbanas con geolocalización y notificaciones en tiempo real.               |
 
-**Precios & Costos**  
+**Precios & Costos**
 
-| Empresa      | Precios & Costos |
-|--------------|------------------|
-| **ParkeoYa** | Cobro de comisión por cada pago de reserva; plan gratuito para conductores. |
-| **Parkimeter**   | Uso gratuito de la app, pago de tarifas y suscripciones VIP. |
-| **ElParking**    | Uso gratuito, pago de estacionamientos, multas y servicios adicionales. |
-| **Aparcados**    | Uso gratuito de la app, pago de estacionamientos en destino. |
+| Empresa        | Precios & Costos                                                            |
+| -------------- | --------------------------------------------------------------------------- |
+| **ParkeoYa**   | Cobro de comisión por cada pago de reserva; plan gratuito para conductores. |
+| **Parkimeter** | Uso gratuito de la app, pago de tarifas y suscripciones VIP.                |
+| **ElParking**  | Uso gratuito, pago de estacionamientos, multas y servicios adicionales.     |
+| **Aparcados**  | Uso gratuito de la app, pago de estacionamientos en destino.                |
 
-**Canales de distribución**  
+**Canales de distribución**
 
-| Empresa      | Canales de distribución |
-|--------------|--------------------------|
-| **ParkeoYa** | App móvil, portal web, redes sociales y soporte digital. |
-| **Parkimeter**   | Web y app móvil. |
-| **ElParking**    | Web y app móvil. |
-| **Aparcados**    | Web y app móvil. |
+| Empresa        | Canales de distribución                                  |
+| -------------- | -------------------------------------------------------- |
+| **ParkeoYa**   | App móvil, portal web, redes sociales y soporte digital. |
+| **Parkimeter** | Web y app móvil.                                         |
+| **ElParking**  | Web y app móvil.                                         |
+| **Aparcados**  | Web y app móvil.                                         |
 
-## Análisis SWOT  
+## Análisis SWOT
 
-**Fortalezas**  
+**Fortalezas**
 
-| Empresa      | Fortalezas |
-|--------------|------------|
-| **ParkeoYa** | Solución integral con doble enfoque (usuario + propietario), escalable y con IoT en tiempo real. |
-| **Parkimeter**   | Presencia internacional y atractivos descuentos. |
-| **ElParking**    | Servicios de movilidad más allá del estacionamiento. |
-| **Aparcados**    | Notificaciones y reservas en tiempo real. |
+| Empresa        | Fortalezas                                                                                       |
+| -------------- | ------------------------------------------------------------------------------------------------ |
+| **ParkeoYa**   | Solución integral con doble enfoque (usuario + propietario), escalable y con IoT en tiempo real. |
+| **Parkimeter** | Presencia internacional y atractivos descuentos.                                                 |
+| **ElParking**  | Servicios de movilidad más allá del estacionamiento.                                             |
+| **Aparcados**  | Notificaciones y reservas en tiempo real.                                                        |
 
-**Debilidades**  
+**Debilidades**
 
-| Empresa      | Debilidades |
-|--------------|-------------|
-| **ParkeoYa** | Requiere adopción tecnológica de propietarios y hardware inicial. |
-| **Parkimeter**   | Alta competencia internacional. |
-| **ElParking**    | Mercado inicial limitado a España. |
-| **Aparcados**    | Competencia creciente en apps similares. |
+| Empresa        | Debilidades                                                       |
+| -------------- | ----------------------------------------------------------------- |
+| **ParkeoYa**   | Requiere adopción tecnológica de propietarios y hardware inicial. |
+| **Parkimeter** | Alta competencia internacional.                                   |
+| **ElParking**  | Mercado inicial limitado a España.                                |
+| **Aparcados**  | Competencia creciente en apps similares.                          |
 
-**Oportunidades**  
+**Oportunidades**
 
-| Empresa      | Oportunidades |
-|--------------|---------------|
-| **ParkeoYa**     | Creciente demanda de soluciones urbanas sostenibles y movilidad inteligente. |
-| **Parkimeter**   | Creciente congestión en ciudades globales. |
-| **ElParking**    | Ampliar su ecosistema en otros países. |
-| **Aparcados**    | Expansión en América Latina. |
+| Empresa        | Oportunidades                                                                |
+| -------------- | ---------------------------------------------------------------------------- |
+| **ParkeoYa**   | Creciente demanda de soluciones urbanas sostenibles y movilidad inteligente. |
+| **Parkimeter** | Creciente congestión en ciudades globales.                                   |
+| **ElParking**  | Ampliar su ecosistema en otros países.                                       |
+| **Aparcados**  | Expansión en América Latina.                                                 |
 
 **Amenazas**
 
-| Empresa        | Amenazas |
-|----------------|----------|
+| Empresa        | Amenazas                                                                          |
+| -------------- | --------------------------------------------------------------------------------- |
 | **ParkeoYa**   | Resistencia al cambio en operadores tradicionales y competidores ya posicionados. |
-| **Parkimeter** | Aparición de nuevas startups internacionales. |
-| **ElParking**  | Regulaciones de movilidad urbana en España. |
-| **Aparcados**  | Nuevas apps emergentes en Europa y LATAM. |
+| **Parkimeter** | Aparición de nuevas startups internacionales.                                     |
+| **ElParking**  | Regulaciones de movilidad urbana en España.                                       |
+| **Aparcados**  | Nuevas apps emergentes en Europa y LATAM.                                         |
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-A continuación, se presenta la **Matriz FODA y C.A.M.E**, que nos permitirá definir estrategias claras para fortalecer nuestra propuesta y posicionarnos de manera competitiva frente a los competidores ya establecidos en el mercado. Este análisis busca transformar debilidades en oportunidades, potenciar fortalezas, y anticiparnos a posibles amenazas mediante acciones estratégicas.  
+A continuación, se presenta la **Matriz FODA y C.A.M.E**, que nos permitirá definir estrategias claras para fortalecer nuestra propuesta y posicionarnos de manera competitiva frente a los competidores ya establecidos en el mercado. Este análisis busca transformar debilidades en oportunidades, potenciar fortalezas, y anticiparnos a posibles amenazas mediante acciones estratégicas.
 
-| **MATRIZ FODA y C.A.M.E** | **Oportunidades: Crecimiento sostenido de la demanda de soluciones de estacionamiento inteligente debido al incremento vehicular anual** | **Amenazas: Posibles cambios en las políticas de movilidad urbana y la aparición de nuevas regulaciones en transporte y estacionamiento** |
-|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| **Fortalezas: Innovación tecnológica, acceso en tiempo real, propuesta integral para conductores y propietarios, y soporte continuo a usuarios** | Aprovechar el interés creciente del mercado para posicionarnos como la opción más confiable, destacando nuestras ventajas tecnológicas como la integración IoT y los pagos automatizados.| Anticipar escenarios regulatorios con un equipo de monitoreo legal y técnico, ajustando funcionalidades de la plataforma a la normativa vigente y ofreciendo reportes a los propietarios para asegurar cumplimiento regulatorio. |
-| **Debilidades: Mercado competitivo, necesidad de inversión inicial y baja visibilidad de marca frente a competidores consolidados** | Impulsar campañas segmentadas en redes sociales y colaboraciones con empresas privadas para generar confianza. | Diseñar mensajes que posicionen la plataforma como un aliado estratégico de la gestión urbana, resaltando que la solución contribuye a reducir la congestión vehicular, en lugar de representar un obstáculo para las políticas públicas. |
+| **MATRIZ FODA y C.A.M.E**                                                                                                                        | **Oportunidades: Crecimiento sostenido de la demanda de soluciones de estacionamiento inteligente debido al incremento vehicular anual**                                                  | **Amenazas: Posibles cambios en las políticas de movilidad urbana y la aparición de nuevas regulaciones en transporte y estacionamiento**                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Fortalezas: Innovación tecnológica, acceso en tiempo real, propuesta integral para conductores y propietarios, y soporte continuo a usuarios** | Aprovechar el interés creciente del mercado para posicionarnos como la opción más confiable, destacando nuestras ventajas tecnológicas como la integración IoT y los pagos automatizados. | Anticipar escenarios regulatorios con un equipo de monitoreo legal y técnico, ajustando funcionalidades de la plataforma a la normativa vigente y ofreciendo reportes a los propietarios para asegurar cumplimiento regulatorio.          |
+| **Debilidades: Mercado competitivo, necesidad de inversión inicial y baja visibilidad de marca frente a competidores consolidados**              | Impulsar campañas segmentadas en redes sociales y colaboraciones con empresas privadas para generar confianza.                                                                            | Diseñar mensajes que posicionen la plataforma como un aliado estratégico de la gestión urbana, resaltando que la solución contribuye a reducir la congestión vehicular, en lugar de representar un obstáculo para las políticas públicas. |
 
 ## 2.2. Entrevistas
+
 Esta sección se centra en la recopilación de información mediante entrevistas a representantes de los segmentos objetivo, con el fin de entender sus necesidades y expectativas en relación al servicio.
 
 ### 2.2.1. Diseño de entrevistas
+
 Incluye la elaboración de preguntas principales y complementarias dirigidas a cada segmento, considerando aspectos demográficos, características de personalidad y preferencias tecnológicas para construir perfiles precisos de los usuarios.
 
 **Segmento objetivo 1: Conductores Urbanos Frecuentes**
 
 **Preguntas demográficas:**
 
-- ¿Cuál es tu nombre?  
-- ¿Cuál es tu edad?  
-- ¿Dónde vives?  
-- ¿A qué te dedicas?  
-- ¿Cuáles consideras que son tus principales habilidades?  
+- ¿Cuál es tu nombre?
+- ¿Cuál es tu edad?
+- ¿Dónde vives?
+- ¿A qué te dedicas?
+- ¿Cuáles consideras que son tus principales habilidades?
 
 **Preguntas principales:**
 
-- ¿Con qué frecuencia necesitas estacionamiento en la ciudad?  
-- ¿Cuánto tiempo dedicas normalmente a buscar estacionamiento?  
-- ¿Utilizas actualmente alguna aplicación o servicio para encontrar estacionamiento?  
-- ¿Qué tan importante es para ti conocer la disponibilidad de estacionamiento en tiempo real?    
+- ¿Con qué frecuencia necesitas estacionamiento en la ciudad?
+- ¿Cuánto tiempo dedicas normalmente a buscar estacionamiento?
+- ¿Utilizas actualmente alguna aplicación o servicio para encontrar estacionamiento?
+- ¿Qué tan importante es para ti conocer la disponibilidad de estacionamiento en tiempo real?
 - ¿Qué consideras más importante al elegir un estacionamiento: costo, proximidad, o seguridad?
 - ¿Qué tan útil le sería que los estacionamientos tuvieran luces que le indique si están libres u ocupados desde lejos?
-- ¿Te gustaría recibir recomendaciones de rutas hacia el estacionamiento más cercano basado en el tráfico en tiempo real?  
+- ¿Te gustaría recibir recomendaciones de rutas hacia el estacionamiento más cercano basado en el tráfico en tiempo real?
 
 **Preguntas complementarias:**
 
-- ¿Has tenido experiencias frustrantes buscando estacionamiento en la ciudad?  
-- ¿Qué mejoras te gustaría ver en los servicios de estacionamiento que utilizas actualmente?  
+- ¿Has tenido experiencias frustrantes buscando estacionamiento en la ciudad?
+- ¿Qué mejoras te gustaría ver en los servicios de estacionamiento que utilizas actualmente?
 
 **Segmento objetivo 2: Dueños de estacionamientos**
 
 **Preguntas demográficas:**
 
-- ¿Cuál es tu nombre?  
-- ¿Cuál es tu edad?  
-- ¿Dónde vives?  
-- ¿A qué te dedicas?  
-- ¿Cuáles consideras que son tus principales habilidades?  
+- ¿Cuál es tu nombre?
+- ¿Cuál es tu edad?
+- ¿Dónde vives?
+- ¿A qué te dedicas?
+- ¿Cuáles consideras que son tus principales habilidades?
 
 **Preguntas principales:**
 
-- ¿Consideras sencillo el proceso de gestionamiento de espacios en tu estacionamiento?  
-- ¿Qué tan importante es para ti contar con información en tiempo real sobre los espacios disponibles?  
-- ¿Utilizas algún sistema digital para administrar los pagos y reservas de los espacios de estacionamiento?  
-- ¿Qué beneficios ves en la posibilidad de automatizar el proceso de reserva y pago de los espacios de estacionamiento?  
-- ¿Qué tan relevante es para ti ofrecer opciones de pago seguras y rápidas a tus clientes?  
-- ¿De qué manera crees que la integración de una solucion que gestione datos y pagos y la inclusión de sensores inteligentes podría mejorar la eficiencia de tu negocio?  
+- ¿Consideras sencillo el proceso de gestionamiento de espacios en tu estacionamiento?
+- ¿Qué tan importante es para ti contar con información en tiempo real sobre los espacios disponibles?
+- ¿Utilizas algún sistema digital para administrar los pagos y reservas de los espacios de estacionamiento?
+- ¿Qué beneficios ves en la posibilidad de automatizar el proceso de reserva y pago de los espacios de estacionamiento?
+- ¿Qué tan relevante es para ti ofrecer opciones de pago seguras y rápidas a tus clientes?
+- ¿De qué manera crees que la integración de una solucion que gestione datos y pagos y la inclusión de sensores inteligentes podría mejorar la eficiencia de tu negocio?
 
 **Preguntas complementarias:**
 
-- ¿Cuáles son los principales desafíos que enfrentas al administrar tu estacionamiento?  
-- ¿Qué funcionalidades adicionales te gustaría que una app ofreciera para facilitar la gestión de tu negocio?  
+- ¿Cuáles son los principales desafíos que enfrentas al administrar tu estacionamiento?
+- ¿Qué funcionalidades adicionales te gustaría que una app ofreciera para facilitar la gestión de tu negocio?
 - ¿Te gustaría recibir reportes o análisis sobre la ocupación y rotación de vehículos en tu estacionamiento?
 - ¿Qué tan innovador ve la propuesta de incluir sensores y luces para detectar disponibilidad y ocupación en los estacionamientos?
-  
+
 ### 2.2.2. Registro de entrevistas
 
-Link de entrevistas: [Link de Entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/EYQhtWUIDpVJmC_4vrNvyeEBVwPe0lza4GruF-bIEb73Ww?e=OLnD12 )
+Link de entrevistas: [Link de Entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/EYQhtWUIDpVJmC_4vrNvyeEBVwPe0lza4GruF-bIEb73Ww?e=OLnD12)
 
 **Segmento objetivo 1: Conductores Urbanos Frecuentes**
 
-| Entrevista | 1 |
-|--------------|---------------------------|
-| Nombres y Apellidos | Joan Talizo Balbin |
-| Edad | 23 años |
-| Lugar de residencia | Surco |
-| Enlace del video | [Entrevista Joan](https://www.youtube.com/watch?v=8MtQq3fYY3s) |
-| Duración | 6 minutos y 6 segundos |
-| Imagen |  <img src="./assets/chapter-2/conductor-balbin.jpg" width="400" /> |
+| Entrevista               | 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nombres y Apellidos      | Joan Talizo Balbin                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Edad                     | 23 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Lugar de residencia      | Surco                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Enlace del video         | [Entrevista Joan](https://www.youtube.com/watch?v=8MtQq3fYY3s)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Duración                 | 6 minutos y 6 segundos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Imagen                   | <img src="./assets/chapter-2/conductor-balbin.jpg" width="400" />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Resumen de la entrevista | Balbín utiliza su auto todos los días para ir a la universidad y a su trabajo como desarrollador web en una ONG. Esto lo obliga a buscar estacionamiento constantemente, lo cual puede tomarle entre 10 a 20 minutos, dependiendo del tráfico y la zona. Actualmente no usa ninguna aplicación para encontrar estacionamiento, pero considera que una app con información en tiempo real sería muy útil, ya que le ahorraría tiempo y evitaría dar vueltas innecesarias. También le gustaría que la app recomiende rutas según el tráfico, lo cual considera clave para optimizar sus desplazamientos. Está dispuesto a pagar una tarifa adicional por reservar un espacio, siempre que esto le garantice seguridad y cercanía. Aunque valora la seguridad, prioriza el costo y la proximidad al momento de elegir un estacionamiento. Ha vivido situaciones frustrantes, como perder tiempo en el tráfico, no encontrar espacios libres o que otro conductor le gane el lugar. Por ello, valora la posibilidad de saber en tiempo real si hay espacios disponibles e incluso recibir alertas si ocurre algo sospechoso con su vehículo. |
 
-| Entrevista | 2 |
-|--------------|---------------------------|
-| Nombres y Apellidos | Leandro Medina |
-| Edad | 22 años |
-| Lugar de residencia | Villa Maria |
-| Enlace del video | [Entrevista Leandro](https://www.youtube.com/watch?v=_RbKISOL-Qo) |
-| Duración | 4 minutos y 58 segundos |
-| Imagen |  <img src="./assets/chapter-2/Entrevista Leandro.png" width="400" /> |
+| Entrevista               | 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Nombres y Apellidos      | Leandro Medina                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Edad                     | 22 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Lugar de residencia      | Villa Maria                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Enlace del video         | [Entrevista Leandro](https://www.youtube.com/watch?v=_RbKISOL-Qo)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Duración                 | 4 minutos y 58 segundos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Imagen                   | <img src="./assets/chapter-2/Entrevista Leandro.png" width="400" />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Resumen de la entrevista | Leandro compartió su experiencia como conductor frecuente en la ciudad y respondió a varias de las preguntas que le planteamos. Mencionó que necesita estacionar casi todos los días, tanto por razones laborales como personales, y que suele dedicar entre 15 y 20 minutos en promedio para encontrar un espacio disponible. Actualmente no utiliza ninguna aplicación específica para buscar estacionamiento, aunque considera que una herramienta que muestre la disponibilidad en tiempo real sería muy útil, ya que le permitiría ahorrar tiempo y reducir el estrés diario. Al momento de elegir dónde estacionar, Leandro prioriza la proximidad a su destino, aunque también toma en cuenta el costo y, en menor medida, la seguridad. Comentó que le parecería muy práctico que los estacionamientos contaran con luces indicadoras que señalen desde lejos si hay espacios disponibles, y valoró la posibilidad de recibir rutas recomendadas en función del tráfico para llegar más rápido a un lugar libre. |
 
-| Entrevista | 3 |
-|--------------|---------------------------|
-| Nombres y Apellidos | Maria Gracia Rojas |
-| Edad | 20 años |
-| Lugar de residencia | Surco |
-| Enlace del video | [Entrevista Maria](https://drive.google.com/file/d/1-lvSQDIcGbk-fEERg-kFN4gXO0x1Y2Th/view?usp=sharing) |
-| Duración | 3 minutos y 19 segundos |
-| Imagen |  <img width="400" alt="image" src="assets/chapter-2/entrevista-maria.png"/> |
+| Entrevista               | 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nombres y Apellidos      | Maria Gracia Rojas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Edad                     | 20 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Lugar de residencia      | Surco                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Enlace del video         | [Entrevista Maria](https://drive.google.com/file/d/1-lvSQDIcGbk-fEERg-kFN4gXO0x1Y2Th/view?usp=sharing)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Duración                 | 3 minutos y 19 segundos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Imagen                   | <img width="400" alt="image" src="assets/chapter-2/entrevista-maria.png"/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Resumen de la entrevista | Maria Gracia es una estudiante de 20 años que vive en el distrito de Surco y estudia derecho corporativo en la universidad. Comentó que usualmente le es fácil encontrar estacionamiento dado que en su universidad hay espacios libros la mayoria de los dias; sin embargo, cuando se encuentra en centros comerciales, como el Jockey Plaza o Mall del Sur, se le ahce difícil encontrar sitios para estacionar dado que hay un gran flujo de usuarios dentro del centro comercial por lo que los estacionamientos son escasos y muy dificiles de encontrar; tanto asi, que a veces le toma hasta 15 minutos encontrar un espacio para estacionarse. Ella no utilizo algun sistema que le simplifique la tarea de encontrar estacionamiento y piensa que los sensores de estacionamientos son de mucha ayuda, pero a veces son engañosos, dado que a veces hay estacionamientos libres que aparcen con luz rojo como si estuvieran ocupados, y viceversa. Ella cree que seria una buena opcion que exista una app que te ayude a encontrar estacionamientos al lugar donde te estes dirigiendo, ya sea centro comercial o alrededores, y que te facilite la tarea de brindarte apoyo al momento de encontrar un espacio donde estacionarte para optimizar el tiempo haciendo actividades de mayor provecho. |
 
 **Segmento objetivo 2: Dueños de estacionamientos**
 
-| Entrevista | 1 |
-|--------------|---------------------------|
-| Nombres y Apellidos | Rafael Soto |
-| Edad | 26 años |
-| Lugar de residencia | La Victoria |
-| Enlace del video | [Entrevista Rafael](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202017267_upc_edu_pe/EaAVNhk_5lRBjzmuxUTDyNYBiuZnwvw1xfj9TqTjifT7mw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=E78kAV) |
-| Duración | 9 minutos y 19 segundos |
-| Imagen | <img src="https://kappa.lol/ukSNEG" alt="Rafael Soto Entrevista" width="400" /> |
+| Entrevista               | 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nombres y Apellidos      | Rafael Soto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Edad                     | 26 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Lugar de residencia      | La Victoria                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Enlace del video         | [Entrevista Rafael](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202017267_upc_edu_pe/EaAVNhk_5lRBjzmuxUTDyNYBiuZnwvw1xfj9TqTjifT7mw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=E78kAV)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Duración                 | 9 minutos y 19 segundos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Imagen                   | <img src="https://kappa.lol/ukSNEG" alt="Rafael Soto Entrevista" width="400" />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Resumen de la entrevista | Se entrevistó a Rafael Soto, estudiante de 26 años que vive en el distrito de La Victoria y colabora en el negocio familiar de estacionamientos. Señaló que sus principales habilidades están relacionadas con los números, ya que tiene facilidad para realizar operaciones rápidas y manejar cálculos. Comentó que la gestión de los espacios resulta sencilla en días de baja afluencia, pero en jornadas con mucho movimiento se dificulta controlar las horas de entrada y salida, lo que a veces genera pérdidas. Actualmente el registro se hace de forma manual con tickets y luego se pasa a Excel. Considera muy importante contar con información en tiempo real sobre los espacios disponibles, ya que ayudaría a evitar confusiones y mejorar la atención a los clientes. También ve beneficios en la automatización de reservas y pagos, así como en diversificar los medios de pago más allá del efectivo y Yape. Sobre la integración de sensores inteligentes, destacó que sería útil para identificar espacios vacíos sin necesidad de recorrer el local, optimizando el tiempo y reduciendo errores. Entre los principales desafíos mencionó la pérdida de tickets y los errores al calcular las horas de permanencia. Finalmente, señaló que le gustaría que una aplicación ofreciera reportes sobre ocupación, rotación y horarios de mayor demanda, además de incluir indicadores visuales como luces para señalar espacios libres, similar a lo que se ve en centros comerciales. Considera que estas innovaciones mejorarían la eficiencia y competitividad de su negocio. |
 
-| Entrevista | 2 |
-|--------------|---------------------------|
-| Nombres y Apellidos | Carlos Ponce |
-| Edad | 21 años |
-| Lugar de residencia | La Molina |
-| Enlace del video | [Entrevista Carlos](https://www.youtube.com/watch?v=pI_iSFNsPYE) |
-| Duración | 4 minutos y 37 segundos |
-| Imagen | <img src="assets/chapter-2/dueño-playa-carlos.jpg" width="400" /> |
+| Entrevista               | 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nombres y Apellidos      | Carlos Ponce                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Edad                     | 21 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Lugar de residencia      | La Molina                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Enlace del video         | [Entrevista Carlos](https://www.youtube.com/watch?v=pI_iSFNsPYE)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Duración                 | 4 minutos y 37 segundos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Imagen                   | <img src="assets/chapter-2/dueño-playa-carlos.jpg" width="400" />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | Resumen de la entrevista | Carlos tiene 20 años y vive en La Molina, donde administra un estacionamiento. Se considera una persona organizada, resolutiva y orientada a mantener el orden, aunque reconoce que durante momentos de alta afluencia la gestión puede volverse complicada. Respecto al control de los espacios, menciona que usualmente es sencillo, pero se dificulta cuando hay gran movimiento o los conductores no respetan los espacios asignados. Por esta razón, valora la posibilidad de contar con información en tiempo real sobre la disponibilidad, lo cual evitaría revisiones físicas continuas y mejoraría la eficiencia operativa. Actualmente no utiliza sistemas digitales de reservas, pero acepta pagos mediante Yape y Plin, métodos que considera ágiles y populares entre sus clientes. Carlos considera que la automatización de reservas y pagos sería altamente beneficiosa, ya que permitiría organizar mejor los tiempos de permanencia, agilizar los ingresos y salidas, y llevar un control más preciso de los cobros. Resalta la importancia de ofrecer métodos de pago seguros y rápidos para mejorar la experiencia del cliente. Además, está convencido de que una aplicación que integre la gestión de espacios, reservas y pagos facilitaría el control detallado de la ocupación, ingresos diarios y aumentaría la transparencia en su administración. Entre los principales desafíos que enfrenta señala la organización en horarios de alta demanda y el seguimiento manual de los pagos. Finalmente, le gustaría que una app permita a los clientes registrar su tiempo de permanencia, calcule automáticamente el costo, notifique la disponibilidad en tiempo real y genere reportes de ocupación y rotación para tomar decisiones más estratégicas. |
 
-| Entrevista | 3 |
-|--------------|---------------------------|
-| Nombres y Apellidos | Alexandra Teves |
-| Edad | 21 años |
-| Lugar de residencia | Breña |
-| Enlace del video | [Entrevista Alexandra](https://youtu.be/z5NyHt4swxQ) |
-| Duración | 3 minutos y 13 segundos |
-| Imagen | <img width="400" src="assets/chapter-2/Entrevista Alexandra.jpg"/> |
+| Entrevista               | 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nombres y Apellidos      | Alexandra Teves                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Edad                     | 21 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Lugar de residencia      | Breña                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Enlace del video         | [Entrevista Alexandra](https://youtu.be/z5NyHt4swxQ)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Duración                 | 3 minutos y 13 segundos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Imagen                   | <img width="400" src="assets/chapter-2/Entrevista Alexandra.jpg"/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Resumen de la entrevista | Alexandra, de 21 años, ha asumido la gestión del estacionamiento que anteriormente administraba su madre. Si bien no posee experiencia formal en administración, ha demostrado buenas capacidades organizativas y mantiene una actitud receptiva hacia la incorporación de herramientas tecnológicas. Percibe que la gestión manual resulta complicada, en especial durante las horas de mayor demanda. Por ello, le interesa disponer de información en tiempo real y automatizar tareas como reservas y cobros, lo que simplificaría su labor y optimizaría la experiencia de los clientes. Actualmente no emplea un sistema digital, pero está dispuesta a implementar uno que permita aceptar pagos electrónicos y generar reportes sobre ocupación y rotación. Asimismo, valora la importancia de contar con métodos de pago seguros y funciones que fortalezcan el control y la eficiencia de su negocio. |
 
 ### 2.2.3. Análisis de entrevistas
@@ -997,26 +1030,26 @@ En el User Task Matrix hemos identificado las actividades que realizan nuestros 
 
 A través del User Task Matrix, podemos identificar las frecuencias e importancias entre los diferentes segmentos que presentamos y usar esta información como guía.
 
-| **Segmento Objetivo**            | **Tarea**                                                                       | **Frecuencia** | **Importancia**  |
-|----------------------------------|---------------------------------------------------------------------------------|----------------|------------------|
-| Conductores Urbanos Frecuentes   | Buscar estacionamientos disponibles                                             | Alta          | Alta             |
-| Conductores Urbanos Frecuentes   | Comparar precios de estacionamientos                                            | Alta           | Media            |
-| Conductores Urbanos Frecuentes   | Reservar estacionamientos con anticipación                                      | Media          | Alta             |
-| Conductores Urbanos Frecuentes   | Pagar por estacionamiento a través de la aplicación                             | Alta           | Alta             |
-| Conductores Urbanos Frecuentes   | Recibir direcciones al estacionamiento reservado                                | Alta           | Alta             |
-| Conductores Urbanos Frecuentes   | Filtrar estacionamientos por criterios (precio, seguridad, etc.)                | Alta           | Alta             |
-| Conductores Urbanos Frecuentes   | Recibir notificaciones sobre descuentos y ofertas                               | Media          | Baja             |
-| Conductores Urbanos Frecuentes   | Verificar disponibilidad de estacionamiento en tiempo real                      | Alta           | Alta             |
-| Conductores Urbanos Frecuentes   | Consultar historial de estacionamientos utilizados                              | Media          | Baja             |
-| Dueños de Estacionamientos       | Administrar y actualizar la disponibilidad de espacios                          | Alta           | Alta             |
-| Dueños de Estacionamientos       | Ajustar precios de los espacios de estacionamiento                              | Media          | Alta             |
-| Dueños de Estacionamientos       | Gestionar reservas de estacionamientos                                          | Alta           | Alta             |
-| Dueños de Estacionamientos       | Procesar pagos de estacionamiento a través de la aplicación                     | Alta           | Media            |
-| Dueños de Estacionamientos       | Revisar y ajustar las características del estacionamiento                       | Media          | Alta             |
-| Dueños de Estacionamientos       | Revisar reportes de uso y disponibilidad                                        | Media          | Media            |
-| Dueños de Estacionamientos       | Recibir y gestionar comentarios y valoraciones de los usuarios                  | Baja           | Media            |
-| Dueños de Estacionamientos       | Promocionar descuentos y ofertas especiales                                     | Media          | Media            |
-| Dueños de Estacionamientos       | Consultar el historial de transacciones y reservas                              | Baja           | Media            |
+| **Segmento Objetivo**          | **Tarea**                                                        | **Frecuencia** | **Importancia** |
+| ------------------------------ | ---------------------------------------------------------------- | -------------- | --------------- |
+| Conductores Urbanos Frecuentes | Buscar estacionamientos disponibles                              | Alta           | Alta            |
+| Conductores Urbanos Frecuentes | Comparar precios de estacionamientos                             | Alta           | Media           |
+| Conductores Urbanos Frecuentes | Reservar estacionamientos con anticipación                       | Media          | Alta            |
+| Conductores Urbanos Frecuentes | Pagar por estacionamiento a través de la aplicación              | Alta           | Alta            |
+| Conductores Urbanos Frecuentes | Recibir direcciones al estacionamiento reservado                 | Alta           | Alta            |
+| Conductores Urbanos Frecuentes | Filtrar estacionamientos por criterios (precio, seguridad, etc.) | Alta           | Alta            |
+| Conductores Urbanos Frecuentes | Recibir notificaciones sobre descuentos y ofertas                | Media          | Baja            |
+| Conductores Urbanos Frecuentes | Verificar disponibilidad de estacionamiento en tiempo real       | Alta           | Alta            |
+| Conductores Urbanos Frecuentes | Consultar historial de estacionamientos utilizados               | Media          | Baja            |
+| Dueños de Estacionamientos     | Administrar y actualizar la disponibilidad de espacios           | Alta           | Alta            |
+| Dueños de Estacionamientos     | Ajustar precios de los espacios de estacionamiento               | Media          | Alta            |
+| Dueños de Estacionamientos     | Gestionar reservas de estacionamientos                           | Alta           | Alta            |
+| Dueños de Estacionamientos     | Procesar pagos de estacionamiento a través de la aplicación      | Alta           | Media           |
+| Dueños de Estacionamientos     | Revisar y ajustar las características del estacionamiento        | Media          | Alta            |
+| Dueños de Estacionamientos     | Revisar reportes de uso y disponibilidad                         | Media          | Media           |
+| Dueños de Estacionamientos     | Recibir y gestionar comentarios y valoraciones de los usuarios   | Baja           | Media           |
+| Dueños de Estacionamientos     | Promocionar descuentos y ofertas especiales                      | Media          | Media           |
+| Dueños de Estacionamientos     | Consultar el historial de transacciones y reservas               | Baja           | Media           |
 
 A través del User Task Matrix, podemos identificar las frecuencias e importancias entre los diferentes segmentos que presentamos y usar esta información como guía.
 
@@ -1025,10 +1058,12 @@ A través del User Task Matrix, podemos identificar las frecuencias e importanci
 Al analizar las tareas de los segmentos de dueños de playas de estacionamiento y conductores, se observan diferencias claras en los objetivos y responsabilidades, así como algunas coincidencias importantes.
 
 **Tareas con Mayor Frecuencia e Importancia (Conductores)**
+
 - **Buscar estacionamientos disponibles** y **Verificar disponibilidad en tiempo real:** Estas tareas son el núcleo de la experiencia del conductor, siendo realizadas de manera constante para resolver su necesidad inmediata.
 - **Pagar por estacionamiento a través de la aplicación:** Los pagos a través de una aplicación optimizan tiempo y evitan colas y pérdida de tiempo.
 
 **Tareas con Mayor Frecuencia e Importancia (Dueños de Playas de Estacionamiento)**
+
 - **Administrar y actualizar la disponibilidad de espacios:** Es esencial para gestionar correctamente su espacio y maximizar ingresos. Tiene alta frecuencia, especialmente si los precios varían según el día o la demanda.
 - **Gestionar reservas de estacionamientos:** Es una tarea clave que impacta directamente en la operación eficiente del estacionamiento.
 
@@ -1189,7 +1224,6 @@ Se presenta una lista que contiene los términos del dominio del negocio y su de
 - **Interfaz de Usuario (UI):** Parte visual e interactiva de la aplicación donde los usuarios gestionan reservas, pagos y notificaciones.
 
 - **Backend:** Infraestructura que procesa y administra los datos de la app, incluyendo disponibilidad de espacios y perfiles de usuarios.
-  
 - **Sensor:** Dispositivo que detecta un estímulo o cambio en su entorno.
 
 ## Capítulo III: Requirements Specification
@@ -1202,75 +1236,75 @@ Cada User Story incluye escenarios de camino feliz (Happy Path) y caminos altern
 
 ## Epics
 
-| **Epic ID** | **Título** | **Descripción** |
-|-------------|------------|-----------------|
-| **EP01** | **Presencia Digital y Adquisición** | Como startup, necesitamos establecer una presencia digital sólida que comunique nuestra propuesta de valor IoT y atraiga tanto a conductores como propietarios de estacionamientos. |
-| **EP02** | **Onboarding y Autenticación** | Como plataforma, necesitamos un sistema de registro y autenticación seguro que diferencie entre conductores y propietarios, facilitando un acceso rápido y protegido. |
-| **EP03** | **Gestión de Perfiles Segmentados** | Como usuarios (conductores y propietarios), necesitamos gestionar nuestros perfiles con información personalizada y relevante para cada tipo de usuario. |
-| **EP04** | **Sistema de Reservas** | Como conductor, necesito encontrar, reservar y acceder a espacios de estacionamiento de manera rápida y confiable para optimizar mi tiempo de búsqueda. |
-| **EP05** | **Gestión de Estacionamientos con IoT** | Como propietario, necesito registrar, configurar y administrar mis espacios de estacionamiento con iot para maximizar ocupación e ingresos. |
-| **EP06** | **Monetización por Comisiones** | Como plataforma, necesitamos generar ingresos sostenibles mediante un modelo de comisiones por transacción que agregue valor a propietarios y conductores. |
-| **EP07** | **Sistema de Calificaciones** | Como usuarios de la plataforma, necesitamos un sistema de reputación que genere confianza y mejore la calidad del servicio mediante feedback bidireccional. |
-| **EP08** | **Notificaciones en Tiempo Real** | Como usuario, necesito recibir alertas oportunas sobre el estado de mis reservas, disponibilidad y eventos relevantes para mantenerme informado. |
-| **EP09** | **Backend API** | Como desarrollador, necesito una API robusta y escalable que soporte todas las operaciones de negocio con alta disponibilidad y rendimiento. |
-| **EP10** | **Frontend Multiplataforma** | Como desarrollador, necesito interfaces de usuario intuitivas y responsivas tanto para aplicación móvil como web que brinden una excelente experiencia de usuario. |
-| **EP11** | **Infraestructura IoT** | Como sistema, necesito gestionar dispositivos IoT distribuidos y edge servers para garantizar comunicación confiable y datos precisos en tiempo real. |
-| **EP12** | **Procesamiento de Pagos** | Como plataforma, necesito procesar transacciones de forma segura, rápida y confiable cumpliendo con estándares de seguridad financiera. |
+| **Epic ID** | **Título**                              | **Descripción**                                                                                                                                                                     |
+| ----------- | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **EP01**    | **Presencia Digital y Adquisición**     | Como startup, necesitamos establecer una presencia digital sólida que comunique nuestra propuesta de valor IoT y atraiga tanto a conductores como propietarios de estacionamientos. |
+| **EP02**    | **Onboarding y Autenticación**          | Como plataforma, necesitamos un sistema de registro y autenticación seguro que diferencie entre conductores y propietarios, facilitando un acceso rápido y protegido.               |
+| **EP03**    | **Gestión de Perfiles Segmentados**     | Como usuarios (conductores y propietarios), necesitamos gestionar nuestros perfiles con información personalizada y relevante para cada tipo de usuario.                            |
+| **EP04**    | **Sistema de Reservas**                 | Como conductor, necesito encontrar, reservar y acceder a espacios de estacionamiento de manera rápida y confiable para optimizar mi tiempo de búsqueda.                             |
+| **EP05**    | **Gestión de Estacionamientos con IoT** | Como propietario, necesito registrar, configurar y administrar mis espacios de estacionamiento con iot para maximizar ocupación e ingresos.                                         |
+| **EP06**    | **Monetización por Comisiones**         | Como plataforma, necesitamos generar ingresos sostenibles mediante un modelo de comisiones por transacción que agregue valor a propietarios y conductores.                          |
+| **EP07**    | **Sistema de Calificaciones**           | Como usuarios de la plataforma, necesitamos un sistema de reputación que genere confianza y mejore la calidad del servicio mediante feedback bidireccional.                         |
+| **EP08**    | **Notificaciones en Tiempo Real**       | Como usuario, necesito recibir alertas oportunas sobre el estado de mis reservas, disponibilidad y eventos relevantes para mantenerme informado.                                    |
+| **EP09**    | **Backend API**                         | Como desarrollador, necesito una API robusta y escalable que soporte todas las operaciones de negocio con alta disponibilidad y rendimiento.                                        |
+| **EP10**    | **Frontend Multiplataforma**            | Como desarrollador, necesito interfaces de usuario intuitivas y responsivas tanto para aplicación móvil como web que brinden una excelente experiencia de usuario.                  |
+| **EP11**    | **Infraestructura IoT**                 | Como sistema, necesito gestionar dispositivos IoT distribuidos y edge servers para garantizar comunicación confiable y datos precisos en tiempo real.                               |
+| **EP12**    | **Procesamiento de Pagos**              | Como plataforma, necesito procesar transacciones de forma segura, rápida y confiable cumpliendo con estándares de seguridad financiera.                                             |
 
 ## User Stories y Technical Stories
 
-| **Epic / Story ID** | **Título** | **Descripción** | **Criterios de Aceptación** | **Relacionado con (Epic ID)** |
-|---------------------|------------|-----------------|----------------------------|-------------------------------|
-| **EP01** | **Presencia Digital y Captación** | - | - | - |
-| **US01** | Sección hero con propuesta de valor IoT | Como visitante interesado en estacionamientos quiero ver información clara sobre cómo ParkeoYa usa sensores IoT para entender el valor diferencial | **Escenario 1: Visualización de propuesta de valor IoT**<br>**Given** que un visitante accede a la landing page<br>**When** visualiza la sección hero<br>**Then** comprende claramente cómo los sensores detectan ocupación en tiempo real y ve beneficios específicos como "Encuentra espacios libres en tiempo real"<br><br>**Escenario 2: Visualización de testimonios con métricas**<br>**Given** que un visitante lee los testimonios<br>**When** revisa casos de éxito<br>**Then** ve métricas específicas de tiempo ahorrado (ej: "Reduje 15 minutos de búsqueda diaria") | **EP01** |
-| **US02** | Barra de navegación intuitiva | Como visitante quiero navegar fácilmente entre secciones para encontrar información según mis necesidades | **Escenario 1: Navegación entre secciones clave**<br>**Given** que un visitante navega en la landing page<br>**When** utiliza la barra de navegación<br>**Then** accede rápidamente a secciones clave como "Cómo funciona", "Para Conductores", "Para Propietarios"<br><br>**Escenario 2: Acceso a información específica para propietarios**<br>**Given** que un visitante propietario accede a "Para Propietarios"<br>**When** hace clic en la sección<br>**Then** ve información específica sobre beneficios para su negocio | **EP01** |
-| **US03** | Acceso directo a registro desde landing | Como visitante quiero registrarme directamente desde landing para empezar a usar ParkeoYa sin pasos adicionales | **Escenario 1: Registro como conductor**<br>**Given** que un visitante selecciona "Soy Conductor"<br>**When** completa el registro básico<br>**Then** es dirigido automáticamente a la aplicación móvil<br><br>**Escenario 2: Registro como propietario**<br>**Given** que un visitante selecciona "Soy Propietario"<br>**When** completa el registro comercial<br>**Then** accede al panel web de gestión | **EP01** |
-| **EP02** | **Onboarding y Autenticación** | - | - | - |
-| **US04** | Registro diferenciado por tipo de usuario | Como usuario nuevo quiero registrarme seleccionando mi rol para acceder a funcionalidades específicas | **Escenario 1: Registro exitoso como conductor**<br>**Given** que un nuevo usuario selecciona "Conductor"<br>**When** completa datos básicos (nombre, email, teléfono)<br>**Then** accede a funciones de búsqueda de estacionamientos y configuración de vehículo<br><br>**Escenario 2: Registro exitoso como propietario**<br>**Given** que un nuevo usuario selecciona "Propietario"<br>**When** ingresa datos comerciales (nombre negocio, RUC, dirección)<br>**Then** accede al panel de gestión de estacionamientos<br><br>**Escenario 3: Intento de registro con email existente**<br>**Given** que un usuario intenta registrarse con email existente<br>**When** envía el formulario<br>**Then** ve opción de iniciar sesión y enlace de recuperación de contraseña | **EP02** |
-| **US05** | Inicio de sesión unificado | Como usuario registrado quiero iniciar sesión y ser dirigido a mi plataforma para acceder rápidamente | **Escenario 1: Login exitoso de conductor**<br>**Given** que un conductor registrado inicia sesión<br>**When** ingresa credenciales válidas<br>**Then** ve el mapa con estacionamientos cercanos a su ubicación actual<br><br>**Escenario 2: Login exitoso de propietario**<br>**Given** que un propietario registrado inicia sesión<br>**When** accede con credenciales válidas<br>**Then** ve su dashboard con métricas básicas de ocupación e ingresos<br><br>**Escenario 3: Error de credenciales inválidas**<br>**Given** que un usuario ingresa credenciales incorrectas<br>**When** intenta iniciar sesión<br>**Then** ve mensaje de error específico "Email o contraseña incorrectos" con opción de recuperación | **EP02** |
-| **EP03** | **Gestión de Perfiles** | - | - | - |
-| **US06** | Perfil de conductor | Como conductor quiero gestionar mis datos para mantener información actualizada | **Escenario 1: Actualización exitosa de datos personales**<br>**Given** que un conductor accede a su perfil<br>**When** actualiza datos personales (nombre, teléfono, email)<br>**Then** los cambios se guardan correctamente y ve confirmación "Perfil actualizado"<br><br>**Escenario 2: Registro de información del vehículo**<br>**Given** que un conductor registra información de su vehículo (marca, modelo, placa)<br>**When** hace nuevas reservas<br>**Then** la información del vehículo se completa automáticamente | **EP03** |
-| **US07** | Perfil de propietario | Como propietario quiero gestionar información de mi negocio para mantener datos actualizados | **Escenario 1: Actualización de información comercial**<br>**Given** que un propietario actualiza información comercial<br>**When** guarda cambios en datos como nombre del negocio, RUC, dirección<br>**Then** los cambios se reflejan inmediatamente en la información de sus estacionamientos<br><br>**Escenario 2: Modificación de datos de contacto**<br>**Given** que un propietario modifica datos de contacto<br>**When** actualiza teléfono o email de contacto<br>**Then** los conductores ven la información actualizada al reservar | **EP03** |
-| **EP04** | **Sistema de Reservas** | - | - | - |
-| **US08** | Búsqueda de estacionamientos en mapa | Como conductor quiero ver estacionamientos disponibles en mapa para encontrar opciones cercanas | **Escenario 1: Visualización de estacionamientos con GPS**<br>**Given** que un conductor abre el mapa<br>**When** busca estacionamientos por su ubicación actual<br>**Then** ve puntos en el mapa actualizados en tiempo real mostrando disponibilidad (verde=libre, rojo=ocupado)<br><br>**Escenario 2: Consulta de detalles de estacionamiento**<br>**Given** que un conductor selecciona un marcador de estacionamiento<br>**When** toca el punto en el mapa<br>**Then** ve información básica: precio por hora, espacios totales disponibles y distancia<br><br>**Escenario 3: Búsqueda sin GPS activo**<br>**Given** que un conductor no tiene GPS activado<br>**When** intenta usar el mapa<br>**Then** puede buscar manualmente ingresando una dirección específica | **EP04** |
-| **US09** | Reserva básica con confirmación | Como conductor quiero reservar un espacio específico para garantizar disponibilidad | **Escenario 1: Reserva exitosa con confirmación**<br>**Given** que un conductor selecciona un espacio libre confirmado por sensores<br>**When** confirma la reserva y procesa el pago<br>**Then** el espacio se bloquea inmediatamente y recibe código QR único para acceso<br><br>**Escenario 2: Activación de reserva en sitio**<br>**Given** que un conductor llega al estacionamiento reservado<br>**When** escanea el código QR en el sensor<br>**Then** se activa su tiempo de uso y comienza el cálculo de tarifa<br><br>**Escenario 3: Conflicto durante proceso de pago**<br>**Given** que un espacio reservado es ocupado durante el proceso de pago<br>**When** el sistema detecta conflicto<br>**Then** muestra automáticamente 3 espacios alternativos cercanos disponibles | **EP04** |
-| **US10** | Historial de reservas | Como conductor quiero ver mis reservas pasadas para revisar mi historial de uso | **Escenario 1: Visualización completa del historial**<br>**Given** que un conductor accede a su historial<br>**When** revisa la lista de reservas pasadas<br>**Then** ve para cada reserva: fecha, lugar, duración real, costo total y estado final<br><br>**Escenario 2: Filtrado de reservas por estado**<br>**Given** que un conductor filtra reservas por estado<br>**When** selecciona filtros como "Completadas", "Canceladas", "En proceso"<br>**Then** ve únicamente las reservas que coinciden con el estado seleccionado | **EP04** |
-| **US11** | Mapa con distancias a estacionamientos | Como conductor quiero ver estacionamientos en mapa con distancias para elegir opciones más cercanas a mi ubicación | **Escenario 1: Visualización con GPS activo**<br>**Given** que un conductor abre el mapa con ubicación activa<br>**When** se cargan los estacionamientos cercanos<br>**Then** ve cada estacionamiento con distancia en metros (ej: "150m", "300m")<br><br>**Escenario 2: Consulta de detalles con distancia**<br>**Given** que un conductor selecciona un marcador de estacionamiento<br>**When** toca el punto específico<br>**Then** ve detalles completos: nombre, precio por hora, distancia exacta y número de espacios disponibles<br><br>**Escenario 3: Funcionamiento sin GPS**<br>**Given** que un conductor no tiene GPS activado<br>**When** accede al mapa<br>**Then** ve el mapa centrado en su última ubicación conocida con opción de búsqueda manual por dirección | **EP04** |
-| **US12** | Mapa en tiempo real con confirmación por sensores | Como conductor quiero visualizar en el mapa solo los espacios disponibles confirmados por sensores en tiempo real para asegurarme de que la plaza realmente está libre antes de reservar | **Escenario 1: Visualización de espacios confirmados por IoT**<br>**Given** que un conductor abre el mapa en la aplicación<br>**When** consulta espacios disponibles<br>**Then** el sistema muestra únicamente estacionamientos confirmados como libres por sensores IoT en tiempo real<br><br>**Escenario 2: Actualización automática tras liberación**<br>**Given** que un espacio reservado se libera físicamente<br>**When** el sensor detecta que el vehículo salió<br>**Then** el espacio vuelve a mostrarse automáticamente como disponible en el mapa dentro de 30 segundos | **EP04** |
-| **US13** | Reserva rápida en un solo click | Como conductor quiero reservar un estacionamiento con un solo toque en la app para ahorrar tiempo y evitar pasos intermedios | **Escenario 1: Reserva inmediata exitosa**<br>**Given** que un conductor visualiza un espacio disponible en el mapa<br>**When** presiona el botón "Reservar ahora"<br>**Then** la plaza queda reservada inmediatamente mostrando confirmación con código QR y tiempo límite<br><br>**Escenario 2: Error por falta de método de pago**<br>**Given** que un conductor intenta reserva rápida sin método de pago configurado<br>**When** presiona "Reservar ahora"<br>**Then** ve mensaje solicitando configurar método de pago antes de continuar | **EP04** |
-| **US14** | Cobro automático por tiempo real | Como conductor quiero que el sistema me cobre automáticamente según el tiempo exacto de uso del estacionamiento para pagar solo lo justo | **Escenario 1: Inicio de conteo automático**<br>**Given** que un conductor inicia ocupación de plaza reservada<br>**When** escanea QR y el sensor confirma entrada<br>**Then** inicia conteo de tiempo automático con tarifa por minuto<br><br>**Escenario 2: Cobro por tiempo exacto utilizado**<br>**Given** que un conductor libera el espacio<br>**When** el sensor detecta salida del vehículo<br>**Then** el sistema calcula tiempo usado exacto y procesa cobro automático con recibo digital | **EP04** |
-| **US15** | Extender tiempo de reserva | Como conductor quiero poder extender el tiempo de mi reserva desde la aplicación para evitar perder la plaza si necesito más tiempo | **Escenario 1: Extensión exitosa de tiempo**<br>**Given** que un conductor tiene reserva activa próxima a vencer<br>**When** selecciona "Extender tiempo" y confirma extensión<br>**Then** el sistema amplía la reserva por el tiempo solicitado y actualiza el cálculo de cobro<br><br>**Escenario 2: Error por estacionamiento lleno**<br>**Given** que un conductor intenta extender cuando el estacionamiento está completamente ocupado<br>**When** solicita extensión<br>**Then** ve mensaje "No se puede extender - estacionamiento lleno" con sugerencias de lugares cercanos | **EP04** |
-| **US16** | Compensación automática por fallo de espacio | Como conductor quiero recibir una compensación inmediata si el sensor falla o el espacio reservado está ocupado para no perder dinero ni tiempo | **Escenario 1: Compensación por espacio ocupado**<br>**Given** que un conductor llega a su plaza reservada<br>**When** encuentra el espacio ocupado o con sensor defectuoso<br>**Then** el sistema detecta automáticamente el problema y genera compensación (reembolso o espacio alternativo gratuito)<br><br>**Escenario 2: Ajuste por fallo técnico durante uso**<br>**Given** que ocurre fallo técnico en el sensor durante uso activo<br>**When** el sistema detecta inconsistencia en lecturas<br>**Then** aplica tarifa mínima y notifica al conductor sobre el ajuste aplicado | **EP04** |
-| **US17** | Notificación de nuevos espacios cercanos | Como conductor quiero recibir notificaciones cuando se liberen nuevos estacionamientos cerca de mí para poder reservarlos rápidamente | **Escenario 1: Notificación con reserva directa**<br>**Given** que un conductor tiene búsqueda activa de estacionamientos<br>**When** se libera una plaza cercana (radio 500m) confirmada por sensor<br>**Then** recibe notificación push inmediata con opción "Reservar ahora" que permite reserva directa<br><br>**Escenario 2: Actualización sin notificaciones push**<br>**Given** que un conductor tiene notificaciones deshabilitadas<br>**When** se liberan espacios cercanos<br>**Then** ve las actualizaciones solo cuando abre la aplicación activamente | **EP04** |
-| **EP05** | **Gestión de Estacionamientos** | - | - | - |
-| **US18** | Registro de estacionamiento | Como propietario quiero registrar mi estacionamiento para ofrecerlo en la plataforma | **Escenario 1: Registro exitoso con validación automática**<br>**Given** que un propietario completa datos del estacionamiento (nombre, dirección, descripción)<br>**When** envía la información de registro<br>**Then** el estacionamiento aparece disponible para conductores después de validación automática<br><br>**Escenario 2: Configuración de precios y horarios**<br>**Given** que un propietario configura precio base y horarios de operación<br>**When** guarda la configuración inicial<br>**Then** las tarifas se aplican automáticamente a todas las nuevas reservas | **EP05** |
-| **US19** | Configuración de espacios | Como propietario quiero configurar número de espacios para controlar disponibilidad | **Escenario 1: Configuración inicial de capacidad**<br>**Given** que un propietario define 20 espacios totales en su estacionamiento<br>**When** conductores buscan en la zona<br>**Then** ven disponibilidad correcta basada en sensores reales y capacidad configurada<br><br>**Escenario 2: Actualización de capacidad**<br>**Given** que un propietario cambia número total de espacios de 20 a 25<br>**When** actualiza la configuración<br>**Then** el cambio se refleja inmediatamente en búsquedas y disponibilidad mostrada | **EP05** |
-| **US20** | Visualizar reservas de mi estacionamiento | Como propietario quiero ver reservas en mi estacionamiento para gestionar ocupación | **Escenario 1: Visualización completa de reservas**<br>**Given** que un propietario accede a la vista de reservas<br>**When** revisa la lista de reservas activas y programadas<br>**Then** ve información completa: conductor (nombre/teléfono), hora inicio/fin, duración y estado actual<br><br>**Escenario 2: Actualización en tiempo real**<br>**Given** que se procesa nueva reserva en su estacionamiento<br>**When** un conductor confirma reserva<br>**Then** la reserva aparece inmediatamente en la lista del propietario con estado "Confirmada" | **EP05** |
-| **EP06** | **Monetización por Comisiones** | - | - | - |
-| **US21** | Retención automática de comisión | Como plataforma ParkeoYa quiero calcular y retener automáticamente la comisión de cada reserva para asegurar la sostenibilidad del negocio | **Escenario 1: Cálculo automático de comisión**<br>**Given** que se procesa una reserva pagada<br>**When** se confirma el pago<br>**Then** el sistema calcula y retiene automáticamente el porcentaje de comisión definido (ej. 15%) y transfiere el resto al propietario<br><br>**Escenario 2: Registro de ingresos de la plataforma**<br>**Given** que se acumulan reservas<br>**When** se generan reportes de ingresos<br>**Then** la plataforma puede ver el total de comisiones retenidas por período | **EP06** |
-| **US22** | Modelo de comisiones | Como propietario quiero entender comisiones por transacción para calcular mis ingresos | **Escenario 1: Desglose transparente de comisiones**<br>**Given** que se procesa una reserva en el estacionamiento del propietario<br>**When** revisa el desglose de la transacción<br>**Then** ve claramente: tarifa total cobrada al conductor, comisión de plataforma (15%) y su ingreso neto<br><br>**Escenario 2: Reporte mensual de comisiones**<br>**Given** que un propietario acumula múltiples reservas en el mes<br>**When** revisa su reporte mensual<br>**Then** ve total de transacciones, comisiones pagadas acumuladas y proyección de ingresos netos | **EP06** |
-| **US23** | Reportes básicos de ingresos | Como propietario quiero ver reportes de mis reservas e ingresos para hacer seguimiento básico de mi negocio | **Escenario 1: Visualización de métricas mensuales**<br>**Given** que un propietario accede a reportes financieros<br>**When** selecciona período mensual específico<br>**Then** ve métricas completas: total reservas, ingresos brutos, comisiones pagadas, ingresos netos y tendencias<br><br>**Escenario 2: Descarga de reporte detallado**<br>**Given** que un propietario descarga reporte detallado<br>**When** selecciona formato Excel y período<br>**Then** obtiene archivo con desglose por día, reserva individual, conductor y cálculos detallados<br><br>**Escenario 3: Período sin actividad**<br>**Given** que no hay reservas en el período seleccionado<br>**When** genera reporte<br>**Then** ve mensaje claro "Sin actividad registrada en fechas seleccionadas" con sugerencias para aumentar ocupación | **EP06** |
-| **EP07** | **Sistema de Calificaciones** | - | - | - |
-| **US24** | Calificación post-uso de estacionamientos | Como conductor quiero calificar estacionamientos usados para compartir mi experiencia con otros usuarios | **Escenario 1: Calificación exitosa post-servicio**<br>**Given** que un conductor finaliza exitosamente uso de estacionamiento<br>**When** el sistema solicita calificación post-servicio<br>**Then** puede asignar 1-5 estrellas con comentario opcional sobre limpieza, seguridad y facilidad de acceso<br><br>**Escenario 2: Calificación sin conexión**<br>**Given** que un conductor intenta calificar sin conexión a internet<br>**When** la aplicación no logra sincronizar la reseña<br>**Then** el sistema guarda la calificación localmente y la sincroniza automáticamente al recuperar conexión | **EP07** |
-| **US25** | Visualización de reseñas antes de reservar | Como conductor quiero ver reseñas y calificaciones de otros usuarios para tomar decisiones informadas antes de reservar | **Escenario 1: Consulta exitosa de reseñas**<br>**Given** que un conductor busca un estacionamiento específico<br>**When** revisa los detalles del espacio antes de reservar<br>**Then** visualiza promedio de calificaciones (1-5 estrellas), número total de reseñas y comentarios más recientes<br><br>**Escenario 2: Reseñas temporalmente no disponibles**<br>**Given** que la información de reseñas no está disponible temporalmente<br>**When** un conductor consulta detalles de estacionamiento<br>**Then** ve mensaje informativo "Reseñas temporalmente no disponibles" sin afectar capacidad de reserva | **EP07** |
-| **EP08** | **Notificaciones en Tiempo Real** | - | - | - |
-| **US26** | Alertas de vencimiento estándar | Como conductor quiero recibir alertas estándar antes del vencimiento para no olvidar liberar el espacio | **Escenario 1: Primera alerta de vencimiento**<br>**Given** que un conductor tiene reserva activa con tiempo definido<br>**When** faltan 15 minutos para vencimiento<br>**Then** recibe primera alerta push: "Tu reserva vence en 15 minutos"<br><br>**Escenario 2: Alerta final de vencimiento**<br>**Given** que faltan 5 minutos para vencimiento de reserva<br>**When** no ha liberado el espacio<br>**Then** recibe alerta final: "¡Reserva vence en 5 minutos! Extiende o libera ahora"<br><br>**Escenario 3: Error de conectividad durante alertas**<br>**Given** que ocurre error de conectividad durante envío de alertas<br>**When** no se pueden enviar ambas alertas programadas<br>**Then** el sistema garantiza al menos el envío de la alerta final de vencimiento | **EP08** |
-| **US27** | Configuración de alertas progresivas | Como conductor quiero configurar intervalos personalizados de alerta (ej. 30, 10 y 5 min) para gestionar mi tiempo de forma flexible | **Escenario 1: Configuración personalizada exitosa**<br>**Given** que un conductor personaliza intervalos de alerta en configuración<br>**When** establece alertas a 30, 10 y 5 minutos antes del vencimiento<br>**Then** recibe notificaciones push en los intervalos exactos configurados<br><br>**Escenario 2: Error de sincronización de preferencias**<br>**Given** que un conductor configuró alertas personalizadas<br>**When** ocurre error de sincronización con sus preferencias<br>**Then** el sistema aplica configuración por defecto (15 y 5 minutos) y notifica sobre el cambio temporal | **EP08** |
-| **US28** | Soporte básico a usuarios | Como administrador quiero comunicarme con usuarios que tienen problemas para resolver incidencias rápidamente | **Escenario 1: Comunicación directa con usuario**<br>**Given** que un usuario reporta problema específico<br>**When** el administrador necesita información adicional<br>**Then** puede enviar mensaje directo al usuario vía email desde el panel con plantillas predefinidas<br><br>**Escenario 2: Notificación de resolución**<br>**Given** que un administrador resuelve problema reportado<br>**When** cierra el caso en el sistema<br>**Then** el usuario recibe notificación automática con resumen de solución aplicada y número de caso para referencia<br><br>**Escenario 3: Programación de seguimiento**<br>**Given** que un caso requiere seguimiento posterior<br>**When** el administrador marca para seguimiento<br>**Then** puede programar recordatorio automático para verificar satisfacción del usuario en 24-48 horas | **EP08** |
-| **EP09** | **Backend API y Microservicios** | - | - | - |
-| **TS01** | API de autenticación | Como developer quiero endpoints de login/registro para autenticar usuarios | **Escenario 1: Login exitoso con credenciales válidas**<br>**Given** que el endpoint POST /api/v1/auth/login existe<br>**When** envío credenciales válidas (email, password)<br>**Then** recibo respuesta 200 con token JWT válido, refresh token y datos del usuario<br><br>**Escenario 2: Acceso a endpoints protegidos**<br>**Given** que tengo token JWT válido<br>**When** accedo a endpoints protegidos con header Authorization<br>**Then** obtengo datos correctos y respuesta exitosa<br><br>**Escenario 3: Error de credenciales inválidas**<br>**Given** que envío credenciales inválidas al endpoint de login<br>**When** hago request de autenticación<br>**Then** recibo error 401 con mensaje específico "Credenciales incorrectas" | **EP09** |
-| **TS02** | API CRUD de estacionamientos | Como developer quiero gestionar estacionamientos vía API para operaciones | **Escenario 1: Consulta exitosa de estacionamientos**<br>**Given** que hago GET request a /api/v1/parkings con autenticación válida<br>**When** la request se procesa<br>**Then** recibo lista paginada de estacionamientos con metadata (total, página, límite)<br><br>**Escenario 2: Creación exitosa de estacionamiento**<br>**Given** que creo nuevo estacionamiento con POST /api/v1/parkings<br>**When** envío datos válidos (nombre, dirección, espacios_totales, precio_hora)<br>**Then** recibo respuesta 201 con recurso creado incluyendo ID único asignado<br><br>**Escenario 3: Error por datos incompletos**<br>**Given** que envío datos incompletos en POST de estacionamiento<br>**When** faltan campos requeridos<br>**Then** recibo error 400 con lista específica de campos faltantes y formatos esperados | **EP09** |
-| **TS03** | API de reservas | Como developer quiero gestionar reservas vía API para procesar transacciones | **Escenario 1: Creación exitosa de reserva**<br>**Given** que creo reserva con POST /api/v1/reservations<br>**When** el espacio está disponible y datos son válidos<br>**Then** recibo respuesta 201 con confirmación, código QR único y detalles completos de reserva<br><br>**Escenario 2: Consulta filtrada de reservas**<br>**Given** que consulto reservas por usuario con GET /api/v1/users/{id}/reservations<br>**When** aplico filtro por estado (activa, completada, cancelada)<br>**Then** recibo lista filtrada correctamente con paginación<br><br>**Escenario 3: Error por espacio no disponible**<br>**Given** que intento reservar espacio ya ocupado<br>**When** envío request de nueva reserva<br>**Then** recibo error 409 "Espacio no disponible" con lista de 3 espacios alternativos cercanos | **EP09** |
-| **US29** | Dashboard administrativo básico | Como administrador quiero un panel de control simple para monitorear actividad general de la plataforma | **Escenario 1: Visualización de métricas en tiempo real**<br>**Given** que un administrador accede al panel de control<br>**When** inicia sesión con credenciales administrativas<br>**Then** ve métricas en tiempo real: usuarios activos hoy, reservas completadas, ingresos generados y alertas pendientes<br><br>**Escenario 2: Gestión de alertas críticas**<br>**Given** que existen alertas críticas en el sistema<br>**When** el administrador revisa dashboard<br>**Then** ve notificaciones destacadas en rojo que requieren atención inmediata con opciones de acción directa<br><br>**Escenario 3: Estado normal del sistema**<br>**Given** que todos los sistemas funcionan normalmente<br>**When** se cargan las métricas del dashboard<br>**Then** todos los indicadores aparecen en verde con valores actualizados en tiempo real | **EP09** |
-| **US30** | Gestión básica de incidencias | Como administrador quiero ver y resolver reportes de usuarios para dar soporte cuando hay problemas | **Escenario 1: Revisión detallada de incidencia**<br>**Given** que un conductor reporta problema con su reserva<br>**When** el administrador revisa la incidencia<br>**Then** ve información completa: datos del usuario, estacionamiento afectado, fecha/hora, descripción detallada del problema<br><br>**Escenario 2: Resolución de problema válido**<br>**Given** que un administrador confirma problema válido después de investigación<br>**When** aplica solución (reembolso, ajuste de estado, compensación)<br>**Then** puede procesar la solución directamente desde el panel con comentario de resolución para auditoría<br><br>**Escenario 3: Cierre de reporte no procedente**<br>**Given** que un reporte no corresponde a problema real del sistema<br>**When** el administrador evalúa el caso<br>**Then** puede marcarlo como "cerrado - no procede" con justificación detallada para histórico | **EP09** |
-| **EP10** | **Frontend Multiplataforma** | - | - | - |
-| **US31** | App móvil para conductores | Como conductor quiero app móvil simple para buscar y reservar estacionamientos | **Escenario 1: Carga inicial de la aplicación**<br>**Given** que un conductor abre la aplicación móvil<br>**When** la app carga completamente<br>**Then** ve mapa centrado en su ubicación actual con estacionamientos cercanos marcados claramente<br><br>**Escenario 2: Proceso de reserva optimizado**<br>**Given** que un conductor quiere hacer reserva<br>**When** selecciona espacio y confirma reserva<br>**Then** el proceso se completa en máximo 4 taps: seleccionar→confirmar→pagar→recibir QR<br><br>**Escenario 3: Funcionamiento offline**<br>**Given** que no hay conexión a internet activa<br>**When** el conductor abre la app<br>**Then** ve sus reservas activas guardadas localmente con opción de sincronizar al recuperar conexión | **EP10** |
-| **US32** | Panel web básico para propietarios | Como propietario quiero panel web simple para gestionar mi estacionamiento | **Escenario 1: Acceso al dashboard principal**<br>**Given** que un propietario accede al panel web<br>**When** inicia sesión correctamente<br>**Then** ve dashboard con ocupación actual en tiempo real, reservas del día y métricas básicas de ingresos<br><br>**Escenario 2: Actualización de precios en tiempo real**<br>**Given** que un propietario actualiza precios de su estacionamiento<br>**When** guarda los cambios de tarifa<br>**Then** los nuevos precios se aplican inmediatamente a todas las búsquedas y reservas futuras<br><br>**Escenario 3: Manejo de errores de conectividad**<br>**Given** que ocurre error de conexión durante uso del panel<br>**When** se pierde conectividad<br>**Then** ve mensaje claro de error con botón "Reintentar" y datos locales preservados | **EP10** |
-| **EP11** | **Infraestructura IoT** | - | - | - |
-| **TS04** | Detección básica de ocupación | Como dispositivo IoT quiero detectar ocupación simple para reportar estado básico | **Escenario 1: Detección de entrada de vehículo**<br>**Given** que un vehículo entra al espacio monitoreado<br>**When** el sensor detecta presencia confirmada por 10 segundos<br>**Then** cambia estado a "ocupado", enciende LED rojo y reporta al sistema central<br><br>**Escenario 2: Detección de salida de vehículo**<br>**Given** que un vehículo abandona el espacio<br>**When** el sensor confirma ausencia por 30 segundos consecutivos<br>**Then** cambia estado a "libre", enciende LED verde y actualiza disponibilidad<br><br>**Escenario 3: Manejo de señales ambiguas**<br>**Given** que hay señal ambigua o interferencia en el sensor<br>**When** las lecturas son inconsistentes<br>**Then** mantiene último estado válido por 60 segundos y reporta alerta de calibración | **EP11** |
-| **TS05** | Sincronización Edge-Cloud | Como edge server local quiero enviar datos de sensores al API cloud para mantener información actualizada en la plataforma | **Escenario 1: Sincronización exitosa con API cloud**<br>**Given** que sensores IoT reportan cambio de estado al edge server<br>**When** el edge server procesa los datos localmente<br>**Then** envía actualización al API cloud vía HTTPS cada 30 segundos con batch de cambios<br><br>**Escenario 2: Manejo de desconexión temporal**<br>**Given** que la conexión a internet falla temporalmente<br>**When** el edge server detecta desconexión<br>**Then** almacena eventos localmente en cola FIFO hasta recuperar conexión y procesa backlog<br><br>**Escenario 3: Confirmación de recepción**<br>**Given** que el API cloud confirma recepción exitosa<br>**When** edge server recibe acknowledgment HTTP 200<br>**Then** marca eventos como sincronizados y los elimina de cola local | **EP11** |
-| **EP12** | **Procesamiento de Pagos** | - | - | - |
-| **US33** | Pago básico con tarjeta | Como conductor quiero pagar reservas con tarjeta para completar transacciones de forma segura | **Escenario 1: Pago exitoso con tarjeta válida**<br>**Given** que un conductor selecciona método de pago con tarjeta válida registrada<br>**When** confirma pago de reserva<br>**Then** se procesa transacción exitosamente y recibe confirmación con número de transacción<br><br>**Escenario 2: Error de tarjeta rechazada**<br>**Given** que la tarjeta del conductor es rechazada por el banco<br>**When** intenta procesar pago<br>**Then** ve mensaje específico del error ("Fondos insuficientes", "Tarjeta vencida") con opción de método alternativo<br><br>**Escenario 3: Reintento por error temporal**<br>**Given** que ocurre error temporal en procesador de pagos<br>**When** falla el primer intento de cobro<br>**Then** el sistema reintenta automáticamente una vez después de 30 segundos | **EP12** |
+| **Epic / Story ID** | **Título**                                        | **Descripción**                                                                                                                                                                          | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | **Relacionado con (Epic ID)** |
+| ------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
+| **EP01**            | **Presencia Digital y Captación**                 | -                                                                                                                                                                                        | -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | -                             |
+| **US01**            | Sección hero con propuesta de valor IoT           | Como visitante interesado en estacionamientos quiero ver información clara sobre cómo ParkeoYa usa sensores IoT para entender el valor diferencial                                       | **Escenario 1: Visualización de propuesta de valor IoT**<br>**Given** que un visitante accede a la landing page<br>**When** visualiza la sección hero<br>**Then** comprende claramente cómo los sensores detectan ocupación en tiempo real y ve beneficios específicos como "Encuentra espacios libres en tiempo real"<br><br>**Escenario 2: Visualización de testimonios con métricas**<br>**Given** que un visitante lee los testimonios<br>**When** revisa casos de éxito<br>**Then** ve métricas específicas de tiempo ahorrado (ej: "Reduje 15 minutos de búsqueda diaria")                                                                                                                                                                                                                                                                                                                                 | **EP01**                      |
+| **US02**            | Barra de navegación intuitiva                     | Como visitante quiero navegar fácilmente entre secciones para encontrar información según mis necesidades                                                                                | **Escenario 1: Navegación entre secciones clave**<br>**Given** que un visitante navega en la landing page<br>**When** utiliza la barra de navegación<br>**Then** accede rápidamente a secciones clave como "Cómo funciona", "Para Conductores", "Para Propietarios"<br><br>**Escenario 2: Acceso a información específica para propietarios**<br>**Given** que un visitante propietario accede a "Para Propietarios"<br>**When** hace clic en la sección<br>**Then** ve información específica sobre beneficios para su negocio                                                                                                                                                                                                                                                                                                                                                                                  | **EP01**                      |
+| **US03**            | Acceso directo a registro desde landing           | Como visitante quiero registrarme directamente desde landing para empezar a usar ParkeoYa sin pasos adicionales                                                                          | **Escenario 1: Registro como conductor**<br>**Given** que un visitante selecciona "Soy Conductor"<br>**When** completa el registro básico<br>**Then** es dirigido automáticamente a la aplicación móvil<br><br>**Escenario 2: Registro como propietario**<br>**Given** que un visitante selecciona "Soy Propietario"<br>**When** completa el registro comercial<br>**Then** accede al panel web de gestión                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | **EP01**                      |
+| **EP02**            | **Onboarding y Autenticación**                    | -                                                                                                                                                                                        | -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | -                             |
+| **US04**            | Registro diferenciado por tipo de usuario         | Como usuario nuevo quiero registrarme seleccionando mi rol para acceder a funcionalidades específicas                                                                                    | **Escenario 1: Registro exitoso como conductor**<br>**Given** que un nuevo usuario selecciona "Conductor"<br>**When** completa datos básicos (nombre, email, teléfono)<br>**Then** accede a funciones de búsqueda de estacionamientos y configuración de vehículo<br><br>**Escenario 2: Registro exitoso como propietario**<br>**Given** que un nuevo usuario selecciona "Propietario"<br>**When** ingresa datos comerciales (nombre negocio, RUC, dirección)<br>**Then** accede al panel de gestión de estacionamientos<br><br>**Escenario 3: Intento de registro con email existente**<br>**Given** que un usuario intenta registrarse con email existente<br>**When** envía el formulario<br>**Then** ve opción de iniciar sesión y enlace de recuperación de contraseña                                                                                                                                      | **EP02**                      |
+| **US05**            | Inicio de sesión unificado                        | Como usuario registrado quiero iniciar sesión y ser dirigido a mi plataforma para acceder rápidamente                                                                                    | **Escenario 1: Login exitoso de conductor**<br>**Given** que un conductor registrado inicia sesión<br>**When** ingresa credenciales válidas<br>**Then** ve el mapa con estacionamientos cercanos a su ubicación actual<br><br>**Escenario 2: Login exitoso de propietario**<br>**Given** que un propietario registrado inicia sesión<br>**When** accede con credenciales válidas<br>**Then** ve su dashboard con métricas básicas de ocupación e ingresos<br><br>**Escenario 3: Error de credenciales inválidas**<br>**Given** que un usuario ingresa credenciales incorrectas<br>**When** intenta iniciar sesión<br>**Then** ve mensaje de error específico "Email o contraseña incorrectos" con opción de recuperación                                                                                                                                                                                         | **EP02**                      |
+| **EP03**            | **Gestión de Perfiles**                           | -                                                                                                                                                                                        | -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | -                             |
+| **US06**            | Perfil de conductor                               | Como conductor quiero gestionar mis datos para mantener información actualizada                                                                                                          | **Escenario 1: Actualización exitosa de datos personales**<br>**Given** que un conductor accede a su perfil<br>**When** actualiza datos personales (nombre, teléfono, email)<br>**Then** los cambios se guardan correctamente y ve confirmación "Perfil actualizado"<br><br>**Escenario 2: Registro de información del vehículo**<br>**Given** que un conductor registra información de su vehículo (marca, modelo, placa)<br>**When** hace nuevas reservas<br>**Then** la información del vehículo se completa automáticamente                                                                                                                                                                                                                                                                                                                                                                                  | **EP03**                      |
+| **US07**            | Perfil de propietario                             | Como propietario quiero gestionar información de mi negocio para mantener datos actualizados                                                                                             | **Escenario 1: Actualización de información comercial**<br>**Given** que un propietario actualiza información comercial<br>**When** guarda cambios en datos como nombre del negocio, RUC, dirección<br>**Then** los cambios se reflejan inmediatamente en la información de sus estacionamientos<br><br>**Escenario 2: Modificación de datos de contacto**<br>**Given** que un propietario modifica datos de contacto<br>**When** actualiza teléfono o email de contacto<br>**Then** los conductores ven la información actualizada al reservar                                                                                                                                                                                                                                                                                                                                                                  | **EP03**                      |
+| **EP04**            | **Sistema de Reservas**                           | -                                                                                                                                                                                        | -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | -                             |
+| **US08**            | Búsqueda de estacionamientos en mapa              | Como conductor quiero ver estacionamientos disponibles en mapa para encontrar opciones cercanas                                                                                          | **Escenario 1: Visualización de estacionamientos con GPS**<br>**Given** que un conductor abre el mapa<br>**When** busca estacionamientos por su ubicación actual<br>**Then** ve puntos en el mapa actualizados en tiempo real mostrando disponibilidad (verde=libre, rojo=ocupado)<br><br>**Escenario 2: Consulta de detalles de estacionamiento**<br>**Given** que un conductor selecciona un marcador de estacionamiento<br>**When** toca el punto en el mapa<br>**Then** ve información básica: precio por hora, espacios totales disponibles y distancia<br><br>**Escenario 3: Búsqueda sin GPS activo**<br>**Given** que un conductor no tiene GPS activado<br>**When** intenta usar el mapa<br>**Then** puede buscar manualmente ingresando una dirección específica                                                                                                                                       | **EP04**                      |
+| **US09**            | Reserva básica con confirmación                   | Como conductor quiero reservar un espacio específico para garantizar disponibilidad                                                                                                      | **Escenario 1: Reserva exitosa con confirmación**<br>**Given** que un conductor selecciona un espacio libre confirmado por sensores<br>**When** confirma la reserva y procesa el pago<br>**Then** el espacio se bloquea inmediatamente y recibe código QR único para acceso<br><br>**Escenario 2: Activación de reserva en sitio**<br>**Given** que un conductor llega al estacionamiento reservado<br>**When** escanea el código QR en el sensor<br>**Then** se activa su tiempo de uso y comienza el cálculo de tarifa<br><br>**Escenario 3: Conflicto durante proceso de pago**<br>**Given** que un espacio reservado es ocupado durante el proceso de pago<br>**When** el sistema detecta conflicto<br>**Then** muestra automáticamente 3 espacios alternativos cercanos disponibles                                                                                                                         | **EP04**                      |
+| **US10**            | Historial de reservas                             | Como conductor quiero ver mis reservas pasadas para revisar mi historial de uso                                                                                                          | **Escenario 1: Visualización completa del historial**<br>**Given** que un conductor accede a su historial<br>**When** revisa la lista de reservas pasadas<br>**Then** ve para cada reserva: fecha, lugar, duración real, costo total y estado final<br><br>**Escenario 2: Filtrado de reservas por estado**<br>**Given** que un conductor filtra reservas por estado<br>**When** selecciona filtros como "Completadas", "Canceladas", "En proceso"<br>**Then** ve únicamente las reservas que coinciden con el estado seleccionado                                                                                                                                                                                                                                                                                                                                                                               | **EP04**                      |
+| **US11**            | Mapa con distancias a estacionamientos            | Como conductor quiero ver estacionamientos en mapa con distancias para elegir opciones más cercanas a mi ubicación                                                                       | **Escenario 1: Visualización con GPS activo**<br>**Given** que un conductor abre el mapa con ubicación activa<br>**When** se cargan los estacionamientos cercanos<br>**Then** ve cada estacionamiento con distancia en metros (ej: "150m", "300m")<br><br>**Escenario 2: Consulta de detalles con distancia**<br>**Given** que un conductor selecciona un marcador de estacionamiento<br>**When** toca el punto específico<br>**Then** ve detalles completos: nombre, precio por hora, distancia exacta y número de espacios disponibles<br><br>**Escenario 3: Funcionamiento sin GPS**<br>**Given** que un conductor no tiene GPS activado<br>**When** accede al mapa<br>**Then** ve el mapa centrado en su última ubicación conocida con opción de búsqueda manual por dirección                                                                                                                               | **EP04**                      |
+| **US12**            | Mapa en tiempo real con confirmación por sensores | Como conductor quiero visualizar en el mapa solo los espacios disponibles confirmados por sensores en tiempo real para asegurarme de que la plaza realmente está libre antes de reservar | **Escenario 1: Visualización de espacios confirmados por IoT**<br>**Given** que un conductor abre el mapa en la aplicación<br>**When** consulta espacios disponibles<br>**Then** el sistema muestra únicamente estacionamientos confirmados como libres por sensores IoT en tiempo real<br><br>**Escenario 2: Actualización automática tras liberación**<br>**Given** que un espacio reservado se libera físicamente<br>**When** el sensor detecta que el vehículo salió<br>**Then** el espacio vuelve a mostrarse automáticamente como disponible en el mapa dentro de 30 segundos                                                                                                                                                                                                                                                                                                                              | **EP04**                      |
+| **US13**            | Reserva rápida en un solo click                   | Como conductor quiero reservar un estacionamiento con un solo toque en la app para ahorrar tiempo y evitar pasos intermedios                                                             | **Escenario 1: Reserva inmediata exitosa**<br>**Given** que un conductor visualiza un espacio disponible en el mapa<br>**When** presiona el botón "Reservar ahora"<br>**Then** la plaza queda reservada inmediatamente mostrando confirmación con código QR y tiempo límite<br><br>**Escenario 2: Error por falta de método de pago**<br>**Given** que un conductor intenta reserva rápida sin método de pago configurado<br>**When** presiona "Reservar ahora"<br>**Then** ve mensaje solicitando configurar método de pago antes de continuar                                                                                                                                                                                                                                                                                                                                                                  | **EP04**                      |
+| **US14**            | Cobro automático por tiempo real                  | Como conductor quiero que el sistema me cobre automáticamente según el tiempo exacto de uso del estacionamiento para pagar solo lo justo                                                 | **Escenario 1: Inicio de conteo automático**<br>**Given** que un conductor inicia ocupación de plaza reservada<br>**When** escanea QR y el sensor confirma entrada<br>**Then** inicia conteo de tiempo automático con tarifa por minuto<br><br>**Escenario 2: Cobro por tiempo exacto utilizado**<br>**Given** que un conductor libera el espacio<br>**When** el sensor detecta salida del vehículo<br>**Then** el sistema calcula tiempo usado exacto y procesa cobro automático con recibo digital                                                                                                                                                                                                                                                                                                                                                                                                             | **EP04**                      |
+| **US15**            | Extender tiempo de reserva                        | Como conductor quiero poder extender el tiempo de mi reserva desde la aplicación para evitar perder la plaza si necesito más tiempo                                                      | **Escenario 1: Extensión exitosa de tiempo**<br>**Given** que un conductor tiene reserva activa próxima a vencer<br>**When** selecciona "Extender tiempo" y confirma extensión<br>**Then** el sistema amplía la reserva por el tiempo solicitado y actualiza el cálculo de cobro<br><br>**Escenario 2: Error por estacionamiento lleno**<br>**Given** que un conductor intenta extender cuando el estacionamiento está completamente ocupado<br>**When** solicita extensión<br>**Then** ve mensaje "No se puede extender - estacionamiento lleno" con sugerencias de lugares cercanos                                                                                                                                                                                                                                                                                                                            | **EP04**                      |
+| **US16**            | Compensación automática por fallo de espacio      | Como conductor quiero recibir una compensación inmediata si el sensor falla o el espacio reservado está ocupado para no perder dinero ni tiempo                                          | **Escenario 1: Compensación por espacio ocupado**<br>**Given** que un conductor llega a su plaza reservada<br>**When** encuentra el espacio ocupado o con sensor defectuoso<br>**Then** el sistema detecta automáticamente el problema y genera compensación (reembolso o espacio alternativo gratuito)<br><br>**Escenario 2: Ajuste por fallo técnico durante uso**<br>**Given** que ocurre fallo técnico en el sensor durante uso activo<br>**When** el sistema detecta inconsistencia en lecturas<br>**Then** aplica tarifa mínima y notifica al conductor sobre el ajuste aplicado                                                                                                                                                                                                                                                                                                                           | **EP04**                      |
+| **US17**            | Notificación de nuevos espacios cercanos          | Como conductor quiero recibir notificaciones cuando se liberen nuevos estacionamientos cerca de mí para poder reservarlos rápidamente                                                    | **Escenario 1: Notificación con reserva directa**<br>**Given** que un conductor tiene búsqueda activa de estacionamientos<br>**When** se libera una plaza cercana (radio 500m) confirmada por sensor<br>**Then** recibe notificación push inmediata con opción "Reservar ahora" que permite reserva directa<br><br>**Escenario 2: Actualización sin notificaciones push**<br>**Given** que un conductor tiene notificaciones deshabilitadas<br>**When** se liberan espacios cercanos<br>**Then** ve las actualizaciones solo cuando abre la aplicación activamente                                                                                                                                                                                                                                                                                                                                               | **EP04**                      |
+| **EP05**            | **Gestión de Estacionamientos**                   | -                                                                                                                                                                                        | -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | -                             |
+| **US18**            | Registro de estacionamiento                       | Como propietario quiero registrar mi estacionamiento para ofrecerlo en la plataforma                                                                                                     | **Escenario 1: Registro exitoso con validación automática**<br>**Given** que un propietario completa datos del estacionamiento (nombre, dirección, descripción)<br>**When** envía la información de registro<br>**Then** el estacionamiento aparece disponible para conductores después de validación automática<br><br>**Escenario 2: Configuración de precios y horarios**<br>**Given** que un propietario configura precio base y horarios de operación<br>**When** guarda la configuración inicial<br>**Then** las tarifas se aplican automáticamente a todas las nuevas reservas                                                                                                                                                                                                                                                                                                                            | **EP05**                      |
+| **US19**            | Configuración de espacios                         | Como propietario quiero configurar número de espacios para controlar disponibilidad                                                                                                      | **Escenario 1: Configuración inicial de capacidad**<br>**Given** que un propietario define 20 espacios totales en su estacionamiento<br>**When** conductores buscan en la zona<br>**Then** ven disponibilidad correcta basada en sensores reales y capacidad configurada<br><br>**Escenario 2: Actualización de capacidad**<br>**Given** que un propietario cambia número total de espacios de 20 a 25<br>**When** actualiza la configuración<br>**Then** el cambio se refleja inmediatamente en búsquedas y disponibilidad mostrada                                                                                                                                                                                                                                                                                                                                                                             | **EP05**                      |
+| **US20**            | Visualizar reservas de mi estacionamiento         | Como propietario quiero ver reservas en mi estacionamiento para gestionar ocupación                                                                                                      | **Escenario 1: Visualización completa de reservas**<br>**Given** que un propietario accede a la vista de reservas<br>**When** revisa la lista de reservas activas y programadas<br>**Then** ve información completa: conductor (nombre/teléfono), hora inicio/fin, duración y estado actual<br><br>**Escenario 2: Actualización en tiempo real**<br>**Given** que se procesa nueva reserva en su estacionamiento<br>**When** un conductor confirma reserva<br>**Then** la reserva aparece inmediatamente en la lista del propietario con estado "Confirmada"                                                                                                                                                                                                                                                                                                                                                     | **EP05**                      |
+| **EP06**            | **Monetización por Comisiones**                   | -                                                                                                                                                                                        | -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | -                             |
+| **US21**            | Retención automática de comisión                  | Como plataforma ParkeoYa quiero calcular y retener automáticamente la comisión de cada reserva para asegurar la sostenibilidad del negocio                                               | **Escenario 1: Cálculo automático de comisión**<br>**Given** que se procesa una reserva pagada<br>**When** se confirma el pago<br>**Then** el sistema calcula y retiene automáticamente el porcentaje de comisión definido (ej. 15%) y transfiere el resto al propietario<br><br>**Escenario 2: Registro de ingresos de la plataforma**<br>**Given** que se acumulan reservas<br>**When** se generan reportes de ingresos<br>**Then** la plataforma puede ver el total de comisiones retenidas por período                                                                                                                                                                                                                                                                                                                                                                                                       | **EP06**                      |
+| **US22**            | Modelo de comisiones                              | Como propietario quiero entender comisiones por transacción para calcular mis ingresos                                                                                                   | **Escenario 1: Desglose transparente de comisiones**<br>**Given** que se procesa una reserva en el estacionamiento del propietario<br>**When** revisa el desglose de la transacción<br>**Then** ve claramente: tarifa total cobrada al conductor, comisión de plataforma (15%) y su ingreso neto<br><br>**Escenario 2: Reporte mensual de comisiones**<br>**Given** que un propietario acumula múltiples reservas en el mes<br>**When** revisa su reporte mensual<br>**Then** ve total de transacciones, comisiones pagadas acumuladas y proyección de ingresos netos                                                                                                                                                                                                                                                                                                                                            | **EP06**                      |
+| **US23**            | Reportes básicos de ingresos                      | Como propietario quiero ver reportes de mis reservas e ingresos para hacer seguimiento básico de mi negocio                                                                              | **Escenario 1: Visualización de métricas mensuales**<br>**Given** que un propietario accede a reportes financieros<br>**When** selecciona período mensual específico<br>**Then** ve métricas completas: total reservas, ingresos brutos, comisiones pagadas, ingresos netos y tendencias<br><br>**Escenario 2: Descarga de reporte detallado**<br>**Given** que un propietario descarga reporte detallado<br>**When** selecciona formato Excel y período<br>**Then** obtiene archivo con desglose por día, reserva individual, conductor y cálculos detallados<br><br>**Escenario 3: Período sin actividad**<br>**Given** que no hay reservas en el período seleccionado<br>**When** genera reporte<br>**Then** ve mensaje claro "Sin actividad registrada en fechas seleccionadas" con sugerencias para aumentar ocupación                                                                                      | **EP06**                      |
+| **EP07**            | **Sistema de Calificaciones**                     | -                                                                                                                                                                                        | -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | -                             |
+| **US24**            | Calificación post-uso de estacionamientos         | Como conductor quiero calificar estacionamientos usados para compartir mi experiencia con otros usuarios                                                                                 | **Escenario 1: Calificación exitosa post-servicio**<br>**Given** que un conductor finaliza exitosamente uso de estacionamiento<br>**When** el sistema solicita calificación post-servicio<br>**Then** puede asignar 1-5 estrellas con comentario opcional sobre limpieza, seguridad y facilidad de acceso<br><br>**Escenario 2: Calificación sin conexión**<br>**Given** que un conductor intenta calificar sin conexión a internet<br>**When** la aplicación no logra sincronizar la reseña<br>**Then** el sistema guarda la calificación localmente y la sincroniza automáticamente al recuperar conexión                                                                                                                                                                                                                                                                                                      | **EP07**                      |
+| **US25**            | Visualización de reseñas antes de reservar        | Como conductor quiero ver reseñas y calificaciones de otros usuarios para tomar decisiones informadas antes de reservar                                                                  | **Escenario 1: Consulta exitosa de reseñas**<br>**Given** que un conductor busca un estacionamiento específico<br>**When** revisa los detalles del espacio antes de reservar<br>**Then** visualiza promedio de calificaciones (1-5 estrellas), número total de reseñas y comentarios más recientes<br><br>**Escenario 2: Reseñas temporalmente no disponibles**<br>**Given** que la información de reseñas no está disponible temporalmente<br>**When** un conductor consulta detalles de estacionamiento<br>**Then** ve mensaje informativo "Reseñas temporalmente no disponibles" sin afectar capacidad de reserva                                                                                                                                                                                                                                                                                             | **EP07**                      |
+| **EP08**            | **Notificaciones en Tiempo Real**                 | -                                                                                                                                                                                        | -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | -                             |
+| **US26**            | Alertas de vencimiento estándar                   | Como conductor quiero recibir alertas estándar antes del vencimiento para no olvidar liberar el espacio                                                                                  | **Escenario 1: Primera alerta de vencimiento**<br>**Given** que un conductor tiene reserva activa con tiempo definido<br>**When** faltan 15 minutos para vencimiento<br>**Then** recibe primera alerta push: "Tu reserva vence en 15 minutos"<br><br>**Escenario 2: Alerta final de vencimiento**<br>**Given** que faltan 5 minutos para vencimiento de reserva<br>**When** no ha liberado el espacio<br>**Then** recibe alerta final: "¡Reserva vence en 5 minutos! Extiende o libera ahora"<br><br>**Escenario 3: Error de conectividad durante alertas**<br>**Given** que ocurre error de conectividad durante envío de alertas<br>**When** no se pueden enviar ambas alertas programadas<br>**Then** el sistema garantiza al menos el envío de la alerta final de vencimiento                                                                                                                                | **EP08**                      |
+| **US27**            | Configuración de alertas progresivas              | Como conductor quiero configurar intervalos personalizados de alerta (ej. 30, 10 y 5 min) para gestionar mi tiempo de forma flexible                                                     | **Escenario 1: Configuración personalizada exitosa**<br>**Given** que un conductor personaliza intervalos de alerta en configuración<br>**When** establece alertas a 30, 10 y 5 minutos antes del vencimiento<br>**Then** recibe notificaciones push en los intervalos exactos configurados<br><br>**Escenario 2: Error de sincronización de preferencias**<br>**Given** que un conductor configuró alertas personalizadas<br>**When** ocurre error de sincronización con sus preferencias<br>**Then** el sistema aplica configuración por defecto (15 y 5 minutos) y notifica sobre el cambio temporal                                                                                                                                                                                                                                                                                                          | **EP08**                      |
+| **US28**            | Soporte básico a usuarios                         | Como administrador quiero comunicarme con usuarios que tienen problemas para resolver incidencias rápidamente                                                                            | **Escenario 1: Comunicación directa con usuario**<br>**Given** que un usuario reporta problema específico<br>**When** el administrador necesita información adicional<br>**Then** puede enviar mensaje directo al usuario vía email desde el panel con plantillas predefinidas<br><br>**Escenario 2: Notificación de resolución**<br>**Given** que un administrador resuelve problema reportado<br>**When** cierra el caso en el sistema<br>**Then** el usuario recibe notificación automática con resumen de solución aplicada y número de caso para referencia<br><br>**Escenario 3: Programación de seguimiento**<br>**Given** que un caso requiere seguimiento posterior<br>**When** el administrador marca para seguimiento<br>**Then** puede programar recordatorio automático para verificar satisfacción del usuario en 24-48 horas                                                                      | **EP08**                      |
+| **EP09**            | **Backend API y Microservicios**                  | -                                                                                                                                                                                        | -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | -                             |
+| **TS01**            | API de autenticación                              | Como developer quiero endpoints de login/registro para autenticar usuarios                                                                                                               | **Escenario 1: Login exitoso con credenciales válidas**<br>**Given** que el endpoint POST /api/v1/auth/login existe<br>**When** envío credenciales válidas (email, password)<br>**Then** recibo respuesta 200 con token JWT válido, refresh token y datos del usuario<br><br>**Escenario 2: Acceso a endpoints protegidos**<br>**Given** que tengo token JWT válido<br>**When** accedo a endpoints protegidos con header Authorization<br>**Then** obtengo datos correctos y respuesta exitosa<br><br>**Escenario 3: Error de credenciales inválidas**<br>**Given** que envío credenciales inválidas al endpoint de login<br>**When** hago request de autenticación<br>**Then** recibo error 401 con mensaje específico "Credenciales incorrectas"                                                                                                                                                               | **EP09**                      |
+| **TS02**            | API CRUD de estacionamientos                      | Como developer quiero gestionar estacionamientos vía API para operaciones                                                                                                                | **Escenario 1: Consulta exitosa de estacionamientos**<br>**Given** que hago GET request a /api/v1/parkings con autenticación válida<br>**When** la request se procesa<br>**Then** recibo lista paginada de estacionamientos con metadata (total, página, límite)<br><br>**Escenario 2: Creación exitosa de estacionamiento**<br>**Given** que creo nuevo estacionamiento con POST /api/v1/parkings<br>**When** envío datos válidos (nombre, dirección, espacios_totales, precio_hora)<br>**Then** recibo respuesta 201 con recurso creado incluyendo ID único asignado<br><br>**Escenario 3: Error por datos incompletos**<br>**Given** que envío datos incompletos en POST de estacionamiento<br>**When** faltan campos requeridos<br>**Then** recibo error 400 con lista específica de campos faltantes y formatos esperados                                                                                   | **EP09**                      |
+| **TS03**            | API de reservas                                   | Como developer quiero gestionar reservas vía API para procesar transacciones                                                                                                             | **Escenario 1: Creación exitosa de reserva**<br>**Given** que creo reserva con POST /api/v1/reservations<br>**When** el espacio está disponible y datos son válidos<br>**Then** recibo respuesta 201 con confirmación, código QR único y detalles completos de reserva<br><br>**Escenario 2: Consulta filtrada de reservas**<br>**Given** que consulto reservas por usuario con GET /api/v1/users/{id}/reservations<br>**When** aplico filtro por estado (activa, completada, cancelada)<br>**Then** recibo lista filtrada correctamente con paginación<br><br>**Escenario 3: Error por espacio no disponible**<br>**Given** que intento reservar espacio ya ocupado<br>**When** envío request de nueva reserva<br>**Then** recibo error 409 "Espacio no disponible" con lista de 3 espacios alternativos cercanos                                                                                               | **EP09**                      |
+| **US29**            | Dashboard administrativo básico                   | Como administrador quiero un panel de control simple para monitorear actividad general de la plataforma                                                                                  | **Escenario 1: Visualización de métricas en tiempo real**<br>**Given** que un administrador accede al panel de control<br>**When** inicia sesión con credenciales administrativas<br>**Then** ve métricas en tiempo real: usuarios activos hoy, reservas completadas, ingresos generados y alertas pendientes<br><br>**Escenario 2: Gestión de alertas críticas**<br>**Given** que existen alertas críticas en el sistema<br>**When** el administrador revisa dashboard<br>**Then** ve notificaciones destacadas en rojo que requieren atención inmediata con opciones de acción directa<br><br>**Escenario 3: Estado normal del sistema**<br>**Given** que todos los sistemas funcionan normalmente<br>**When** se cargan las métricas del dashboard<br>**Then** todos los indicadores aparecen en verde con valores actualizados en tiempo real                                                                | **EP09**                      |
+| **US30**            | Gestión básica de incidencias                     | Como administrador quiero ver y resolver reportes de usuarios para dar soporte cuando hay problemas                                                                                      | **Escenario 1: Revisión detallada de incidencia**<br>**Given** que un conductor reporta problema con su reserva<br>**When** el administrador revisa la incidencia<br>**Then** ve información completa: datos del usuario, estacionamiento afectado, fecha/hora, descripción detallada del problema<br><br>**Escenario 2: Resolución de problema válido**<br>**Given** que un administrador confirma problema válido después de investigación<br>**When** aplica solución (reembolso, ajuste de estado, compensación)<br>**Then** puede procesar la solución directamente desde el panel con comentario de resolución para auditoría<br><br>**Escenario 3: Cierre de reporte no procedente**<br>**Given** que un reporte no corresponde a problema real del sistema<br>**When** el administrador evalúa el caso<br>**Then** puede marcarlo como "cerrado - no procede" con justificación detallada para histórico | **EP09**                      |
+| **EP10**            | **Frontend Multiplataforma**                      | -                                                                                                                                                                                        | -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | -                             |
+| **US31**            | App móvil para conductores                        | Como conductor quiero app móvil simple para buscar y reservar estacionamientos                                                                                                           | **Escenario 1: Carga inicial de la aplicación**<br>**Given** que un conductor abre la aplicación móvil<br>**When** la app carga completamente<br>**Then** ve mapa centrado en su ubicación actual con estacionamientos cercanos marcados claramente<br><br>**Escenario 2: Proceso de reserva optimizado**<br>**Given** que un conductor quiere hacer reserva<br>**When** selecciona espacio y confirma reserva<br>**Then** el proceso se completa en máximo 4 taps: seleccionar→confirmar→pagar→recibir QR<br><br>**Escenario 3: Funcionamiento offline**<br>**Given** que no hay conexión a internet activa<br>**When** el conductor abre la app<br>**Then** ve sus reservas activas guardadas localmente con opción de sincronizar al recuperar conexión                                                                                                                                                       | **EP10**                      |
+| **US32**            | Panel web básico para propietarios                | Como propietario quiero panel web simple para gestionar mi estacionamiento                                                                                                               | **Escenario 1: Acceso al dashboard principal**<br>**Given** que un propietario accede al panel web<br>**When** inicia sesión correctamente<br>**Then** ve dashboard con ocupación actual en tiempo real, reservas del día y métricas básicas de ingresos<br><br>**Escenario 2: Actualización de precios en tiempo real**<br>**Given** que un propietario actualiza precios de su estacionamiento<br>**When** guarda los cambios de tarifa<br>**Then** los nuevos precios se aplican inmediatamente a todas las búsquedas y reservas futuras<br><br>**Escenario 3: Manejo de errores de conectividad**<br>**Given** que ocurre error de conexión durante uso del panel<br>**When** se pierde conectividad<br>**Then** ve mensaje claro de error con botón "Reintentar" y datos locales preservados                                                                                                                | **EP10**                      |
+| **EP11**            | **Infraestructura IoT**                           | -                                                                                                                                                                                        | -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | -                             |
+| **TS04**            | Detección básica de ocupación                     | Como dispositivo IoT quiero detectar ocupación simple para reportar estado básico                                                                                                        | **Escenario 1: Detección de entrada de vehículo**<br>**Given** que un vehículo entra al espacio monitoreado<br>**When** el sensor detecta presencia confirmada por 10 segundos<br>**Then** cambia estado a "ocupado", enciende LED rojo y reporta al sistema central<br><br>**Escenario 2: Detección de salida de vehículo**<br>**Given** que un vehículo abandona el espacio<br>**When** el sensor confirma ausencia por 30 segundos consecutivos<br>**Then** cambia estado a "libre", enciende LED verde y actualiza disponibilidad<br><br>**Escenario 3: Manejo de señales ambiguas**<br>**Given** que hay señal ambigua o interferencia en el sensor<br>**When** las lecturas son inconsistentes<br>**Then** mantiene último estado válido por 60 segundos y reporta alerta de calibración                                                                                                                   | **EP11**                      |
+| **TS05**            | Sincronización Edge-Cloud                         | Como edge server local quiero enviar datos de sensores al API cloud para mantener información actualizada en la plataforma                                                               | **Escenario 1: Sincronización exitosa con API cloud**<br>**Given** que sensores IoT reportan cambio de estado al edge server<br>**When** el edge server procesa los datos localmente<br>**Then** envía actualización al API cloud vía HTTPS cada 30 segundos con batch de cambios<br><br>**Escenario 2: Manejo de desconexión temporal**<br>**Given** que la conexión a internet falla temporalmente<br>**When** el edge server detecta desconexión<br>**Then** almacena eventos localmente en cola FIFO hasta recuperar conexión y procesa backlog<br><br>**Escenario 3: Confirmación de recepción**<br>**Given** que el API cloud confirma recepción exitosa<br>**When** edge server recibe acknowledgment HTTP 200<br>**Then** marca eventos como sincronizados y los elimina de cola local                                                                                                                   | **EP11**                      |
+| **EP12**            | **Procesamiento de Pagos**                        | -                                                                                                                                                                                        | -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | -                             |
+| **US33**            | Pago básico con tarjeta                           | Como conductor quiero pagar reservas con tarjeta para completar transacciones de forma segura                                                                                            | **Escenario 1: Pago exitoso con tarjeta válida**<br>**Given** que un conductor selecciona método de pago con tarjeta válida registrada<br>**When** confirma pago de reserva<br>**Then** se procesa transacción exitosamente y recibe confirmación con número de transacción<br><br>**Escenario 2: Error de tarjeta rechazada**<br>**Given** que la tarjeta del conductor es rechazada por el banco<br>**When** intenta procesar pago<br>**Then** ve mensaje específico del error ("Fondos insuficientes", "Tarjeta vencida") con opción de método alternativo<br><br>**Escenario 3: Reintento por error temporal**<br>**Given** que ocurre error temporal en procesador de pagos<br>**When** falla el primer intento de cobro<br>**Then** el sistema reintenta automáticamente una vez después de 30 segundos                                                                                                    | **EP12**                      |
 
 ### 3.2. Impact Mapping
 
@@ -1278,46 +1312,46 @@ Cada User Story incluye escenarios de camino feliz (Happy Path) y caminos altern
 
 ### 3.3. Product Backlog
 
-| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
-|---------|---------------|--------|-------------|----------------------------------|
-| 1 | US01 | Sección hero con propuesta de valor IoT | Comunicar claramente el valor diferencial de sensores IoT en la landing | 2 |
-| 2 | US02 | Barra de navegación intuitiva | Navegación clara entre secciones clave de la landing | 2 |
-| 3 | US03 | Acceso directo a registro desde landing | CTA directo para registrarse como Conductor o Propietario | 3 |
-| 4 | US04 | Registro diferenciado por tipo de usuario | Registro inicial con selección de rol (Conductor / Propietario) | 5 |
-| 5 | US05 | Inicio de sesión unificado | Login y redirección según rol | 3 |
-| 6 | TS01 | API de autenticación | Endpoints auth (login/register, JWT, refresh) | 5 |
-| 7 | US06 | Perfil de conductor | Gestión de datos personales y vehículo | 3 |
-| 8 | US07 | Perfil de propietario | Gestión de información comercial y contacto | 3 |
-| 9 | US08 | Búsqueda simple de estacionamientos en mapa | Ver estacionamientos disponibles en mapa | 5 |
-| 10 | US09 | Reserva con confirmación | Reservar espacio, procesar pago y recibir código QR | 5 |
-| 11 | TS03 | API de reservas | Endpoints para crear/consultar reservas y devolución de QR | 5 |
-| 12 | US10 | Historial de reservas | Ver reservas pasadas con filtros y detalles | 3 |
-| 13 | US11 | Mapa con distancias a estacionamientos | Mostrar distancia en metros y detalles en el mapa | 3 |
-| 14 | US12 | Mapa en tiempo real con confirmación por sensores | Mostrar sólo espacios confirmados libres por sensores IoT | 5 |
-| 15 | US13 | Reserva rápida en un solo click | Reservas rápidas con mínima fricción y validaciones | 3 |
-| 16 | US14 | Cobro automático por tiempo real | Cobro según tiempo real detectado por sensores/QR | 5 |
-| 17 | US15 | Extender tiempo de reserva | Extender reserva desde la app si hay disponibilidad | 3 |
-| 18 | US16 | Compensación automática por fallo de espacio | Reembolso/alternativa si espacio reservado no está disponible | 5 |
-| 19 | US17 | Notificación de nuevos espacios cercanos | Notificaciones push cuando se liberan plazas cercanas | 3 |
-| 20 | US18 | Registro de estacionamiento | Propietario registra su estacionamiento en la plataforma | 5 |
-| 21 | US19 | Configuración simple de espacios | Definir número de espacios, horarios y tarifas | 3 |
-| 22 | TS02 | API CRUD de estacionamientos | Endpoints para crear/leer/actualizar/eliminar estacionamientos | 5 |
-| 23 | US20 | Visualizar reservas de mi estacionamiento | Propietario ve reservas activas y programadas con detalles | 3 |
-| 24 | US21 | Retención automática de comisión | ParkeoYa calcula y retiene automáticamente la comisión de cada reserva | 2 |
-| 25 | US22 | Modelo de comisiones | Desglose de comisiones por transacción para propietarios | 2 |
-| 26 | US23 | Reportes de ingresos por comisiones | Reportes mensuales y descargas (Excel) de ingresos y comisiones | 5 |
-| 27 | US24 | Calificación post-uso de estacionamientos | Calificar y comentar tras uso; sincronización offline | 2 |
-| 28 | US25 | Visualización de reseñas antes de reservar | Mostrar promedio de calificaciones y comentarios recientes | 3 |
-| 29 | US26 | Alertas de vencimiento estándar | Notificaciones antes del fin de la reserva (15/5 min) | 3 |
-| 30 | US27 | Configuración de alertas progresivas | Permitir intervalos personalizados de alertas al usuario | 3 |
-| 31 | US28 | Soporte básico a usuarios | Herramientas para que admins respondan reportes y cierren casos | 3 |
-| 32 | US29 | Dashboard administrativo básico | Panel con métricas en tiempo real para administradores | 5 |
-| 33 | US30 | Gestión básica de incidencias | Ver y resolver reportes de usuarios desde admin panel | 3 |
-| 34 | US31 | App móvil para conductores | App móvil para buscar, reservar y gestionar reservas (UX móvil) | 8 |
-| 35 | US32 | Panel web para propietarios | Panel web para gestión completa de estacionamientos y métricas | 5 |
-| 36 | TS04 | Detección básica de ocupación | Lógica/firmware del sensor para detectar entrada/salida y reportar | 5 |
-| 37 | TS05 | Sincronización Edge-Cloud | Edge server envia batches de eventos al cloud y maneja desconexiones | 5 |
-| 38 | US33 | Pago básico con tarjeta | Procesar pagos con tarjeta y gestionar errores/reintentos | 5 |
+| # Orden | User Story Id | Título                                            | Descripción                                                             | Story Points (1 / 2 / 3 / 5 / 8) |
+| ------- | ------------- | ------------------------------------------------- | ----------------------------------------------------------------------- | -------------------------------- |
+| 1       | US01          | Sección hero con propuesta de valor IoT           | Comunicar claramente el valor diferencial de sensores IoT en la landing | 2                                |
+| 2       | US02          | Barra de navegación intuitiva                     | Navegación clara entre secciones clave de la landing                    | 2                                |
+| 3       | US03          | Acceso directo a registro desde landing           | CTA directo para registrarse como Conductor o Propietario               | 3                                |
+| 4       | US04          | Registro diferenciado por tipo de usuario         | Registro inicial con selección de rol (Conductor / Propietario)         | 5                                |
+| 5       | US05          | Inicio de sesión unificado                        | Login y redirección según rol                                           | 3                                |
+| 6       | TS01          | API de autenticación                              | Endpoints auth (login/register, JWT, refresh)                           | 5                                |
+| 7       | US06          | Perfil de conductor                               | Gestión de datos personales y vehículo                                  | 3                                |
+| 8       | US07          | Perfil de propietario                             | Gestión de información comercial y contacto                             | 3                                |
+| 9       | US08          | Búsqueda simple de estacionamientos en mapa       | Ver estacionamientos disponibles en mapa                                | 5                                |
+| 10      | US09          | Reserva con confirmación                          | Reservar espacio, procesar pago y recibir código QR                     | 5                                |
+| 11      | TS03          | API de reservas                                   | Endpoints para crear/consultar reservas y devolución de QR              | 5                                |
+| 12      | US10          | Historial de reservas                             | Ver reservas pasadas con filtros y detalles                             | 3                                |
+| 13      | US11          | Mapa con distancias a estacionamientos            | Mostrar distancia en metros y detalles en el mapa                       | 3                                |
+| 14      | US12          | Mapa en tiempo real con confirmación por sensores | Mostrar sólo espacios confirmados libres por sensores IoT               | 5                                |
+| 15      | US13          | Reserva rápida en un solo click                   | Reservas rápidas con mínima fricción y validaciones                     | 3                                |
+| 16      | US14          | Cobro automático por tiempo real                  | Cobro según tiempo real detectado por sensores/QR                       | 5                                |
+| 17      | US15          | Extender tiempo de reserva                        | Extender reserva desde la app si hay disponibilidad                     | 3                                |
+| 18      | US16          | Compensación automática por fallo de espacio      | Reembolso/alternativa si espacio reservado no está disponible           | 5                                |
+| 19      | US17          | Notificación de nuevos espacios cercanos          | Notificaciones push cuando se liberan plazas cercanas                   | 3                                |
+| 20      | US18          | Registro de estacionamiento                       | Propietario registra su estacionamiento en la plataforma                | 5                                |
+| 21      | US19          | Configuración simple de espacios                  | Definir número de espacios, horarios y tarifas                          | 3                                |
+| 22      | TS02          | API CRUD de estacionamientos                      | Endpoints para crear/leer/actualizar/eliminar estacionamientos          | 5                                |
+| 23      | US20          | Visualizar reservas de mi estacionamiento         | Propietario ve reservas activas y programadas con detalles              | 3                                |
+| 24      | US21          | Retención automática de comisión                  | ParkeoYa calcula y retiene automáticamente la comisión de cada reserva  | 2                                |
+| 25      | US22          | Modelo de comisiones                              | Desglose de comisiones por transacción para propietarios                | 2                                |
+| 26      | US23          | Reportes de ingresos por comisiones               | Reportes mensuales y descargas (Excel) de ingresos y comisiones         | 5                                |
+| 27      | US24          | Calificación post-uso de estacionamientos         | Calificar y comentar tras uso; sincronización offline                   | 2                                |
+| 28      | US25          | Visualización de reseñas antes de reservar        | Mostrar promedio de calificaciones y comentarios recientes              | 3                                |
+| 29      | US26          | Alertas de vencimiento estándar                   | Notificaciones antes del fin de la reserva (15/5 min)                   | 3                                |
+| 30      | US27          | Configuración de alertas progresivas              | Permitir intervalos personalizados de alertas al usuario                | 3                                |
+| 31      | US28          | Soporte básico a usuarios                         | Herramientas para que admins respondan reportes y cierren casos         | 3                                |
+| 32      | US29          | Dashboard administrativo básico                   | Panel con métricas en tiempo real para administradores                  | 5                                |
+| 33      | US30          | Gestión básica de incidencias                     | Ver y resolver reportes de usuarios desde admin panel                   | 3                                |
+| 34      | US31          | App móvil para conductores                        | App móvil para buscar, reservar y gestionar reservas (UX móvil)         | 8                                |
+| 35      | US32          | Panel web para propietarios                       | Panel web para gestión completa de estacionamientos y métricas          | 5                                |
+| 36      | TS04          | Detección básica de ocupación                     | Lógica/firmware del sensor para detectar entrada/salida y reportar      | 5                                |
+| 37      | TS05          | Sincronización Edge-Cloud                         | Edge server envia batches de eventos al cloud y maneja desconexiones    | 5                                |
+| 38      | US33          | Pago básico con tarjeta                           | Procesar pagos con tarjeta y gestionar errores/reintentos               | 5                                |
 
 <div style="page-break-after: always;"></div>
 
@@ -1332,7 +1366,7 @@ El trabajo se estructuró en cuatro actividades principales:
 1. EventStorming (Design-Level)
 2. Candidate Context Discovery
 3. Domain Message Flows Modeling (Domain Storytelling)
-4. Bounded Context Canvases (iterativos) 
+4. Bounded Context Canvases (iterativos)
 
 > **Herramienta utilizada:** Miro (tablero “ParkeoYa – DDD”), con sticky notes naranjas (eventos), azules (comandos), rosas (actores), amarillas (políticas) y moradas (agregados).  
 > **Duración total:** 3.5 h (1h45m EventStorming + 1h30m Candidate Context Discovery + 15m Domain Storytelling inicial + 15m cierre).  
@@ -1341,35 +1375,38 @@ El trabajo se estructuró en cuatro actividades principales:
 #### 4.1.1 Design Level EventStorming
 
 ##### Propósito y alcance
-El objetivo de la sesión de **EventStorming** fue mapear los **eventos de dominio** clave de punta a punta (descubrimiento → reserva → ingreso/salida → pago → liberación → analítica), identificar políticas/decisiones y detectar *pivotal events* que anticipan límites naturales entre contextos.
+
+El objetivo de la sesión de **EventStorming** fue mapear los **eventos de dominio** clave de punta a punta (descubrimiento → reserva → ingreso/salida → pago → liberación → analítica), identificar políticas/decisiones y detectar _pivotal events_ que anticipan límites naturales entre contextos.
 
 ##### Actividades realizadas
-- **Warm-up (10 min):** repaso de ubiquitous language (estacionamiento, reserva, check-in, check-out, tiempo de gracia, tarifa, sensor).  
-- **Storming (70 min):** construcción de la línea de tiempo con eventos de negocio; se añadieron comandos, actores y políticas.  
-- **Refactor (25 min):** agrupación de eventos por zonas de responsabilidad y detección de dependencias externas (pasarela de pagos, push notifications).  
+
+- **Warm-up (10 min):** repaso de ubiquitous language (estacionamiento, reserva, check-in, check-out, tiempo de gracia, tarifa, sensor).
+- **Storming (70 min):** construcción de la línea de tiempo con eventos de negocio; se añadieron comandos, actores y políticas.
+- **Refactor (25 min):** agrupación de eventos por zonas de responsabilidad y detección de dependencias externas (pasarela de pagos, push notifications).
 
 ##### Línea de tiempo (eventos principales)
-1. Conductor busca estacionamiento.  
-2. Disponibilidad consultada (datos de sensores agregados).  
-3. Espacio reservado (bloqueo temporal).  
-4. Reserva confirmada (reglas de overbooking y tiempo de gracia).  
-5. Conductor llega → Check-in registrado (sensor detecta ocupación).  
-6. Uso del espacio contabilizado (cronómetro de tarifa).  
-7. Extensión de tiempo solicitada (opcional).  
-8. Check-out registrado (libera el espacio).  
-9. Pago liquidado (cobro exacto por tiempo).  
-10. Reembolso/ajuste aplicado (si aplica).  
-11. Ocupación/rotación actualizadas.  
-12. Métricas y reportes generados (dashboard propietario).  
-13. Alertas operativas (ocupación no autorizada, sensor caído).  
+
+1. Conductor busca estacionamiento.
+2. Disponibilidad consultada (datos de sensores agregados).
+3. Espacio reservado (bloqueo temporal).
+4. Reserva confirmada (reglas de overbooking y tiempo de gracia).
+5. Conductor llega → Check-in registrado (sensor detecta ocupación).
+6. Uso del espacio contabilizado (cronómetro de tarifa).
+7. Extensión de tiempo solicitada (opcional).
+8. Check-out registrado (libera el espacio).
+9. Pago liquidado (cobro exacto por tiempo).
+10. Reembolso/ajuste aplicado (si aplica).
+11. Ocupación/rotación actualizadas.
+12. Métricas y reportes generados (dashboard propietario).
+13. Alertas operativas (ocupación no autorizada, sensor caído).
 
 ##### Políticas de negocio detectadas
 
-- **Bloqueo de espacio:** al crear reserva se bloquea por *X* minutos hasta el check-in.  
-- **Tiempo de gracia:** tolerancia configurable antes de liberar y penalizar.  
-- **Cálculo de tarifa:** redondeo mixto (hora + prorrateo minutos).  
-- **Compensación por falla:** reembolso automático y crédito si el sensor se equivoca.  
-- **SLA de sensores:** batería/conectividad bajo umbral → alerta preventiva.  
+- **Bloqueo de espacio:** al crear reserva se bloquea por _X_ minutos hasta el check-in.
+- **Tiempo de gracia:** tolerancia configurable antes de liberar y penalizar.
+- **Cálculo de tarifa:** redondeo mixto (hora + prorrateo minutos).
+- **Compensación por falla:** reembolso automático y crédito si el sensor se equivoca.
+- **SLA de sensores:** batería/conectividad bajo umbral → alerta preventiva.
 
 <img src="img/eventstorming.jpg">
 
@@ -1378,6 +1415,7 @@ El objetivo de la sesión de **EventStorming** fue mapear los **eventos de domin
 En esta subsección se describen los bounded contexts candidatos, sus límites de responsabilidad, datos propietarios, contratos de interacción (sincronía/asíncronía) y eventos de dominio. La definición se alinea con el EventStorming previo y con las épicas e historias del Cap. III.
 
 Nota de convenciones
+
 - Roles: Conductor, Propietario.
 - Estados típicos de Reserva: creada, bloqueada, confirmada, en-uso, extendida, completada, cancelada, expirada, no-show.
 - Los eventos de dominio se nombran en pasado y en español: <Hecho>Registrado, <Entidad>Creada, etc.
@@ -1444,7 +1482,7 @@ Nota de convenciones
   <img src="assets/chapter-4/PaymentBoundedCContext.png" width="500">
 </p>
 
-##### Bounded Context: Review 
+##### Bounded Context: Review
 
 - Descripción
   - Gestiona calificaciones y reseñas sobre los estacionamientos luego de su uso; así mismo expone su reputación agregada por cada uno.
@@ -1495,6 +1533,7 @@ En esta etapa representamos el intercambio de mensajes entre actores y bounded c
 Este modelado hace visible qué eventos impactan a cada contexto y cómo se encadenan sus reacciones. Además, ayuda a anticipar zonas de riesgo, como la duplicidad de reservas o fallas de telemetría (sensores inactivos), para diseñar medidas de resiliencia y validaciones cruzadas.
 
 ##### 4.1.1.3. Bounded Context Canvases
+
 1. IAM
 
 <img src="assets/chapter-4/IAMBCCanvas.jpg">
@@ -1533,33 +1572,31 @@ Este modelado hace visible qué eventos impactan a cada contexto y cómo se enca
 
 <img src="assets/chapter-4/IOTBCCanvas.jpg">
 
-
 <div style="page-break-after: always;"></div>
-
 
 #### 4.1.2. Context Mapping
 
 **Descripción de Relaciones**
 
-- *IAM → Profile / Reservations / Notification / Payment*  
+- _IAM → Profile / Reservations / Notification / Payment_  
   El contexto de Identidad y Acceso permite que el usuario acceda a las funcionalidades del sistema.
 
-- *Profile → Parking / Reservations*  
+- _Profile → Parking / Reservations_  
   El contexto de perfil provee información del usuario (rol, datos personales) que se reutiliza en la gestión de reservas o estacionamientos.
 
-- *Reservations ↔ Parking*  
+- _Reservations ↔ Parking_  
   Se comunica para consultar disponibilidad y reservar espacios.
 
-- *Reservations ↔ Payment*  
+- _Reservations ↔ Payment_  
   La reserva requiere validación de pagos.
 
-- *Payment → Notification*  
+- _Payment → Notification_  
   Notifica al usuario el resultado de su pago.
 
-- *IoT → Parking*  
+- _IoT → Parking_  
   Proporciona la información en tiempo real de los espacios disponibles.
 
-- *Reservations → Review*  
+- _Reservations → Review_  
   Los conductores dejan una reseña tras utilizar un espacio reservado.
 
 ![Context Mapping](assets/chapter-4/CONTEXTMAPING.jpeg)
@@ -1573,7 +1610,6 @@ Este modelado hace visible qué eventos impactan a cada contexto y cómo se enca
 Se describe el diagrama de contexto del sistema SmartParking, que define los límites del sistema y cómo interactúa con los segmentos objetivo y servicios externos.
 
 <img width="963" height="794" alt="image" src="https://github.com/user-attachments/assets/666d6a07-5101-4ab2-87d3-bc8ff2adc79a" />
-
 
 ##### 4.1.3.2. Software Architecture Container Level Diagrams
 
@@ -1594,6 +1630,7 @@ Se presenta el diagrama de despliegue del sistema SmartParking, que ilustra cóm
 ### 4.2. Tactical-Level Domain-Driven Design
 
 #### 4.2.1. Bounded Context: Identity and Access Management
+
 El **Bounded Context de IAM (Identity and Access Management)** está diseñado para manejar la autenticación, autorización y gestión de usuarios dentro de la aplicación. Este contexto gestiona tanto el registro como la autenticación de usuarios, así como la asignación y gestión de roles. En esta sección, se definen los componentes claves como las entidades User y Role, los controladores para la interacción con estos recursos y los servicios de aplicación y consulta que gestionan las operaciones relacionadas.
 
 ##### 4.2.1.1. Domain Layer
@@ -1604,35 +1641,35 @@ El **Domain Layer** es responsable de representar el núcleo del sistema de gest
 
 **Descripción:** Representa el agregado raíz "Usuario", que contiene los datos de la cuenta y su rol. Se mapea a la tabla users en la base de datos.
 
-|**Atributo**|**Descripción**|**Tipo**|
-| :- | :- | :- |
-|email|Correo electrónico del usuario.|String|
-|password|Contraseña del usuario.|String|
-|roles|Conjunto de roles asociados al usuario.|Set<Role>|
+| **Atributo** | **Descripción**                         | **Tipo**  |
+| :----------- | :-------------------------------------- | :-------- |
+| email        | Correo electrónico del usuario.         | String    |
+| password     | Contraseña del usuario.                 | String    |
+| roles        | Conjunto de roles asociados al usuario. | Set<Role> |
 
 **Métodos**
 
-|**Método**|**Descripción**|
-| :- | :- |
-|addRole(Role role)|Añade un rol al usuario.|
-|addRoles(List<Role> roles)|Añade un conjunto de roles al usuario.|
-|getSerializedRoles()|Devuelve los roles del usuario como una lista de nombres serializados.|
+| **Método**                 | **Descripción**                                                        |
+| :------------------------- | :--------------------------------------------------------------------- |
+| addRole(Role role)         | Añade un rol al usuario.                                               |
+| addRoles(List<Role> roles) | Añade un conjunto de roles al usuario.                                 |
+| getSerializedRoles()       | Devuelve los roles del usuario como una lista de nombres serializados. |
 
 **Entity: Role**
 
 **Descripción:** Representa un rol dentro del sistema, asociado a un value object Roles y utilizado para definir permisos de usuario.
 
-|**Atributo**|**Tipo**|**Descripción**|
-| :- | :- | :- |
-|id|Long|Identificador único del rol|
-|name|Roles|Nombre del rol (value object)|
+| **Atributo** | **Tipo** | **Descripción**               |
+| :----------- | :------- | :---------------------------- |
+| id           | Long     | Identificador único del rol   |
+| name         | Roles    | Nombre del rol (value object) |
 
-|**Método**|**Descripción**|
-| :- | :- |
-|getStringName()|Obtiene el nombre del rol como string|
-|getDefaultRole()|Retorna el rol por defecto (ROLE\_ADMIN)|
-|toRoleFromName(String name)|Crea un rol a partir de su nombre string|
-|validateRoleSet(List<Role> roles)|Valida una lista de roles y asigna un rol por defecto si está vacía|
+| **Método**                        | **Descripción**                                                     |
+| :-------------------------------- | :------------------------------------------------------------------ |
+| getStringName()                   | Obtiene el nombre del rol como string                               |
+| getDefaultRole()                  | Retorna el rol por defecto (ROLE_ADMIN)                             |
+| toRoleFromName(String name)       | Crea un rol a partir de su nombre string                            |
+| validateRoleSet(List<Role> roles) | Valida una lista de roles y asigna un rol por defecto si está vacía |
 
 **Value Objects**
 
@@ -1640,11 +1677,11 @@ El **Domain Layer** es responsable de representar el núcleo del sistema de gest
 
 **Descripción:** Enumeración que representa los roles disponibles en el sistema.
 
-|**Valor**|**Descripción**|
-| :-: | :-: |
-|ROLE_ADMIN|Administrador del sistema|
-|ROLE_PARKING\_OWNER|Propietario de estacionamiento|
-|ROLE_DRIVER|Conductor|
+|     **Valor**      |        **Descripción**         |
+| :----------------: | :----------------------------: |
+|     ROLE_ADMIN     |   Administrador del sistema    |
+| ROLE_PARKING_OWNER | Propietario de estacionamiento |
+|    ROLE_DRIVER     |           Conductor            |
 
 **Domain Services**
 
@@ -1654,39 +1691,39 @@ Los Domain Services en el bounded context IAM son interfaces que definen operaci
 
 **Descripción:** Interfaz que define el contrato para los comandos relacionados con la gestión de roles dentro del dominio. Permite establecer las operaciones necesarias para crear o modificar roles sin acoplarse a una implementación específica.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|handle(SeedRolesCommand command)|Maneja la creación inicial de roles en el sistema|
+|            **Método**            |                  **Descripción**                  |
+| :------------------------------: | :-----------------------------------------------: |
+| handle(SeedRolesCommand command) | Maneja la creación inicial de roles en el sistema |
 
 **RoleQueryService**
 
 **Descripción:** Interfaz que define las operaciones de consulta para obtener información sobre los roles registrados en el sistema. Aísla la lógica de consulta respecto de su implementación.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|handle(GetAllRolesQuery query)|Obtiene todos los roles registrados|
-|handle(GetRoleByNameQuery query)|Busca un rol por su nombre|
+|            **Método**            |           **Descripción**           |
+| :------------------------------: | :---------------------------------: |
+|  handle(GetAllRolesQuery query)  | Obtiene todos los roles registrados |
+| handle(GetRoleByNameQuery query) |     Busca un rol por su nombre      |
 
 **UserCommandService**
 
 **Descripción:** Interfaz que establece el contrato para los comandos de gestión de usuarios dentro del dominio. Define las operaciones necesarias para registrar usuarios, autenticarlos y realizar cambios relacionados.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|handle(SignInCommand command)|Autentica a un usuario y devuelve su información junto con el token|
-|handle(SignUpDriverCommand command)|Registra a un nuevo conductor|
-|handle(SignUpParkingOwnerCommand command)|Registra a un nuevo propietario de estacionamiento|
+|                **Método**                 |                           **Descripción**                           |
+| :---------------------------------------: | :-----------------------------------------------------------------: |
+|       handle(SignInCommand command)       | Autentica a un usuario y devuelve su información junto con el token |
+|    handle(SignUpDriverCommand command)    |                    Registra a un nuevo conductor                    |
+| handle(SignUpParkingOwnerCommand command) |         Registra a un nuevo propietario de estacionamiento          |
 
 **UserQueryService**
 
 **Descripción:** Interfaz que define las operaciones de consulta relacionadas con los usuarios del sistema. Permite obtener información y verificar la existencia de usuarios de forma desacoplada.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|handle(GetAllUsersQuery query)|Obtiene todos los usuarios registrados|
-|handle(GetUserByIdQuery query)|Busca un usuario por su ID|
-|handle(GetUserByUsernameQuery query)|Busca un usuario por su nombre de usuario|
-|handle(CheckUserByIdQuery query)|Verifica si existe un usuario con un ID específico|
+|              **Método**              |                  **Descripción**                   |
+| :----------------------------------: | :------------------------------------------------: |
+|    handle(GetAllUsersQuery query)    |       Obtiene todos los usuarios registrados       |
+|    handle(GetUserByIdQuery query)    |             Busca un usuario por su ID             |
+| handle(GetUserByUsernameQuery query) |     Busca un usuario por su nombre de usuario      |
+|   handle(CheckUserByIdQuery query)   | Verifica si existe un usuario con un ID específico |
 
 ##### 4.2.1.2. Interface Layer
 
@@ -1697,30 +1734,30 @@ El **Interface Layer** sirve como la capa de comunicación entre el mundo exteri
 **Descripción**:
 El controlador AuthenticationController se encarga de manejar las solicitudes relacionadas con la autenticación de los usuarios. A través de sus métodos, permite realizar el inicio de sesión y registro de usuarios, ya sea conductores o propietarios de estacionamientos.
 
-|**Método**|**Descripción**|**HTTP**|**Respuesta**|
-| :- | :- | :- | :- |
-|signIn(SignInResource signInResource)|Maneja la solicitud de inicio de sesión.|POST /sign-in|Devuelve el recurso de usuario autenticado.|
-|signUpDriver(SignUpDriverResource signUpDriverResource)|Maneja la solicitud de registro para conductores.|POST /sign-up/driver|Devuelve el recurso del usuario creado.|
-|signUpParkingOwner(SignUpParkingOwnerResource signUpParkingOwnerResource)|Maneja la solicitud de registro para propietarios de estacionamientos.|POST /sign-up/parking-owner|Devuelve el recurso del usuario creado.|
+| **Método**                                                                | **Descripción**                                                        | **HTTP**                    | **Respuesta**                               |
+| :------------------------------------------------------------------------ | :--------------------------------------------------------------------- | :-------------------------- | :------------------------------------------ |
+| signIn(SignInResource signInResource)                                     | Maneja la solicitud de inicio de sesión.                               | POST /sign-in               | Devuelve el recurso de usuario autenticado. |
+| signUpDriver(SignUpDriverResource signUpDriverResource)                   | Maneja la solicitud de registro para conductores.                      | POST /sign-up/driver        | Devuelve el recurso del usuario creado.     |
+| signUpParkingOwner(SignUpParkingOwnerResource signUpParkingOwnerResource) | Maneja la solicitud de registro para propietarios de estacionamientos. | POST /sign-up/parking-owner | Devuelve el recurso del usuario creado.     |
 
 **Controlador RolesController**
 
 **Descripción**:
 El controlador RolesController permite obtener la lista de todos los roles disponibles en el sistema.
 
-|**Método**|**Descripción**|**HTTP**|**Respuesta**|
-| :- | :- | :- | :- |
-|getAllRoles()|Devuelve todos los roles.|GET /roles|Lista de recursos de roles.|
+| **Método**    | **Descripción**           | **HTTP**   | **Respuesta**               |
+| :------------ | :------------------------ | :--------- | :-------------------------- |
+| getAllRoles() | Devuelve todos los roles. | GET /roles | Lista de recursos de roles. |
 
 **Controlador UsersController**
 
 **Descripción**:
 El controlador UsersController gestiona las solicitudes para obtener información sobre los usuarios registrados en el sistema.
 
-|**Método**|**Descripción**|**HTTP**|**Respuesta**|
-| :- | :- | :- | :- |
-|getAllUsers()|Devuelve todos los usuarios.|GET /users|Lista de recursos de usuarios.|
-|getUserById(Long userId)|Devuelve un usuario por su ID.|GET /users/{userId}|Recurso de usuario por ID.|
+| **Método**               | **Descripción**                | **HTTP**            | **Respuesta**                  |
+| :----------------------- | :----------------------------- | :------------------ | :----------------------------- |
+| getAllUsers()            | Devuelve todos los usuarios.   | GET /users          | Lista de recursos de usuarios. |
+| getUserById(Long userId) | Devuelve un usuario por su ID. | GET /users/{userId} | Recurso de usuario por ID.     |
 
 ##### 4.2.1.3. Application Layer
 
@@ -1731,42 +1768,42 @@ El **Application Layer** contiene la lógica necesaria para procesar las operaci
 **Descripción**:
 La clase RoleCommandServiceImpl se encarga de manejar los comandos relacionados con los roles. Proporciona lógica para crear roles si no existen previamente en el sistema.
 
-|**Método**|**Descripción**|
-| :- | :- |
-|handle(SeedRolesCommand command)|Maneja el comando para crear roles si no existen.|
+| **Método**                       | **Descripción**                                   |
+| :------------------------------- | :------------------------------------------------ |
+| handle(SeedRolesCommand command) | Maneja el comando para crear roles si no existen. |
 
 **Clase UserCommandServiceImpl**
 
 **Descripción**:
 La clase UserCommandServiceImpl maneja los comandos relacionados con las operaciones de los usuarios, como iniciar sesión y registrar nuevos usuarios.
 
-|**Método**|**Descripción**|
-| :- | :- |
-|handle(SignInCommand command)|Maneja el comando para iniciar sesión de un usuario.|
-|handle(SignUpDriverCommand command)|Maneja el comando para registrar un conductor.|
-|handle(SignUpParkingOwnerCommand command)|Maneja el comando para registrar un propietario de estacionamiento.|
+| **Método**                                | **Descripción**                                                     |
+| :---------------------------------------- | :------------------------------------------------------------------ |
+| handle(SignInCommand command)             | Maneja el comando para iniciar sesión de un usuario.                |
+| handle(SignUpDriverCommand command)       | Maneja el comando para registrar un conductor.                      |
+| handle(SignUpParkingOwnerCommand command) | Maneja el comando para registrar un propietario de estacionamiento. |
 
 **Clase RoleQueryServiceImpl**
 
 **Descripción**:
 La clase RoleQueryServiceImpl maneja las consultas relacionadas con los roles.
 
-|**Método**|**Descripción**|
-| :- | :- |
-|handle(GetAllRolesQuery query)|Devuelve todos los roles.|
-|handle(GetRoleByNameQuery query)|Devuelve un rol por su nombre.|
+| **Método**                       | **Descripción**                |
+| :------------------------------- | :----------------------------- |
+| handle(GetAllRolesQuery query)   | Devuelve todos los roles.      |
+| handle(GetRoleByNameQuery query) | Devuelve un rol por su nombre. |
 
 **Clase UserQueryServiceImpl**
 
 **Descripción**:
 La clase UserQueryServiceImpl maneja las consultas relacionadas con los usuarios.
 
-|**Método**|**Descripción**|
-| :- | :- |
-|handle(GetAllUsersQuery query)|Devuelve todos los usuarios.|
-|handle(GetUserByIdQuery query)|Devuelve un usuario por su ID.|
-|handle(GetUserByUsernameQuery query)|Devuelve un usuario por su correo electrónico.|
-|handle(CheckUserByIdQuery query)|Verifica si un usuario existe por su ID.|
+| **Método**                           | **Descripción**                                |
+| :----------------------------------- | :--------------------------------------------- |
+| handle(GetAllUsersQuery query)       | Devuelve todos los usuarios.                   |
+| handle(GetUserByIdQuery query)       | Devuelve un usuario por su ID.                 |
+| handle(GetUserByUsernameQuery query) | Devuelve un usuario por su correo electrónico. |
+| handle(CheckUserByIdQuery query)     | Verifica si un usuario existe por su ID.       |
 
 ##### 4.2.1.4. Infrastructure Layer
 
@@ -1776,20 +1813,20 @@ La capa de infraestructura se encarga de la interacción con fuentes externas de
 
 **Descripción**: Repositorio que maneja las operaciones de persistencia relacionadas con los usuarios en la base de datos.
 
-|**Método**|**Descripción**|
-| :- | :- |
-|findByEmail(String email)|Busca un usuario en la base de datos utilizando su correo electrónico. Devuelve un Optional<User>.|
-|existsByEmail(String email)|Verifica si un usuario con el correo electrónico especificado ya existe. Devuelve un boolean.|
-|existsById(Long userId)|Verifica si un usuario con el ID especificado ya existe. Devuelve un boolean.|
+| **Método**                  | **Descripción**                                                                                    |
+| :-------------------------- | :------------------------------------------------------------------------------------------------- |
+| findByEmail(String email)   | Busca un usuario en la base de datos utilizando su correo electrónico. Devuelve un Optional<User>. |
+| existsByEmail(String email) | Verifica si un usuario con el correo electrónico especificado ya existe. Devuelve un boolean.      |
+| existsById(Long userId)     | Verifica si un usuario con el ID especificado ya existe. Devuelve un boolean.                      |
 
 **Repositorio: RoleRepository**
 
 **Descripción**: Repositorio encargado de gestionar la persistencia de los roles del sistema.
 
-|**Método**|**Descripción**|
-| :- | :- |
-|findByName(Roles name)|Busca un rol en la base de datos por su nombre. Devuelve un Optional<Role>.|
-|existsByName(Roles name)|Verifica si un rol con el nombre especificado ya existe. Devuelve un boolean.|
+| **Método**               | **Descripción**                                                               |
+| :----------------------- | :---------------------------------------------------------------------------- |
+| findByName(Roles name)   | Busca un rol en la base de datos por su nombre. Devuelve un Optional<Role>.   |
+| existsByName(Roles name) | Verifica si un rol con el nombre especificado ya existe. Devuelve un boolean. |
 
 <div style="page-break-after: always;"></div>
 
@@ -1837,51 +1874,50 @@ El Bounded Context de **Profile** es responsable de la gestión de perfiles de u
 
 ##### 4.2.2.1. Domain Layer
 
-
 La capa de dominio encapsula las entidades centrales del sistema de perfiles y contiene la lógica de validación de atributos mediante objetos de valor. Las entidades principales son Driver y ParkingOwner, las cuales heredan de un agregado raíz auditable. Se usan objetos de valor como Phone, Dni y Ruc para encapsular lógica específica y validación.
 
 **Aggregate:** Driver
 
 **Descripción:** Representa el perfil de un conductor registrado.
 
-|**Atributo**|**Descripción**|**Tipo**|
-| :-: | :-: | :-: |
-|fullName|Nombre completo del conductor|String|
-|city|Ciudad de residencia|String|
-|country|País de residencia|String|
-|userId|ID del usuario (referencia a IAM)|Long|
-|dni|Documento nacional de identidad|Dni|
-|phone|Número de teléfono del usuario|Phone|
+| **Atributo** |          **Descripción**          | **Tipo** |
+| :----------: | :-------------------------------: | :------: |
+|   fullName   |   Nombre completo del conductor   |  String  |
+|     city     |       Ciudad de residencia        |  String  |
+|   country    |        País de residencia         |  String  |
+|    userId    | ID del usuario (referencia a IAM) |   Long   |
+|     dni      |  Documento nacional de identidad  |   Dni    |
+|    phone     |  Número de teléfono del usuario   |  Phone   |
 
 **Método**
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|Driver(CreateDriverCommand command, Long userId)|Constructor que crea un perfil de conductor.|
-|String getDni()|Devuelve el número de DNI del conductor.|
-|String getPhone()|Devuelve el número telefónico del conductor.|
+|                    **Método**                    |               **Descripción**                |
+| :----------------------------------------------: | :------------------------------------------: |
+| Driver(CreateDriverCommand command, Long userId) | Constructor que crea un perfil de conductor. |
+|                 String getDni()                  |   Devuelve el número de DNI del conductor.   |
+|                String getPhone()                 | Devuelve el número telefónico del conductor. |
 
 **Aggregate**: ParkingOwner
 
 **Descripción:** Representa el perfil de un propietario de estacionamiento.
 
-|**Atributo**|**Descripción**|**Tipo**|
-| :-: | :-: | :-: |
-|fullName|Nombre completo del propietario|String|
-|city|Ciudad de operación|String|
-|country|País de operación|String|
-|companyName|Nombre de la empresa|String|
-|userId|ID del usuario (referencia a IAM)|Long|
-|ruc|Registro Único de Contribuyentes (empresa)|Ruc|
-|phone|Número de teléfono|Phone|
+| **Atributo** |              **Descripción**               | **Tipo** |
+| :----------: | :----------------------------------------: | :------: |
+|   fullName   |      Nombre completo del propietario       |  String  |
+|     city     |            Ciudad de operación             |  String  |
+|   country    |             País de operación              |  String  |
+| companyName  |            Nombre de la empresa            |  String  |
+|    userId    |     ID del usuario (referencia a IAM)      |   Long   |
+|     ruc      | Registro Único de Contribuyentes (empresa) |   Ruc    |
+|    phone     |             Número de teléfono             |  Phone   |
 
 **Método**
 
-|**Clase**|**Método**|**Descripción**|
-| :-: | :-: | :-: |
-|ParkingOwner|ParkingOwner(CreateParkingOwnerCommand command, Long userId)|Constructor que crea un perfil de propietario.|
-|ParkingOwner|String getPhone()|Devuelve el número telefónico del propietario.|
-|ParkingOwner|String getRuc()|Devuelve el RUC de la empresa del propietario.|
+|  **Clase**   |                          **Método**                          |                **Descripción**                 |
+| :----------: | :----------------------------------------------------------: | :--------------------------------------------: |
+| ParkingOwner | ParkingOwner(CreateParkingOwnerCommand command, Long userId) | Constructor que crea un perfil de propietario. |
+| ParkingOwner |                      String getPhone()                       | Devuelve el número telefónico del propietario. |
+| ParkingOwner |                       String getRuc()                        | Devuelve el RUC de la empresa del propietario. |
 
 **Value Objects**
 
@@ -1892,16 +1928,16 @@ Representa el Documento Nacional de Identidad (DNI) de un usuario. Asegura que e
 
 **Atributos:**
 
-|**Nombre**|**Tipo**|**Descripción**|
-| :- | :- | :- |
-|dni|String|Número de DNI con exactamente 8 dígitos|
+| **Nombre** | **Tipo** | **Descripción**                         |
+| :--------- | :------- | :-------------------------------------- |
+| dni        | String   | Número de DNI con exactamente 8 dígitos |
 
 **Métodos:**
 
-|**Nombre**|**Descripción**|
-| :- | :- |
-|Dni(String dni)|Constructor que valida que el valor tenga exactamente 8 dígitos.|
-|Dni()|Constructor por defecto que asigna "00000000".|
+| **Nombre**      | **Descripción**                                                  |
+| :-------------- | :--------------------------------------------------------------- |
+| Dni(String dni) | Constructor que valida que el valor tenga exactamente 8 dígitos. |
+| Dni()           | Constructor por defecto que asigna "00000000".                   |
 
 **Phone**
 
@@ -1910,16 +1946,16 @@ Representa un número de teléfono válido, de exactamente 9 dígitos.
 
 **Atributos:**
 
-|**Nombre**|**Tipo**|**Descripción**|
-| :- | :- | :- |
-|phone|String|Número telefónico con exactamente 9 dígitos|
+| **Nombre** | **Tipo** | **Descripción**                             |
+| :--------- | :------- | :------------------------------------------ |
+| phone      | String   | Número telefónico con exactamente 9 dígitos |
 
 **Métodos:**
 
-|**Nombre**|**Descripción**|
-| :- | :- |
-|Phone(String phone)|Constructor que valida que el valor tenga exactamente 9 dígitos.|
-|Phone()|Constructor por defecto que asigna "000000000".|
+| **Nombre**          | **Descripción**                                                  |
+| :------------------ | :--------------------------------------------------------------- |
+| Phone(String phone) | Constructor que valida que el valor tenga exactamente 9 dígitos. |
+| Phone()             | Constructor por defecto que asigna "000000000".                  |
 
 **Ruc**
 
@@ -1928,16 +1964,16 @@ Representa un Registro Único de Contribuyente (RUC), válido con exactamente 11
 
 **Atributos:**
 
-|**Nombre**|**Tipo**|**Descripción**|
-| :- | :- | :- |
-|ruc|String|Número de RUC con exactamente 11 dígitos|
+| **Nombre** | **Tipo** | **Descripción**                          |
+| :--------- | :------- | :--------------------------------------- |
+| ruc        | String   | Número de RUC con exactamente 11 dígitos |
 
 **Métodos:**
 
-|**Nombre**|**Descripción**|
-| :- | :- |
-|Ruc(String ruc)|Constructor que valida que el valor tenga exactamente 11 dígitos.|
-|Ruc()|Constructor por defecto que asigna "00000000000".|
+| **Nombre**      | **Descripción**                                                   |
+| :-------------- | :---------------------------------------------------------------- |
+| Ruc(String ruc) | Constructor que valida que el valor tenga exactamente 11 dígitos. |
+| Ruc()           | Constructor por defecto que asigna "00000000000".                 |
 
 **Domain Services**
 
@@ -1950,9 +1986,9 @@ Interfaz que define operaciones de negocio relacionadas con la creación de un D
 
 **Métodos:**
 
-|**Nombre**|**Descripción**|
-| :- | :- |
-|Optional<Driver> handle(CreateDriverCommand command, Long userId)|Procesa el comando de creación de un conductor, asociándolo a un User existente mediante su userId.|
+| **Nombre**                                                        | **Descripción**                                                                                     |
+| :---------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------- |
+| Optional<Driver> handle(CreateDriverCommand command, Long userId) | Procesa el comando de creación de un conductor, asociándolo a un User existente mediante su userId. |
 
 **DriverQueryService**
 
@@ -1961,9 +1997,9 @@ Interfaz que permite consultar información relacionada con un Driver.
 
 **Métodos:**
 
-|**Nombre**|**Descripción**|
-| :- | :- |
-|Optional<Driver> handle(GetDriverByUserIdAsyncQuery query)|Obtiene un Driver asociado a un User mediante su userId.|
+| **Nombre**                                                 | **Descripción**                                          |
+| :--------------------------------------------------------- | :------------------------------------------------------- |
+| Optional<Driver> handle(GetDriverByUserIdAsyncQuery query) | Obtiene un Driver asociado a un User mediante su userId. |
 
 **ParkingOwnerCommandService**
 
@@ -1972,9 +2008,9 @@ Interfaz que define operaciones de negocio relacionadas con la creación de un P
 
 **Métodos:**
 
-|**Nombre**|**Descripción**|
-| :- | :- |
-|Optional<ParkingOwner> handle(CreateParkingOwnerCommand command, Long userId)|Procesa el comando de creación de un propietario de estacionamiento, asociándolo a un User existente mediante su userId.|
+| **Nombre**                                                                    | **Descripción**                                                                                                          |
+| :---------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------- |
+| Optional<ParkingOwner> handle(CreateParkingOwnerCommand command, Long userId) | Procesa el comando de creación de un propietario de estacionamiento, asociándolo a un User existente mediante su userId. |
 
 **ParkingOwnerQueryService**
 
@@ -1983,9 +2019,9 @@ Interfaz que permite consultar información relacionada con un ParkingOwner.
 
 **Métodos:**
 
-|**Nombre**|**Descripción**|
-| :- | :- |
-|Optional<ParkingOwner> handle(GetParkingOwnerByUserIdAsyncQuery query)|Obtiene un ParkingOwner asociado a un User mediante su userId.|
+| **Nombre**                                                             | **Descripción**                                                |
+| :--------------------------------------------------------------------- | :------------------------------------------------------------- |
+| Optional<ParkingOwner> handle(GetParkingOwnerByUserIdAsyncQuery query) | Obtiene un ParkingOwner asociado a un User mediante su userId. |
 
 ##### 4.2.2.2. Interface Layer
 
@@ -1995,10 +2031,10 @@ Esta capa actúa como punto de entrada para consultas externas relacionadas con 
 
 **Descripción:** Gestiona las consultas de perfiles de usuarios.
 
-|**Método**|**Descripción**|**HTTP**|**Respuesta**|
-| :-: | :-: | :-: | :-: |
-|getDriverProfile(Long userId)|Devuelve el perfil de un conductor por su userId|GET /profiles/driver/{userId}|Recurso del conductor|
-|getParkingOwnerProfile(Long userId)|Devuelve el perfil de un propietario por su userId|GET /profiles/parking-owner/{userId}|Recurso del propietario|
+|             **Método**              |                  **Descripción**                   |               **HTTP**               |      **Respuesta**      |
+| :---------------------------------: | :------------------------------------------------: | :----------------------------------: | :---------------------: |
+|    getDriverProfile(Long userId)    |  Devuelve el perfil de un conductor por su userId  |    GET /profiles/driver/{userId}     |  Recurso del conductor  |
+| getParkingOwnerProfile(Long userId) | Devuelve el perfil de un propietario por su userId | GET /profiles/parking-owner/{userId} | Recurso del propietario |
 
 ##### 4.2.2.3. Application Layer
 
@@ -2008,36 +2044,35 @@ Esta capa contiene la lógica de aplicación, incluyendo la validación de unici
 
 **Descripción:** Gestiona los comandos para la creación de conductores.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|handle(CreateDriverCommand)|Crea un nuevo perfil de conductor, validando unicidad de dni, phone y userId.|
+|         **Método**          |                                **Descripción**                                |
+| :-------------------------: | :---------------------------------------------------------------------------: |
+| handle(CreateDriverCommand) | Crea un nuevo perfil de conductor, validando unicidad de dni, phone y userId. |
 
 **Clase: ParkingOwnerCommandServiceImpl**
 
 **Descripción:** Gestiona los comandos para la creación de propietarios de estacionamiento.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|handle(CreateParkingOwnerCommand)|Crea un nuevo perfil de propietario, validando ruc, phone, userId.|
+|            **Método**             |                          **Descripción**                           |
+| :-------------------------------: | :----------------------------------------------------------------: |
+| handle(CreateParkingOwnerCommand) | Crea un nuevo perfil de propietario, validando ruc, phone, userId. |
 
 **Clase: DriverQueryServiceImpl**
 
 **Descripción:** Gestiona consultas sobre conductores.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|handle(GetDriverByUserIdQuery)|Recupera un conductor a partir de su userId.|
+|           **Método**           |               **Descripción**                |
+| :----------------------------: | :------------------------------------------: |
+| handle(GetDriverByUserIdQuery) | Recupera un conductor a partir de su userId. |
 
 **Clase: ParkingOwnerQueryServiceImpl**
 
 **Descripción:** Gestiona consultas sobre propietarios de estacionamiento.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|handle(GetParkingOwnerByUserIdQuery)|Recupera un propietario por su userId.|
+|              **Método**              |            **Descripción**             |
+| :----------------------------------: | :------------------------------------: |
+| handle(GetParkingOwnerByUserIdQuery) | Recupera un propietario por su userId. |
 
 ##### 4.2.2.4. Infrastructure Layer
-
 
 La capa de infraestructura proporciona la implementación de persistencia para los perfiles, permitiendo operaciones CRUD y búsquedas específicas. Los repositorios se basan en Spring Data JPA.
 
@@ -2045,23 +2080,23 @@ La capa de infraestructura proporciona la implementación de persistencia para l
 
 **Descripción:** Administra la persistencia de la entidad Driver.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|findDriverByUserId(Long)|Recupera un conductor por su userId.|
-|existsByDni_Dni(String)|Verifica si existe un conductor con un DNI dado.|
-|existsByPhone_Phone(String)|Verifica si existe un conductor con un teléfono dado.|
-|existsByUserId(Long)|Verifica si existe un conductor con un userId dado.|
+|         **Método**          |                    **Descripción**                    |
+| :-------------------------: | :---------------------------------------------------: |
+|  findDriverByUserId(Long)   |         Recupera un conductor por su userId.          |
+|   existsByDni_Dni(String)   |   Verifica si existe un conductor con un DNI dado.    |
+| existsByPhone_Phone(String) | Verifica si existe un conductor con un teléfono dado. |
+|    existsByUserId(Long)     |  Verifica si existe un conductor con un userId dado.  |
 
 **Repositorio: ParkingOwnerRepository**
 
 **Descripción:** Administra la persistencia de la entidad ParkingOwner.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|findParkingOwnerByUserId(Long)|Recupera un propietario de estacionamiento por su userId.|
-|existsByRuc_Ruc(String)|Verifica si existe un propietario con un RUC dado.|
-|existsByPhone_Phone(String)|Verifica si existe un propietario con un teléfono dado.|
-|existsByUserId(Long)|Verifica si existe un propietario con un userId dado.|
+|           **Método**           |                      **Descripción**                      |
+| :----------------------------: | :-------------------------------------------------------: |
+| findParkingOwnerByUserId(Long) | Recupera un propietario de estacionamiento por su userId. |
+|    existsByRuc_Ruc(String)     |    Verifica si existe un propietario con un RUC dado.     |
+|  existsByPhone_Phone(String)   |  Verifica si existe un propietario con un teléfono dado.  |
+|      existsByUserId(Long)      |   Verifica si existe un propietario con un userId dado.   |
 
 <div style="page-break-after: always;"></div>
 
@@ -2097,17 +2132,17 @@ El diagrama de clases muestra la relación entre las entidades Driver y ParkingO
 
 ###### 4.2.2.6.2. Bounded Context Database Design Diagram
 
-El diagrama de base muestra las tablas drivers y parking\_owners, así como la relación entre estas.
+El diagrama de base muestra las tablas drivers y parking_owners, así como la relación entre estas.
 
 <img src="assets/chapter-4/bc-profile-diagramabasededatos.png" alt="Profile database image" height="300px">
 
 <div style="page-break-after: always;"></div>
 
 #### 4.2.3. Bounded Context: Parking Management
+
 El Bounded Context de **Parking Management** es responsable de la gestión de los estacionamientos registrados por los propietarios. Este contexto permite la creación de estacionamientos, el registro de spots (espacios disponibles), y la consulta de los mismos. Las entidades principales son **Parking** y **ParkingSpot**, donde un estacionamiento puede contener múltiples espacios. La lógica de agregación, validación y control de espacios está encapsulada en el agregado raíz Parking.
 
 ##### 4.2.3.1. Domain Layer
-
 
 La capa de dominio encapsula las entidades y lógica central del sistema de gestión de estacionamientos. El agregado raíz es Parking, que contiene información sobre la ubicación, tarifa, imagen, y distribución de los espacios de estacionamiento. La entidad ParkingSpot representa un espacio individual. Se utilizan objetos de valor como SpotManager para encapsular lógica y referencias específicas.
 
@@ -2115,52 +2150,52 @@ La capa de dominio encapsula las entidades y lógica central del sistema de gest
 
 **Descripción:** Representa un estacionamiento gestionado por un propietario.
 
-|**Atributo**|**Descripción**|**Tipo**|
-| :-: | :-: | :-: |
-|name|Nombre del estacionamiento|String|
-|description|Descripción del estacionamiento|String|
-|address|Dirección física del estacionamiento|String|
-|lat|Latitud de ubicación|Double|
-|lng|Longitud de ubicación|Double|
-|ratePerHour|Tarifa por hora|Float|
-|rating|Calificación promedio|Float|
-|totalSpots|Total de espacios de estacionamiento|Integer|
-|availableSpots|Espacios actualmente disponibles|Integer|
-|totalRows|Número total de filas de espacios|Integer|
-|totalColumns|Número total de columnas de espacios|Integer|
-|imageUrl|URL de imagen representativa|String|
-|ownerId|Identificador del propietario|OwnerId|
-|parkingSpotManager|Gestor interno de los espacios|SpotManager|
+|    **Atributo**    |           **Descripción**            |  **Tipo**   |
+| :----------------: | :----------------------------------: | :---------: |
+|        name        |      Nombre del estacionamiento      |   String    |
+|    description     |   Descripción del estacionamiento    |   String    |
+|      address       | Dirección física del estacionamiento |   String    |
+|        lat         |         Latitud de ubicación         |   Double    |
+|        lng         |        Longitud de ubicación         |   Double    |
+|    ratePerHour     |           Tarifa por hora            |    Float    |
+|       rating       |        Calificación promedio         |    Float    |
+|     totalSpots     | Total de espacios de estacionamiento |   Integer   |
+|   availableSpots   |   Espacios actualmente disponibles   |   Integer   |
+|     totalRows      |  Número total de filas de espacios   |   Integer   |
+|    totalColumns    | Número total de columnas de espacios |   Integer   |
+|      imageUrl      |     URL de imagen representativa     |   String    |
+|      ownerId       |    Identificador del propietario     |   OwnerId   |
+| parkingSpotManager |    Gestor interno de los espacios    | SpotManager |
 
 **Método:**
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|Parking(CreateParkingCommand command)|Constructor que crea un estacionamiento a partir de un comando.|
-|void addParkingSpot(AddParkingSpotCommand command)|Agrega un nuevo espacio de estacionamiento.|
-|List<ParkingSpot> getParkingSpots()|Obtiene todos los espacios de estacionamiento.|
-|ParkingSpot getParkingSpot(UUID parkingSpotId)|Devuelve un espacio específico por ID.|
-|Long getOwnerId()|Devuelve el ID del propietario del estacionamiento.|
+|                     **Método**                     |                         **Descripción**                         |
+| :------------------------------------------------: | :-------------------------------------------------------------: |
+|       Parking(CreateParkingCommand command)        | Constructor que crea un estacionamiento a partir de un comando. |
+| void addParkingSpot(AddParkingSpotCommand command) |           Agrega un nuevo espacio de estacionamiento.           |
+|        List<ParkingSpot> getParkingSpots()         |         Obtiene todos los espacios de estacionamiento.          |
+|   ParkingSpot getParkingSpot(UUID parkingSpotId)   |             Devuelve un espacio específico por ID.              |
+|                 Long getOwnerId()                  |       Devuelve el ID del propietario del estacionamiento.       |
 
 **Entity: ParkingSpot**
 
 **Descripción:** Representa un espacio individual dentro de un estacionamiento.
 
-|**Atributo**|**Descripción**|**Tipo**|
-| :-: | :-: | :-: |
-|id|Identificador único del espacio|UUID|
-|available|Disponibilidad del espacio|Boolean|
-|rowIndex|Fila en la matriz del estacionamiento|Integer|
-|columnIndex|Columna en la matriz del estacionamiento|Integer|
-|label|Etiqueta visible del espacio|String|
+| **Atributo** |             **Descripción**              | **Tipo** |
+| :----------: | :--------------------------------------: | :------: |
+|      id      |     Identificador único del espacio      |   UUID   |
+|  available   |        Disponibilidad del espacio        | Boolean  |
+|   rowIndex   |  Fila en la matriz del estacionamiento   | Integer  |
+| columnIndex  | Columna en la matriz del estacionamiento | Integer  |
+|    label     |       Etiqueta visible del espacio       |  String  |
 
 **Método**
 
-|**Método**|**Retorno**|**Descripción**|
-| :-: | :-: | :-: |
-|ParkingSpot()|Constructor protegido|Constructor vacío requerido por JPA.|
-|ParkingSpot(Parking parking, Integer row, Integer column, String label)|Constructor|Inicializa un nuevo ParkingSpot con datos de ubicación y disponibilidad.|
-|Long getParkingId()|Long|Retorna el ID del estacionamiento asociado.|
+|                               **Método**                                |      **Retorno**      |                             **Descripción**                              |
+| :---------------------------------------------------------------------: | :-------------------: | :----------------------------------------------------------------------: |
+|                              ParkingSpot()                              | Constructor protegido |                   Constructor vacío requerido por JPA.                   |
+| ParkingSpot(Parking parking, Integer row, Integer column, String label) |      Constructor      | Inicializa un nuevo ParkingSpot con datos de ubicación y disponibilidad. |
+|                           Long getParkingId()                           |         Long          |               Retorna el ID del estacionamiento asociado.                |
 
 **Value Objects**
 
@@ -2171,16 +2206,16 @@ Representa el identificador único de un propietario de estacionamiento. Asegura
 
 **Atributos:**
 
-|**Nombre**|**Tipo**|**Descripción**|
-| :- | :- | :- |
-|ownerId|Long|Identificador único del propietario, debe ser positivo|
+| **Nombre** | **Tipo** | **Descripción**                                        |
+| :--------- | :------- | :----------------------------------------------------- |
+| ownerId    | Long     | Identificador único del propietario, debe ser positivo |
 
 **Métodos:**
 
-|**Nombre**|**Descripción**|
-| :- | :- |
-|OwnerId(Long ownerId)|Constructor que valida que el valor sea un número positivo.|
-|OwnerId()|Constructor por defecto que asigna 0L, utilizado para serialización.|
+| **Nombre**            | **Descripción**                                                      |
+| :-------------------- | :------------------------------------------------------------------- |
+| OwnerId(Long ownerId) | Constructor que valida que el valor sea un número positivo.          |
+| OwnerId()             | Constructor por defecto que asigna 0L, utilizado para serialización. |
 
 **SpotManager**
 
@@ -2189,18 +2224,18 @@ Representa el componente encargado de administrar la colección de espacios de e
 
 **Atributos:**
 
-|**Nombre**|**Tipo**|**Descripción**|
-| :- | :- | :- |
-|parkingSpots|List<ParkingSpot>|Lista de espacios de estacionamiento asociados al Parking|
+| **Nombre**   | **Tipo**          | **Descripción**                                           |
+| :----------- | :---------------- | :-------------------------------------------------------- |
+| parkingSpots | List<ParkingSpot> | Lista de espacios de estacionamiento asociados al Parking |
 
 **Métodos:**
 
-|**Nombre**|**Descripción**|
-| :- | :- |
-|SpotManager()|Constructor por defecto que inicializa la lista de parkingSpots vacía.|
-|addParkingSpot(Parking, Integer, Integer, String)|Agrega un nuevo espacio de estacionamiento a la lista.|
-|removeParkingSpot(UUID)|Elimina un espacio de estacionamiento de la lista según su ID.|
-|getParkingSpotById(UUID)|Obtiene un espacio de estacionamiento de la lista según su ID. Retorna null si no existe.|
+| **Nombre**                                        | **Descripción**                                                                           |
+| :------------------------------------------------ | :---------------------------------------------------------------------------------------- |
+| SpotManager()                                     | Constructor por defecto que inicializa la lista de parkingSpots vacía.                    |
+| addParkingSpot(Parking, Integer, Integer, String) | Agrega un nuevo espacio de estacionamiento a la lista.                                    |
+| removeParkingSpot(UUID)                           | Elimina un espacio de estacionamiento de la lista según su ID.                            |
+| getParkingSpotById(UUID)                          | Obtiene un espacio de estacionamiento de la lista según su ID. Retorna null si no existe. |
 
 **Domain Services**
 
@@ -2214,10 +2249,10 @@ Interfaz que define operaciones de negocio relacionadas con la creación de esta
 
 **Métodos:**
 
-|**Nombre**|**Descripción**|
-| :- | :- |
-|Optional<Parking> handle(CreateParkingCommand command)|Procesa el comando para crear un nuevo estacionamiento.|
-|Optional<ParkingSpot> handle(AddParkingSpotCommand command)|Procesa el comando para agregar un nuevo espacio de estacionamiento a un Parking existente.|
+| **Nombre**                                                  | **Descripción**                                                                             |
+| :---------------------------------------------------------- | :------------------------------------------------------------------------------------------ |
+| Optional<Parking> handle(CreateParkingCommand command)      | Procesa el comando para crear un nuevo estacionamiento.                                     |
+| Optional<ParkingSpot> handle(AddParkingSpotCommand command) | Procesa el comando para agregar un nuevo espacio de estacionamiento a un Parking existente. |
 
 **ParkingQueryService**
 
@@ -2226,11 +2261,11 @@ Interfaz que permite consultar información relacionada con los estacionamientos
 
 **Métodos:**
 
-|**Nombre**|**Descripción**|
-| :- | :- |
-|Optional<Parking> handle(GetParkingByIdQuery query)|Obtiene un estacionamiento por su ID.|
-|List<ParkingSpot> handle(GetParkingSpotsByParkingIdQuery query)|Obtiene todos los espacios de estacionamiento asociados a un estacionamiento.|
-|Optional<ParkingSpot> handle(GetParkingSpotByIdQuery query)|Obtiene un espacio de estacionamiento específico por su ID.|
+| **Nombre**                                                      | **Descripción**                                                               |
+| :-------------------------------------------------------------- | :---------------------------------------------------------------------------- |
+| Optional<Parking> handle(GetParkingByIdQuery query)             | Obtiene un estacionamiento por su ID.                                         |
+| List<ParkingSpot> handle(GetParkingSpotsByParkingIdQuery query) | Obtiene todos los espacios de estacionamiento asociados a un estacionamiento. |
+| Optional<ParkingSpot> handle(GetParkingSpotByIdQuery query)     | Obtiene un espacio de estacionamiento específico por su ID.                   |
 
 ##### 4.2.3.2. Interface Layer
 
@@ -2240,15 +2275,14 @@ Esta capa define los puntos de entrada externos para interactuar con los estacio
 
 **Descripción:** Gestiona las operaciones externas relacionadas con los estacionamientos.
 
-|**Método**|**Descripción**|**HTTP**|**Respuesta**|
-| :-: | :-: | :-: | :-: |
-|createParking(CreateParkingCommand)|Crea un nuevo estacionamiento|POST /parkings|Recurso del estacionamiento creado|
-|getParking(Long parkingId)|Recupera la información de un estacionamiento por su ID|GET /parkings/{parkingId}|Recurso de estacionamiento|
-|getAllParkings()|Lista todos los estacionamientos disponibles|GET /parkings|Lista de estacionamientos|
-|getParkingSpots(Long parkingId)|Lista los espacios de un estacionamiento específico|GET /parkings/{parkingId}/spots|Lista de espacios|
+|             **Método**              |                     **Descripción**                     |            **HTTP**             |           **Respuesta**            |
+| :---------------------------------: | :-----------------------------------------------------: | :-----------------------------: | :--------------------------------: |
+| createParking(CreateParkingCommand) |              Crea un nuevo estacionamiento              |         POST /parkings          | Recurso del estacionamiento creado |
+|     getParking(Long parkingId)      | Recupera la información de un estacionamiento por su ID |    GET /parkings/{parkingId}    |     Recurso de estacionamiento     |
+|          getAllParkings()           |      Lista todos los estacionamientos disponibles       |          GET /parkings          |     Lista de estacionamientos      |
+|   getParkingSpots(Long parkingId)   |   Lista los espacios de un estacionamiento específico   | GET /parkings/{parkingId}/spots |         Lista de espacios          |
 
 ##### 4.2.3.3. Application Layer
-
 
 La capa de aplicación contiene la lógica de negocio que orquesta la creación y consulta de estacionamientos y espacios. Coordina comandos y consultas entre la capa de interfaz y la de dominio.
 
@@ -2256,20 +2290,20 @@ La capa de aplicación contiene la lógica de negocio que orquesta la creación 
 
 **Descripción:** Maneja los comandos de creación de estacionamientos y agregación de espacios.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|handle(CreateParkingCommand)|Crea un nuevo estacionamiento usando los datos del comando|
-|handle(AddParkingSpotCommand)|Agrega un nuevo espacio a un estacionamiento existente, validando su matriz|
+|          **Método**           |                               **Descripción**                               |
+| :---------------------------: | :-------------------------------------------------------------------------: |
+| handle(CreateParkingCommand)  |         Crea un nuevo estacionamiento usando los datos del comando          |
+| handle(AddParkingSpotCommand) | Agrega un nuevo espacio a un estacionamiento existente, validando su matriz |
 
 **Clase: ParkingQueryServiceImpl**
 
 **Descripción:** Maneja las consultas relacionadas con estacionamientos y espacios.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|handle(GetParkingByIdQuery)|Recupera un estacionamiento por su ID|
-|handle(GetAllParkingsQuery)|Recupera todos los estacionamientos disponibles|
-|handle(GetParkingSpotsQuery)|Recupera los espacios de un estacionamiento dado|
+|          **Método**          |                 **Descripción**                  |
+| :--------------------------: | :----------------------------------------------: |
+| handle(GetParkingByIdQuery)  |      Recupera un estacionamiento por su ID       |
+| handle(GetAllParkingsQuery)  | Recupera todos los estacionamientos disponibles  |
+| handle(GetParkingSpotsQuery) | Recupera los espacios de un estacionamiento dado |
 
 ##### 4.2.3.4. Infrastructure Layer
 
@@ -2279,12 +2313,12 @@ La capa de infraestructura implementa los mecanismos de persistencia para los es
 
 **Descripción:** Administra la persistencia de la entidad Parking.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|findById(Long parkingId)|Recupera un estacionamiento por su ID.|
-|findAllByOwnerId(Long ownerId)|Recupera todos los estacionamientos asociados a un propietario.|
-|existsByNameAndOwnerId(String, Long)|Verifica si existe un estacionamiento con el mismo nombre para un propietario.|
-|existsByAddressAndOwnerId(String, Long)|Verifica si existe un estacionamiento con la misma dirección para un propietario.|
+|               **Método**                |                                  **Descripción**                                  |
+| :-------------------------------------: | :-------------------------------------------------------------------------------: |
+|        findById(Long parkingId)         |                      Recupera un estacionamiento por su ID.                       |
+|     findAllByOwnerId(Long ownerId)      |          Recupera todos los estacionamientos asociados a un propietario.          |
+|  existsByNameAndOwnerId(String, Long)   |  Verifica si existe un estacionamiento con el mismo nombre para un propietario.   |
+| existsByAddressAndOwnerId(String, Long) | Verifica si existe un estacionamiento con la misma dirección para un propietario. |
 
 <div style="page-break-after: always;"></div>
 
@@ -2341,29 +2375,29 @@ La capa de dominio encapsula las entidades, objetos de valor y servicios de nego
 **Descripción:**  
 Representa una reserva realizada por un conductor para un espacio de estacionamiento en una fecha y horario específicos.
 
-| **Atributo** | **Descripción** | **Tipo** |
-|-------------|----------------|---------|
-| `driverId` | Identificador del conductor que realiza la reserva | `DriverId` (Value Object) |
-| `driverName` | Nombre completo del conductor | `String` |
-| `vehiclePlate` | Placa del vehículo | `String` |
-| `parkingId` | Identificador del estacionamiento reservado | `ParkingId` (Value Object) |
-| `parkingSpotId` | Identificador del espacio reservado | `ParkingSpotId` (Value Object) |
-| `spotLabel` | Etiqueta del espacio reservado | `String` |
-| `date` | Fecha de la reserva | `LocalDate` |
-| `startTime` | Hora de inicio de la reserva | `LocalTime` |
-| `endTime` | Hora de fin de la reserva | `LocalTime` |
-| `totalPrice` | Precio total calculado para la reserva | `Float` |
-| `status` | Estado de la reserva (PENDING, CONFIRMED...) | `ReservationStatus` (Enum) |
+| **Atributo**    | **Descripción**                                    | **Tipo**                       |
+| --------------- | -------------------------------------------------- | ------------------------------ |
+| `driverId`      | Identificador del conductor que realiza la reserva | `DriverId` (Value Object)      |
+| `driverName`    | Nombre completo del conductor                      | `String`                       |
+| `vehiclePlate`  | Placa del vehículo                                 | `String`                       |
+| `parkingId`     | Identificador del estacionamiento reservado        | `ParkingId` (Value Object)     |
+| `parkingSpotId` | Identificador del espacio reservado                | `ParkingSpotId` (Value Object) |
+| `spotLabel`     | Etiqueta del espacio reservado                     | `String`                       |
+| `date`          | Fecha de la reserva                                | `LocalDate`                    |
+| `startTime`     | Hora de inicio de la reserva                       | `LocalTime`                    |
+| `endTime`       | Hora de fin de la reserva                          | `LocalTime`                    |
+| `totalPrice`    | Precio total calculado para la reserva             | `Float`                        |
+| `status`        | Estado de la reserva (PENDING, CONFIRMED...)       | `ReservationStatus` (Enum)     |
 
 **Métodos:**
 
-| **Método** | **Descripción** |
-|-----------|----------------|
+| **Método**                                                     | **Descripción**                                                                 |
+| -------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | `Reservation(CreateReservationCommand, String, Float, String)` | Constructor que inicializa una reserva con datos del comando y valores externos |
-| `Float calculateTotalPrice(Float pricePerHour)` | Calcula el precio total en función de la duración |
-| `confirm()` | Cambia el estado de la reserva a CONFIRMED |
-| `cancel()` | Cambia el estado de la reserva a CANCELED |
-| `complete()` | Cambia el estado de la reserva a COMPLETED |
+| `Float calculateTotalPrice(Float pricePerHour)`                | Calcula el precio total en función de la duración                               |
+| `confirm()`                                                    | Cambia el estado de la reserva a CONFIRMED                                      |
+| `cancel()`                                                     | Cambia el estado de la reserva a CANCELED                                       |
+| `complete()`                                                   | Cambia el estado de la reserva a COMPLETED                                      |
 
 **Value Objects**
 
@@ -2372,39 +2406,39 @@ Representa una reserva realizada por un conductor para un espacio de estacionami
 **Descripción:**  
 Representa de forma segura el identificador de un conductor, validando que sea un número positivo.
 
-| **Atributo** | **Descripción** | **Tipo** |
-|-------------|----------------|---------|
-| `driverId` | Identificador único del conductor | `Long` |
+| **Atributo** | **Descripción**                   | **Tipo** |
+| ------------ | --------------------------------- | -------- |
+| `driverId`   | Identificador único del conductor | `Long`   |
 
 **ParkingId**
 
 **Descripción:**  
 Representa de forma segura el identificador de un estacionamiento, validando que sea un número positivo.
 
-| **Atributo** | **Descripción** | **Tipo** |
-|-------------|----------------|---------|
-| `parkingId` | Identificador único del estacionamiento | `Long` |
+| **Atributo** | **Descripción**                         | **Tipo** |
+| ------------ | --------------------------------------- | -------- |
+| `parkingId`  | Identificador único del estacionamiento | `Long`   |
 
 **ParkingSpotId**
 
 **Descripción:**  
 Representa de forma segura el identificador de un espacio de estacionamiento, garantizando que sea un UUID válido.
 
-| **Atributo** | **Descripción** | **Tipo** |
-|-------------|----------------|---------|
-| `parkingSpotId` | Identificador único del espacio | `UUID` |
+| **Atributo**    | **Descripción**                 | **Tipo** |
+| --------------- | ------------------------------- | -------- |
+| `parkingSpotId` | Identificador único del espacio | `UUID`   |
 
 **ReservationStatus**
 
 **Descripción:**  
 Enum que define los posibles estados de una reserva.
 
-| **Valor** | **Descripción** |
-|----------|----------------|
-| `PENDING` | Reserva pendiente por confirmar |
-| `CONFIRMED` | Reserva confirmada |
-| `CANCELED` | Reserva cancelada |
-| `COMPLETED` | Reserva completada |
+| **Valor**   | **Descripción**                 |
+| ----------- | ------------------------------- |
+| `PENDING`   | Reserva pendiente por confirmar |
+| `CONFIRMED` | Reserva confirmada              |
+| `CANCELED`  | Reserva cancelada               |
+| `COMPLETED` | Reserva completada              |
 
 **Domain Services**
 
@@ -2415,8 +2449,8 @@ Los Domain Services definen las operaciones de negocio relacionadas con la creac
 **Descripción:**  
 Define operaciones de negocio para crear nuevas reservas.
 
-| **Nombre** | **Descripción** |
-|-----------|----------------|
+| **Nombre**                                                       | **Descripción**                                                                               |
+| ---------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | `Optional<Reservation> handle(CreateReservationCommand command)` | Procesa un comando de creación de reserva, actualiza disponibilidad y notifica al propietario |
 
 **ReservationQueryService**
@@ -2424,11 +2458,11 @@ Define operaciones de negocio para crear nuevas reservas.
 **Descripción:**  
 Define consultas de reservas por estacionamiento, conductor o estado.
 
-| **Nombre** | **Descripción** |
-|-----------|----------------|
-| `List<Reservation> handle(GetAllReservationsByParkingIdQuery query)` | Obtiene todas las reservas de un estacionamiento |
-| `List<Reservation> handle(GetAllReservationsByDriverIdQuery query)` | Obtiene todas las reservas de un conductor |
-| `List<Reservation> handle(GetAllReservationsByDriverIdAndStatusQuery query)` | Obtiene reservas de un conductor según estado |
+| **Nombre**                                                                   | **Descripción**                                  |
+| ---------------------------------------------------------------------------- | ------------------------------------------------ |
+| `List<Reservation> handle(GetAllReservationsByParkingIdQuery query)`         | Obtiene todas las reservas de un estacionamiento |
+| `List<Reservation> handle(GetAllReservationsByDriverIdQuery query)`          | Obtiene todas las reservas de un conductor       |
+| `List<Reservation> handle(GetAllReservationsByDriverIdAndStatusQuery query)` | Obtiene reservas de un conductor según estado    |
 
 ##### 4.2.4.2. Interface Layer
 
@@ -2439,11 +2473,11 @@ Expone operaciones REST para crear y consultar reservas desde sistemas externos.
 **Descripción:**  
 Gestiona las operaciones externas relacionadas con reservas de espacios en Smart Parking.
 
-| **Método** | **Descripción** | **HTTP** | **Respuesta** |
-|-----------|----------------|---------|--------------|
-| `createReservation(CreateReservationResource resource)` | Crea una nueva reserva | `POST /api/v1/reservations` | Recurso de reserva creada |
-| `getReservationsByParkingId(Long parkingId)` | Obtiene todas las reservas de un estacionamiento | `GET /api/v1/reservations/parking/{parkingId}` | Lista de reservas |
-| `getReservationsByDriverIdAndStatus(Long driverId, String status)` | Obtiene reservas de un conductor filtradas por estado | `GET /api/v1/reservations/driver/{driverId}/status/{status}` | Lista de reservas |
+| **Método**                                                         | **Descripción**                                       | **HTTP**                                                     | **Respuesta**             |
+| ------------------------------------------------------------------ | ----------------------------------------------------- | ------------------------------------------------------------ | ------------------------- |
+| `createReservation(CreateReservationResource resource)`            | Crea una nueva reserva                                | `POST /api/v1/reservations`                                  | Recurso de reserva creada |
+| `getReservationsByParkingId(Long parkingId)`                       | Obtiene todas las reservas de un estacionamiento      | `GET /api/v1/reservations/parking/{parkingId}`               | Lista de reservas         |
+| `getReservationsByDriverIdAndStatus(Long driverId, String status)` | Obtiene reservas de un conductor filtradas por estado | `GET /api/v1/reservations/driver/{driverId}/status/{status}` | Lista de reservas         |
 
 ##### 4.2.4.3. Application Layer
 
@@ -2454,8 +2488,8 @@ Orquesta los comandos y consultas de reservas, comunicándose con los servicios 
 **Descripción:**  
 Gestiona la creación de reservas, validando información externa, actualizando disponibilidad y notificando al propietario.
 
-| **Método** | **Descripción** |
-|-----------|----------------|
+| **Método**                                 | **Descripción**                                                                               |
+| ------------------------------------------ | --------------------------------------------------------------------------------------------- |
 | `handle(CreateReservationCommand command)` | Crea una reserva, actualiza estado del espacio, reduce cupos disponibles y envía notificación |
 
 **Clase: ReservationQueryServiceImpl**
@@ -2463,10 +2497,10 @@ Gestiona la creación de reservas, validando información externa, actualizando 
 **Descripción:**  
 Gestiona consultas de reservas por estacionamiento, conductor o estado.
 
-| **Método** | **Descripción** |
-|-----------|----------------|
-| `handle(GetAllReservationsByParkingIdQuery query)` | Obtiene reservas de un estacionamiento |
-| `handle(GetAllReservationsByDriverIdQuery query)` | Obtiene reservas de un conductor |
+| **Método**                                                 | **Descripción**                                       |
+| ---------------------------------------------------------- | ----------------------------------------------------- |
+| `handle(GetAllReservationsByParkingIdQuery query)`         | Obtiene reservas de un estacionamiento                |
+| `handle(GetAllReservationsByDriverIdQuery query)`          | Obtiene reservas de un conductor                      |
 | `handle(GetAllReservationsByDriverIdAndStatusQuery query)` | Obtiene reservas de un conductor filtradas por estado |
 
 **ACL: ExternalParkingService**
@@ -2474,21 +2508,21 @@ Gestiona consultas de reservas por estacionamiento, conductor o estado.
 **Descripción:**  
 Permite obtener información y actualizar disponibilidad de espacios desde otro contexto a través de un facade.
 
-| **Método** | **Descripción** |
-|-----------|----------------|
-| `getParkingRatePerHour(Long parkingId)` | Obtiene tarifa por hora de un estacionamiento |
-| `getSpotLabel(UUID parkingSpotId, Long parkingId)` | Obtiene etiqueta de un espacio |
-| `updateParkingSpotAvailability(Long parkingId, UUID parkingSpotId, String availability)` | Actualiza disponibilidad de un espacio |
-| `updateAvailableSpotsCount(Long parkingId, Integer availableSpots, String operation)` | Modifica el conteo de espacios disponibles |
-| `getOwnerUserIdByParkingId(Long parkingId)` | Obtiene el userId del propietario |
+| **Método**                                                                               | **Descripción**                               |
+| ---------------------------------------------------------------------------------------- | --------------------------------------------- |
+| `getParkingRatePerHour(Long parkingId)`                                                  | Obtiene tarifa por hora de un estacionamiento |
+| `getSpotLabel(UUID parkingSpotId, Long parkingId)`                                       | Obtiene etiqueta de un espacio                |
+| `updateParkingSpotAvailability(Long parkingId, UUID parkingSpotId, String availability)` | Actualiza disponibilidad de un espacio        |
+| `updateAvailableSpotsCount(Long parkingId, Integer availableSpots, String operation)`    | Modifica el conteo de espacios disponibles    |
+| `getOwnerUserIdByParkingId(Long parkingId)`                                              | Obtiene el userId del propietario             |
 
 **ACL: ExternalProfileService**
 
 **Descripción:**  
 Permite obtener el nombre completo de un conductor desde otro contexto mediante un facade.
 
-| **Método** | **Descripción** |
-|-----------|----------------|
+| **Método**                               | **Descripción**                            |
+| ---------------------------------------- | ------------------------------------------ |
 | `getDriverFullNameByUserId(Long userId)` | Obtiene el nombre completo de un conductor |
 
 ##### 4.2.4.4. Infrastructure Layer
@@ -2500,10 +2534,10 @@ Gestiona la persistencia de reservas, usando Spring Data JPA para operaciones CR
 **Descripción:**  
 Administra la persistencia de reservas en la base de datos.
 
-| **Método** | **Descripción** |
-|-----------|----------------|
-| `findReservationsByParkingIdParkingId(Long parkingId)` | Obtiene todas las reservas de un estacionamiento |
-| `findReservationsByDriverIdDriverId(Long driverId)` | Obtiene todas las reservas de un conductor |
+| **Método**                                                                             | **Descripción**                                       |
+| -------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| `findReservationsByParkingIdParkingId(Long parkingId)`                                 | Obtiene todas las reservas de un estacionamiento      |
+| `findReservationsByDriverIdDriverId(Long driverId)`                                    | Obtiene todas las reservas de un conductor            |
 | `findReservationsByDriverIdDriverIdAndStatus(Long driverId, ReservationStatus status)` | Obtiene reservas de un conductor filtradas por estado |
 
 <div style="page-break-after: always;"></div>
@@ -2548,6 +2582,7 @@ El diagrama de base muestra la tabla reservations y reservation_payments, así c
 El Bounded Context de **Review** es responsable de gestionar las reseñas que los conductores realizan sobre los estacionamientos dentro del sistema Smart Parking. Permite crear reseñas con calificación y comentario, asociadas a un conductor y a un estacionamiento, y consultar todas las reseñas por conductor o por estacionamiento. Este contexto integra servicios externos mediante ACL para obtener información de perfiles y estacionamientos, y actualiza la calificación promedio de cada estacionamiento según nuevas reseñas.
 
 ##### 4.2.5.1. Domain Layer
+
 La capa de dominio encapsula las entidades y objetos de valor relacionados a reseñas. Define un aggregate root que centraliza los atributos y reglas de una reseña, junto con value objects para garantizar la validez de identificadores.
 
 **Aggregates**
@@ -2557,19 +2592,19 @@ La capa de dominio encapsula las entidades y objetos de valor relacionados a res
 **Descripción:**  
 Representa una reseña creada por un conductor hacia un estacionamiento, incluyendo calificación, comentario e información contextual.
 
-| **Atributo** | **Descripción** | **Tipo** |
-|-------------|----------------|---------|
-| `driverId` | Identificador del conductor autor de la reseña | `DriverId` (Value Object) |
-| `driverName` | Nombre completo del conductor autor | `String` |
-| `parkingId` | Identificador del estacionamiento reseñado | `ParkingId` (Value Object) |
-| `parkingName` | Nombre del estacionamiento reseñado | `String` |
-| `comment` | Comentario de la reseña | `String` |
-| `rating` | Calificación numérica del estacionamiento | `Float` |
+| **Atributo**  | **Descripción**                                | **Tipo**                   |
+| ------------- | ---------------------------------------------- | -------------------------- |
+| `driverId`    | Identificador del conductor autor de la reseña | `DriverId` (Value Object)  |
+| `driverName`  | Nombre completo del conductor autor            | `String`                   |
+| `parkingId`   | Identificador del estacionamiento reseñado     | `ParkingId` (Value Object) |
+| `parkingName` | Nombre del estacionamiento reseñado            | `String`                   |
+| `comment`     | Comentario de la reseña                        | `String`                   |
+| `rating`      | Calificación numérica del estacionamiento      | `Float`                    |
 
 **Métodos:**
 
-| **Método** | **Descripción** |
-|-----------|----------------|
+| **Método**                                    | **Descripción**                                                                            |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | `Review(CreateReviewCommand, String, String)` | Constructor que inicializa una reseña con datos del comando y nombres recuperados por ACL. |
 
 **Value Objects**
@@ -2579,18 +2614,18 @@ Representa una reseña creada por un conductor hacia un estacionamiento, incluye
 **Descripción:**  
 Representa de forma segura el identificador de un conductor, validando que sea un número positivo.
 
-| **Atributo** | **Descripción** | **Tipo** |
-|-------------|----------------|---------|
-| `driverId` | Identificador único del conductor | `Long` |
+| **Atributo** | **Descripción**                   | **Tipo** |
+| ------------ | --------------------------------- | -------- |
+| `driverId`   | Identificador único del conductor | `Long`   |
 
 **ParkingId**
 
 **Descripción:**  
 Representa de forma segura el identificador de un estacionamiento, validando que sea un número positivo.
 
-| **Atributo** | **Descripción** | **Tipo** |
-|-------------|----------------|---------|
-| `parkingId` | Identificador único del estacionamiento | `Long` |
+| **Atributo** | **Descripción**                         | **Tipo** |
+| ------------ | --------------------------------------- | -------- |
+| `parkingId`  | Identificador único del estacionamiento | `Long`   |
 
 **Domain Services**
 
@@ -2601,8 +2636,8 @@ Los Domain Services definen operaciones de negocio relacionadas con la creación
 **Descripción:**  
 Define operaciones de negocio para crear nuevas reseñas.
 
-| **Nombre** | **Descripción** |
-|-----------|----------------|
+| **Nombre**                                             | **Descripción**                                                                         |
+| ------------------------------------------------------ | --------------------------------------------------------------------------------------- |
 | `Optional<Review> handle(CreateReviewCommand command)` | Procesa el comando de creación de una reseña y actualiza el rating del estacionamiento. |
 
 **ReviewQueryService**
@@ -2610,11 +2645,10 @@ Define operaciones de negocio para crear nuevas reseñas.
 **Descripción:**  
 Define consultas de reseñas asociadas a un conductor o estacionamiento.
 
-| **Nombre** | **Descripción** |
-|-----------|----------------|
-| `List<Review> handle(GetReviewsByDriverIdQuery query)` | Obtiene todas las reseñas hechas por un conductor. |
-| `List<Review> handle(GetReviewsByParkingIdQuery query)` | Obtiene todas las reseñas de un estacionamiento. |
-
+| **Nombre**                                              | **Descripción**                                    |
+| ------------------------------------------------------- | -------------------------------------------------- |
+| `List<Review> handle(GetReviewsByDriverIdQuery query)`  | Obtiene todas las reseñas hechas por un conductor. |
+| `List<Review> handle(GetReviewsByParkingIdQuery query)` | Obtiene todas las reseñas de un estacionamiento.   |
 
 ##### 4.2.5.2. Interface Layer
 
@@ -2625,11 +2659,11 @@ Esta capa expone operaciones REST para crear y consultar reseñas en el sistema.
 **Descripción:**  
 Gestiona las operaciones externas relacionadas con la gestión de reseñas en Smart Parking.
 
-| **Método** | **Descripción** | **HTTP** | **Respuesta** |
-|-----------|----------------|---------|--------------|
-| `createReview(CreateReviewResource resource)` | Crea una nueva reseña con calificación y comentario | `POST /api/v1/reviews` | Recurso de reseña creada |
-| `getReviewsByParkingId(Long parkingId)` | Obtiene todas las reseñas de un estacionamiento | `GET /api/v1/reviews/parking/{parkingId}` | Lista de reseñas |
-| `getReviewsByDriverId(Long driverId)` | Obtiene todas las reseñas hechas por un conductor | `GET /api/v1/reviews/driver/{driverId}` | Lista de reseñas |
+| **Método**                                    | **Descripción**                                     | **HTTP**                                  | **Respuesta**            |
+| --------------------------------------------- | --------------------------------------------------- | ----------------------------------------- | ------------------------ |
+| `createReview(CreateReviewResource resource)` | Crea una nueva reseña con calificación y comentario | `POST /api/v1/reviews`                    | Recurso de reseña creada |
+| `getReviewsByParkingId(Long parkingId)`       | Obtiene todas las reseñas de un estacionamiento     | `GET /api/v1/reviews/parking/{parkingId}` | Lista de reseñas         |
+| `getReviewsByDriverId(Long driverId)`         | Obtiene todas las reseñas hechas por un conductor   | `GET /api/v1/reviews/driver/{driverId}`   | Lista de reseñas         |
 
 ##### 4.2.5.3. Application Layer
 
@@ -2640,8 +2674,8 @@ Contiene la lógica de aplicación que orquesta los comandos y consultas, comuni
 **Descripción:**  
 Gestiona la creación de reseñas, validando la existencia de conductor y estacionamiento a través de servicios externos, y actualizando el rating promedio del estacionamiento.
 
-| **Método** | **Descripción** |
-|-----------|----------------|
+| **Método**                            | **Descripción**                                                  |
+| ------------------------------------- | ---------------------------------------------------------------- |
 | `handle(CreateReviewCommand command)` | Crea una nueva reseña y actualiza el rating del estacionamiento. |
 
 **Clase: ReviewQueryServiceImpl**
@@ -2649,19 +2683,19 @@ Gestiona la creación de reseñas, validando la existencia de conductor y estaci
 **Descripción:**  
 Gestiona las consultas de reseñas por conductor o estacionamiento.
 
-| **Método** | **Descripción** |
-|-----------|----------------|
-| `handle(GetReviewsByDriverIdQuery query)` | Obtiene todas las reseñas hechas por un conductor específico. |
-| `handle(GetReviewsByParkingIdQuery query)` | Obtiene todas las reseñas de un estacionamiento específico. |
+| **Método**                                 | **Descripción**                                               |
+| ------------------------------------------ | ------------------------------------------------------------- |
+| `handle(GetReviewsByDriverIdQuery query)`  | Obtiene todas las reseñas hechas por un conductor específico. |
+| `handle(GetReviewsByParkingIdQuery query)` | Obtiene todas las reseñas de un estacionamiento específico.   |
 
 **ACL: ExternalParkingService**
 
 **Descripción:**  
 Permite recuperar el nombre del estacionamiento y actualizar su rating promedio desde otro contexto a través de un facade.
 
-| **Método** | **Descripción** |
-|-----------|----------------|
-| `getParkingName(Long parkingId)` | Recupera el nombre del estacionamiento. |
+| **Método**                                          | **Descripción**                                         |
+| --------------------------------------------------- | ------------------------------------------------------- |
+| `getParkingName(Long parkingId)`                    | Recupera el nombre del estacionamiento.                 |
 | `updateParkingRating(Long parkingId, Float rating)` | Actualiza la calificación promedio del estacionamiento. |
 
 **ACL: ExternalProfileService**
@@ -2669,8 +2703,8 @@ Permite recuperar el nombre del estacionamiento y actualizar su rating promedio 
 **Descripción:**  
 Permite recuperar el nombre completo de un conductor desde otro contexto mediante un facade.
 
-| **Método** | **Descripción** |
-|-----------|----------------|
+| **Método**                               | **Descripción**                                           |
+| ---------------------------------------- | --------------------------------------------------------- |
 | `getDriverFullNameByUserId(Long userId)` | Obtiene el nombre completo de un conductor por su userId. |
 
 ##### 4.2.5.4. Infrastructure Layer
@@ -2682,10 +2716,10 @@ Implementa los mecanismos de persistencia para las reseñas, usando Spring Data 
 **Descripción:**  
 Administra la persistencia de las reseñas en el sistema.
 
-| **Método** | **Descripción** |
-|-----------|----------------|
-| `findAllByDriverIdDriverId(Long driverId)` | Obtiene todas las reseñas hechas por un conductor. |
-| `findAllByParkingIdParkingId(Long parkingId)` | Obtiene todas las reseñas de un estacionamiento. |
+| **Método**                                    | **Descripción**                                    |
+| --------------------------------------------- | -------------------------------------------------- |
+| `findAllByDriverIdDriverId(Long driverId)`    | Obtiene todas las reseñas hechas por un conductor. |
+| `findAllByParkingIdParkingId(Long parkingId)` | Obtiene todas las reseñas de un estacionamiento.   |
 
 <div style="page-break-after: always;"></div>
 
@@ -2724,6 +2758,7 @@ En el diagrama de clases del contexto Review, el agregado raíz es Review, que s
 ###### 4.2.5.6.2. Bounded Context Database Design Diagram
 
 El diagrama de base de datos del bounded context **Review** muestra tres tablas principales:
+
 - **reviews**: con campos `id` (clave primaria, BIGINT), `user_id` (BIGINT, clave foránea a `users.id`), `parking_id` (BIGINT, clave foránea a `parkings.id`), `rating` (INT), `comment` (VARCHAR(500)), `created_at` y `updated_at` (TIMESTAMP).
 - **users**: con campos `id` (clave primaria, BIGINT), `email` (VARCHAR(255)), `created_at` y `updated_at` (TIMESTAMP).
 - **parkings**: con campos `id` (clave primaria, BIGINT), `name` (VARCHAR(255)), `address` (VARCHAR(500)), `rate_per_hour` (DECIMAL), `total_spots` (INT).
@@ -2747,31 +2782,31 @@ La capa de dominio encapsula las entidades y objetos de valor relacionados con l
 **Descripción:**  
 Representa un token FCM (Firebase Cloud Messaging) vinculado a un usuario, utilizado para enviar notificaciones push.
 
-| **Atributo** | **Descripción** | **Tipo** |
-|-------------|----------------|---------|
-| `id` | Identificador único del token. | `Long` |
-| `userId` | Identificador del usuario propietario del token. | `Long` |
-| `token` | Token único de dispositivo para recibir notificaciones. | `String` |
+| **Atributo** | **Descripción**                                         | **Tipo** |
+| ------------ | ------------------------------------------------------- | -------- |
+| `id`         | Identificador único del token.                          | `Long`   |
+| `userId`     | Identificador del usuario propietario del token.        | `Long`   |
+| `token`      | Token único de dispositivo para recibir notificaciones. | `String` |
 
 **Enity: NotificationMessage**
 
 **Descripción:**  
 Representa el contenido de una notificación que será enviada a través de un servicio de mensajería.
 
-| **Atributo** | **Descripción** | **Tipo** |
-|-------------|----------------|---------|
-| `title` | Título de la notificación. | `String` |
-| `body` | Contenido de la notificación. | `String` |
-| `token` | Token de destino (identifica el dispositivo). | `String` |
+| **Atributo** | **Descripción**                               | **Tipo** |
+| ------------ | --------------------------------------------- | -------- |
+| `title`      | Título de la notificación.                    | `String` |
+| `body`       | Contenido de la notificación.                 | `String` |
+| `token`      | Token de destino (identifica el dispositivo). | `String` |
 
 **Métodos:**
 
-| **Nombre** | **Descripción** |
-|-----------|----------------|
+| **Nombre**                                                     | **Descripción**                                             |
+| -------------------------------------------------------------- | ----------------------------------------------------------- |
 | `NotificationMessage(String token, String title, String body)` | Crea un mensaje de notificación con título, cuerpo y token. |
-| `getToken()` | Devuelve el token de destino. |
-| `getTitle()` | Devuelve el título del mensaje. |
-| `getBody()` | Devuelve el cuerpo del mensaje. |
+| `getToken()`                                                   | Devuelve el token de destino.                               |
+| `getTitle()`                                                   | Devuelve el título del mensaje.                             |
+| `getBody()`                                                    | Devuelve el cuerpo del mensaje.                             |
 
 ##### 4.2.6.2. Interface Layer
 
@@ -2782,18 +2817,18 @@ Esta capa expone los endpoints REST para registrar tokens, eliminar tokens y env
 **Descripción:**  
 Gestiona la operación de registro y eliminación de tokens de notificación FCM.
 
-| **Método** | **Descripción** | **HTTP** | **Respuesta** |
-|-----------|----------------|---------|--------------|
-| `registerToken(Long userId, String token)` | Registra un nuevo token FCM o actualiza el usuario asociado. | `POST /api/v1/notifications/register-token` | `201 Created` |
-| `unregisterToken(String token)` | Elimina un token de FCM del sistema. | `DELETE /api/v1/notifications/unregister-token` | `200 OK` |
+| **Método**                                 | **Descripción**                                              | **HTTP**                                        | **Respuesta** |
+| ------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- | ------------- |
+| `registerToken(Long userId, String token)` | Registra un nuevo token FCM o actualiza el usuario asociado. | `POST /api/v1/notifications/register-token`     | `201 Created` |
+| `unregisterToken(String token)`            | Elimina un token de FCM del sistema.                         | `DELETE /api/v1/notifications/unregister-token` | `200 OK`      |
 
 **Controlador: NotificationController**
 
 **Descripción:**  
 Gestiona el envío de notificaciones push a través de tokens FCM.
 
-| **Método** | **Descripción** | **HTTP** | **Respuesta** |
-|-----------|----------------|---------|--------------|
+| **Método**                                                  | **Descripción**                                          | **HTTP**                          | **Respuesta** |
+| ----------------------------------------------------------- | -------------------------------------------------------- | --------------------------------- | ------------- |
 | `sendNotification(String token, String title, String body)` | Envía una notificación push a un dispositivo específico. | `POST /api/v1/notifications/send` | `201 Created` |
 
 ##### 4.2.6.3. Application Layer
@@ -2805,8 +2840,8 @@ Esta capa contiene la lógica de aplicación para coordinar el envío de notific
 **Descripción:**  
 Gestiona el envío de mensajes push a dispositivos a través de un repositorio de mensajería.
 
-| **Método** | **Descripción** |
-|-----------|----------------|
+| **Método**                                                  | **Descripción**                                                                  |
+| ----------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | `sendNotification(String token, String title, String body)` | Crea y envía un mensaje de notificación utilizando el repositorio de mensajería. |
 
 ##### 4.2.6.4. Infrastructure Layer
@@ -2818,21 +2853,21 @@ La capa de infraestructura proporciona persistencia para los tokens FCM y la int
 **Descripción:**  
 Administra la persistencia de los tokens de notificación FCM.
 
-| **Método** | **Descripción** |
-|-----------|----------------|
-| `existsByToken(String token)` | Verifica si existe un token específico. |
-| `deleteByToken(String token)` | Elimina un token específico. |
-| `findByUserId(Long userId)` | Obtiene un token por usuario. |
+| **Método**                     | **Descripción**                                  |
+| ------------------------------ | ------------------------------------------------ |
+| `existsByToken(String token)`  | Verifica si existe un token específico.          |
+| `deleteByToken(String token)`  | Elimina un token específico.                     |
+| `findByUserId(Long userId)`    | Obtiene un token por usuario.                    |
 | `findAllByUserId(Long userId)` | Obtiene todos los tokens asociados a un usuario. |
-| `findByToken(String token)` | Obtiene un token por su valor. |
+| `findByToken(String token)`    | Obtiene un token por su valor.                   |
 
 **Repositorio: NotificationRepository**
 
 **Descripción:**  
 Interfaz de mensajería encargada de enviar notificaciones a dispositivos mediante FCM u otro servicio.
 
-| **Método** | **Descripción** |
-|-----------|----------------|
+| **Método**                          | **Descripción**                                     |
+| ----------------------------------- | --------------------------------------------------- |
 | `send(NotificationMessage message)` | Envía una notificación push al dispositivo destino. |
 
 <div style="page-break-after: always;"></div>
@@ -2847,7 +2882,7 @@ El Notification Bounded Context es el encargado del manejo de notificaciones den
 
 - **WebApp**
 
-El diagrama de componentes de la Web Application en el bounded context de Notificaciones representa los elementos que gestionan la visualización y recuperación de notificaciones en el frontend web de SmartParking. Incluye componentes como NotificationComponent (interfaz de usuario), NotificationService (lógica para acceder al backend) y NotificationAssembler (utilitario que transforma los modelos del backend a modelos de vista). 
+El diagrama de componentes de la Web Application en el bounded context de Notificaciones representa los elementos que gestionan la visualización y recuperación de notificaciones en el frontend web de SmartParking. Incluye componentes como NotificationComponent (interfaz de usuario), NotificationService (lógica para acceder al backend) y NotificationAssembler (utilitario que transforma los modelos del backend a modelos de vista).
 
 <img src="assets/chapter-4/notification-bc-component-webapp.png" alt="notification bc component webapp image" height="350px">
 
@@ -2870,10 +2905,11 @@ En el diagrama de clases del contexto Notifications, el agregado raíz es Notifi
 ###### 4.2.6.6.2. Bounded Context Database Design Diagram
 
 El diagrama de base de datos del bounded context **Notifications** muestra dos tablas principales:
+
 - **notifications**: con campos `id` (clave primaria, BIGINT), `user_id` (BIGINT, clave foránea a `users.id`), `type` (VARCHAR(50)), `message` (VARCHAR(500)), `created_at` (TIMESTAMP).
 - **users**: con campos `id` (clave primaria, BIGINT), `email` (VARCHAR(255)), `created_at` y `updated_at` (TIMESTAMP).
 
-La clave foránea `notifications.user_id` asegura que cada notificación esté asociada a un usuario existente, facilitando el seguimiento y filtrado de notificaciones por destinatario.  
+La clave foránea `notifications.user_id` asegura que cada notificación esté asociada a un usuario existente, facilitando el seguimiento y filtrado de notificaciones por destinatario.
 
 <img src="assets/chapter-4/bc-notification-diagramabasededatos.png" alt="Notification database image" height="300px">
 
@@ -2891,45 +2927,45 @@ La capa de dominio encapsula las entidades principales de gestión de dispositiv
 
 **Descripción:** Representa un dispositivo físico (sensor o cámara) ubicado en un espacio de estacionamiento.
 
-|**Atributo**|**Descripción**|**Tipo**|
-| :-: | :-: | :-: |
-|parkingId|Identificador del estacionamiento|ParkingId|
-|parkingSpotId|Identificador del espacio de estacionamiento|ParkingSpotId|
-|spotStatus|Estado actual del espacio|SpotStatus|
-|spotLabel|Etiqueta visible del espacio|String|
-|edgeServerId|Identificador del edge server asignado|EdgeServerId|
-|macAddress|Dirección MAC del dispositivo|String|
-|type|Tipo de dispositivo|DeviceType|
-|operationalStatus|Estado operativo del dispositivo|DeviceStatus|
-|lastCommunication|Fecha y hora de última comunicación|LocalDateTime|
+|   **Atributo**    |               **Descripción**                |   **Tipo**    |
+| :---------------: | :------------------------------------------: | :-----------: |
+|     parkingId     |      Identificador del estacionamiento       |   ParkingId   |
+|   parkingSpotId   | Identificador del espacio de estacionamiento | ParkingSpotId |
+|    spotStatus     |          Estado actual del espacio           |  SpotStatus   |
+|     spotLabel     |         Etiqueta visible del espacio         |    String     |
+|   edgeServerId    |    Identificador del edge server asignado    | EdgeServerId  |
+|    macAddress     |        Dirección MAC del dispositivo         |    String     |
+|       type        |             Tipo de dispositivo              |  DeviceType   |
+| operationalStatus |       Estado operativo del dispositivo       | DeviceStatus  |
+| lastCommunication |     Fecha y hora de última comunicación      | LocalDateTime |
 
 **Método**
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|Device(Long, UUID, String, String)|Constructor que inicializa un dispositivo asignado a un espacio de estacionamiento.|
-|void updateMissingFields(UpdateDeviceCommand)|Actualiza campos pendientes en un dispositivo.|
+|                  **Método**                   |                                   **Descripción**                                   |
+| :-------------------------------------------: | :---------------------------------------------------------------------------------: |
+|      Device(Long, UUID, String, String)       | Constructor que inicializa un dispositivo asignado a un espacio de estacionamiento. |
+| void updateMissingFields(UpdateDeviceCommand) |                   Actualiza campos pendientes en un dispositivo.                    |
 
 **Aggregate:** EdgeServer
 
 **Descripción:** Representa un servidor perimetral responsable de intermediar la comunicación entre dispositivos y el backend.
 
-|**Atributo**|**Descripción**|**Tipo**|
-| :-: | :-: | :-: |
-|serverId|Identificador único del edge server|String|
-|apiKey|Clave API de autenticación|String|
-|name|Nombre del edge server|String|
-|ipAddress|Dirección IP|String|
-|status|Estado operativo|EdgeServerStatus|
-|lastHeartbeat|Última señal de vida recibida|LocalDateTime|
-|connectedDevicesCount|Cantidad de dispositivos conectados|Integer|
-|parkingId|Identificador del estacionamiento|ParkingId|
+|     **Atributo**      |           **Descripción**           |     **Tipo**     |
+| :-------------------: | :---------------------------------: | :--------------: |
+|       serverId        | Identificador único del edge server |      String      |
+|        apiKey         |     Clave API de autenticación      |      String      |
+|         name          |       Nombre del edge server        |      String      |
+|       ipAddress       |            Dirección IP             |      String      |
+|        status         |          Estado operativo           | EdgeServerStatus |
+|     lastHeartbeat     |    Última señal de vida recibida    |  LocalDateTime   |
+| connectedDevicesCount | Cantidad de dispositivos conectados |     Integer      |
+|       parkingId       |  Identificador del estacionamiento  |    ParkingId     |
 
 **Método**
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|EdgeServer(CreateEdgeServerCommand)|Constructor que inicializa un edge server a partir de un comando.|
+|             **Método**              |                          **Descripción**                          |
+| :---------------------------------: | :---------------------------------------------------------------: |
+| EdgeServer(CreateEdgeServerCommand) | Constructor que inicializa un edge server a partir de un comando. |
 
 **Value Objects**
 
@@ -2938,46 +2974,46 @@ La capa de dominio encapsula las entidades principales de gestión de dispositiv
 **Descripción:**  
 Enumeración que representa los estados operativos posibles de un dispositivo físico en el sistema.
 
-| **Valor**      | **Descripción** |
-|---------------|----------------|
-| `ONLINE`      | El dispositivo está activo y comunicándose correctamente. |
-| `OFFLINE`     | El dispositivo está inactivo o no disponible. |
+| **Valor**     | **Descripción**                                                       |
+| ------------- | --------------------------------------------------------------------- |
+| `ONLINE`      | El dispositivo está activo y comunicándose correctamente.             |
+| `OFFLINE`     | El dispositivo está inactivo o no disponible.                         |
 | `MAINTENANCE` | El dispositivo se encuentra en mantenimiento preventivo o correctivo. |
-| `ERROR`       | El dispositivo ha reportado un estado de error operativo. |
+| `ERROR`       | El dispositivo ha reportado un estado de error operativo.             |
 
 **DeviceType**
 
 **Descripción:**  
 Enumeración que define los tipos de dispositivos físicos que pueden integrarse al sistema de monitoreo.
 
-| **Valor**           | **Descripción** |
-|--------------------|----------------|
+| **Valor**          | **Descripción**                                                               |
+| ------------------ | ----------------------------------------------------------------------------- |
 | `OCCUPANCY_SENSOR` | Sensor de ocupación para detectar vehículos en un espacio de estacionamiento. |
-| `DISTANCE_SENSOR`  | Sensor de distancia para medir la proximidad de objetos o vehículos. |
-| `CAMERA`           | Cámara de videovigilancia para monitoreo visual del estacionamiento. |
-| `NONE`             | Tipo no definido o sin asignación. |
+| `DISTANCE_SENSOR`  | Sensor de distancia para medir la proximidad de objetos o vehículos.          |
+| `CAMERA`           | Cámara de videovigilancia para monitoreo visual del estacionamiento.          |
+| `NONE`             | Tipo no definido o sin asignación.                                            |
 
 **SpotStatus**
 
 **Descripción:**  
 Enumeración que representa el estado de ocupación actual de un espacio de estacionamiento.
 
-| **Valor**     | **Descripción** |
-|--------------|----------------|
-| `AVAILABLE`  | El espacio está libre y disponible. |
-| `OCCUPIED`   | El espacio está actualmente ocupado. |
-| `RESERVED`   | El espacio está reservado para un vehículo próximo o específico. |
+| **Valor**   | **Descripción**                                                  |
+| ----------- | ---------------------------------------------------------------- |
+| `AVAILABLE` | El espacio está libre y disponible.                              |
+| `OCCUPIED`  | El espacio está actualmente ocupado.                             |
+| `RESERVED`  | El espacio está reservado para un vehículo próximo o específico. |
 
 **EdgeServerStatus**
 
 **Descripción:**  
 Enumeración que indica el estado operativo actual de un servidor perimetral (edge server).
 
-| **Valor**      | **Descripción** |
-|---------------|----------------|
-| `ONLINE`      | El edge server está en línea y operativo. |
-| `OFFLINE`     | El edge server está fuera de línea o inactivo. |
-| `MAINTENANCE` | El edge server está en proceso de mantenimiento. |
+| **Valor**     | **Descripción**                                                         |
+| ------------- | ----------------------------------------------------------------------- |
+| `ONLINE`      | El edge server está en línea y operativo.                               |
+| `OFFLINE`     | El edge server está fuera de línea o inactivo.                          |
+| `MAINTENANCE` | El edge server está en proceso de mantenimiento.                        |
 | `OVERLOADED`  | El edge server está sobrecargado y podría no atender nuevas conexiones. |
 
 **EdgeServerId**
@@ -2986,15 +3022,15 @@ Enumeración que indica el estado operativo actual de un servidor perimetral (ed
 
 **Atributos:**
 
-|**Nombre**|**Tipo**|**Descripción**|
-| :- | :- | :- |
-|edgeServerId|String|Identificador único de edge server|
+| **Nombre**   | **Tipo** | **Descripción**                    |
+| :----------- | :------- | :--------------------------------- |
+| edgeServerId | String   | Identificador único de edge server |
 
 **Métodos:**
 
-|**Nombre**|**Descripción**|
-| :- | :- |
-|EdgeServerId()|Constructor que asigna "unassigned" por defecto.|
+| **Nombre**     | **Descripción**                                  |
+| :------------- | :----------------------------------------------- |
+| EdgeServerId() | Constructor que asigna "unassigned" por defecto. |
 
 **ParkingId**
 
@@ -3002,16 +3038,16 @@ Enumeración que indica el estado operativo actual de un servidor perimetral (ed
 
 **Atributos:**
 
-|**Nombre**|**Tipo**|**Descripción**|
-| :- | :- | :- |
-|parkingId|Long|Identificador del estacionamiento|
+| **Nombre** | **Tipo** | **Descripción**                   |
+| :--------- | :------- | :-------------------------------- |
+| parkingId  | Long     | Identificador del estacionamiento |
 
 **Métodos:**
 
-|**Nombre**|**Descripción**|
-| :- | :- |
-|ParkingId()|Constructor por defecto que asigna 0.|
-|ParkingId(Long)|Valida que el valor no sea nulo.|
+| **Nombre**      | **Descripción**                       |
+| :-------------- | :------------------------------------ |
+| ParkingId()     | Constructor por defecto que asigna 0. |
+| ParkingId(Long) | Valida que el valor no sea nulo.      |
 
 **ParkingSpotId**
 
@@ -3019,15 +3055,15 @@ Enumeración que indica el estado operativo actual de un servidor perimetral (ed
 
 **Atributos:**
 
-|**Nombre**|**Tipo**|**Descripción**|
-| :- | :- | :- |
-|spotId|UUID|Identificador de espacio de estacionamiento|
+| **Nombre** | **Tipo** | **Descripción**                             |
+| :--------- | :------- | :------------------------------------------ |
+| spotId     | UUID     | Identificador de espacio de estacionamiento |
 
 **Métodos:**
 
-|**Nombre**|**Descripción**|
-| :- | :- |
-|ParkingSpotId(UUID)|Valida que el valor no sea nulo.|
+| **Nombre**          | **Descripción**                  |
+| :------------------ | :------------------------------- |
+| ParkingSpotId(UUID) | Valida que el valor no sea nulo. |
 
 **Domain Services**
 
@@ -3037,11 +3073,11 @@ Enumeración que indica el estado operativo actual de un servidor perimetral (ed
 
 **Métodos:**
 
-|**Nombre**|**Descripción**|
-| :- | :- |
-|Optional<Device> handle(CreateDeviceCommand)|Crea un dispositivo.|
-|Optional<Device> handle(UpdateDeviceCommand)|Actualiza datos de un dispositivo.|
-|Optional<Device> handle(UpdateDeviceMacAddressCommand)|Actualiza la MAC de un dispositivo.|
+| **Nombre**                                             | **Descripción**                     |
+| :----------------------------------------------------- | :---------------------------------- |
+| Optional<Device> handle(CreateDeviceCommand)           | Crea un dispositivo.                |
+| Optional<Device> handle(UpdateDeviceCommand)           | Actualiza datos de un dispositivo.  |
+| Optional<Device> handle(UpdateDeviceMacAddressCommand) | Actualiza la MAC de un dispositivo. |
 
 **DeviceQueryService**
 
@@ -3049,12 +3085,12 @@ Enumeración que indica el estado operativo actual de un servidor perimetral (ed
 
 **Métodos:**
 
-|**Nombre**|**Descripción**|
-| :- | :- |
-|List<Device> handle(GetDevicesByParkingIdQuery)|Obtiene dispositivos por estacionamiento.|
-|Optional<Device> handle(GetDeviceByParkingSpotIdQuery)|Obtiene dispositivo por espacio.|
-|List<Device> handle(GetUnassignedDevicesByParkingIdQuery)|Dispositivos sin asignar por estacionamiento.|
-|List<Device> handle(GetDevicesByEdgeServerIdQuery)|Dispositivos asignados a un edge server.|
+| **Nombre**                                                | **Descripción**                               |
+| :-------------------------------------------------------- | :-------------------------------------------- |
+| List<Device> handle(GetDevicesByParkingIdQuery)           | Obtiene dispositivos por estacionamiento.     |
+| Optional<Device> handle(GetDeviceByParkingSpotIdQuery)    | Obtiene dispositivo por espacio.              |
+| List<Device> handle(GetUnassignedDevicesByParkingIdQuery) | Dispositivos sin asignar por estacionamiento. |
+| List<Device> handle(GetDevicesByEdgeServerIdQuery)        | Dispositivos asignados a un edge server.      |
 
 **EdgeServerCommandService**
 
@@ -3062,9 +3098,9 @@ Enumeración que indica el estado operativo actual de un servidor perimetral (ed
 
 **Métodos:**
 
-|**Nombre**|**Descripción**|
-| :- | :- |
-|Optional<EdgeServer> handle(CreateEdgeServerCommand)|Crea un edge server.|
+| **Nombre**                                           | **Descripción**      |
+| :--------------------------------------------------- | :------------------- |
+| Optional<EdgeServer> handle(CreateEdgeServerCommand) | Crea un edge server. |
 
 **EdgeServerQueryService**
 
@@ -3072,9 +3108,9 @@ Enumeración que indica el estado operativo actual de un servidor perimetral (ed
 
 **Métodos:**
 
-|**Nombre**|**Descripción**|
-| :- | :- |
-|List<EdgeServer> handle(GetEdgeServerByParkingIdQuery)|Obtiene edge servers por estacionamiento.|
+| **Nombre**                                             | **Descripción**                           |
+| :----------------------------------------------------- | :---------------------------------------- |
+| List<EdgeServer> handle(GetEdgeServerByParkingIdQuery) | Obtiene edge servers por estacionamiento. |
 
 ##### 4.2.7.2. Interface Layer
 
@@ -3085,31 +3121,31 @@ Esta capa actúa como punto de entrada para solicitudes externas relacionadas co
 **Descripción:**  
 Gestiona las operaciones REST relacionadas con los dispositivos físicos (sensores y cámaras) en los espacios de estacionamiento.
 
-|**Método**|**Descripción**|**HTTP**|**Respuesta**|
-| :-: | :-: | :-: | :-: |
-|updateDevice(UUID, UpdateDeviceResource)|Actualiza los atributos de un dispositivo existente.|PUT /api/v1/devices/{deviceId}|Dispositivo actualizado|
-|updateDeviceMacAddress(Long, String)|Actualiza la dirección MAC de un dispositivo.|PATCH /api/v1/devices/{deviceId}|Dispositivo actualizado|
-|getDevicesByEdgeServerId(String)|Obtiene la lista de dispositivos asignados a un edge server.|GET /api/v1/devices/edge-server/{edgeServerId}|Lista de dispositivos|
-|getUnassignedDevicesByParkingId(Long)|Obtiene los dispositivos de un estacionamiento que no tienen edge server asignado.|GET /api/v1/devices/unassigned/{parkingId}|Lista de dispositivos|
+|                **Método**                |                                  **Descripción**                                   |                    **HTTP**                    |      **Respuesta**      |
+| :--------------------------------------: | :--------------------------------------------------------------------------------: | :--------------------------------------------: | :---------------------: |
+| updateDevice(UUID, UpdateDeviceResource) |                Actualiza los atributos de un dispositivo existente.                |         PUT /api/v1/devices/{deviceId}         | Dispositivo actualizado |
+|   updateDeviceMacAddress(Long, String)   |                   Actualiza la dirección MAC de un dispositivo.                    |        PATCH /api/v1/devices/{deviceId}        | Dispositivo actualizado |
+|     getDevicesByEdgeServerId(String)     |            Obtiene la lista de dispositivos asignados a un edge server.            | GET /api/v1/devices/edge-server/{edgeServerId} |  Lista de dispositivos  |
+|  getUnassignedDevicesByParkingId(Long)   | Obtiene los dispositivos de un estacionamiento que no tienen edge server asignado. |   GET /api/v1/devices/unassigned/{parkingId}   |  Lista de dispositivos  |
 
 **Controlador: EdgeServersController**
 
 **Descripción:**  
 Gestiona las operaciones REST relacionadas con los edge servers, permitiendo su creación y consulta por estacionamiento.
 
-|**Método**|**Descripción**|**HTTP**|**Respuesta**|
-| :-: | :-: | :-: | :-: |
-|createEdgeServer(CreateEdgeServerResource)|Crea un nuevo edge server con sus atributos iniciales.|POST /api/v1/edge-servers|Edge server creado|
-|getEdgeServersByParkingId(Long)|Obtiene la lista de edge servers asociados a un estacionamiento.|GET /api/v1/edge-servers/parking/{parkingId}|Lista de edge servers|
+|                 **Método**                 |                         **Descripción**                          |                   **HTTP**                   |     **Respuesta**     |
+| :----------------------------------------: | :--------------------------------------------------------------: | :------------------------------------------: | :-------------------: |
+| createEdgeServer(CreateEdgeServerResource) |      Crea un nuevo edge server con sus atributos iniciales.      |          POST /api/v1/edge-servers           |  Edge server creado   |
+|      getEdgeServersByParkingId(Long)       | Obtiene la lista de edge servers asociados a un estacionamiento. | GET /api/v1/edge-servers/parking/{parkingId} | Lista de edge servers |
 
 **ACL: DevicesContextFacade**
 
 **Descripción:**  
 Actúa como punto de integración entre contextos para crear dispositivos desde otros bounded contexts. Expone una operación de creación de dispositivo encapsulando la lógica de dominio correspondiente.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|void createDevice(Long, UUID, String, String)|Permite crear un dispositivo desde otro contexto utilizando un facade como intermediario.|
+|                  **Método**                   |                                      **Descripción**                                      |
+| :-------------------------------------------: | :---------------------------------------------------------------------------------------: |
+| void createDevice(Long, UUID, String, String) | Permite crear un dispositivo desde otro contexto utilizando un facade como intermediario. |
 
 ##### 4.2.7.3. Application Layer
 
@@ -3120,53 +3156,52 @@ Esta capa contiene la lógica de aplicación, coordinando la ejecución de coman
 **Descripción:**  
 Gestiona los comandos relacionados con dispositivos, incluyendo creación, actualización de datos y modificación de la dirección MAC.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|handle(CreateDeviceCommand)|Crea un nuevo dispositivo físico en un espacio de estacionamiento, asociando su metadata y estado inicial.|
-|handle(UpdateDeviceCommand)|Actualiza la información operativa y asociativa de un dispositivo existente.|
-|handle(UpdateDeviceMacAddressCommand)|Actualiza la dirección MAC registrada de un dispositivo.|
+|              **Método**               |                                              **Descripción**                                               |
+| :-----------------------------------: | :--------------------------------------------------------------------------------------------------------: |
+|      handle(CreateDeviceCommand)      | Crea un nuevo dispositivo físico en un espacio de estacionamiento, asociando su metadata y estado inicial. |
+|      handle(UpdateDeviceCommand)      |                Actualiza la información operativa y asociativa de un dispositivo existente.                |
+| handle(UpdateDeviceMacAddressCommand) |                          Actualiza la dirección MAC registrada de un dispositivo.                          |
 
 **Clase: EdgeServerCommandServiceImpl**
 
 **Descripción:**  
 Gestiona los comandos relacionados con la creación de edge servers, asegurando la unicidad del serverId y configurando sus atributos iniciales.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|handle(CreateEdgeServerCommand)|Crea un nuevo edge server validando la unicidad de su identificador.|
+|           **Método**            |                           **Descripción**                            |
+| :-----------------------------: | :------------------------------------------------------------------: |
+| handle(CreateEdgeServerCommand) | Crea un nuevo edge server validando la unicidad de su identificador. |
 
 **Clase: DeviceQueryServiceImpl**
 
 **Descripción:**  
 Gestiona las consultas relacionadas con dispositivos en función de criterios como estacionamiento, espacio de parqueo o edge server asignado.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|handle(GetDevicesByParkingIdQuery)|Obtiene la lista de dispositivos físicos asignados a un estacionamiento específico.|
-|handle(GetDeviceByParkingSpotIdQuery)|Obtiene un dispositivo por su espacio de estacionamiento (spotId).|
-|handle(GetUnassignedDevicesByParkingIdQuery)|Recupera dispositivos de un estacionamiento que no tienen edge server asignado.|
-|handle(GetDevicesByEdgeServerIdQuery)|Obtiene todos los dispositivos asignados a un edge server específico.|
+|                  **Método**                  |                                   **Descripción**                                   |
+| :------------------------------------------: | :---------------------------------------------------------------------------------: |
+|      handle(GetDevicesByParkingIdQuery)      | Obtiene la lista de dispositivos físicos asignados a un estacionamiento específico. |
+|    handle(GetDeviceByParkingSpotIdQuery)     |         Obtiene un dispositivo por su espacio de estacionamiento (spotId).          |
+| handle(GetUnassignedDevicesByParkingIdQuery) |   Recupera dispositivos de un estacionamiento que no tienen edge server asignado.   |
+|    handle(GetDevicesByEdgeServerIdQuery)     |        Obtiene todos los dispositivos asignados a un edge server específico.        |
 
 **Clase: EdgeServerQueryServiceImpl**
 
 **Descripción:**  
 Gestiona las consultas relacionadas con edge servers, particularmente listando los servers asociados a un estacionamiento.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|handle(GetEdgeServerByParkingIdQuery)|Obtiene la lista de edge servers asignados a un estacionamiento específico.|
+|              **Método**               |                               **Descripción**                               |
+| :-----------------------------------: | :-------------------------------------------------------------------------: |
+| handle(GetEdgeServerByParkingIdQuery) | Obtiene la lista de edge servers asignados a un estacionamiento específico. |
 
 **ACL: DevicesContextFacadeImpl**
 
 **Descripción:**  
 Implementación de un facade de contexto que permite la creación de dispositivos desde otros bounded contexts mediante la invocación de un comando de dominio.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|createDevice(Long, UUID, String, String)|Crea un dispositivo a partir de datos recibidos desde otro contexto, usando un comando de dominio. Lanza una excepción si la creación falla.|
+|                **Método**                |                                                               **Descripción**                                                                |
+| :--------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------: |
+| createDevice(Long, UUID, String, String) | Crea un dispositivo a partir de datos recibidos desde otro contexto, usando un comando de dominio. Lanza una excepción si la creación falla. |
 
 ##### 4.2.7.4. Infrastructure Layer
-
 
 La capa de infraestructura proporciona las implementaciones de persistencia para dispositivos y edge servers. Los repositorios están basados en Spring Data JPA, permitiendo operaciones CRUD y consultas personalizadas.
 
@@ -3175,22 +3210,22 @@ La capa de infraestructura proporciona las implementaciones de persistencia para
 **Descripción:**  
 Administra la persistencia y recuperación de dispositivos físicos asociados a espacios de estacionamiento.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|findByParkingSpotId_SpotId(UUID)|Obtiene un dispositivo a partir de su espacio de estacionamiento (spotId).|
-|findByParkingId_ParkingId(Long)|Recupera la lista de dispositivos asociados a un estacionamiento específico.|
-|findByParkingIdParkingIdAndEdgeServerIdEdgeServerId(Long, String)|Obtiene los dispositivos de un estacionamiento que no tienen un edge server asignado.|
-|findByEdgeServerIdEdgeServerId(String)|Obtiene la lista de dispositivos conectados a un edge server específico.|
+|                            **Método**                             |                                    **Descripción**                                    |
+| :---------------------------------------------------------------: | :-----------------------------------------------------------------------------------: |
+|                 findByParkingSpotId_SpotId(UUID)                  |      Obtiene un dispositivo a partir de su espacio de estacionamiento (spotId).       |
+|                  findByParkingId_ParkingId(Long)                  |     Recupera la lista de dispositivos asociados a un estacionamiento específico.      |
+| findByParkingIdParkingIdAndEdgeServerIdEdgeServerId(Long, String) | Obtiene los dispositivos de un estacionamiento que no tienen un edge server asignado. |
+|              findByEdgeServerIdEdgeServerId(String)               |       Obtiene la lista de dispositivos conectados a un edge server específico.        |
 
 **Repositorio: EdgeServerRepository**
 
 **Descripción:**  
 Gestiona la persistencia de edge servers, permitiendo verificar existencia y consultar servidores asociados a un estacionamiento.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|existsByServerId(String)|Verifica si un edge server con un identificador dado ya existe en la base de datos.|
-|findByParkingIdParkingId(Long)|Recupera la lista de edge servers asignados a un estacionamiento específico.|
+|           **Método**           |                                   **Descripción**                                   |
+| :----------------------------: | :---------------------------------------------------------------------------------: |
+|    existsByServerId(String)    | Verifica si un edge server con un identificador dado ya existe en la base de datos. |
+| findByParkingIdParkingId(Long) |    Recupera la lista de edge servers asignados a un estacionamiento específico.     |
 
 <div style="page-break-after: always;"></div>
 
@@ -3218,7 +3253,7 @@ No aplica para este caso
 
 ###### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
 
- El diagrama muestra las entidades ParkingSpot e IoTDevice con sus atributos y métodos clave, destacando su relación 1:1 dentro del contexto de gestión IoT para monitorear disponibilidad de espacios mediante dispositivos físicos.
+El diagrama muestra las entidades ParkingSpot e IoTDevice con sus atributos y métodos clave, destacando su relación 1:1 dentro del contexto de gestión IoT para monitorear disponibilidad de espacios mediante dispositivos físicos.
 
 <img src="assets/chapter-4/DC-Device.png" alt="Device Class Diagram">
 
@@ -3236,7 +3271,7 @@ El Bounded Context de **Payment** es responsable de gestionar los pagos realizad
 
 ##### 4.2.8.1. Domain Layer
 
-La capa de dominio encapsula las entidades centrales relacionadas a pagos. Utiliza una jerarquía compuesta por el aggregate ReservationPayment, que hereda de un value object abstracto Payment que centraliza atributos comunes. Define además interfaces de *Domain Services* que contienen la lógica de negocio transaccional.
+La capa de dominio encapsula las entidades centrales relacionadas a pagos. Utiliza una jerarquía compuesta por el aggregate ReservationPayment, que hereda de un value object abstracto Payment que centraliza atributos comunes. Define además interfaces de _Domain Services_ que contienen la lógica de negocio transaccional.
 
 **Aggregates**
 
@@ -3244,16 +3279,16 @@ La capa de dominio encapsula las entidades centrales relacionadas a pagos. Utili
 
 **Descripción:** Representa un pago realizado por la **reserva de un estacionamiento**.
 
-|**Atributo**|**Descripción**|**Tipo**|
-| :-: | :-: | :-: |
-|reservationId|Identificador de la reserva asociada|Long|
+| **Atributo**  |           **Descripción**            | **Tipo** |
+| :-----------: | :----------------------------------: | :------: |
+| reservationId | Identificador de la reserva asociada |   Long   |
 
 **Métodos:**
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|ReservationPayment(CreatePaymentCommand, Long)|Constructor que inicializa un pago de reserva con los datos de pago y el `reservationId`.|
-|boolean isForReservation()|Indica si el pago es para reserva (`true`).|
+|                   **Método**                   |                                      **Descripción**                                      |
+| :--------------------------------------------: | :---------------------------------------------------------------------------------------: |
+| ReservationPayment(CreatePaymentCommand, Long) | Constructor que inicializa un pago de reserva con los datos de pago y el `reservationId`. |
+|           boolean isForReservation()           |                        Indica si el pago es para reserva (`true`).                        |
 
 **Value Objects**
 
@@ -3264,21 +3299,21 @@ Representa un pago genérico que centraliza los atributos comunes para todos los
 
 **Atributos:**
 
-|**Nombre**|**Tipo**|**Descripción**|
-| :- | :- | :- |
-|userId|Long|Identificador del usuario que realiza el pago|
-|amount|double|Monto del pago|
-|paidAt|LocalDateTime|Fecha y hora de pago|
-|nameOnCard|String|Nombre del titular de la tarjeta|
-|cardNumber|String|Número de la tarjeta de crédito|
-|cardExpiryDate|String|Fecha de expiración de la tarjeta|
+| **Nombre**     | **Tipo**      | **Descripción**                               |
+| :------------- | :------------ | :-------------------------------------------- |
+| userId         | Long          | Identificador del usuario que realiza el pago |
+| amount         | double        | Monto del pago                                |
+| paidAt         | LocalDateTime | Fecha y hora de pago                          |
+| nameOnCard     | String        | Nombre del titular de la tarjeta              |
+| cardNumber     | String        | Número de la tarjeta de crédito               |
+| cardExpiryDate | String        | Fecha de expiración de la tarjeta             |
 
 **Métodos:**
 
-|**Nombre**|**Descripción**|
-| :- | :- |
-|Payment(CreatePaymentCommand)|Constructor que inicializa los atributos comunes del pago.|
-|boolean isForReservation()|Método abstracto para identificar si es pago de reserva.|
+| **Nombre**                    | **Descripción**                                            |
+| :---------------------------- | :--------------------------------------------------------- |
+| Payment(CreatePaymentCommand) | Constructor que inicializa los atributos comunes del pago. |
+| boolean isForReservation()    | Método abstracto para identificar si es pago de reserva.   |
 
 **Domain Services**
 
@@ -3290,9 +3325,9 @@ Los Domain Services en este contexto son **interfaces** que definen operaciones 
 **Descripción:**  
 Interfaz que define operaciones de negocio relacionadas con la creación de pagos.
 
-|**Nombre**|**Descripción**|
-| :- | :- |
-|Optional<ReservationPayment> handleReservationPayment(CreatePaymentCommand command, Long reservationId)|Procesa el comando para crear un nuevo pago de reserva.|
+| **Nombre**                                                                                              | **Descripción**                                         |
+| :------------------------------------------------------------------------------------------------------ | :------------------------------------------------------ |
+| Optional<ReservationPayment> handleReservationPayment(CreatePaymentCommand command, Long reservationId) | Procesa el comando para crear un nuevo pago de reserva. |
 
 ##### 4.2.8.2. Interface Layer
 
@@ -3303,9 +3338,9 @@ Esta capa define los puntos de entrada externos para gestionar los pagos. A trav
 **Descripción:**  
 Gestiona las operaciones externas relacionadas con los pagos en Smart Parking.
 
-|**Método**|**Descripción**|**HTTP**|**Respuesta**|
-| :-: | :-: | :-: | :-: |
-|createReservationPayment(CreatePaymentResource resource, Long reservationId)|Crea un nuevo pago de reserva|POST /api/v1/payments/reservation/{reservationId}|Recurso de pago creado|
+|                                  **Método**                                  |        **Descripción**        |                     **HTTP**                      |     **Respuesta**      |
+| :--------------------------------------------------------------------------: | :---------------------------: | :-----------------------------------------------: | :--------------------: |
+| createReservationPayment(CreatePaymentResource resource, Long reservationId) | Crea un nuevo pago de reserva | POST /api/v1/payments/reservation/{reservationId} | Recurso de pago creado |
 
 ##### 4.2.8.3. Application Layer
 
@@ -3316,9 +3351,9 @@ La capa de aplicación contiene la lógica de negocio que orquesta la creación 
 **Descripción:**  
 Gestiona los comandos relacionados con la creación de pagos de reservas.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|handleReservationPayment(CreatePaymentCommand, Long)|Crea un nuevo pago de reserva y lo persiste en la base de datos.|
+|                      **Método**                      |                         **Descripción**                          |
+| :--------------------------------------------------: | :--------------------------------------------------------------: |
+| handleReservationPayment(CreatePaymentCommand, Long) | Crea un nuevo pago de reserva y lo persiste en la base de datos. |
 
 ##### 4.2.8.4. Infrastructure Layer
 
@@ -3329,11 +3364,11 @@ Esta capa proporciona las implementaciones de persistencia para `ReservationPaym
 **Descripción:**  
 Repositorio encargado de gestionar las operaciones de persistencia para el aggregate `ReservationPayment`.
 
-|**Método**|**Descripción**|
-| :- | :- |
-|save(ReservationPayment payment)|Persiste o actualiza un pago de reserva.|
-|findById(Long id)|Encuentra un pago de reserva por su ID.|
-|findAll()|Devuelve todos los pagos de reserva registrados.|
+| **Método**                       | **Descripción**                                  |
+| :------------------------------- | :----------------------------------------------- |
+| save(ReservationPayment payment) | Persiste o actualiza un pago de reserva.         |
+| findById(Long id)                | Encuentra un pago de reserva por su ID.          |
+| findAll()                        | Devuelve todos los pagos de reserva registrados. |
 
 <div style="page-break-after: always;"></div>
 
@@ -3364,32 +3399,45 @@ El diagrama de base muestra la tabla `payments` y `payment_methods`, así como l
 ## Capítulo V: Solution UI/UX Design
 
 ### 5.1. Style Guidelines
+
 #### 5.1.1. General Style Guidelines
+
 #### 5.1.2. Web, Mobile and IoT Style Guidelines
 
 ### 5.2. Information Architecture
+
 #### 5.2.1. Organization Systems
+
 #### 5.2.2. Labeling Systems
+
 #### 5.2.3. SEO Tags and Meta Tags
+
 #### 5.2.4. Searching Systems
+
 #### 5.2.5. Navigation Systems
 
 ### 5.3. Landing Page UI Design
+
 #### 5.3.1. Landing Page Wireframe
+
 #### 5.3.2. Landing Page Mock-up
 
 ### 5.4. Applications UX/UI Design
+
 #### 5.4.1. Applications Wireframes
+
 #### 5.4.2. Applications Wireflow Diagrams
+
 #### 5.4.3. Applications Mock-ups
+
 #### 5.4.4. Applications User Flow Diagrams
 
 ### 5.5. Applications Prototyping
 
-
 ## Capítulo VI: Product Implementation, Validation & Deployment
 
 ### 6.1. Software Configuration Management
+
 #### 6.1.1. Software Development Environment Configuration
 
 **Gestión de Proyectos:**
@@ -3432,12 +3480,13 @@ La administración y estructuración de las modificaciones del código se implem
 
 **Organización:** https://github.com/Lorem-Ipsum-UPC  
 **Repositorio Landing Page:** https://github.com/Lorem-Ipsum-UPC/Landing-Page  
-**Repositorio Aplicación Web Frontend:** En desarrollo  
+**Repositorio Aplicación Web Frontend:** https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend
 **Repositorio Aplicación Móvil Frontend:** En desarrollo  
-**Repositorio Backend:** En desarrollo  
+**Repositorio Backend:** En desarrollo
 
 **Estructura de Ramificación**  
 Cada repositorio implementa una estrategia de ramificación basada en GitFlow:
+
 - main: Rama de producción que almacena exclusivamente versiones estables y validadas del sistema, listas para despliegue en entornos productivos.
 - develop: Rama de integración continua donde se consolidan las características en desarrollo antes de su promoción a producción.
 - feature: Ramas dedicadas al desarrollo de funcionalidades específicas solicitadas por los usuarios, tanto para la landing page como para la aplicación web.
@@ -3447,13 +3496,15 @@ Cada repositorio implementa una estrategia de ramificación basada en GitFlow:
 **Convenciones de Commits**  
 Los mensajes de commit siguen el estándar "Conventional Commits" versión 1.0.0, implementando la estructura: `<type>[scope opcional]: <description>`
 
-**Componentes del mensaje:**  
+**Componentes del mensaje:**
+
 - type: Categoría del cambio realizado (feat, fix, docs, etc.)
 - scope: Contexto o módulo afectado por el cambio
 - description: Resumen conciso de las modificaciones implementadas
 
 **Tipología de Commits**  
 La convención garantiza que cada mensaje refleje con precisión la naturaleza del cambio:
+
 - feat: Implementación de nueva funcionalidad
 - fix: Corrección de defectos o errores
 - docs: Modificaciones en documentación
@@ -3480,6 +3531,7 @@ Para todos los lenguajes, se aplicarán las siguientes directrices de nomenclatu
 **Java:** [https://google.github.io/styleguide/javaguide.html](https://google.github.io/styleguide/javaguide.html)
 
 **Convenciones de Java:**
+
 - Los nombres de clases y tipos deben ser sustantivos en mayúscula inicial.
 - Los nombres de los métodos deben ser minúsculas.
 - El nombre de las variables debe ser en minúsculas y usar camelCase.
@@ -3489,6 +3541,7 @@ Para todos los lenguajes, se aplicarán las siguientes directrices de nomenclatu
 **JavaScript:** [https://google.github.io/styleguide/jsguide.html](https://google.github.io/styleguide/jsguide.html)
 
 **Convenciones de JavaScript:**
+
 - Usar camelCase para variables y funciones.
 - Usar PascalCase para clases y constructores.
 - Usar MAYÚSCULAS_CON_GUIONES_BAJOS para constantes.
@@ -3502,6 +3555,7 @@ Para todos los lenguajes, se aplicarán las siguientes directrices de nomenclatu
 **React:** [https://react.dev/learn/writing-markup-with-jsx](https://react.dev/learn/writing-markup-with-jsx)
 
 **Convenciones de React:**
+
 - **Nombres de componentes**: Usar PascalCase para componentes, por ejemplo, `UserProfile`.
 - **Nombres de archivos**: Los archivos de componentes deben nombrarse en PascalCase con extensión `.jsx` o `.tsx`, por ejemplo, `UserProfile.jsx`.
 - **Nombres de props**: Declarar props usando camelCase en JavaScript.
@@ -3513,6 +3567,7 @@ Para todos los lenguajes, se aplicarán las siguientes directrices de nomenclatu
 **Next.js:** [https://nextjs.org/docs/app/building-your-application/routing](https://nextjs.org/docs/app/building-your-application/routing)
 
 **Convenciones de Next.js:**
+
 - **Estructura de carpetas**: Utilizar el App Router (carpeta `app/`) para enrutamiento basado en archivos.
 - **Nombres de archivos especiales**: Respetar convenciones como `page.tsx`, `layout.tsx`, `loading.tsx`, `error.tsx`.
 - **Server Components por defecto**: Los componentes son Server Components a menos que se especifique `'use client'`.
@@ -3524,6 +3579,7 @@ Para todos los lenguajes, se aplicarán las siguientes directrices de nomenclatu
 **React Native:** [https://reactnative.dev/docs/style](https://reactnative.dev/docs/style)
 
 **Convenciones de React Native:**
+
 - **Nombres de componentes**: Usar PascalCase para componentes nativos, por ejemplo, `UserProfile`.
 - **Nombres de archivos**: Los archivos deben nombrarse en PascalCase con extensión `.jsx` o `.tsx`, por ejemplo, `UserProfile.tsx`.
 - **Estilos**: Crear objetos de estilo usando `StyleSheet.create()` para optimización de rendimiento.
@@ -3537,43 +3593,44 @@ Para todos los lenguajes, se aplicarán las siguientes directrices de nomenclatu
 #### 6.1.4. Software Deployment Configuration
 
 ### 6.2. Landing Page, Services & Applications Implementation
+
 #### 6.2.1. Sprint 1
+
 ##### 6.2.1.1. Sprint Planning 1
 
-| Sprint # | Sprint 1 |
-|----------|----------|
-| **Sprint Planning Background** |
-| **Date** | 03 / 10 / 2025 |
-| **Time** | 15 : 00 horas |
-| **Location** | Discord |
-| **Prepared By** | Lorem Ipsum |
-| **Attendees** | Calisaya Sánchez, Juan Jesús  <br> David Polanco, Alessandro Alonso <br> Espinoza Delgado, Bárbara Antonella  <br> Serrano Ircañaupa, Nelson Elias  <br> Sotil Vasquez, Tyrone Raí |
-| **Sprint-0 Review Summary** | Previamente al inicio del Sprint 1, el equipo acordó frameworks para cada aplicación, funcionalidades a realizar, guias de estilo y asignación de tareas. |
-| **Sprint-0 Retrospective Summary** | Como puntos de mejora se reconoce la necesidad de que todo el equipo tenga en claro las restricciones y limites del product backlog para evitar el desarrollo de funcionalidades extras no acordadas. |
-| **Sprint-1 Goal** | La meta de este primer Sprint es desarrollar una landing page completa y una primera versión de la aplicación web para para dueños de estacionamientos. Esto permitirá que los visitantes comprendan el producto y que los dueños tengan un MVP. Se confirmará cuando la landing page esté desplegada sin errores, funcione en todos los dispositivos y los dueños puedan registrarse, crear y visualizar su estacionamiento. |
-| **Sprint-1 Velocity** | 42 hours |
-| **Sprint-1 Story Points** | 44 |
+| Sprint #                           | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**     |
+| **Date**                           | 03 / 10 / 2025                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Time**                           | 15 : 00 horas                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Location**                       | Discord                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Prepared By**                    | Lorem Ipsum                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Attendees**                      | Calisaya Sánchez, Juan Jesús <br> David Polanco, Alessandro Alonso <br> Espinoza Delgado, Bárbara Antonella <br> Serrano Ircañaupa, Nelson Elias <br> Sotil Vasquez, Tyrone Raí                                                                                                                                                                                                                                               |
+| **Sprint-0 Review Summary**        | Previamente al inicio del Sprint 1, el equipo acordó frameworks para cada aplicación, funcionalidades a realizar, guias de estilo y asignación de tareas.                                                                                                                                                                                                                                                                     |
+| **Sprint-0 Retrospective Summary** | Como puntos de mejora se reconoce la necesidad de que todo el equipo tenga en claro las restricciones y limites del product backlog para evitar el desarrollo de funcionalidades extras no acordadas.                                                                                                                                                                                                                         |
+| **Sprint-1 Goal**                  | La meta de este primer Sprint es desarrollar una landing page completa y una primera versión de la aplicación web para para dueños de estacionamientos. Esto permitirá que los visitantes comprendan el producto y que los dueños tengan un MVP. Se confirmará cuando la landing page esté desplegada sin errores, funcione en todos los dispositivos y los dueños puedan registrarse, crear y visualizar su estacionamiento. |
+| **Sprint-1 Velocity**              | 42 hours                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Sprint-1 Story Points**          | 44                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 ##### 6.2.1.2. Aspect Leaders and Collaborators
 
-Con el fin de garantizar una comunicación efectiva y una ejecución eficiente de las tareas, se desarrolló la **matriz LACX (Leadership and Collaboration Matrix)**, la cual permite identificar qué integrante del equipo lidera cada componente del proyecto y quiénes colaboran en su desarrollo.  
+Con el fin de garantizar una comunicación efectiva y una ejecución eficiente de las tareas, se desarrolló la **matriz LACX (Leadership and Collaboration Matrix)**, la cual permite identificar qué integrante del equipo lidera cada componente del proyecto y quiénes colaboran en su desarrollo.
 
 En esta primera iteración se abordaron los siguientes aspectos principales:
 
-- **Aspect Name 1:** Landing Page    
-- **Aspect Name 2:** Web App Frontend (Dueños)  
-- **Aspect Name 3:** RESTful API - Backend Básico  
-- **Aspect Name 4:** Infraestructura y Despliegue 
-- **Aspect Name 5:** Documentación  
+- **Aspect Name 1:** Landing Page
+- **Aspect Name 2:** Web App Frontend (Dueños)
+- **Aspect Name 3:** RESTful API - Backend Básico
+- **Aspect Name 4:** Infraestructura y Despliegue
+- **Aspect Name 5:** Documentación
 
 | Team Member                             | GitHub User | Aspect Name 1 | Aspect Name 2 | Aspect Name 3 | Aspect Name 4 | Aspect Name 5 |
-|-----------------------------------------|:-----------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| --------------------------------------- | :---------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
 | **Calisaya Sánchez, Juan Jesús**        | JuanCali999 |       C       |       C       |       C       |       C       |       C       |
 | **David Polanco, Alessandro Alonso**    | Alesso2805  |       L       |       L       |       C       |       C       |       C       |
-| **Espinoza Delgado, Bárbara Antonella** | MesSobble   |       C       |       C       |       C       |       C       |       L       |
-| **Serrano Ircañaupa, Nelson Elias**     | NelsonUPC   |       C       |       C       |       L       |       C       |       C       |
-| **Sotil Vasquez, Tyrone Raí**           | Tyrone-J    |       C       |       C       |       C       |       L       |       C       |
-
+| **Espinoza Delgado, Bárbara Antonella** |  MesSobble  |       C       |       C       |       C       |       C       |       L       |
+| **Serrano Ircañaupa, Nelson Elias**     |  NelsonUPC  |       C       |       C       |       L       |       C       |       C       |
+| **Sotil Vasquez, Tyrone Raí**           |  Tyrone-J   |       C       |       C       |       C       |       L       |       C       |
 
 ##### 6.2.1.3. Sprint Backlog 1
 
@@ -3585,26 +3642,75 @@ La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde 
 
 Trello: [Link de Trello](https://trello.com/b/7BD2h15m/sprint-1)
 
-| **User Story Id** | **User Story Title** | **Task Id** | **Task Title** | **Task Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-|--------------------|----------------------|--------------|----------------|----------------------|------------------------|-----------------|-------------|
-| US01 | Sección hero con propuesta de valor IoT | T01 | Diseño de sección hero | Crear estructura y contenido visual para comunicar el valor IoT | 1 | Alessandro David | Done |
-| US02 | Barra de navegación intuitiva | T02 | Implementar navbar responsive | Diseñar y desarrollar barra de navegación clara y adaptable | 1 | Alessandro David | Done |
-| US03 | Acceso directo a registro desde landing | T03 | Crear botones de registro | Implementar CTA visibles para registro de Conductor o Propietario | 1 | Alessandro David | Done |
-| US04 | Registro diferenciado por tipo de usuario | T04 | Desarrollar formulario de registro | Crear registro con selección de rol y validaciones | 3 | Juan Calisaya | Done |
-| US05 | Inicio de sesión unificado | T05 | Implementar login con JWT | Desarrollar inicio de sesión con redirección según rol | 3 | Juan Calisaya | Done |
-| US07 | Perfil de propietario | T06 | Diseñar vista de perfil de propietario | Implementar gestión de información comercial y contacto | 3 | Alessandro David | Done |
-| US18 | Registro de estacionamiento | T07 | Crear formulario de registro de estacionamiento | Permitir al propietario registrar su local en la plataforma | 5 | Juan Calisaya | Done |
-| US19 | Configuración simple de espacios | T08 | Implementar editor de espacios | Definir cantidad, horarios y tarifas de estacionamiento | 5 | Alessandro David | Done |
-| US20 | Visualizar reservas de mi estacionamiento | T09 | Crear panel de reservas del propietario | Mostrar reservas activas y programadas con detalles | 5 | Alessandro David | Done |
-| US32 | Panel web para propietarios | T10 | Crear panel del propietario | Mostrar Panel web para gestión de estacionamientos | 7 | Alessandro David | Done |
-| TS01 | API de autenticación | T11 | Crear endpoints de autenticación | Desarrollar endpoints para login, registro y refresh token | 3 | Nelson Serrano | Done |
-| TS02 | API CRUD de estacionamientos | T12 | Desarrollar API CRUD estacionamientos | Crear endpoints para CRUD de estacionamientos y espacios | 5 | Nelson Serrano | Done |
+| **User Story Id** | **User Story Title**                      | **Task Id** | **Task Title**                                  | **Task Description**                                              | **Estimation (Hours)** | **Assigned To**  | **Status** |
+| ----------------- | ----------------------------------------- | ----------- | ----------------------------------------------- | ----------------------------------------------------------------- | ---------------------- | ---------------- | ---------- |
+| US01              | Sección hero con propuesta de valor IoT   | T01         | Diseño de sección hero                          | Crear estructura y contenido visual para comunicar el valor IoT   | 1                      | Alessandro David | Done       |
+| US02              | Barra de navegación intuitiva             | T02         | Implementar navbar responsive                   | Diseñar y desarrollar barra de navegación clara y adaptable       | 1                      | Alessandro David | Done       |
+| US03              | Acceso directo a registro desde landing   | T03         | Crear botones de registro                       | Implementar CTA visibles para registro de Conductor o Propietario | 1                      | Alessandro David | Done       |
+| US04              | Registro diferenciado por tipo de usuario | T04         | Desarrollar formulario de registro              | Crear registro con selección de rol y validaciones                | 3                      | Juan Calisaya    | Done       |
+| US05              | Inicio de sesión unificado                | T05         | Implementar login con JWT                       | Desarrollar inicio de sesión con redirección según rol            | 3                      | Juan Calisaya    | Done       |
+| US07              | Perfil de propietario                     | T06         | Diseñar vista de perfil de propietario          | Implementar gestión de información comercial y contacto           | 3                      | Alessandro David | Done       |
+| US18              | Registro de estacionamiento               | T07         | Crear formulario de registro de estacionamiento | Permitir al propietario registrar su local en la plataforma       | 5                      | Juan Calisaya    | Done       |
+| US19              | Configuración simple de espacios          | T08         | Implementar editor de espacios                  | Definir cantidad, horarios y tarifas de estacionamiento           | 5                      | Alessandro David | Done       |
+| US20              | Visualizar reservas de mi estacionamiento | T09         | Crear panel de reservas del propietario         | Mostrar reservas activas y programadas con detalles               | 5                      | Alessandro David | Done       |
+| US32              | Panel web para propietarios               | T10         | Crear panel del propietario                     | Mostrar Panel web para gestión de estacionamientos                | 7                      | Alessandro David | Done       |
+| TS01              | API de autenticación                      | T11         | Crear endpoints de autenticación                | Desarrollar endpoints para login, registro y refresh token        | 3                      | Nelson Serrano   | Done       |
+| TS02              | API CRUD de estacionamientos              | T12         | Desarrollar API CRUD estacionamientos           | Crear endpoints para CRUD de estacionamientos y espacios          | 5                      | Nelson Serrano   | Done       |
 
 ##### 6.2.1.4. Development Evidence for Sprint Review
+
+En esta sección, se presentan los commits realizados en el repositorio de la landing page y en el repositorio del frontend de la web en GitHub. Estos commits reflejan el progreso y las mejoras implementadas durante el Sprint 1, proporcionando una visión detallada de las actividades de desarrollo y las contribuciones del equipo.
+
+**Repositorio de Landing Page:**  
+[https://github.com/Lorem-Ipsum-UPC/Landing-Page](https://github.com/Lorem-Ipsum-UPC/Landing-Page)
+
+---
+
+| **Repository**                                                  | **Branch** | **Commit Id**                              | **Commit Message**                                                                                                                                                                                                                                                                                                                                                               | **Commit Message Body** | **Committed on (Date)** |
+| --------------------------------------------------------------- | ---------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | ----------------------- |
+| [Landing Page](https://github.com/Lorem-Ipsum-UPC/Landing-Page) | `main`     | `b21417e331bcb86c0b996f2253d4f449bf31ea47` | [Initialize project using Create React App](https://github.com/Lorem-Ipsum-UPC/Landing-Page/commit/b21417e331bcb86c0b996f2253d4f449bf31ea47 "Initialize project using Create React App")                                                                                                                                                                                         | -                       | 3 de Octubre, 2025      |
+|                                                                 |            | `ec59e43dbb0866509dac12ef6b85db1f2d51e876` | [feat: add ParkeoYaLanding component with complete landing page structure and features](https://github.com/Lorem-Ipsum-UPC/Landing-Page/commit/79697a3d8b01fa93b027797ca628257e3be4c7b9 "feat: add ParkeoYaLanding component with complete landing page structure and features")                                                                                                 | -                       | 3 de Octubre, 2025      |
+|                                                                 |            | `ec59e43dbb0866509dac12ef6b85db1f2d51e876` | [style: update case study grid and card styles for improved responsiveness and layout](https://github.com/Lorem-Ipsum-UPC/Landing-Page/commit/ec59e43dbb0866509dac12ef6b85db1f2d51e876 "style: update case study grid and card styles for improved responsiveness and layout")                                                                                                   | -                       | 3 Octubre, 2025         |
+|                                                                 |            | `cf4d7ee04ecd284bc3b1ba29387076d7c3ed3441` | [feat: enhance pricing grid responsiveness and add data attribute for selected plan](https://github.com/Lorem-Ipsum-UPC/Landing-Page/commit/cf4d7ee04ecd284bc3b1ba29387076d7c3ed3441 "feat: enhance pricing grid responsiveness and add data attribute for selected plan")                                                                                                       | -                       | 3 Octubre, 2025         |
+|                                                                 |            | `dfc137bf19cb363e703d9bc652a377d87e5a2d2a` | [fix: remove unnecessary peer dependencies from package-lock.json](https://github.com/Lorem-Ipsum-UPC/Landing-Page/commit/dfc137bf19cb363e703d9bc652a377d87e5a2d2a "fix: remove unnecessary peer dependencies from package-lock.json")                                                                                                                                           | -                       | 4 Octubre, 2025         |
+|                                                                 |            | `9b70a89bca51df1b1efc55cf3d15b3a8ff33da3b` | [feat(i18n): integrate internationalization with i18next and add language selector](https://github.com/Lorem-Ipsum-UPC/Landing-Page/commit/9b70a89bca51df1b1efc55cf3d15b3a8ff33da3b "feat(i18n): integrate internationalization with i18next and add language selector")                                                                                                         | -                       | 4 Octubre, 2025         |
+|                                                                 |            | `c43a55726b967e9fc99fea859a98873059d1f92a` | [fix: update package-lock.json to remove unused dependencies and update versions](https://github.com/Lorem-Ipsum-UPC/Landing-Page/commit/c43a55726b967e9fc99fea859a98873059d1f92a "fix: update package-lock.json to remove unused dependencies and update versions")                                                                                                             | -                       | 4 Octubre, 2025         |
+|                                                                 |            | `29ad504394dd512dcd02516ddbac3aa3f360f5c5` | [feat: add TypeScript as a dev dependency and update its version](https://github.com/Lorem-Ipsum-UPC/Landing-Page/commit/29ad504394dd512dcd02516ddbac3aa3f360f5c5 "feat: add TypeScript as a dev dependency and update its version")                                                                                                                                             | -                       | 4 Octubre, 2025         |
+|                                                                 |            | `db39fdf22bacd6b3b0f33ebb377df341f6d11a32` | [fix: downgrade i18next and react-i18next to compatible versions](https://github.com/Lorem-Ipsum-UPC/Landing-Page/commit/db39fdf22bacd6b3b0f33ebb377df341f6d11a32 "fix: downgrade i18next and react-i18next to compatible versions")                                                                                                                                             | -                       | 4 Octubre, 2025         |
+|                                                                 |            | `acfb88e881081f11dd05d8085e350e9baafdad56` | [fix: update react-i18next to version 12.3.1 and adjust CSS media queries for better responsiveness](https://github.com/Lorem-Ipsum-UPC/Landing-Page/commit/acfb88e881081f11dd05d8085e350e9baafdad56 "fix: update react-i18next to version 12.3.1 and adjust CSS media queries for better responsiveness")                                                                       | -                       | 4 Octubre, 2025         |
+|                                                                 |            | `d91e64df56d9f483502ff0ce00c4fd4f0af5716b` | [fix: remove language flags from LanguageSelector component](https://github.com/Lorem-Ipsum-UPC/Landing-Page/commit/d91e64df56d9f483502ff0ce00c4fd4f0af5716b "fix: remove language flags from LanguageSelector component")                                                                                                                                                       | -                       | 4 Octubre, 2025         |
+|                                                                 |            | `64532b5dbea3b2b7859ebc5464589cc0ad2b5902` | [fix: update media query breakpoints for navigation and mobile menu styles; remove unused badge elements from hero and section headers](https://github.com/Lorem-Ipsum-UPC/Landing-Page/commit/64532b5dbea3b2b7859ebc5464589cc0ad2b5902 "fix: update media query breakpoints for navigation and mobile menu styles; remove unused badge elements from hero and section headers") | -                       | 4 Octubre, 2025         |
+|                                                                 |            | `4860bd3bba8ca78dfc65f31d68ce8cb469bd7954` | [fix: adjust alignment in contact methods and remove unused badge element from contact section](https://github.com/Lorem-Ipsum-UPC/Landing-Page/commit/4860bd3bba8ca78dfc65f31d68ce8cb469bd7954 "fix: adjust alignment in contact methods and remove unused badge element from contact section")                                                                                 | -                       | 5 Octubre, 2025         |
+|                                                                 |            | `b276c50f2effb2b7b1b41b8782a65f194fb3ecf4` | [fix: enhance contact form validation and improve user experience with dynamic error messages](https://github.com/Lorem-Ipsum-UPC/Landing-Page/commit/b276c50f2effb2b7b1b41b8782a65f194fb3ecf4 "fix: enhance contact form validation and improve user experience with dynamic error messages")                                                                                   | -                       | 5 Octubre, 2025         |
+|                                                                 |            | `f492967a9d662b59daa1435dfe5aaaad562a6e5c` | [fix: center align contact method elements and improve text styling for better readability](https://github.com/Lorem-Ipsum-UPC/Landing-Page/commit/f492967a9d662b59daa1435dfe5aaaad562a6e5c "fix: center align contact method elements and improve text styling for better readability")                                                                                         | -                       | 5 Octubre, 2025         |
+
+**Repositorio de Frontend Web:**
+
+[https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend](https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend)
+
+---
+
+| **Repository**                                                       | **Branch** | **Commit Id**                              | **Commit Message**                                                                                                                                                                                                                                                                                        | **Commit Message Body** | **Committed on (Date)** |
+| -------------------------------------------------------------------- | ---------- | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | ----------------------- |
+| [Frontend Web](https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend) | `main`     | `5b3acff2c96caeb64fc02a974ff9ca0f087c1905` | [first commit](https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend/commit/5b3acff2c96caeb64fc02a974ff9ca0f087c1905 "first commit")                                                                                                                                                                       | -                       | 6 de Octubre, 2025      |
+|                                                                      |            | `bba12d51e01ac295285ec8f47facb4b18749f56d` | [fix(deps): Fix dependencies to run the project](https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend/commit/bba12d51e01ac295285ec8f47facb4b18749f56d "fix(deps): Fix dependencies to run the project")                                                                                                   | -                       | 6 de Octubre, 2025      |
+|                                                                      |            | `cbabe01e040cf8c5be567e9c01f43e13b594d0bd` | [feat: implement space management page with real-time IoT sensor monitoring and status filtering](https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend/commit/cbabe01e040cf8c5be567e9c01f43e13b594d0bd "feat: implement space management page with real-time IoT sensor monitoring and status filtering") | -                       | 6 Octubre, 2025         |
+|                                                                      |            | `57d72a141cde1263a98b0bace80014ca498ecd93` | [Merge branch 'main' of https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend](https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend/commit/57d72a141cde1263a98b0bace80014ca498ecd93 "Merge branch 'main' of https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend")                                         | -                       | 6 Octubre, 2025         |
+|                                                                      |            | `6f678c13a163f3d126d8c983e1c20126e9b39199` | [fix: resolve version conflict for react-is in package-lock.json](https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend/commit/6f678c13a163f3d126d8c983e1c20126e9b39199 "fix: resolve version conflict for react-is in package-lock.json")                                                                 | -                       | 6 Octubre, 2025         |
+|                                                                      |            | `166dfb6bdf8711b01d698063f736e24765f51243` | [refactor: rename pages and update navigation links for consistency](https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend/commit/166dfb6bdf8711b01d698063f736e24765f51243 "refactor: rename pages and update navigation links for consistency")                                                           | -                       | 6 Octubre, 2025         |
+|                                                                      |            | `54023ffeb3c53ec4f71b1cfc7a2e5199e03c161e` | [feat: add onboarding steps for capacity, schedule, basic info, pricing, and location pages](https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend/commit/54023ffeb3c53ec4f71b1cfc7a2e5199e03c161e "feat: add onboarding steps for capacity, schedule, basic info, pricing, and location pages")           | -                       | 6 Octubre, 2025         |
+|                                                                      |            | `f35263b605c3a2b02399b4762a928c5a7ae6f6bf` | [feat: update UI colors and styles across various components for consistency](https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend/commit/f35263b605c3a2b02399b4762a928c5a7ae6f6bf "feat: update UI colors and styles across various components for consistency")                                         | -                       | 7 Octubre, 2025         |
+
+---
+
 ##### 6.2.1.5. Testing Suite Evidence for Sprint Review
+
 ##### 6.2.1.6. Execution Evidence for Sprint Review
+
 ##### 6.2.1.7. Services Documentation Evidence for Sprint Review
+
 ##### 6.2.1.8. Software Deployment Evidence for Sprint Review
+
 ##### 6.2.1.9. Team Collaboration Insights during Sprint
 
 **Landing Page**
@@ -3616,55 +3722,56 @@ Trello: [Link de Trello](https://trello.com/b/7BD2h15m/sprint-1)
 <img src="assets/chapter-6/CommitsFrontWeb.png" alt="Commits Front Web">
 
 # Conclusiones y recomendaciones
+
 ### Conclusiones
 
-⦁	**TB1:** Para esta primera entrega se logró sentar las bases del proyecto, logrando que todos los integrantes del equipo comprendieran el tema y la estructura que se realizará durante todo el ciclo, incluyendo la definición de los usuarios objetivo, epicas, historias de usuario, bounded contexts, diagramas C4, diagramas de clases y diagramas de base de datos.
+⦁ **TB1:** Para esta primera entrega se logró sentar las bases del proyecto, logrando que todos los integrantes del equipo comprendieran el tema y la estructura que se realizará durante todo el ciclo, incluyendo la definición de los usuarios objetivo, epicas, historias de usuario, bounded contexts, diagramas C4, diagramas de clases y diagramas de base de datos.
 
 ### Recomendaciones
 
-⦁	**Ampliación de funcionalidades:**
+⦁ **Ampliación de funcionalidades:**
 Se sugiere continuar con el desarrollo de características que aporten mayor valor tanto a los usuarios como a los administradores. Entre ellas, destacan la integración de métodos de pago automatizados, notificaciones en tiempo real sobre disponibilidad y opciones de personalización. Asimismo, la incorporación de sensores IoT para detectar en tiempo real la ocupación de los estacionamientos fortalecerá la precisión del sistema y la experiencia del usuario.
 
-⦁	**Crecimiento geográfico y sectorial:**
+⦁ **Crecimiento geográfico y sectorial:**
 Luego del éxito inicial, ParkeoYa debería considerar su expansión hacia nuevas ciudades con alta demanda de estacionamiento, así como explorar oportunidades en sectores específicos como aeropuertos, centros comerciales y eventos masivos, donde la gestión eficiente de espacios es crucial.
 
-⦁	**Estrategia de marketing y sensibilización:**
+⦁ **Estrategia de marketing y sensibilización:**
 Es fundamental diseñar campañas de marketing digital dirigidas tanto a conductores como a administradores de estacionamientos. El uso de testimonios y casos de éxito que evidencien mejoras en tiempos de búsqueda puede incrementar la adopción. Asimismo, se recomienda educar a los usuarios sobre los beneficios que la plataforma aporta a la sostenibilidad urbana.
 
-⦁	**Monitoreo y mejora continua:**
+⦁ **Monitoreo y mejora continua:**
 La implementación de un sistema de análisis constante de datos de uso y ocupación permitirá anticipar tendencias, ajustar estrategias y corregir deficiencias. Este enfoque garantizará una experiencia de usuario cada vez más optimizada y adaptable a nuevas necesidades.
 
-⦁	**Compromiso con la sostenibilidad:**
+⦁ **Compromiso con la sostenibilidad:**
 ParkeoYa debería reforzar su rol en la movilidad sostenible, impulsando iniciativas que reduzcan la huella de carbono y colaborando con proyectos de ciudades inteligentes. Esto no solo fortalecerá su posicionamiento como plataforma tecnológica, sino también como un aliado clave en la construcción de entornos urbanos más responsables y sostenibles.
 
 <div style="page-break-after: always;"></div>
 
 # Bibliografia
 
-⦁	Ali, G., Ali, T., Irfan, M., Draz, U., Sohail, M., Glowacz, A., … Martis, C. (2020). IoT-based smart parking system using deep long short-memory network. Electronics, 9(10), 1696. https://doi.org/10.3390/electronics9101696 [Consulta: 01 de Septiembre de 2025]
+⦁ Ali, G., Ali, T., Irfan, M., Draz, U., Sohail, M., Glowacz, A., … Martis, C. (2020). IoT-based smart parking system using deep long short-memory network. Electronics, 9(10), 1696. https://doi.org/10.3390/electronics9101696 [Consulta: 01 de Septiembre de 2025]
 
-⦁	Asociación Automotriz del Perú. (2023). INFORME DEL SECTOR AUTOMOTOR: Diciembre 2024. Recuperado de: https://aap.org.pe/informes-estadisticos/diciembre-2024/Informe-Diciembre-2024.pdf [Consulta: 01 de Septiembre de 2025]
+⦁ Asociación Automotriz del Perú. (2023). INFORME DEL SECTOR AUTOMOTOR: Diciembre 2024. Recuperado de: https://aap.org.pe/informes-estadisticos/diciembre-2024/Informe-Diciembre-2024.pdf [Consulta: 01 de Septiembre de 2025]
 
-⦁	Lima Cómo Vamos. (2023). Reporte de movilidad urbana 2023. Recuperado de: https://www.limacomovamos.org/wp-content/uploads/2022/06/Reporte-%C2%BFCo%CC%81mo-nos-movemos__LCV-LE-2022_compressed.pdf [Consulta: 01 de Septiembre de 2025]
+⦁ Lima Cómo Vamos. (2023). Reporte de movilidad urbana 2023. Recuperado de: https://www.limacomovamos.org/wp-content/uploads/2022/06/Reporte-%C2%BFCo%CC%81mo-nos-movemos__LCV-LE-2022_compressed.pdf [Consulta: 01 de Septiembre de 2025]
 
-⦁	Shen, L., Wu, X., Li, R., Chen, J., & Zhao, Y. (2020). Logistics sustainability practices: An IoT-enabled smart indoor parking system for industrial hazardous-chemical vehicles. International Journal of Production Research, 58(11), 3350–3367. https://doi.org/10.1080/00207543.2020.1720928 [Consulta: 01 de Septiembre de 2025]
+⦁ Shen, L., Wu, X., Li, R., Chen, J., & Zhao, Y. (2020). Logistics sustainability practices: An IoT-enabled smart indoor parking system for industrial hazardous-chemical vehicles. International Journal of Production Research, 58(11), 3350–3367. https://doi.org/10.1080/00207543.2020.1720928 [Consulta: 01 de Septiembre de 2025]
 
 # Anexos
 
 A continuación se presentan los videos generados como parte del desarrollo del proyecto.
 
-⦁	Needfinding Interviews: [Link de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/EYQhtWUIDpVJmC_4vrNvyeEBVwPe0lza4GruF-bIEb73Ww?e=OLnD12)
+⦁ Needfinding Interviews: [Link de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/EYQhtWUIDpVJmC_4vrNvyeEBVwPe0lza4GruF-bIEb73Ww?e=OLnD12)
 
-⦁	Forms Conductores: [Link de Forms Conductores](https://forms.gle/4iHuvEREBSzFWc9y6)
+⦁ Forms Conductores: [Link de Forms Conductores](https://forms.gle/4iHuvEREBSzFWc9y6)
 
-⦁	Forms Dueños: [Link de Forms Dueños](https://forms.gle/TszFqNakzyBn1D6o7)
+⦁ Forms Dueños: [Link de Forms Dueños](https://forms.gle/TszFqNakzyBn1D6o7)
 
-⦁	Miro Big Picture EventStorming: [Big Picture Event Storming](https://miro.com/app/board/uXjVJHVh__o=/?share_link_id=669977582700)
+⦁ Miro Big Picture EventStorming: [Big Picture Event Storming](https://miro.com/app/board/uXjVJHVh__o=/?share_link_id=669977582700)
 
-⦁	Lucidchart Diagrama de clases: [Diagrama de Clases](https://lucid.app/lucidchart/3c51363f-6bff-443d-b016-ebfeac3b1a74/edit?viewport_loc=-2574%2C-858%2C3244%2C1620%2C0_0&invitationId=inv_656ffc0a-b4cc-4dc0-9388-35c5fca0ce82)
+⦁ Lucidchart Diagrama de clases: [Diagrama de Clases](https://lucid.app/lucidchart/3c51363f-6bff-443d-b016-ebfeac3b1a74/edit?viewport_loc=-2574%2C-858%2C3244%2C1620%2C0_0&invitationId=inv_656ffc0a-b4cc-4dc0-9388-35c5fca0ce82)
 
-⦁	Vertabelo Diagrama de base de datos: [Diagrama de Base de Datos](https://my.vertabelo.com/doc/EtM0WmAwKaJIYXqhDB3EQZ8O5SrO8hll)
+⦁ Vertabelo Diagrama de base de datos: [Diagrama de Base de Datos](https://my.vertabelo.com/doc/EtM0WmAwKaJIYXqhDB3EQZ8O5SrO8hll)
 
-⦁	Diagramas de contexto, contenedores, componentes: [Diagramas C4](https://online.visual-paradigm.com/share.jsp?id=333233333733382d34)
+⦁ Diagramas de contexto, contenedores, componentes: [Diagramas C4](https://online.visual-paradigm.com/share.jsp?id=333233333733382d34)
 
-⦁	Video Exposición TB1: [Expo TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/Ea50aorvEeNKgYw_99e88oQBsCoptbHVCNW4Ae-fnSQ46A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Gsjoh)
+⦁ Video Exposición TB1: [Expo TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/Ea50aorvEeNKgYw_99e88oQBsCoptbHVCNW4Ae-fnSQ46A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Gsjoh)
