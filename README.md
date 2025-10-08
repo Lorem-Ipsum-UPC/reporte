@@ -3820,7 +3820,13 @@ Para el desarrollo del informe en este sprint se distribuyó los capítulos de e
 
 ### Conclusiones
 
-⦁ **TB1:** Para esta primera entrega se logró sentar las bases del proyecto, logrando que todos los integrantes del equipo comprendieran el tema y la estructura que se realizará durante todo el ciclo, incluyendo la definición de los usuarios objetivo, epicas, historias de usuario, bounded contexts, diagramas C4, diagramas de clases y diagramas de base de datos.
+### TB1
+
+Para esta primera entrega se logró sentar las bases del proyecto, logrando que todos los integrantes del equipo comprendieran el tema y la estructura que se realizará durante todo el ciclo, incluyendo la definición de los usuarios objetivo, epicas, historias de usuario, bounded contexts, diagramas C4, diagramas de clases y diagramas de base de datos.
+
+### TP
+
+Para esta segunda entrega se logro realizar una Landing Page consistente de acuerdo a la propuesta de solucion brindada, dando a visualizar la mision y visión de la startup asi como lo que estamos ofreciendo. Se incluye a su vez la capa frontend de la aplicación web que en si, tiene data hardcodeada, sin embargo, lo que se quiere demostrara es el avance consistente de la plataforma como tal, las secciones que vamos a presentar en el entregable final. Todo este avance viene acompañado de sus respectivos despliegues hechos en Netlify (Landing Page) y Vercel (Frontend Web). En este avance en equipo se pudo tambien declarar los pasos a seguir para desplegar una aplicacion web asi dandonos la oportunidad de poder diversificar nuestra web gratuitamente con estas plataformas de despliegue gratuito.
 
 ### Recomendaciones
 
