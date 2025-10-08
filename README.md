@@ -3592,31 +3592,25 @@ Para todos los lenguajes, se aplicarán las siguientes directrices de nomenclatu
 
 #### 6.1.4. Software Deployment Configuration
 
-Para configurar el despliegue del proyecto, seguimos los pasos detallados a continuación utilizando Netlify como plataforma:
+Para configurar la landing page previo al despliegue del proyecto, primero tenemos que hacer lo siguiente en el proyecto:
 
-Primer iniciamos sesion con Github para que se muestren todos los repositorios disponibles para importar y desplegar y seleccionamos la Organización y luego el repositorio a desplegar
+Una vez que se tiene listo el proyecto en React, se ejecuta el comando **npm run build** en la terminal, lo que hace este comando es preparar el proyecto para produccion, asi creando una carpeta llamada **build**, que produce archivos estaticos listo para servir, empaqueta codigo, elimina codigo muerto, entre otras funciones.
 
-<img src="assets/chapter-6/deploy1.png" alt="Imagen deploy paso 1">
+<img src="assets/chapter-6/step1-before.png" alt="npm run build">
 
-Procedemos a desplegar el repositorio de nuestra Landing page
+<img src="assets/chapter-6/step2-preview.png" alt="d">
 
-<img src="assets/chapter-6/deploy3.png" alt="Imagen deploy paso 3">
+Luego entro a la plataforma que usare para desplegar mi Landing Page que en este caso será **Netlify**. Entro a la pagina e inicio sesion con Github para que automaticamente se importen los repositorios que tengo, incluido el de la Landing Page que voy a desplegar
 
-Y listo! Nos mandara a una seccion de Despliegues donde podremos ver el log del despliegue en tiempo real para ver si hay algun error durante el despliegue (pueden haber errores por dependencias que sean muy actuales y se tiene que hacer un downgrade de las mismas para que el despliegue sea compatible y efectivo).
+<img src="assets/chapter-6/step3-preview.png" alt="">
 
-<img src="assets/chapter-6/deploy4.png" alt="Imagen deploy paso 4">
+Una vez en el dashboard de Netlify, se hace click en **Add New Project** para importar el repositorio, luego se hace click en **Import an existing project**, tomando en cuenta que el repositorio ya esta listo habian realizado los pasos previos.
 
-A continuación podemos ver todas las instancias de despliegues que existen debido a los cambios que hemos ido realizando en el repositorio de Landing Page, por ello es que por cada cambio que se realiza, automaticamente Netlify despliega de nuevo el repositorio con los mas recientes cambios
+<img src="assets/chapter-6/step5-preview.png" alt="">
 
-<img src="assets/chapter-6/deploy5.png" alt="Imagen deploy paso 5">
+Aca se elige la herramienta desde donde importaras el proyecto, que en nuestro caso es **Github**
 
-Una vez que entremos a la opción de la instancia de nuestro despliegue que diga "Publicado" o "Published", podremos ver el boton de "Open production deploy" que es el link ya oficial de nuestro despliegue y abajo se puede mostrar un resumen del despliegue
-
-<img src="assets/chapter-6/deploy6.png" alt="Imagen deploy paso 6">
-
-Y abajo de ese resumend del despliegue, podremos ver el log del despliegue y verificar que todo haya ido de acorde, si hubo un problema deberia corregirse e intentar desplegar de nuevo hasta que este sea efectivo sin error de compatibilidad.
-
-<img src="assets/chapter-6/deploy7.png" alt="Imagen deploy paso 7">
+<img src="assets/chapter-6/step6-preview.png" alt="">
 
 ### 6.2. Landing Page, Services & Applications Implementation
 
@@ -3762,11 +3756,37 @@ En el alcance del Sprint 1 se logró desarrollar la landing page y el frontend w
 
 ##### 6.2.1.8. Software Deployment Evidence for Sprint Review
 
-Se adjuntan links del despliegue (realizado en Netfliy y Vercel) tanto del Landing page como de la capa Frontend de la App Web:
+Se adjuntan links y procedimiento del despliegue (realizado en Netfliy y Vercel) tanto del Landing page como de la capa Frontend de la App Web:
 
 #### Landing Page
 
 https://parkeoya-lorem-ipsum.netlify.app/
+
+Para configurar el despliegue del la Landing Page, seguimos los pasos detallados a continuación utilizando Netlify como plataforma:
+
+Primero iniciamos sesion con Github para que se muestren todos los repositorios disponibles para importar y desplegar y seleccionamos la Organización y luego el repositorio a desplegar
+
+<img src="assets/chapter-6/deploy1.png" alt="Imagen deploy paso 1">
+
+Procedemos a desplegar el repositorio de nuestra Landing page
+
+<img src="assets/chapter-6/deploy3.png" alt="Imagen deploy paso 3">
+
+Y listo! Nos mandara a una seccion de Despliegues donde podremos ver el log del despliegue en tiempo real para ver si hay algun error durante el despliegue (pueden haber errores por dependencias que sean muy actuales y se tiene que hacer un downgrade de las mismas para que el despliegue sea compatible y efectivo).
+
+<img src="assets/chapter-6/deploy4.png" alt="Imagen deploy paso 4">
+
+A continuación podemos ver todas las instancias de despliegues que existen debido a los cambios que hemos ido realizando en el repositorio de Landing Page, por ello es que por cada cambio que se realiza, automaticamente Netlify despliega de nuevo el repositorio con los mas recientes cambios
+
+<img src="assets/chapter-6/deploy5.png" alt="Imagen deploy paso 5">
+
+Una vez que entremos a la opción de la instancia de nuestro despliegue que diga "Publicado" o "Published", podremos ver el boton de "Open production deploy" que es el link ya oficial de nuestro despliegue y abajo se puede mostrar un resumen del despliegue
+
+<img src="assets/chapter-6/deploy6.png" alt="Imagen deploy paso 6">
+
+Y abajo de ese resumend del despliegue, podremos ver el log del despliegue y verificar que todo haya ido de acorde, si hubo un problema deberia corregirse e intentar desplegar de nuevo hasta que este sea efectivo sin error de compatibilidad.
+
+<img src="assets/chapter-6/deploy7.png" alt="Imagen deploy paso 7">
 
 #### Frontend Web
 
