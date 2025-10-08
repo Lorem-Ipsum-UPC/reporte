@@ -3728,13 +3728,15 @@ En esta sección, se presentan los commits realizados en el repositorio de la la
 
 Se realizaron pruebas iniciales con el objetivo de asegurar que la landing page se visualizara correctamente y funcionara de manera óptima en una amplia variedad de dispositivos (como computadoras de escritorio, tablets y teléfonos móviles) y navegadores web. Estas pruebas permitieron identificar posibles inconsistencias en el diseño responsivo, tiempos de carga o fallos de compatibilidad, garantizando así una experiencia de usuario coherente y fluida sin importar el entorno de acceso.
 
-Landing Page en computadoras de escritorio
+**Landing Page en computadoras de escritorio**
 <img width="1510" height="618" alt="image" src="https://github.com/user-attachments/assets/86a526d2-9322-499a-a6a0-6b3527065552" />
 
-Landing Page en teléfonos
+**Landing Page en teléfonos**
+
 <img width="420" height="907" alt="image" src="https://github.com/user-attachments/assets/2519a090-a05f-447a-bf7d-f6c19ab1cefe" />
 
-Landing Page en tablets
+
+**Landing Page en tablets**
 <img width="885" height="885" alt="image" src="https://github.com/user-attachments/assets/306f9516-09fb-4349-9cb2-253339991e1f" />
 
 
