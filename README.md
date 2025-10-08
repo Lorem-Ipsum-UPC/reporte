@@ -3661,7 +3661,7 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 - **Navegación en Sidebar**
 
-  - **User Goal:** Como dueño de una playa de estacionamiento, quiero poder navegar entre las distitnas opciones de la navbar.
+  - **User Goal:** Como dueño de una playa de estacionamiento, quiero poder navegar entre las distitnas opciones de la Sidebar.
     
   - **User Persona:** Dueño de Playa de Estacionamiento.
     
@@ -3855,7 +3855,7 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 - **Navegación en Sidebar**
 
-  - **User Goal:** Como dueño de una playa de estacionamiento, quiero poder navegar entre las distitnas opciones de la navbar.
+  - **User Goal:** Como dueño de una playa de estacionamiento, quiero poder navegar entre las distitnas opciones de la Sidebar.
     
   - **User Persona:** Dueño de Playa de Estacionamiento.
     
