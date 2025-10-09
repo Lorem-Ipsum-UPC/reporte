@@ -3956,11 +3956,20 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 ### 5.5. Applications Prototyping
 
+Mobile Aplication 
 <img src="assets/chapter-5/Prototipo.png" alt="Prototipo">
 
 Link del Prototipo: [Prototipo](https://www.figma.com/proto/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=2-110&t=javn3IzdBb8xNEo2-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=2%3A110&show-proto-sidebar=1)
 
 Link del video del Prototipo: [Video Prototipo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202017267_upc_edu_pe/ETj3uMZWKpBGgPWEeueSTXoBCMKoZNGsSzuRr0ZumT5Sew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=w7hDFP)
+
+Web Aplication
+
+<img src="assets/chapter-5/prototipo-web-video.jpg" alt="Prototipo">
+
+Link del Prototipo Web: [Prototipo](https://www.figma.com/proto/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=241-2&t=GirfGc0125DKUPcc-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=241%3A2)
+
+Link del video del Prototipo Web: [Video Prototipo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121935_upc_edu_pe/Eb_z7dFSZD9DlsjUrBBd8_QBX2a72YWYmH_9FKsiSR0saA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=2g4rGx )
 
 ## Capítulo VI: Product Implementation, Validation & Deployment
 
