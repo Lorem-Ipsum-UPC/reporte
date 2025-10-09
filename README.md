@@ -90,7 +90,9 @@ Enlace al repositorio del informe en GitHub: [Repositorio de GitHub](https://git
 - **Serrano Ircañaupa, Nelson Elias**: Colaboré con la elaboración del Capítulo VI, específicamente en la preparación de evidencias de testing suite y execution para el Sprint Review. Apoyé en la validación del producto y en el aseguramiento de la calidad del software, garantizando la correcta verificación de los requisitos funcionales.
 - **Sotil Vasquez, Tyrone Raí**: Colaboré en la elaboración del Capítulo V y VI, enfocándome en el diseño de mobile wireframes y app prototypes dentro del UI/UX Design. Además, participé en la integración visual del design system y en la validación del frontend durante el proceso de implementación y despliegue.
 
-<img src="./assets/chapter-1/CommitsTP.png" alt="Commits TP">
+**Evidencia de colaboración**
+
+<img src="./assets/chapter-1/CommitsTP.jpg" alt="Commits TP">
 
 # Contenido
 
