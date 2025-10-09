@@ -3476,7 +3476,6 @@ ParkeoYa debería reforzar su rol en la movilidad sostenible, impulsando iniciat
 
 ⦁	Shen, L., Wu, X., Li, R., Chen, J., & Zhao, Y. (2020). Logistics sustainability practices: An IoT-enabled smart indoor parking system for industrial hazardous-chemical vehicles. International Journal of Production Research, 58(11), 3350–3367. https://doi.org/10.1080/00207543.2020.1720928 [Consulta: 01 de Septiembre de 2025]
 
-# Anexos
 
 # Anexos
 
