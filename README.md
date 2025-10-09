@@ -62,6 +62,7 @@
 | 1.2         | 03/09/2025| Bárbara Espinoza | Realización del Capítulo 2 |
 | 1.3         | 15/09/2025| Juan Calissaya y Alessandro David | Realización del Capítulo 3 |
 | 1.4         | 20/09/2025| Alessandro David, Nelson Serrano y Tyrone Sotil | Realización del Capítulo 4 |
+| 1.5         | 8/10/2025| Alessandro David, Nelson Serrano y Tyrone Sotil, Bárbara Espinoza, Juan Calisaya | Realización del Capítulo 5 y 6 |
 
 # Project Report Collaboration Insights 
 
@@ -79,6 +80,17 @@ Enlace al repositorio del informe en GitHub: [Repositorio de GitHub](https://git
 **Evidencia de colaboración**
 
 <img src="./assets/chapter-1/CommitsTB1.png" alt="Commits TB1">
+
+## TP
+
+**Descripción de las actividades realizadas:**
+- **Espinoza Delgado, Bárbara Antonella**: Colaboré con la elaboración del Capítulo V y VI del informe, supervisando la coherencia del contenido, el cumplimiento del formato en Markdown y la integración de los artefactos finales. Lideré la planificación del Sprint 1, coordinando la asignación de tareas, la gestión del Source Code Management y la validación de evidencias para el Sprint Review.
+- **Calisaya Sánchez, Juan Jesús**: Colaboré en la elaboración del Capítulo V y VI, específicamente en el diseño de wireframes, mockups y el desarrollo del frontend web application. Participé en la preparación de la evidencia de Software Deployment y en la integración de los entregables visuales para el Sprint Review.
+- **David Polanco, Alessandro Alonso**: Colaboré en el desarrollo del Capítulo VI, participando en la configuración del Software Deployment y en la implementación técnica de la landing page y la web application. Además, contribuí con las evidencias de desarrollo y documentación para el Sprint Review, asegurando la correcta integración del source code.
+- **Serrano Ircañaupa, Nelson Elias**: Colaboré con la elaboración del Capítulo VI, específicamente en la preparación de evidencias de testing suite y execution para el Sprint Review. Apoyé en la validación del producto y en el aseguramiento de la calidad del software, garantizando la correcta verificación de los requisitos funcionales.
+- **Sotil Vasquez, Tyrone Raí**: Colaboré en la elaboración del Capítulo V y VI, enfocándome en el diseño de mobile wireframes y app prototypes dentro del UI/UX Design. Además, participé en la integración visual del design system y en la validación del frontend durante el proceso de implementación y despliegue.
+
+<img src="./assets/chapter-1/CommitsTP.png" alt="Commits TP">
 
 # Contenido
 
@@ -265,26 +277,47 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
     <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
     <td>
       <b>TB1:</b><br>
-      <b>Calisaya Sánchez Juan Jesús:</b> En esta etapa del proyecto, formé parte de reuniones tanto presenciales como     virtuales, en las cuales aporté propuestas relevantes para definir el flujo del negocio, lo que contribuyó a generar claridad y alineamiento dentro del equipo.<br><br>
-      <b>David Polanco, Alessandro Alonso:</b>Durante la sesión de EventStorming y el Candidate Context Discovery, se asumió un liderazgo compartido entre los integrantes para organizar el flujo de actividades. En mi caso, participé proponiendo la estructura del tablero en Miro y guiando la secuencia de eventos y comandos, mientras otros compañeros aportaron en la validación de reglas de negocio y políticas.<br><br>
-      <b>Espinoza Delgado, Bárbara Antonella:</b> En grupo logramos organizarnos de forma adecuada para desarrollar el trabajo, distribuyendo responsabilidades entre los integrantes. Se llevaron a cabo reuniones para coordinar las actividades y se utilizó GitHub como herramienta para dar seguimiento al progreso de cada miembro y Discord para realizar las reuniones semanales. <br><br>
-      <b>Serrano Ircañaupa, Nelson Elias:</b> En grupo manejamos lo que debe hacer cada integrante, se hicieron discusiones de equipo para una mejora continua de los diagramas, avances en los capítulos. Me tocó elaborar el diagrama c4 y así mismo para los bounded context, estos puntos se desarrollaron en plataformas colaborativas de Visual Paradigm para que todos participen.<br><br>
-      <b>Sotil Vasquez, Tyrone Raí:</b> Trabajamos de manera colaborativa, asumiendo responsabilidades compartidas y brindando liderazgo conjunto dentro del equipo. Se coordinaron fechas limite de entrega de tareas promoviendo un ambiente de cooperación y asegurando el cumplimiento de los objetivos del proyecto.<br><br>
+      <b>Calisaya Sánchez Juan Jesús:</b> En esta etapa del proyecto, formé parte de reuniones tanto presenciales como     virtuales, en las cuales aporté propuestas relevantes para definir el flujo del negocio, lo que contribuyó a generar claridad y alineamiento dentro del equipo.<br>
+      <b>TP:</b><br>
+      Ejercí un liderazgo colaborativo en el desarrollo del frontend, orientando la implementación de los wireframes y la integración visual de la web application. Mi trabajo en conjunto con los demás miembros ayudó a mantener la coherencia visual y el cumplimiento de los plazos establecidos.<br><br>
+      <b>TB1:</b><br>
+      <b>David Polanco, Alessandro Alonso:</b>Durante la sesión de EventStorming y el Candidate Context Discovery, se asumió un liderazgo compartido entre los integrantes para organizar el flujo de actividades. En mi caso, participé proponiendo la estructura del tablero en Miro y guiando la secuencia de eventos y comandos, mientras otros compañeros aportaron en la validación de reglas de negocio y políticas.<br>
+      <b>TP:</b><br> Contribuí al liderazgo técnico del equipo, supervisando la configuración del deployment y la integración del source code. Promoví el aprendizaje conjunto y apoyé la resolución de problemas técnicos, garantizando un desarrollo coordinado y alineado con las metas del sprint.<br><br>
+      <b>TB1:</b><br>
+      <b>Espinoza Delgado, Bárbara Antonella:</b> En grupo logramos organizarnos de forma adecuada para desarrollar el trabajo, distribuyendo responsabilidades entre los integrantes. Se llevaron a cabo reuniones para coordinar las actividades y se utilizó GitHub como herramienta para dar seguimiento al progreso de cada miembro y Discord para realizar las reuniones semanales. <br>
+      <b>TP:</b><br> Asumí el liderazgo general del equipo, guiando la planificación y ejecución del sprint. Organicé tareas, promoví la colaboración y aseguré el cumplimiento de los objetivos establecidos. Mi rol se centró en mantener la comunicación efectiva y la coherencia entre design, development y review, fomentando un liderazgo compartido entre todos los integrantes.<br><br>
+      <b>TB1:</b><br>
+      <b>Serrano Ircañaupa, Nelson Elias:</b> En grupo manejamos lo que debe hacer cada integrante, se hicieron discusiones de equipo para una mejora continua de los diagramas, avances en los capítulos. Me tocó elaborar el diagrama c4 y así mismo para los bounded context, estos puntos se desarrollaron en plataformas colaborativas de Visual Paradigm para que todos participen.<br>
+      <b>TP:</b><br> Apoyé el liderazgo compartido desde el área de testing, promoviendo buenas prácticas de validación y revisión. Mi participación aseguró la calidad del software y fortaleció la comunicación entre los diferentes roles del equipo durante el desarrollo del sprint.<br><br>
+      <b>TB1:</b><br>
+      <b>Sotil Vasquez, Tyrone Raí:</b> Trabajamos de manera colaborativa, asumiendo responsabilidades compartidas y brindando liderazgo conjunto dentro del equipo. Se coordinaron fechas limite de entrega de tareas promoviendo un ambiente de cooperación y asegurando el cumplimiento de los objetivos del proyecto.<br>
+      <b>TP:</b><br> Colaboré activamente en el liderazgo del mobile design, aportando ideas innovadoras y asegurando que el equipo comprendiera la visión estética del proyecto. Mi participación ayudó a fortalecer la unidad del grupo y a coordinar el trabajo entre designers y developers para cumplir con los objetivos del sprint.
     </td>
-    <td><b>TB1:</b> Conseguimos organizarnos de manera eficiente, asignando las tareas de forma equitativa y empleando herramientas como GitHub para dar un seguimiento claro al progreso. Compartimos ideas, resolvimos dudas de forma colectiva y mantuvimos una comunicación continua a través de reuniones de coordinación. Esta experiencia fortaleció nuestras capacidades de trabajo colaborativo y evidenció el valor de la planificación y la cooperación para cumplir objetivos en común.
+    <td><b>TB1:</b> Conseguimos organizarnos de manera eficiente, asignando las tareas de forma equitativa y empleando herramientas como GitHub para dar un seguimiento claro al progreso. Compartimos ideas, resolvimos dudas de forma colectiva y mantuvimos una comunicación continua a través de reuniones de coordinación. Esta experiencia fortaleció nuestras capacidades de trabajo colaborativo y evidenció el valor de la planificación y la cooperación para cumplir objetivos en común.<br>
+    <b>TP:</b><br> El equipo demostró un liderazgo compartido y equilibrado durante el desarrollo del proyecto. Barbara asumió la dirección general, garantizando la coordinación y comunicación entre todos. Tyrone y Juan lideraron desde el diseño y desarrollo visual, mientras que Alessandro gestionó el liderazgo técnico y Nelson reforzó el control de calidad. Esta sinergia permitió una toma de decisiones colaborativa y una ejecución coherente de los objetivos del sprint.
 </td>
   </tr>
   <tr>
     <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
     <td>
       <b>TB1:</b><br>
-      <b>Calisaya Sánchez Juan Jesús:</b> Durante el desarrollo del proyecto, me enfoqué en promover un entorno de trabajo colaborativo e inclusivo, impulsando la participación de todos los miembros mediante una retroalimentación constante y constructiva. Además, colaboré en la creación de epics, user stories y product backlog.<br><br>
-      <b>David Polanco, Alessandro Alonso:</b> Se promovió un entorno colaborativo al organizar reuniones virtuales para alinear las metas de esta entrega. Definimos de forma conjunta los pasos a seguir y planificamos las tareas asignando responsables según las fortalezas de cada miembro. De esta forma se logró cumplir el objetivo de entregar la especificación de bounded contexts con evidencia clara en Miro y en el informe, asegurando que todos los integrantes participaran activamente en el proceso.<br><br>
-      <b>Espinoza Delgado, Bárbara Antonella:</b> Se coordinó de manera conjunta la repartición de tareas a realizar para esta entrega tomando en cuenta las habilidades de cada integrante, asi como a traves de las reuniones nos hemos ayudado unos a otros a solventar dudas o dar recordatorios sobre los plazos de entrega del trabajo. <br><br>
-      <b>Serrano Ircañaupa, Nelson Elias:</b> Para este apartado se coordinó y debatió el avance de las tareas de los diagramas c4 para verificar los contextos y contenedores de la aplicación. También gracias al event storming se pudo obtener los bounded context candidatos para representarlos en el diagrama de arquitectura de componentes. Se cumplió satisfactoriamente este punto.<br><br>
-      <b>Sotil Vasquez, Tyrone Raí:</b> Se organizaron reuniones en el server de Discord para dividir las partes a realizar, buscando que estas sean equitativas a las habilidades de cada uno. Además el uso de Github nos permitió visualizar los avances y cantidad de aportes que cada integrante realizaba.<br><br>
+      <b>Calisaya Sánchez Juan Jesús:</b> Durante el desarrollo del proyecto, me enfoqué en promover un entorno de trabajo colaborativo e inclusivo, impulsando la participación de todos los miembros mediante una retroalimentación constante y constructiva. Además, colaboré en la creación de epics, user stories y product backlog.<br>      
+      <b>TP:</b><br> Planifiqué y ejecuté tareas del frontend web, colaborando en la integración visual con la landing page. Mantuve una comunicación constante con el equipo, asegurando una coordinación efectiva y el cumplimiento de los objetivos técnicos y de diseño del proyecto.<br><br>      
+      <b>TB1:</b><br>
+      <b>David Polanco, Alessandro Alonso:</b> Se promovió un entorno colaborativo al organizar reuniones virtuales para alinear las metas de esta entrega. Definimos de forma conjunta los pasos a seguir y planificamos las tareas asignando responsables según las fortalezas de cada miembro. De esta forma se logró cumplir el objetivo de entregar la especificación de bounded contexts con evidencia clara en Miro y en el informe, asegurando que todos los integrantes participaran activamente en el proceso.<br>
+      <b>TP:</b><br> Organicé y gestioné las tareas de development y deployment de la web application, colaborando estrechamente con los demás integrantes. Planifiqué mis actividades de manera coordinada, asegurando la entrega exitosa del sprint y contribuyendo al cumplimiento de los objetivos técnicos del equipo.<br><br>
+      <b>TB1:</b><br>
+      <b>Espinoza Delgado, Bárbara Antonella:</b> Se coordinó de manera conjunta la repartición de tareas a realizar para esta entrega tomando en cuenta las habilidades de cada integrante, asi como a traves de las reuniones nos hemos ayudado unos a otros a solventar dudas o dar recordatorios sobre los plazos de entrega del trabajo. <br>
+      <b>TP:</b><br> Fomenté un entorno inclusivo y participativo, asignando tareas de manera equitativa y manteniendo una comunicación constante. Establecí metas alcanzables para cada sprint y supervisé su cumplimiento, asegurando una planificación efectiva y resultados de alta calidad para todo el equipo.<br><br>
+      <b>TB1:</b><br>
+      <b>Serrano Ircañaupa, Nelson Elias:</b> Para este apartado se coordinó y debatió el avance de las tareas de los diagramas c4 para verificar los contextos y contenedores de la aplicación. También gracias al event storming se pudo obtener los bounded context candidatos para representarlos en el diagrama de arquitectura de componentes. Se cumplió satisfactoriamente este punto.<br>
+      <b>TP:</b><br> Participé activamente en las etapas de testing, planificando y ejecutando pruebas para asegurar el cumplimiento de los requisitos del sistema. Mi compromiso con la calidad fortaleció el entorno colaborativo y permitió alcanzar los objetivos planteados en el sprint. <br><br>
+      <b>TB1:</b><br>
+      <b>Sotil Vasquez, Tyrone Raí:</b> Se organizaron reuniones en el server de Discord para dividir las partes a realizar, buscando que estas sean equitativas a las habilidades de cada uno. Además el uso de Github nos permitió visualizar los avances y cantidad de aportes que cada integrante realizaba.<br>
+      <b>TP:</b> Participé activamente en la planificación de tareas de design, garantizando la coherencia entre los mobile mockups y la application. Mantener una comunicación fluida con mis compañeros permitió integrar las ideas de todos y cumplir los objetivos de user experience del proyecto. <br><br>
     </td>
-    <td><b>TB1:</b> Colaboramos de forma coordinada, repartiendo las tareas de manera justa y definiendo metas semanales en reuniones periódicas. Hicimos uso de GitHub y mantuvimos una comunicación continua para aclarar dudas, realizar ajustes y supervisar los avances de manera conjunta. Promovimos un entorno inclusivo en el que cada integrante aportó sus ideas, alcanzando consensos en las decisiones y garantizando transparencia durante todo el proceso. Gracias a esta organización compartida y al compromiso colectivo, conseguimos finalizar el trabajo dentro del plazo previsto.
+    <td><b>TB1:</b> Colaboramos de forma coordinada, repartiendo las tareas de manera justa y definiendo metas semanales en reuniones periódicas. Hicimos uso de GitHub y mantuvimos una comunicación continua para aclarar dudas, realizar ajustes y supervisar los avances de manera conjunta. Promovimos un entorno inclusivo en el que cada integrante aportó sus ideas, alcanzando consensos en las decisiones y garantizando transparencia durante todo el proceso. Gracias a esta organización compartida y al compromiso colectivo, conseguimos finalizar el trabajo dentro del plazo previsto.<br>
+    <b>TP:</b> Los integrantes evidenciaron una sólida cultura de colaboración e inclusión. La planificación guiada por Barbara facilitó la organización de tareas y la definición clara de metas. Tyrone y Juan integraron los diseños y prototipos con el desarrollo web, Alessandro aseguró la correcta implementación técnica, y Nelson garantizó la calidad mediante pruebas. Gracias a esta coordinación, el equipo cumplió sus objetivos de manera eficiente y cohesionada.<br> 
 </td>
   </tr>
 </table>
