@@ -95,6 +95,8 @@ Enlace al repositorio del informe en GitHub: [Repositorio de GitHub](https://git
 
 <img src="./assets/chapter-1/CommitsTP.jpg" alt="Commits TP">
 
+<div style="page-break-after: always;"></div>
+
 # Contenido
 
 ### Tabla de contenidos
@@ -1170,16 +1172,15 @@ La "User Persona" de Sofía Torres representa a los conductores urbanos que requ
 
 ![User Person 1](assets/chapter-2//User%20Persona%20Conductor.png)
 
+<div style="page-break-after: always;"></div>
+
 **User Persona para Dueños de Playas de Estacionamiento**  
 La "User Persona" de Miguel Castro representa a propietarios de estacionamientos interesados en mejorar la gestión y aumentar ingresos. Miguel, de 40 años y dueño de una playa de estacionamiento, tiene experiencia en el rubro y quiere implementar tecnología para optimizar la ocupación y reducir tiempos de espera. Sus objetivos incluyen la fidelización de clientes y la expansión del negocio, pero enfrenta frustraciones con problemas tecnológicos y altos costos operativos.
-
-<div style="page-break-after: always;"></div>
 
 <p align="center"><em>User Persona: Dueño de Estacionamiento</em></p>
 
 ![User Person 2](assets/chapter-2/User%20Persona%20Dueño%20de%20Estacionamiento.png)
 
-<div style="page-break-after: always;"></div>
 
 ### 2.3.2. User Task Matrix
 
@@ -1482,6 +1483,8 @@ Cada User Story incluye escenarios de camino feliz (Happy Path) y caminos altern
 | **TS05**            | Sincronización Edge-Cloud                         | Como edge server local quiero enviar datos de sensores al API cloud para mantener información actualizada en la plataforma                                                               | **Escenario 1: Sincronización exitosa con API cloud**<br>**Given** que sensores IoT reportan cambio de estado al edge server<br>**When** el edge server procesa los datos localmente<br>**Then** envía actualización al API cloud vía HTTPS cada 30 segundos con batch de cambios<br><br>**Escenario 2: Manejo de desconexión temporal**<br>**Given** que la conexión a internet falla temporalmente<br>**When** el edge server detecta desconexión<br>**Then** almacena eventos localmente en cola FIFO hasta recuperar conexión y procesa backlog<br><br>**Escenario 3: Confirmación de recepción**<br>**Given** que el API cloud confirma recepción exitosa<br>**When** edge server recibe acknowledgment HTTP 200<br>**Then** marca eventos como sincronizados y los elimina de cola local                                                                                                                   | **EP11**                      |
 | **EP12**            | **Procesamiento de Pagos**                        | -                                                                                                                                                                                        | -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | -                             |
 | **US33**            | Pago básico con tarjeta                           | Como conductor quiero pagar reservas con tarjeta para completar transacciones de forma segura                                                                                            | **Escenario 1: Pago exitoso con tarjeta válida**<br>**Given** que un conductor selecciona método de pago con tarjeta válida registrada<br>**When** confirma pago de reserva<br>**Then** se procesa transacción exitosamente y recibe confirmación con número de transacción<br><br>**Escenario 2: Error de tarjeta rechazada**<br>**Given** que la tarjeta del conductor es rechazada por el banco<br>**When** intenta procesar pago<br>**Then** ve mensaje específico del error ("Fondos insuficientes", "Tarjeta vencida") con opción de método alternativo<br><br>**Escenario 3: Reintento por error temporal**<br>**Given** que ocurre error temporal en procesador de pagos<br>**When** falla el primer intento de cobro<br>**Then** el sistema reintenta automáticamente una vez después de 30 segundos                                                                                                    | **EP12**                      |
+
+<div style="page-break-after: always;"></div>
 
 ### 3.2. Impact Mapping
 
@@ -2016,7 +2019,6 @@ La capa de infraestructura se encarga de la interacción con fuentes externas de
 | findByName(Roles name)   | Busca un rol en la base de datos por su nombre. Devuelve un Optional<Role>.   |
 | existsByName(Roles name) | Verifica si un rol con el nombre especificado ya existe. Devuelve un boolean. |
 
-<div style="page-break-after: always;"></div>
 
 ##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
@@ -3519,8 +3521,6 @@ Repositorio encargado de gestionar las operaciones de persistencia para el aggre
 | findById(Long id)                | Encuentra un pago de reserva por su ID.          |
 | findAll()                        | Devuelve todos los pagos de reserva registrados. |
 
-<div style="page-break-after: always;"></div>
-
 ##### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
 
 - **Backend**
@@ -3556,18 +3556,17 @@ En ParkeoYa, procuramos ofrecer una experiencia visual contemporánea, nítida y
 **Branding**  
 La identidad de marca de ParkeoYa se concentra en proyectar confianza, accesibilidad y eficiencia urbana. Empleamos una paleta cromática basada en tonalidades azules, turquesa y verde, evocando innovación tecnológica, profesionalismo, movilidad inteligente y dinamismo urbano. Esta combinación genera una atmósfera moderna, fiable y alineada con el propósito de la plataforma.
 
-<img src="assets/chapter-5/Logo.jpg" alt="Logo" height="300px">
+<img src="assets/chapter-5/Logo.jpg" alt="Logo" height="200px">
 
 **Tipografía**  
 La tipografía en ParkeoYa cumple un rol esencial en la claridad visual y la usabilidad de la aplicación móvil. Se eligieron fuentes modernas, limpias y altamente legibles que permiten a los usuarios identificar rápidamente la información clave, mejorando así la experiencia general de navegación.
-
 La estructura tipográfica se organiza en niveles jerárquicos: **headings** (títulos), **body** (texto principal), **buttons** (botones) y **links** (enlaces), garantizando uniformidad visual en toda la interfaz.
 
-<img src="assets/chapter-5/Tipografia1.png" alt="Tipografia1" height="500px">
+<img src="assets/chapter-5/Tipografia1.png" alt="Tipografia1" height="300px">
 
-<img src="assets/chapter-5/Tipografia2.png" alt="Tipografia2" height="500px">
+<img src="assets/chapter-5/Tipografia2.png" alt="Tipografia2" height="300px">
 
-<br>
+<div style="page-break-after: always;"></div>
 
 **Colores**  
 La paleta cromática de ParkeoYa integra gradientes de azul, turquesa y verde. Esta combinación simboliza confiabilidad tecnológica y eficiencia en movilidad urbana:
@@ -3576,7 +3575,7 @@ La paleta cromática de ParkeoYa integra gradientes de azul, turquesa y verde. E
 
 <img src="assets/chapter-5/PaletaDeColores.png" alt="Colores" height="500px">
 
-<br>
+<div style="page-break-after: always;"></div>
 
 **Espaciado**
 El sistema de espaciado sigue una escala base de 4px para mantener un ritmo visual armonioso:
@@ -3646,19 +3645,16 @@ Utilizamos un sistema de etiquetado simple, directo y reconocible para eliminar 
 #### 5.2.3. SEO Tags and Meta Tags
 
 **Landing Page**
-
 - Title: ParkeoYa - Encuentra estacionamiento disponible al instante
 - Meta Description: ParkeoYa te permite localizar y reservar estacionamientos cercanos en segundos. Rápido, confiable y eficiente para tu movilidad urbana.
 - Meta Keywords: estacionamiento, parking, app de parqueo, reserva de estacionamiento, ParkeoYa, parqueo inteligente
 - Meta Author: ParkeoYa Development Team
-
+  
 **Web App**
-
 - Title: ParkeoYa App - Gestión de Playas Estacionamiento
 - Meta Description: Accede a tu cuenta ParkeoYa, administra tu Playa de Estacionamiento y genera ingresos extra.
 
 **Mobile App**
-
 - Title: ParkeoYa App - Buscador de Estacionamientos
 - Meta Description: Accede a tu cuenta ParkeoYa, administra tus reservas activas y encuentra estacionamiento disponible cerca de ti fácilmente.
 
@@ -3688,15 +3684,13 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 En esta sección se mostrarán los wireframes en pantalla Desktop y mobile de la Landing Page.
 
-<div style="page-break-after: always;"></div>
-
 **Desktop**
 
 - **Sección Inicio:**
 
 <img src="assets/chapter-5/WireframesLandingInicio.png" alt="Wireframes Landing Inicio">
 
-<br>
+<div style="page-break-after: always;"></div>
 
 - **Sección Sobre Nosotros:**
 
@@ -3748,6 +3742,8 @@ A continuación se mostrarán los Mockups de la Landing Page tanto para Desktop 
 
 <img src="assets/chapter-5/LandingSobreNosotros.png" alt="Landing Sobre Nosotros">
 
+<div style="page-break-after: always;"></div>
+
 - **Sección Características:** En esta sección se muestran las características principales de la solución IoT.
 
 <img src="assets/chapter-5/LandingCaracterisiticas.png" alt="Landing Características">
@@ -3755,8 +3751,6 @@ A continuación se mostrarán los Mockups de la Landing Page tanto para Desktop 
 <div style="page-break-after: always;"></div>
 
 - **Sección Resultados:** En esta sección se muestran los resultados que algunos de nuestros usuarios obtuvieron usando la aplicación.
-
-<div style="page-break-after: always;"></div>
 
 <img src="assets/chapter-5/LandingResultados.png" alt="Landing Resultados">
 
@@ -3813,6 +3807,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 - **Dashboard**
 
 <img src="assets/chapter-5/WebDashboardWireframe.png" alt="Web Dashboard Wireframes">
+
+<div style="page-break-after: always;"></div>
 
 - **Estacionamientos**
 
@@ -3906,7 +3902,7 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/WebWireFlow2.png" alt="WebWireFlow2">
 
-<br>
+<div style="page-break-after: always;"></div>
 
 - **Configurar Estacionamiento, Perfil, Notificaciones y Seguridad**
 
@@ -3937,7 +3933,7 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/MobileWireFlow2.png" alt="MobileWireFlow2">
 
-<br>
+<div style="page-break-after: always;"></div>
 
 - **Añadir Auto**
 
@@ -3947,7 +3943,7 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/MobileWireFlow3.png" alt="MobileWireFlow3">
 
-<br>
+<div style="page-break-after: always;"></div>
 
 - **Editar Perfil**
 
@@ -3957,7 +3953,7 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/MobileWireFlow6.png" alt="MobileWireFlow6">
 
-<br>
+<div style="page-break-after: always;"></div>
 
 - **Reserva de Estacionamiento**
 
@@ -3967,7 +3963,7 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/MobileWireFlow4.png" alt="MobileWireFlow4">
 
-<br>
+<div style="page-break-after: always;"></div>
 
 - **Visualización de Reservas y Detalles**
 
@@ -3977,7 +3973,7 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/MobileWireFlow5.png" alt="MobileWireFlow5">
 
-<br>
+<div style="page-break-after: always;"></div>
 
 - **Cancelar Reserva**
 
@@ -3987,7 +3983,7 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/MobileWireFlow7.png" alt="MobileWireFlow7">
 
-<br>
+<div style="page-break-after: always;"></div>
 
 - **Ver Reseñas y Añadir Reseña a un Parqueo**
 
@@ -4130,6 +4126,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
   - **Descripción:** Cuando el usuario se encuentra en la pantalla de Configuraciones y quiere configurar algo en especifico, solo deberá elegir el bóton que indique el apartado a modificar.
 
 <img src="assets/chapter-5/WebUserFlow3.png" alt="WebUserFlow3">
+
+<div style="page-break-after: always;"></div>
 
 **App Móvil - Conductor**
 
@@ -4545,6 +4543,8 @@ Este repositorio contiene la suite completa de pruebas para ParkeoYa, incluyendo
 | parkeoya-testing | main       | 2283e79       | feat: integration tests sprint1                        | Development of integration tests for Sprint 1 covering API endpoints, database connectivity, and frontend-backend communication validation.                                   | 08/10/2025              |
 | parkeoya-testing | main       | 29c1d46       | feat: unit tests sprint1                               | Creation of comprehensive unit tests for Sprint 1 including authentication services, parking management components, and frontend form validation.                             | 08/10/2025              |
 | parkeoya-testing | main       | 394af22       | feat: config archives and package json                 | Configuration setup for testing environment including Jest configuration, Cucumber setup, package.json dependencies, and CI/CD pipeline integration.                          | 08/10/2025              |
+
+<div style="page-break-after: always;"></div>
 
 ##### 6.2.1.6. Execution Evidence for Sprint Review
 
