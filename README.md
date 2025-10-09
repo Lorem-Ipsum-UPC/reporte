@@ -3726,7 +3726,32 @@ En esta sección, se presentan los commits realizados en el repositorio de la la
 
 ##### 6.2.1.5. Testing Suite Evidence for Sprint Review
 
-Se realizaron pruebas iniciales con el objetivo de asegurar que la landing page se visualizara correctamente y funcionara de manera óptima en una amplia variedad de dispositivos (como computadoras de escritorio, tablets y teléfonos móviles) y navegadores web. Estas pruebas permitieron identificar posibles inconsistencias en el diseño responsivo, tiempos de carga o fallos de compatibilidad, garantizando así una experiencia de usuario coherente y fluida sin importar el entorno de acceso.
+En esta sección se explica y presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados, para Web Services relacionados con los User Stories especificados en el Sprint. 
+
+#### Repositorio de Testing
+
+**Repositorio:** [[https://github.com/Lorem-Ipsum-UPC/parkeoya-testing](https://github.com/Lorem-Ipsum-UPC/parkeoya-testing)](https://github.com/Lorem-Ipsum-UPC/ParkeoYa-AcceptanceTests)
+
+Este repositorio contiene la suite completa de pruebas para ParkeoYa, incluyendo:
+- **Unit Tests**: Pruebas unitarias para componentes de autenticación, gestión de estacionamientos y frontend
+- **Integration Tests**: Pruebas de integración API y frontend-backend
+- **Acceptance Tests (BDD)**: Pruebas con enfoque BDD utilizando Gherkin para User Stories US04 y US18
+- **Configuración CI/CD**: Pipeline automatizado de testing con Jest y Cucumber
+
+#### Testing Evidence Commits
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+|----------------|------------|---------------|-------------------|-------------------------|------------------------|
+| parkeoya-testing | main | b8e02eb | testing suite evidence for sprint review documentation | Comprehensive documentation for testing suite evidence including unit tests, integration tests, and acceptance tests with BDD approach for Sprint 1 review process. | 08/10/2025 |
+| parkeoya-testing | main | 926c61 | feat: acceptance tests sprint1 | Implementation of acceptance tests for Sprint 1 including BDD scenarios with Gherkin feature files for user registration (US04) and parking registration (US18) user stories. | 08/10/2025 |
+| parkeoya-testing | main | 2283e79 | feat: integration tests sprint1 | Development of integration tests for Sprint 1 covering API endpoints, database connectivity, and frontend-backend communication validation. | 08/10/2025 |
+| parkeoya-testing | main | 29c1d46 | feat: unit tests sprint1 | Creation of comprehensive unit tests for Sprint 1 including authentication services, parking management components, and frontend form validation. | 08/10/2025 |
+| parkeoya-testing | main | 394af22 | feat: config archives and package json | Configuration setup for testing environment including Jest configuration, Cucumber setup, package.json dependencies, and CI/CD pipeline integration. | 08/10/2025 |
+
+
+#### Responsive Testing Evidence
+
+Adicionalmente, se realizaron pruebas manuales de compatibilidad y responsividad en la Landing Page para garantizar el funcionamiento óptimo en diferentes dispositivos y navegadores:
 
 **Landing Page en computadoras de escritorio**
 <img width="1510" height="618" alt="image" src="https://github.com/user-attachments/assets/86a526d2-9322-499a-a6a0-6b3527065552" />
@@ -3734,10 +3759,8 @@ Se realizaron pruebas iniciales con el objetivo de asegurar que la landing page 
 **Landing Page en teléfonos**
 <img width="320" height="800" alt="image" src="https://github.com/user-attachments/assets/2519a090-a05f-447a-bf7d-f6c19ab1cefe" />
 
-
 **Landing Page en tablets**
 <img width="885" height="885" alt="image" src="https://github.com/user-attachments/assets/306f9516-09fb-4349-9cb2-253339991e1f" />
-
 
 ##### 6.2.1.6. Execution Evidence for Sprint Review
 
