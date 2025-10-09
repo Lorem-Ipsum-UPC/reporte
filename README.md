@@ -3478,20 +3478,28 @@ ParkeoYa debería reforzar su rol en la movilidad sostenible, impulsando iniciat
 
 # Anexos
 
+# Anexos
+
 A continuación se presentan los videos generados como parte del desarrollo del proyecto.
 
-⦁	Needfinding Interviews: [Link de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/EYQhtWUIDpVJmC_4vrNvyeEBVwPe0lza4GruF-bIEb73Ww?e=OLnD12)
+⦁ Needfinding Interviews: [Link de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/EYQhtWUIDpVJmC_4vrNvyeEBVwPe0lza4GruF-bIEb73Ww?e=OLnD12)
 
-⦁	Forms Conductores: [Link de Forms Conductores](https://forms.gle/4iHuvEREBSzFWc9y6)
+⦁ Forms Conductores: [Link de Forms Conductores](https://forms.gle/4iHuvEREBSzFWc9y6)
 
-⦁	Forms Dueños: [Link de Forms Dueños](https://forms.gle/TszFqNakzyBn1D6o7)
+⦁ Forms Dueños: [Link de Forms Dueños](https://forms.gle/TszFqNakzyBn1D6o7)
 
-⦁	Miro Big Picture EventStorming: [Big Picture Event Storming](https://miro.com/app/board/uXjVJHVh__o=/?share_link_id=669977582700)
+⦁ Miro Big Picture EventStorming: [Big Picture Event Storming](https://miro.com/app/board/uXjVJHVh__o=/?share_link_id=669977582700)
 
-⦁	Lucidchart Diagrama de clases: [Diagrama de Clases](https://lucid.app/lucidchart/3c51363f-6bff-443d-b016-ebfeac3b1a74/edit?viewport_loc=-2574%2C-858%2C3244%2C1620%2C0_0&invitationId=inv_656ffc0a-b4cc-4dc0-9388-35c5fca0ce82)
+⦁ Lucidchart Diagrama de clases: [Diagrama de Clases](https://lucid.app/lucidchart/3c51363f-6bff-443d-b016-ebfeac3b1a74/edit?viewport_loc=-2574%2C-858%2C3244%2C1620%2C0_0&invitationId=inv_656ffc0a-b4cc-4dc0-9388-35c5fca0ce82)
 
-⦁	Vertabelo Diagrama de base de datos: [Diagrama de Base de Datos](https://my.vertabelo.com/doc/EtM0WmAwKaJIYXqhDB3EQZ8O5SrO8hll)
+⦁ Vertabelo Diagrama de base de datos: [Diagrama de Base de Datos](https://my.vertabelo.com/doc/EtM0WmAwKaJIYXqhDB3EQZ8O5SrO8hll)
 
-⦁	Diagramas de contexto, contenedores, componentes: [Diagramas C4](https://online.visual-paradigm.com/share.jsp?id=333233333733382d34)
+⦁ Diagramas de contexto, contenedores, componentes: [Diagramas C4](https://online.visual-paradigm.com/share.jsp?id=333233333733382d34)
 
-⦁	Video Exposición TB1: [Expo TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/Ea50aorvEeNKgYw_99e88oQBsCoptbHVCNW4Ae-fnSQ46A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Gsjoh)
+⦁ Link Landing Page: [Link de despliegue Landing Page](https://parkeoya-lorem-ipsum.netlify.app/)
+
+⦁ Link Frontend Web: [Link de despliegue Frontend Web](https://parkeoya.vercel.app/login)
+
+⦁ Video Exposición TB1: [Expo TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/Ea50aorvEeNKgYw_99e88oQBsCoptbHVCNW4Ae-fnSQ46A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Gsjoh)
+
+⦁ Video Exposición TP: [Expo TP]()
