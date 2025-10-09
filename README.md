@@ -49,7 +49,7 @@
 </body>
 
 <p align="center">
-<br><strong> Septiempre, 2025</strong></p>
+<br><strong> Octubre, 2025</strong></p>
 
 <div style="page-break-after: always;"></div>
 
@@ -62,7 +62,8 @@
 | 1.2         | 03/09/2025 | Bárbara Espinoza                                                                 | Realización del Capítulo 2                             |
 | 1.3         | 15/09/2025 | Juan Calissaya y Alessandro David                                                | Realización del Capítulo 3                             |
 | 1.4         | 20/09/2025 | Alessandro David, Nelson Serrano y Tyrone Sotil                                  | Realización del Capítulo 4                             |
-| 1.5         | 8/10/2025  | Alessandro David, Nelson Serrano y Tyrone Sotil, Bárbara Espinoza, Juan Calisaya | Realización del Capítulo 5 y 6                         |
+| 1.5         | 5/10/2025  | Tyrone Sotil, Bárbara Espinoza, Juan Calisaya | Realización del Capítulo 5                        |
+| 1.6         | 8/10/2025  | Alessandro David, Nelson Serrano y Bárbara Espinoza, Juan Calisaya | Realización del Capítulo 6                         |
 
 # Project Report Collaboration Insights
 
@@ -90,7 +91,7 @@ Enlace al repositorio del informe en GitHub: [Repositorio de GitHub](https://git
 - **Calisaya Sánchez, Juan Jesús**: Colaboré en la elaboración del Capítulo V y VI, específicamente en el diseño de wireframes, mockups y el desarrollo del frontend web application. Participé en la preparación de la evidencia de Software Deployment y en la integración de los entregables visuales para el Sprint Review.
 - **David Polanco, Alessandro Alonso**: Colaboré en el desarrollo del Capítulo VI, participando en la configuración del Software Deployment y en la implementación técnica de la landing page y la web application. Además, contribuí con las evidencias de desarrollo y documentación para el Sprint Review, asegurando la correcta integración del source code.
 - **Serrano Ircañaupa, Nelson Elias**: Colaboré con la elaboración del Capítulo VI, específicamente en la preparación de evidencias de testing suite y execution para el Sprint Review. Apoyé en la validación del producto y en el aseguramiento de la calidad del software, garantizando la correcta verificación de los requisitos funcionales.
-- **Sotil Vasquez, Tyrone Raí**: Colaboré en la elaboración del Capítulo V y VI, enfocándome en el diseño de mobile wireframes y app prototypes dentro del UI/UX Design. Además, participé en la integración visual del design system y en la validación del frontend durante el proceso de implementación y despliegue.
+- **Sotil Vasquez, Tyrone Raí**: Colaboré en la elaboración del Capítulo V, enfocándome en el diseño de mobile wireframes y app prototypes dentro del UI/UX Design. Además, participé en la integración visual del design system y en la validación del frontend durante el proceso de implementación y despliegue.
 
 <img src="./assets/chapter-1/CommitsTP.jpg" alt="Commits TP">
 
@@ -143,89 +144,207 @@ Enlace al repositorio del informe en GitHub: [Repositorio de GitHub](https://git
 
 ## [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
 
-- [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
-  - [4.1.1. Design Level EventStorming](#411-design-level-eventstorming)
-    - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
-    - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
-    - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
-  - [4.1.2. Context Mapping](#412-context-mapping)
-  - [4.1.3. Software Architecture](#413-software-architecture)
-    - [4.1.3.1. Software Architecture Context Level Diagrams](#4131-software-architecture-context-level-diagrams)
-    - [4.1.3.2. Software Architecture Container Level Diagrams](#4132-software-architecture-container-level-diagrams)
-    - [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
-- [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-  - [4.2.1. Bounded Context: Identity and Access Management](#421-bounded-context-identity-and-access-management)
-    - [4.2.1.1. Domain Layer](#4211-domain-layer)
-    - [4.2.1.2. Interface Layer](#4212-interface-layer)
-    - [4.2.1.3. Application Layer](#4213-application-layer)
-    - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
-    - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
-    - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
-      - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
-  - [4.2.2. Bounded Context: Profile Management](#422-bounded-context-profile-management)
-    - [4.2.2.1. Domain Layer](#4221-domain-layer)
-    - [4.2.2.2. Interface Layer](#4222-interface-layer)
-    - [4.2.2.3. Application Layer](#4223-application-layer)
-    - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
-    - [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams](#4225-bounded-context-software-architecture-component-level-diagrams)
-    - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
-      - [4.2.2.6.2. Bounded Context Database Design Diagram](#42262-bounded-context-database-design-diagram)
-  - [4.2.3. Bounded Context: Parking Management](#423-bounded-context-parking-management)
-    - [4.2.3.1. Domain Layer](#4231-domain-layer)
-    - [4.2.3.2. Interface Layer](#4232-interface-layer)
-    - [4.2.3.3. Application Layer](#4233-application-layer)
-    - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
-    - [4.2.3.5. Bounded Context Software Architecture Component Level Diagrams](#4235-bounded-context-software-architecture-component-level-diagrams)
-    - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
-      - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
-  - [4.2.4. Bounded Context: Reservation](#424-bounded-context-reservation)
-    - [4.2.4.1. Domain Layer](#4241-domain-layer)
-    - [4.2.4.2. Interface Layer](#4242-interface-layer)
-    - [4.2.4.3. Application Layer](#4243-application-layer)
-    - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
-    - [4.2.4.5. Bounded Context Software Architecture Component Level Diagrams](#4245-bounded-context-software-architecture-component-level-diagrams)
-    - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
-      - [4.2.4.6.2. Bounded Context Database Design Diagram](#42462-bounded-context-database-design-diagram)
-  - [4.2.5. Bounded Context: Review](#425-bounded-context-review)
-    - [4.2.5.1. Domain Layer](#4251-domain-layer)
-    - [4.2.5.2. Interface Layer](#4252-interface-layer)
-    - [4.2.5.3. Application Layer](#4253-application-layer)
-    - [4.2.5.4. Infrastructure Layer](#4254-infrastructure-layer)
-    - [4.2.5.5. Bounded Context Software Architecture Component Level Diagrams](#4255-bounded-context-software-architecture-component-level-diagrams)
-    - [4.2.5.6. Bounded Context Software Architecture Code Level Diagrams](#4256-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.5.6.1. Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)
-      - [4.2.5.6.2. Bounded Context Database Design Diagram](#42562-bounded-context-database-design-diagram)
-  - [4.2.6. Bounded Context: Notification](#426-bounded-context-notification)
-    - [4.2.6.1. Domain Layer](#4261-domain-layer)
-    - [4.2.6.2. Interface Layer](#4262-interface-layer)
-    - [4.2.6.3. Application Layer](#4263-application-layer)
-    - [4.2.6.4. Infrastructure Layer](#4264-infrastructure-layer)
-    - [4.2.6.5. Bounded Context Software Architecture Component Level Diagrams](#4265-bounded-context-software-architecture-component-level-diagrams)
-    - [4.2.6.6. Bounded Context Software Architecture Code Level Diagrams](#4266-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.6.6.1. Bounded Context Domain Layer Class Diagrams](#42661-bounded-context-domain-layer-class-diagrams)
-      - [4.2.6.6.2. Bounded Context Database Design Diagram](#42662-bounded-context-database-design-diagram)
-  - [4.2.7. Bounded Context: Device Management](#427-bounded-context-device-management)
-    - [4.2.7.1. Domain Layer](#4271-domain-layer)
-    - [4.2.7.2. Interface Layer](#4272-interface-layer)
-    - [4.2.7.3. Application Layer](#4273-application-layer)
-    - [4.2.7.4. Infrastructure Layer](#4274-infrastructure-layer)
-    - [4.2.7.5. Bounded Context Software Architecture Component Level Diagrams](#4275-bounded-context-software-architecture-component-level-diagrams)
-    - [4.2.7.6. Bounded Context Software Architecture Code Level Diagrams](#4276-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.7.6.1. Bounded Context Domain Layer Class Diagrams](#42761-bounded-context-domain-layer-class-diagrams)
-      - [4.2.7.6.2. Bounded Context Database Design Diagram](#42762-bounded-context-database-design-diagram)
-  - [4.2.8. Bounded Context: Payment](#428-bounded-context-payment)
-    - [4.2.8.1. Domain Layer](#4281-domain-layer)
-    - [4.2.8.2. Interface Layer](#4282-interface-layer)
-    - [4.2.8.3. Application Layer](#4283-application-layer)
-    - [4.2.8.4. Infrastructure Layer](#4284-infrastructure-layer)
-    - [4.2.8.5. Bounded Context Software Architecture Component Level Diagrams](#4285-bounded-context-software-architecture-component-level-diagrams)
-    - [4.2.8.6. Bounded Context Software Architecture Code Level Diagrams](#4286-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.8.6.1. Bounded Context Domain Layer Class Diagrams](#42861-bounded-context-domain-layer-class-diagrams)
-      - [4.2.8.6.2. Bounded Context Database Design Diagram](#42862-bounded-context-database-design-diagram)
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+  - [TB1](#tb1)
+  - [TP](#tp)
+- [Contenido](#contenido)
+    - [Tabla de contenidos](#tabla-de-contenidos)
+    - [Registro de versiones del informe](#registro-de-versiones-del-informe-1)
+    - [Project Report Collaboration Insights](#project-report-collaboration-insights-1)
+    - [Student Outcome](#student-outcome)
+  - [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+  - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+  - [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
+    - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+    - [Bibliografía](#bibliografía)
+    - [Anexos](#anexos)
+- [Student Outcome](#student-outcome-1)
+  - [Capítulo I: Introduccion](#capítulo-i-introduccion)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis-1)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+  - [Competitive Analysis Landscape](#competitive-analysis-landscape)
+  - [Competidores](#competidores)
+  - [Perfil – Overview](#perfil--overview)
+  - [Perfil de Marketing](#perfil-de-marketing)
+  - [Perfil de Producto](#perfil-de-producto)
+  - [Análisis SWOT](#análisis-swot)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [Indicadores de Importancia:](#indicadores-de-importancia)
+    - [Indicadores de Frecuencia:](#indicadores-de-frecuencia)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+  - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification-1)
+    - [3.1. User Stories](#31-user-stories)
+  - [Epics](#epics)
+  - [User Stories y Technical Stories](#user-stories-y-technical-stories)
+    - [3.2. Impact Mapping](#32-impact-mapping)
+    - [3.3. Product Backlog](#33-product-backlog)
+  - [Capítulo IV: Requirements Specification](#capítulo-iv-requirements-specification)
+    - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+      - [4.1.1 Design Level EventStorming](#411-design-level-eventstorming)
+        - [Propósito y alcance](#propósito-y-alcance)
+        - [Actividades realizadas](#actividades-realizadas)
+        - [Línea de tiempo (eventos principales)](#línea-de-tiempo-eventos-principales)
+        - [Políticas de negocio detectadas](#políticas-de-negocio-detectadas)
+        - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
+        - [Bounded Context: IAM (Identity \& Access Management)](#bounded-context-iam-identity--access-management)
+        - [Bounded Context: Profile](#bounded-context-profile)
+        - [Bounded Context: Parking Management](#bounded-context-parking-management)
+        - [Bounded Context: Reservations](#bounded-context-reservations)
+        - [Bounded Context: Payment](#bounded-context-payment)
+        - [Bounded Context: Review](#bounded-context-review)
+        - [Bounded Context: IoT Management](#bounded-context-iot-management)
+        - [Bounded Context: Notification](#bounded-context-notification)
+        - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
+        - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
+      - [4.1.2. Context Mapping](#412-context-mapping)
+      - [4.1.3. Software Architecture](#413-software-architecture)
+        - [4.1.3.1. Software Architecture Context Level Diagrams](#4131-software-architecture-context-level-diagrams)
+        - [4.1.3.2. Software Architecture Container Level Diagrams](#4132-software-architecture-container-level-diagrams)
+        - [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
+    - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
+      - [4.2.1. Bounded Context: Identity and Access Management](#421-bounded-context-identity-and-access-management)
+        - [4.2.1.1. Domain Layer](#4211-domain-layer)
+        - [4.2.1.2. Interface Layer](#4212-interface-layer)
+        - [4.2.1.3. Application Layer](#4213-application-layer)
+        - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
+        - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
+          - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
+          - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
+      - [4.2.2. Bounded Context: Profile Management](#422-bounded-context-profile-management)
+        - [4.2.2.1. Domain Layer](#4221-domain-layer)
+        - [4.2.2.2. Interface Layer](#4222-interface-layer)
+        - [4.2.2.3. Application Layer](#4223-application-layer)
+        - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
+        - [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams](#4225-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)
+          - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
+          - [4.2.2.6.2. Bounded Context Database Design Diagram](#42262-bounded-context-database-design-diagram)
+      - [4.2.3. Bounded Context: Parking Management](#423-bounded-context-parking-management)
+        - [4.2.3.1. Domain Layer](#4231-domain-layer)
+        - [4.2.3.2. Interface Layer](#4232-interface-layer)
+        - [4.2.3.3. Application Layer](#4233-application-layer)
+        - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
+        - [4.2.3.5. Bounded Context Software Architecture Component Level Diagrams](#4235-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
+          - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
+          - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
+      - [4.2.4. Bounded Context: Reservation](#424-bounded-context-reservation)
+        - [4.2.4.1. Domain Layer](#4241-domain-layer)
+        - [4.2.4.2. Interface Layer](#4242-interface-layer)
+        - [4.2.4.3. Application Layer](#4243-application-layer)
+        - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
+        - [4.2.4.5. Bounded Context Software Architecture Component Level Diagrams](#4245-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)
+          - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
+          - [4.2.4.6.2. Bounded Context Database Design Diagram](#42462-bounded-context-database-design-diagram)
+      - [4.2.5. Bounded Context: Review](#425-bounded-context-review)
+        - [4.2.5.1. Domain Layer](#4251-domain-layer)
+        - [4.2.5.2. Interface Layer](#4252-interface-layer)
+        - [4.2.5.3. Application Layer](#4253-application-layer)
+        - [4.2.5.4. Infrastructure Layer](#4254-infrastructure-layer)
+        - [4.2.5.5. Bounded Context Software Architecture Component Level Diagrams](#4255-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.5.6. Bounded Context Software Architecture Code Level Diagrams](#4256-bounded-context-software-architecture-code-level-diagrams)
+          - [4.2.5.6.1. Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)
+          - [4.2.5.6.2. Bounded Context Database Design Diagram](#42562-bounded-context-database-design-diagram)
+      - [4.2.6. Bounded Context: Notification](#426-bounded-context-notification)
+        - [4.2.6.1. Domain Layer](#4261-domain-layer)
+        - [4.2.6.2. Interface Layer](#4262-interface-layer)
+        - [4.2.6.3. Application Layer](#4263-application-layer)
+        - [4.2.6.4. Infrastructure Layer](#4264-infrastructure-layer)
+        - [4.2.6.5. Bounded Context Software Architecture Component Level Diagrams](#4265-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.6.6. Bounded Context Software Architecture Code Level Diagrams](#4266-bounded-context-software-architecture-code-level-diagrams)
+          - [4.2.6.6.1. Bounded Context Domain Layer Class Diagrams](#42661-bounded-context-domain-layer-class-diagrams)
+          - [4.2.6.6.2. Bounded Context Database Design Diagram](#42662-bounded-context-database-design-diagram)
+      - [4.2.7. Bounded Context: Device Management](#427-bounded-context-device-management)
+        - [4.2.7.1. Domain Layer](#4271-domain-layer)
+        - [4.2.7.2. Interface Layer](#4272-interface-layer)
+        - [4.2.7.3. Application Layer](#4273-application-layer)
+        - [4.2.7.4. Infrastructure Layer](#4274-infrastructure-layer)
+        - [4.2.7.5. Bounded Context Software Architecture Component Level Diagrams](#4275-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.7.6. Bounded Context Software Architecture Code Level Diagrams](#4276-bounded-context-software-architecture-code-level-diagrams)
+          - [4.2.7.6.1. Bounded Context Domain Layer Class Diagrams](#42761-bounded-context-domain-layer-class-diagrams)
+          - [4.2.7.6.2. Bounded Context Database Design Diagram](#42762-bounded-context-database-design-diagram)
+      - [4.2.8. Bounded Context: Payment](#428-bounded-context-payment)
+        - [4.2.8.1. Domain Layer](#4281-domain-layer)
+        - [4.2.8.2. Interface Layer](#4282-interface-layer)
+        - [4.2.8.3. Application Layer](#4283-application-layer)
+        - [4.2.8.4. Infrastructure Layer](#4284-infrastructure-layer)
+        - [4.2.8.5. Bounded Context Software Architecture Component Level Diagrams](#4285-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.8.6. Bounded Context Software Architecture Code Level Diagrams](#4286-bounded-context-software-architecture-code-level-diagrams)
+          - [4.2.8.6.1. Bounded Context Domain Layer Class Diagrams](#42861-bounded-context-domain-layer-class-diagrams)
+          - [4.2.8.6.2. Bounded Context Database Design Diagram](#42862-bounded-context-database-design-diagram)
+  - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design-1)
+    - [5.1. Style Guidelines](#51-style-guidelines)
+      - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
+      - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
+    - [5.2. Information Architecture](#52-information-architecture)
+      - [5.2.1. Organization Systems](#521-organization-systems)
+      - [5.2.2. Labeling Systems](#522-labeling-systems)
+      - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
+      - [5.2.4. Searching Systems](#524-searching-systems)
+      - [5.2.5. Navigation Systems](#525-navigation-systems)
+    - [5.3. Landing Page UI Design](#53-landing-page-ui-design)
+      - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
+      - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
+    - [5.4. Applications UX/UI Design](#54-applications-uxui-design)
+      - [5.4.1. Applications Wireframes](#541-applications-wireframes)
+      - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
+      - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
+      - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
+    - [5.5. Applications Prototyping](#55-applications-prototyping)
+  - [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment-1)
+    - [6.1. Software Configuration Management](#61-software-configuration-management)
+      - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+      - [6.1.2. Source Code Management](#612-source-code-management)
+      - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
+      - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+    - [6.2. Landing Page, Services \& Applications Implementation](#62-landing-page-services--applications-implementation)
+      - [6.2.1. Sprint 1](#621-sprint-1)
+        - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+        - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
+        - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)
+        - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
+        - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
+      - [Repositorio de Testing](#repositorio-de-testing)
+      - [Testing Evidence Commits](#testing-evidence-commits)
+        - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
+        - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+        - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
+        - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones-1)
+    - [Conclusiones](#conclusiones)
+    - [TB1](#tb1-1)
+    - [TP](#tp-1)
+    - [Recomendaciones](#recomendaciones)
+- [Bibliografia](#bibliografia)
+- [Anexos](#anexos-1)
 
 ## [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
 
@@ -291,44 +410,54 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
   <tr>
     <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
     <td>
+      <b>Calisaya Sánchez Juan Jesús:</b><br><br>
       <b>TB1:</b><br>
-      <b>Calisaya Sánchez Juan Jesús:</b> En esta etapa del proyecto, formé parte de reuniones tanto presenciales como     virtuales, en las cuales aporté propuestas relevantes para definir el flujo del negocio, lo que contribuyó a generar claridad y alineamiento dentro del equipo.<br>
+       En esta etapa del proyecto, formé parte de reuniones tanto presenciales como     virtuales, en las cuales aporté propuestas relevantes para definir el flujo del negocio, lo que contribuyó a generar claridad y alineamiento dentro del equipo.<br><br>
       <b>TP:</b><br>
-      Ejercí un liderazgo colaborativo en el desarrollo del frontend, orientando la implementación de los wireframes y la integración visual de la web application. Mi trabajo en conjunto con los demás miembros ayudó a mantener la coherencia visual y el cumplimiento de los plazos establecidos.<br><br>
+      Ejercí un liderazgo colaborativo en el desarrollo del frontend, orientando la implementación de los wireframes y la integración visual de la web application. Mi trabajo en conjunto con los demás miembros ayudó a mantener la coherencia visual.<br><br>
+      <b>David Polanco, Alessandro Alonso:</b><br><br>
       <b>TB1:</b><br>
-      <b>David Polanco, Alessandro Alonso:</b>Durante la sesión de EventStorming y el Candidate Context Discovery, se asumió un liderazgo compartido entre los integrantes para organizar el flujo de actividades. En mi caso, participé proponiendo la estructura del tablero en Miro y guiando la secuencia de eventos y comandos, mientras otros compañeros aportaron en la validación de reglas de negocio y políticas.<br>
+      Durante la sesión de EventStorming y el Candidate Context Discovery, se asumió un liderazgo compartido entre los integrantes para organizar el flujo de actividades. En mi caso, participé proponiendo la estructura del tablero en Miro y guiando la secuencia de eventos y comandos, mientras otros compañeros aportaron en la validación de reglas de negocio y políticas.<br><br>
       <b>TP:</b><br> Contribuí al liderazgo técnico del equipo, supervisando la configuración del deployment y la integración del source code. Promoví el aprendizaje conjunto y apoyé la resolución de problemas técnicos, garantizando un desarrollo coordinado y alineado con las metas del sprint.<br><br>
+      <b>Espinoza Delgado, Bárbara Antonella:</b><br><br>
       <b>TB1:</b><br>
-      <b>Espinoza Delgado, Bárbara Antonella:</b> En grupo logramos organizarnos de forma adecuada para desarrollar el trabajo, distribuyendo responsabilidades entre los integrantes. Se llevaron a cabo reuniones para coordinar las actividades y se utilizó GitHub como herramienta para dar seguimiento al progreso de cada miembro y Discord para realizar las reuniones semanales. <br>
+       En grupo logramos organizarnos de forma adecuada para desarrollar el trabajo, distribuyendo responsabilidades entre los integrantes. Se llevaron a cabo reuniones para coordinar las actividades y se utilizó GitHub como herramienta para dar seguimiento al progreso de cada miembro y Discord para realizar las reuniones semanales. <br><br>
       <b>TP:</b><br> Asumí el liderazgo general del equipo, guiando la planificación y ejecución del sprint. Organicé tareas, promoví la colaboración y aseguré el cumplimiento de los objetivos establecidos. Mi rol se centró en mantener la comunicación efectiva y la coherencia entre design, development y review, fomentando un liderazgo compartido entre todos los integrantes.<br><br>
+      <b>Serrano Ircañaupa, Nelson Elias:</b><br><br>
       <b>TB1:</b><br>
-      <b>Serrano Ircañaupa, Nelson Elias:</b> En grupo manejamos lo que debe hacer cada integrante, se hicieron discusiones de equipo para una mejora continua de los diagramas, avances en los capítulos. Me tocó elaborar el diagrama c4 y así mismo para los bounded context, estos puntos se desarrollaron en plataformas colaborativas de Visual Paradigm para que todos participen.<br>
+       En grupo manejamos lo que debe hacer cada integrante, se hicieron discusiones de equipo para una mejora continua de los diagramas, avances en los capítulos. Me tocó elaborar el diagrama c4 y así mismo para los bounded context, estos puntos se desarrollaron en plataformas colaborativas de Visual Paradigm para que todos participen.<br><br>
       <b>TP:</b><br> Apoyé el liderazgo compartido desde el área de testing, promoviendo buenas prácticas de validación y revisión. Mi participación aseguró la calidad del software y fortaleció la comunicación entre los diferentes roles del equipo durante el desarrollo del sprint.<br><br>
+      <b>Sotil Vasquez, Tyrone Raí:</b><br><br>
       <b>TB1:</b><br>
-      <b>Sotil Vasquez, Tyrone Raí:</b> Trabajamos de manera colaborativa, asumiendo responsabilidades compartidas y brindando liderazgo conjunto dentro del equipo. Se coordinaron fechas limite de entrega de tareas promoviendo un ambiente de cooperación y asegurando el cumplimiento de los objetivos del proyecto.<br>
+       Trabajamos de manera colaborativa, asumiendo responsabilidades compartidas y brindando liderazgo conjunto dentro del equipo. Se coordinaron fechas limite de entrega de tareas promoviendo un ambiente de cooperación y asegurando el cumplimiento de los objetivos del proyecto.<br><br>
       <b>TP:</b><br> Colaboré activamente en el liderazgo del mobile design, aportando ideas innovadoras y asegurando que el equipo comprendiera la visión estética del proyecto. Mi participación ayudó a fortalecer la unidad del grupo y a coordinar el trabajo entre designers y developers para cumplir con los objetivos del sprint.
     </td>
-    <td><b>TB1:</b> Conseguimos organizarnos de manera eficiente, asignando las tareas de forma equitativa y empleando herramientas como GitHub para dar un seguimiento claro al progreso. Compartimos ideas, resolvimos dudas de forma colectiva y mantuvimos una comunicación continua a través de reuniones de coordinación. Esta experiencia fortaleció nuestras capacidades de trabajo colaborativo y evidenció el valor de la planificación y la cooperación para cumplir objetivos en común.<br>
+    <td><b>TB1:</b> Conseguimos organizarnos de manera eficiente, asignando las tareas de forma equitativa y empleando herramientas como GitHub para dar un seguimiento claro al progreso. Compartimos ideas, resolvimos dudas de forma colectiva y mantuvimos una comunicación continua a través de reuniones de coordinación. Esta experiencia fortaleció nuestras capacidades de trabajo colaborativo y evidenció el valor de la planificación y la cooperación para cumplir objetivos en común.<br><br>
     <b>TP:</b><br> El equipo demostró un liderazgo compartido y equilibrado durante el desarrollo del proyecto. Barbara asumió la dirección general, garantizando la coordinación y comunicación entre todos. Tyrone y Juan lideraron desde el diseño y desarrollo visual, mientras que Alessandro gestionó el liderazgo técnico y Nelson reforzó el control de calidad. Esta sinergia permitió una toma de decisiones colaborativa y una ejecución coherente de los objetivos del sprint.
 </td>
   </tr>
   <tr>
     <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
     <td>
+      <b>Calisaya Sánchez Juan Jesús:</b>
       <b>TB1:</b><br>
-      <b>Calisaya Sánchez Juan Jesús:</b> Durante el desarrollo del proyecto, me enfoqué en promover un entorno de trabajo colaborativo e inclusivo, impulsando la participación de todos los miembros mediante una retroalimentación constante y constructiva. Además, colaboré en la creación de epics, user stories y product backlog.<br>      
+       Durante el desarrollo del proyecto, me enfoqué en promover un entorno de trabajo colaborativo e inclusivo, impulsando la participación de todos los miembros mediante una retroalimentación constante y constructiva. Además, colaboré en la creación de epics, user stories y product backlog.<br>      
       <b>TP:</b><br> Planifiqué y ejecuté tareas del frontend web, colaborando en la integración visual con la landing page. Mantuve una comunicación constante con el equipo, asegurando una coordinación efectiva y el cumplimiento de los objetivos técnicos y de diseño del proyecto.<br><br>      
+      <b>David Polanco, Alessandro Alonso:</b>
       <b>TB1:</b><br>
-      <b>David Polanco, Alessandro Alonso:</b> Se promovió un entorno colaborativo al organizar reuniones virtuales para alinear las metas de esta entrega. Definimos de forma conjunta los pasos a seguir y planificamos las tareas asignando responsables según las fortalezas de cada miembro. De esta forma se logró cumplir el objetivo de entregar la especificación de bounded contexts con evidencia clara en Miro y en el informe, asegurando que todos los integrantes participaran activamente en el proceso.<br>
+      Se promovió un entorno colaborativo al organizar reuniones virtuales para alinear las metas de esta entrega. Definimos de forma conjunta los pasos a seguir y planificamos las tareas asignando responsables según las fortalezas de cada miembro. De esta forma se logró cumplir el objetivo de entregar la especificación de bounded contexts con evidencia clara en Miro y en el informe, asegurando que todos los integrantes participaran activamente en el proceso.<br>
       <b>TP:</b><br> Organicé y gestioné las tareas de development y deployment de la web application, colaborando estrechamente con los demás integrantes. Planifiqué mis actividades de manera coordinada, asegurando la entrega exitosa del sprint y contribuyendo al cumplimiento de los objetivos técnicos del equipo.<br><br>
+      <b>Espinoza Delgado, Bárbara Antonella:</b><br><br>
       <b>TB1:</b><br>
-      <b>Espinoza Delgado, Bárbara Antonella:</b> Se coordinó de manera conjunta la repartición de tareas a realizar para esta entrega tomando en cuenta las habilidades de cada integrante, asi como a traves de las reuniones nos hemos ayudado unos a otros a solventar dudas o dar recordatorios sobre los plazos de entrega del trabajo. <br>
+       Se coordinó de manera conjunta la repartición de tareas a realizar para esta entrega tomando en cuenta las habilidades de cada integrante, asi como a traves de las reuniones nos hemos ayudado unos a otros a solventar dudas o dar recordatorios sobre los plazos de entrega del trabajo. <br><br>
       <b>TP:</b><br> Fomenté un entorno inclusivo y participativo, asignando tareas de manera equitativa y manteniendo una comunicación constante. Establecí metas alcanzables para cada sprint y supervisé su cumplimiento, asegurando una planificación efectiva y resultados de alta calidad para todo el equipo.<br><br>
+      <b>Serrano Ircañaupa, Nelson Elias:</b><br><br>
       <b>TB1:</b><br>
-      <b>Serrano Ircañaupa, Nelson Elias:</b> Para este apartado se coordinó y debatió el avance de las tareas de los diagramas c4 para verificar los contextos y contenedores de la aplicación. También gracias al event storming se pudo obtener los bounded context candidatos para representarlos en el diagrama de arquitectura de componentes. Se cumplió satisfactoriamente este punto.<br>
+       Para este apartado se coordinó y debatió el avance de las tareas de los diagramas c4 para verificar los contextos y contenedores de la aplicación. También gracias al event storming se pudo obtener los bounded context candidatos para representarlos en el diagrama de arquitectura de componentes. Se cumplió satisfactoriamente este punto.<br><br>
       <b>TP:</b><br> Participé activamente en las etapas de testing, planificando y ejecutando pruebas para asegurar el cumplimiento de los requisitos del sistema. Mi compromiso con la calidad fortaleció el entorno colaborativo y permitió alcanzar los objetivos planteados en el sprint. <br><br>
+      <b>Sotil Vasquez, Tyrone Raí:</b><br><br>
       <b>TB1:</b><br>
-      <b>Sotil Vasquez, Tyrone Raí:</b> Se organizaron reuniones en el server de Discord para dividir las partes a realizar, buscando que estas sean equitativas a las habilidades de cada uno. Además el uso de Github nos permitió visualizar los avances y cantidad de aportes que cada integrante realizaba.<br>
+       Se organizaron reuniones en el server de Discord para dividir las partes a realizar, buscando que estas sean equitativas a las habilidades de cada uno. Además el uso de Github nos permitió visualizar los avances y cantidad de aportes que cada integrante realizaba.<br><br>
       <b>TP:</b> Participé activamente en la planificación de tareas de design, garantizando la coherencia entre los mobile mockups y la application. Mantener una comunicación fluida con mis compañeros permitió integrar las ideas de todos y cumplir los objetivos de user experience del proyecto. <br><br>
     </td>
     <td><b>TB1:</b> Colaboramos de forma coordinada, repartiendo las tareas de manera justa y definiendo metas semanales en reuniones periódicas. Hicimos uso de GitHub y mantuvimos una comunicación continua para aclarar dudas, realizar ajustes y supervisar los avances de manera conjunta. Promovimos un entorno inclusivo en el que cada integrante aportó sus ideas, alcanzando consensos en las decisiones y garantizando transparencia durante todo el proceso. Gracias a esta organización compartida y al compromiso colectivo, conseguimos finalizar el trabajo dentro del plazo previsto.<br>
@@ -339,7 +468,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 
 <div style="page-break-after: always;"></div>
 
-# # Capítulo I: Introduccion
+## Capítulo I: Introduccion
 
 ## 1.1. Startup Profile
 
@@ -359,11 +488,11 @@ Con esta solución buscamos optimizar el uso de los estacionamientos, mejorar la
 
 | Perfiles de los Miembros del Equipo                                                                                                                 |                                                                                                                                                                                                                                                                                        Descripción de los Miembros del Equipo                                                                                                                                                                                                                                                                                         |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| **Calisaya Sánchez Juan Jesús - u202121935** <br><br> <img src="./assets/chapter-1/juan.jpg" width="100px" alt="Juan Photo">                        |                                                                                                                                                                 Soy estudiante de Ingeniería de Software. Me considero una persona empática, colaboradora, responsable y con buenas habilidades de comunicación. Además de mis capacidades técnicas, estas cualidades me permitirán contribuir de manera efectiva al desarrollo exitoso del proyecto.                                                                                                                                                                 |
-| **David Polanco, Alessandro Alonso - u202122232** <br><br> <img src="./assets/chapter-1/alessandro.jpg" width="100px" alt="Juan Photo">             | Mi nombre es Alessandro David y tengo 22 años. Yo estoy cursando la carrera de Ingenieria de Software en la UPC y ando en 9no ciclo. Me gusto demasiado mi eleccion referente a la carrera dado que me interesan mucho todos los temas que tenga que ver con la tecnologia y las tendencias de este rubro. Me considero una persona empática, comprometida, y siempre atento a resolver cualquier problema que me concierna. Como integrante del grupo de Desarrollo de Soluciones IoT me comprometo a cooperar con todo lo asignado en el trabajo y apoyar a mis compañeros con cualquier duda que quieran absolver. |
-| **Espinoza Delgado, Bárbara Antonella - u201911727** <br><br> <img src="./assets/chapter-1/Messo.jpeg" alt="Barbara Espinoza Photo" width="100px"/> |                                                                                                                                                                                       Mi nombre es Bárbara Antonella Espinoza Delgado, soy estudiante de Ingeniería de Software de 8vo ciclo. Tengo experiencia en trabajos en equipo y me considero una persona puntual con la realización y entrega de las tareas pendientes.                                                                                                                                                                                       |
-| **Serrano Ircañaupa, Nelson Elias - u202214733** <br><br> <img src="./assets/chapter-1/Nelson.jpg" width="100px"/>                                  |                                          Me llamo Nelson Serrano, soy un entusiasta de la tecnología con gran interés en el backend, las redes y la ciberseguridad. Disfruto aprender nuevas herramientas de desarrollo, explorar entornos de seguridad informática y trabajar en proyectos que combinan programación con buenas prácticas de software. Mis principales fortalezas son el desarrollo backend, la gestión de bases de datos y el análisis de vulnerabilidades, lo que me permite aportar valor en proyectos que requieren robustez, organización y seguridad.                                          |
-| **Sotil Vasquez, Tyrone Raí - u202017267** <br><br> <img src="./assets/chapter-1/tyrone.png" width="100px"/>                                        |                                                                                                                                     Me llamo Tyrone Sotil, soy un apasionado tanto de la programación como de la creación de contenido. Mis hobbies incluyen la edición de videos, jugar videojuegos y la programación de páginas web. Mis principales fortalezas son la programación frontend, el diseño de imágenes/videos y los procesos de automatización o conexiones con IA                                                                                                                                     |
+| **Calisaya Sánchez Juan Jesús - u202121935** <br><br> <img src="./assets/chapter-1/juan.jpg" width="100px" height="100px" alt="Juan Photo">                        |                                                                                                                                                                 Soy estudiante de Ingeniería de Software. Me considero una persona empática, colaboradora, responsable y con buenas habilidades de comunicación. Además de mis capacidades técnicas, estas cualidades me permitirán contribuir de manera efectiva al desarrollo exitoso del proyecto.                                                                                                                                                                 |
+| **David Polanco, Alessandro Alonso - u202122232** <br><br> <img src="./assets/chapter-1/alessandro.jpg" width="100px" height="100px"  alt="Juan Photo">             | Mi nombre es Alessandro David y tengo 22 años. Yo estoy cursando la carrera de Ingenieria de Software en la UPC y ando en 9no ciclo. Me gusto demasiado mi eleccion referente a la carrera dado que me interesan mucho todos los temas que tenga que ver con la tecnologia y las tendencias de este rubro. Me considero una persona empática, comprometida, y siempre atento a resolver cualquier problema que me concierna. Como integrante del grupo de Desarrollo de Soluciones IoT me comprometo a cooperar con todo lo asignado en el trabajo y apoyar a mis compañeros con cualquier duda que quieran absolver. |
+| **Espinoza Delgado, Bárbara Antonella - u201911727** <br><br> <img src="./assets/chapter-1/Messo.jpeg" alt="Barbara Espinoza Photo" width="100px" height="100px" /> |                                                                                                                                                                                       Mi nombre es Bárbara Antonella Espinoza Delgado, soy estudiante de Ingeniería de Software de 8vo ciclo. Tengo experiencia en trabajos en equipo y me considero una persona puntual con la realización y entrega de las tareas pendientes.                                                                                                                                                                                       |
+| **Serrano Ircañaupa, Nelson Elias - u202214733** <br><br> <img src="./assets/chapter-1/Nelson.jpg" width="100px" height="100px" />                                  |                                          Me llamo Nelson Serrano, soy un entusiasta de la tecnología con gran interés en el backend, las redes y la ciberseguridad. Disfruto aprender nuevas herramientas de desarrollo, explorar entornos de seguridad informática y trabajar en proyectos que combinan programación con buenas prácticas de software. Mis principales fortalezas son el desarrollo backend, la gestión de bases de datos y el análisis de vulnerabilidades, lo que me permite aportar valor en proyectos que requieren robustez, organización y seguridad.                                          |
+| **Sotil Vasquez, Tyrone Raí - u202017267** <br><br> <img src="./assets/chapter-1/tyrone.png" width="100px" height="100px" />                                        |                                                                                                                                     Me llamo Tyrone Sotil, soy un apasionado tanto de la programación como de la creación de contenido. Mis hobbies incluyen la edición de videos, jugar videojuegos y la programación de páginas web. Mis principales fortalezas son la programación frontend, el diseño de imágenes/videos y los procesos de automatización o conexiones con IA                                                                                                                                     |
 
 ## 1.2. Solution Profile
 
@@ -901,7 +1030,7 @@ Link de entrevistas: [Link de Entrevistas](https://upcedupe-my.sharepoint.com/:v
 | Lugar de residencia      | Surco                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Enlace del video         | [Entrevista Joan](https://www.youtube.com/watch?v=8MtQq3fYY3s)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Duración                 | 6 minutos y 6 segundos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Imagen                   | <img src="./assets/chapter-2/conductor-balbin.jpg" width="400" />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Imagen                   | <img src="./assets/chapter-2/conductor-balbin.jpg" width="300" />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Resumen de la entrevista | Balbín utiliza su auto todos los días para ir a la universidad y a su trabajo como desarrollador web en una ONG. Esto lo obliga a buscar estacionamiento constantemente, lo cual puede tomarle entre 10 a 20 minutos, dependiendo del tráfico y la zona. Actualmente no usa ninguna aplicación para encontrar estacionamiento, pero considera que una app con información en tiempo real sería muy útil, ya que le ahorraría tiempo y evitaría dar vueltas innecesarias. También le gustaría que la app recomiende rutas según el tráfico, lo cual considera clave para optimizar sus desplazamientos. Está dispuesto a pagar una tarifa adicional por reservar un espacio, siempre que esto le garantice seguridad y cercanía. Aunque valora la seguridad, prioriza el costo y la proximidad al momento de elegir un estacionamiento. Ha vivido situaciones frustrantes, como perder tiempo en el tráfico, no encontrar espacios libres o que otro conductor le gane el lugar. Por ello, valora la posibilidad de saber en tiempo real si hay espacios disponibles e incluso recibir alertas si ocurre algo sospechoso con su vehículo. |
 
 | Entrevista               | 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
@@ -911,7 +1040,7 @@ Link de entrevistas: [Link de Entrevistas](https://upcedupe-my.sharepoint.com/:v
 | Lugar de residencia      | Villa Maria                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Enlace del video         | [Entrevista Leandro](https://www.youtube.com/watch?v=_RbKISOL-Qo)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Duración                 | 4 minutos y 58 segundos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Imagen                   | <img src="./assets/chapter-2/Entrevista Leandro.png" width="400" />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Imagen                   | <img src="./assets/chapter-2/Entrevista Leandro.png" width="300" />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Resumen de la entrevista | Leandro compartió su experiencia como conductor frecuente en la ciudad y respondió a varias de las preguntas que le planteamos. Mencionó que necesita estacionar casi todos los días, tanto por razones laborales como personales, y que suele dedicar entre 15 y 20 minutos en promedio para encontrar un espacio disponible. Actualmente no utiliza ninguna aplicación específica para buscar estacionamiento, aunque considera que una herramienta que muestre la disponibilidad en tiempo real sería muy útil, ya que le permitiría ahorrar tiempo y reducir el estrés diario. Al momento de elegir dónde estacionar, Leandro prioriza la proximidad a su destino, aunque también toma en cuenta el costo y, en menor medida, la seguridad. Comentó que le parecería muy práctico que los estacionamientos contaran con luces indicadoras que señalen desde lejos si hay espacios disponibles, y valoró la posibilidad de recibir rutas recomendadas en función del tráfico para llegar más rápido a un lugar libre. |
 
 | Entrevista               | 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -921,7 +1050,7 @@ Link de entrevistas: [Link de Entrevistas](https://upcedupe-my.sharepoint.com/:v
 | Lugar de residencia      | Surco                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Enlace del video         | [Entrevista Maria](https://drive.google.com/file/d/1-lvSQDIcGbk-fEERg-kFN4gXO0x1Y2Th/view?usp=sharing)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Duración                 | 3 minutos y 19 segundos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Imagen                   | <img width="400" alt="image" src="assets/chapter-2/entrevista-maria.png"/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Imagen                   | <img width="300" alt="image" src="assets/chapter-2/entrevista-maria.png"/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Resumen de la entrevista | Maria Gracia es una estudiante de 20 años que vive en el distrito de Surco y estudia derecho corporativo en la universidad. Comentó que usualmente le es fácil encontrar estacionamiento dado que en su universidad hay espacios libros la mayoria de los dias; sin embargo, cuando se encuentra en centros comerciales, como el Jockey Plaza o Mall del Sur, se le ahce difícil encontrar sitios para estacionar dado que hay un gran flujo de usuarios dentro del centro comercial por lo que los estacionamientos son escasos y muy dificiles de encontrar; tanto asi, que a veces le toma hasta 15 minutos encontrar un espacio para estacionarse. Ella no utilizo algun sistema que le simplifique la tarea de encontrar estacionamiento y piensa que los sensores de estacionamientos son de mucha ayuda, pero a veces son engañosos, dado que a veces hay estacionamientos libres que aparcen con luz rojo como si estuvieran ocupados, y viceversa. Ella cree que seria una buena opcion que exista una app que te ayude a encontrar estacionamientos al lugar donde te estes dirigiendo, ya sea centro comercial o alrededores, y que te facilite la tarea de brindarte apoyo al momento de encontrar un espacio donde estacionarte para optimizar el tiempo haciendo actividades de mayor provecho. |
 
 **Segmento objetivo 2: Dueños de estacionamientos**
@@ -933,7 +1062,7 @@ Link de entrevistas: [Link de Entrevistas](https://upcedupe-my.sharepoint.com/:v
 | Lugar de residencia      | La Victoria                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Enlace del video         | [Entrevista Rafael](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202017267_upc_edu_pe/EaAVNhk_5lRBjzmuxUTDyNYBiuZnwvw1xfj9TqTjifT7mw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=E78kAV)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Duración                 | 9 minutos y 19 segundos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| Imagen                   | <img src="https://kappa.lol/ukSNEG" alt="Rafael Soto Entrevista" width="400" />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Imagen                   | <img src="https://kappa.lol/ukSNEG" alt="Rafael Soto Entrevista" width="300" />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Resumen de la entrevista | Se entrevistó a Rafael Soto, estudiante de 26 años que vive en el distrito de La Victoria y colabora en el negocio familiar de estacionamientos. Señaló que sus principales habilidades están relacionadas con los números, ya que tiene facilidad para realizar operaciones rápidas y manejar cálculos. Comentó que la gestión de los espacios resulta sencilla en días de baja afluencia, pero en jornadas con mucho movimiento se dificulta controlar las horas de entrada y salida, lo que a veces genera pérdidas. Actualmente el registro se hace de forma manual con tickets y luego se pasa a Excel. Considera muy importante contar con información en tiempo real sobre los espacios disponibles, ya que ayudaría a evitar confusiones y mejorar la atención a los clientes. También ve beneficios en la automatización de reservas y pagos, así como en diversificar los medios de pago más allá del efectivo y Yape. Sobre la integración de sensores inteligentes, destacó que sería útil para identificar espacios vacíos sin necesidad de recorrer el local, optimizando el tiempo y reduciendo errores. Entre los principales desafíos mencionó la pérdida de tickets y los errores al calcular las horas de permanencia. Finalmente, señaló que le gustaría que una aplicación ofreciera reportes sobre ocupación, rotación y horarios de mayor demanda, además de incluir indicadores visuales como luces para señalar espacios libres, similar a lo que se ve en centros comerciales. Considera que estas innovaciones mejorarían la eficiencia y competitividad de su negocio. |
 
 | Entrevista               | 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
@@ -943,7 +1072,7 @@ Link de entrevistas: [Link de Entrevistas](https://upcedupe-my.sharepoint.com/:v
 | Lugar de residencia      | La Molina                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Enlace del video         | [Entrevista Carlos](https://www.youtube.com/watch?v=pI_iSFNsPYE)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | Duración                 | 4 minutos y 37 segundos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Imagen                   | <img src="assets/chapter-2/dueño-playa-carlos.jpg" width="400" />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Imagen                   | <img src="assets/chapter-2/dueño-playa-carlos.jpg" width="300" />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | Resumen de la entrevista | Carlos tiene 20 años y vive en La Molina, donde administra un estacionamiento. Se considera una persona organizada, resolutiva y orientada a mantener el orden, aunque reconoce que durante momentos de alta afluencia la gestión puede volverse complicada. Respecto al control de los espacios, menciona que usualmente es sencillo, pero se dificulta cuando hay gran movimiento o los conductores no respetan los espacios asignados. Por esta razón, valora la posibilidad de contar con información en tiempo real sobre la disponibilidad, lo cual evitaría revisiones físicas continuas y mejoraría la eficiencia operativa. Actualmente no utiliza sistemas digitales de reservas, pero acepta pagos mediante Yape y Plin, métodos que considera ágiles y populares entre sus clientes. Carlos considera que la automatización de reservas y pagos sería altamente beneficiosa, ya que permitiría organizar mejor los tiempos de permanencia, agilizar los ingresos y salidas, y llevar un control más preciso de los cobros. Resalta la importancia de ofrecer métodos de pago seguros y rápidos para mejorar la experiencia del cliente. Además, está convencido de que una aplicación que integre la gestión de espacios, reservas y pagos facilitaría el control detallado de la ocupación, ingresos diarios y aumentaría la transparencia en su administración. Entre los principales desafíos que enfrenta señala la organización en horarios de alta demanda y el seguimiento manual de los pagos. Finalmente, le gustaría que una app permita a los clientes registrar su tiempo de permanencia, calcule automáticamente el costo, notifique la disponibilidad en tiempo real y genere reportes de ocupación y rotación para tomar decisiones más estratégicas. |
 
 | Entrevista               | 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -953,7 +1082,7 @@ Link de entrevistas: [Link de Entrevistas](https://upcedupe-my.sharepoint.com/:v
 | Lugar de residencia      | Breña                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Enlace del video         | [Entrevista Alexandra](https://youtu.be/z5NyHt4swxQ)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Duración                 | 3 minutos y 13 segundos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Imagen                   | <img width="400" src="assets/chapter-2/Entrevista Alexandra.jpg"/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Imagen                   | <img width="300" src="assets/chapter-2/Entrevista Alexandra.jpg"/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Resumen de la entrevista | Alexandra, de 21 años, ha asumido la gestión del estacionamiento que anteriormente administraba su madre. Si bien no posee experiencia formal en administración, ha demostrado buenas capacidades organizativas y mantiene una actitud receptiva hacia la incorporación de herramientas tecnológicas. Percibe que la gestión manual resulta complicada, en especial durante las horas de mayor demanda. Por ello, le interesa disponer de información en tiempo real y automatizar tareas como reservas y cobros, lo que simplificaría su labor y optimizaría la experiencia de los clientes. Actualmente no emplea un sistema digital, pero está dispuesta a implementar uno que permita aceptar pagos electrónicos y generar reportes sobre ocupación y rotación. Asimismo, valora la importancia de contar con métodos de pago seguros y funciones que fortalezcan el control y la eficiencia de su negocio. |
 
 ### 2.2.3. Análisis de entrevistas
@@ -1035,6 +1164,8 @@ En esta sección del documento, se presentan perfiles ficticios que representan 
 **User Persona para Conductores Urbanos**  
 La "User Persona" de Sofía Torres representa a los conductores urbanos que requieren soluciones rápidas, eficientes y seguras para estacionar cerca de sus destinos. Sofía es una organizadora de eventos de 25 años, cuya rutina diaria implica múltiples desplazamientos por la ciudad. Está motivada por la comodidad y la optimización del tiempo, pero suele frustrarse por la falta de espacios disponibles y la pérdida de tiempo al buscar estacionamiento. Busca una solución móvil práctica, con información en tiempo real, reserva anticipada y funciones que mejoren su experiencia general al conducir en zonas urbanas.
 
+<div style="page-break-after: always;"></div>
+
 <p align="center"><em>User Persona: Conductores</em></p>
 
 ![User Person 1](assets/chapter-2//User%20Persona%20Conductor.png)
@@ -1042,9 +1173,13 @@ La "User Persona" de Sofía Torres representa a los conductores urbanos que requ
 **User Persona para Dueños de Playas de Estacionamiento**  
 La "User Persona" de Miguel Castro representa a propietarios de estacionamientos interesados en mejorar la gestión y aumentar ingresos. Miguel, de 40 años y dueño de una playa de estacionamiento, tiene experiencia en el rubro y quiere implementar tecnología para optimizar la ocupación y reducir tiempos de espera. Sus objetivos incluyen la fidelización de clientes y la expansión del negocio, pero enfrenta frustraciones con problemas tecnológicos y altos costos operativos.
 
+<div style="page-break-after: always;"></div>
+
 <p align="center"><em>User Persona: Dueño de Estacionamiento</em></p>
 
 ![User Person 2](assets/chapter-2/User%20Persona%20Dueño%20de%20Estacionamiento.png)
+
+<div style="page-break-after: always;"></div>
 
 ### 2.3.2. User Task Matrix
 
@@ -1118,6 +1253,8 @@ En esta sección, hemos creado los mapas de recorrido del usuario para cada tipo
 
 Desde la perspectiva del propietario de estacionamiento, el recorrido implica gestionar la disponibilidad de espacios, ajustar precios de manera estratégica, procesar reservas en tiempo real y asegurar que el proceso de pago y uso se realice de forma eficiente. El propósito es brindar una experiencia fluida y confiable que motive a los clientes a recomendar el servicio y considerar al propietario como una opción constante para futuros estacionamientos.
 
+<div style="page-break-after: always;"></div>
+
 **User Journey Mapping para Conductores**
 
 Este User Journey Mapping describe las etapas que un conductor urbano atraviesa al utilizar una aplicación de estacionamiento. El recorrido inicia con el descubrimiento de la app, ya sea por recomendaciones, búsqueda directa o publicidad. Luego, el usuario explora las opciones disponibles y aplica filtros según criterios como precio, ubicación y seguridad. Una vez identificado el espacio adecuado, realiza la reserva a través de la app y efectúa el pago mediante medios digitales. Finalmente, decide cuando dejar de utilizar la aplicación.
@@ -1128,6 +1265,8 @@ Durante todo el recorrido, se identifican puntos de contacto clave como la inter
 
 ![User Journey Mapping 1](assets/chapter-2/User%20Journey%20Map%20Conductor.png)
 
+<div style="page-break-after: always;"></div>
+
 **User Journey Mapping para Dueños de Playas de Estacionamientos**
 
 Este "User Journey Mapping" para dueños de estacionamientos describe las etapas de uso de una app de gestión, desde encontrar la herramienta adecuada y configurarla, hasta su instalación y seguimiento para optimización. Destaca desafíos en la selección de la app y la comprensión de sus funciones, con oportunidades para mejorar la personalización, la facilidad de uso y el soporte técnico.
@@ -1135,6 +1274,8 @@ Este "User Journey Mapping" para dueños de estacionamientos describe las etapas
 <p align="center"><em>User Journey Mapping: Dueños de Playas de Estacionamientos</em></p>
 
 ![User Journey Mapping 2](assets/chapter-2/User%20journey%20map%20Dueño%20de%20Estacionamiento.png)
+
+<div style="page-break-after: always;"></div>
 
 ### 2.3.4. Empathy Mapping
 
@@ -1259,6 +1400,8 @@ Se presenta una lista que contiene los términos del dominio del negocio y su de
 
 - **Backend:** Infraestructura que procesa y administra los datos de la app, incluyendo disponibilidad de espacios y perfiles de usuarios.
 - **Sensor:** Dispositivo que detecta un estímulo o cambio en su entorno.
+
+<div style="page-break-after: always;"></div>
 
 ## Capítulo III: Requirements Specification
 
@@ -1466,6 +1609,8 @@ Nota de convenciones
   <img src="assets/chapter-4/IAMBoundedCandidateContext.png" width="500">
 </p>
 
+<div style="page-break-after: always;"></div>
+
 ##### Bounded Context: Profile
 
 - Descripción
@@ -1489,6 +1634,8 @@ Nota de convenciones
 <p align="center">
   <img src="assets/chapter-4/ParkingBoundedCContext.png" width="500">
 </p>
+
+<div style="page-break-after: always;"></div>
 
 ##### Bounded Context: Reservations
 
@@ -1541,6 +1688,8 @@ Nota de convenciones
   <img src="assets/chapter-4/IOTBoundedCContext.png" width="500">
 </p>
 
+<div style="page-break-after: always;"></div>
+
 ##### Bounded Context: Notification
 
 - Descripción
@@ -1566,12 +1715,15 @@ En esta etapa representamos el intercambio de mensajes entre actores y bounded c
 
 Este modelado hace visible qué eventos impactan a cada contexto y cómo se encadenan sus reacciones. Además, ayuda a anticipar zonas de riesgo, como la duplicidad de reservas o fallas de telemetría (sensores inactivos), para diseñar medidas de resiliencia y validaciones cruzadas.
 
+<div style="page-break-after: always;"></div>
+
 ##### 4.1.1.3. Bounded Context Canvases
 
 1. IAM
 
 <img src="assets/chapter-4/IAMBCCanvas.jpg">
 
+<br>
 2. Profile
 
 <img src="assets/chapter-4/ProfileBCCanvas.jpg">
@@ -1644,6 +1796,8 @@ Este modelado hace visible qué eventos impactan a cada contexto y cómo se enca
 Se describe el diagrama de contexto del sistema SmartParking, que define los límites del sistema y cómo interactúa con los segmentos objetivo y servicios externos.
 
 <img width="963" height="794" alt="image" src="https://github.com/user-attachments/assets/666d6a07-5101-4ab2-87d3-bc8ff2adc79a" />
+
+<div style="page-break-after: always;"></div>
 
 ##### 4.1.3.2. Software Architecture Container Level Diagrams
 
@@ -1870,21 +2024,19 @@ La capa de infraestructura se encarga de la interacción con fuentes externas de
 
 El IAM Bounded Context gestiona la autenticación y autorización de usuarios, estructurado en capas que incluyen lógica de negocio, coordinación de casos de uso, persistencia e interfaces HTTP. La interfaz recibe solicitudes desde las aplicaciones web y móvil, delegándolas a la capa de aplicación, que a su vez interactúa con la lógica de dominio y con la infraestructura para acceder a datos. Además, expone un servicio externo para coordinar acciones relacionadas con perfiles desde otros bounded contexts, asegurando una integración segura y coherente del sistema de identidad.
 
-<img src="assets/chapter-4/IAM-bc-component-backend.png" alt="IAM bc component backend image" height="350px">
+<img src="assets/chapter-4/IAM-bc-component-backend.png" alt="IAM bc component backend image" width="1000px">
 
 - **WebApp**
 
 El diagrama de componentes del IAM Bounded Context representa los elementos encargados de gestionar la autenticación y registro de usuarios dentro de la aplicación SmartParking, incluyendo componentes de interfaz como Sign In Component y Sign Up Component, que capturan credenciales y datos de registro, y un AuthService que centraliza la lógica de autenticación comunicándose con la API REST y gestionando la transformación de datos mediante el IAMAssembler, garantizando una separación limpia entre la vista, la lógica y la comunicación con los servicios backend.
 
-<img src="assets/chapter-4/IAM-bc-component-webapp.png" alt="IAM bc component webapp image" height="350px">
+<img src="assets/chapter-4/IAM-bc-component-webapp.png" alt="IAM bc component webapp image" width="1000px">
 
 - **MobileApp**
 
 El diagrama de componentes del bounded context Profile muestra los componentes encargados de la gestión de perfiles de conductores en la aplicación móvil, incluyendo un widget para la edición de datos de usuario, un servicio de perfil que centraliza la lógica de negocio relacionada y un ensamblador que adapta los datos entre las estructuras de backend y los modelos del frontend. El flujo parte del Driver Card Edit Widget hacia el DriverService, que transforma los datos usando el ProfileAssembler y gestiona las solicitudes a la API RESTful, permitiendo la edición y recuperación de información de perfil de forma eficiente y estructurada.
 
-<img src="assets/chapter-4/IAM-bc-component-mobile.png" alt="IAM bc component mobile image" height="350px">
-
-<div style="page-break-after: always;"></div>
+<img src="assets/chapter-4/IAM-bc-component-mobile.png" alt="IAM bc component mobile image" width="1000px">
 
 ##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1899,8 +2051,6 @@ El diagrama de clases muestra cómo se relacionan las entidades User y Role, as�
 En el diagrama de base, se observa la tabla users y roles, así como la relación entre estas.
 
 <img src="assets/chapter-4/bc-iam-diagramabasededatos.png" alt="IAM database image">
-
-<div style="page-break-after: always;"></div>
 
 #### 4.2.2. Bounded Context: Profile Management
 
@@ -2132,29 +2282,25 @@ La capa de infraestructura proporciona la implementación de persistencia para l
 |  existsByPhone_Phone(String)   |  Verifica si existe un propietario con un teléfono dado.  |
 |      existsByUserId(Long)      |   Verifica si existe un propietario con un userId dado.   |
 
-<div style="page-break-after: always;"></div>
-
 ##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 
 - **Backend**
 
 El Profile Bounded Context centraliza la gestión de la información de perfil de los usuarios, incluyendo su estructura de dominio, lógica de aplicación, almacenamiento persistente e interfaces expuestas vía HTTP. Su arquitectura facilita tanto el acceso directo desde aplicaciones cliente como la colaboración con otros contextos a través de su fachada de contexto, permitiendo así la reutilización controlada de funciones relacionadas con los perfiles sin romper la encapsulación.
 
-<img src="assets/chapter-4/profile-bc-component-backend.png" alt="profile bc component backend image" height="350px">
+<img src="assets/chapter-4/profile-bc-component-backend.png" alt="profile bc component backend image" width="1000px">
 
 - **WebApp**
 
 El diagrama de componentes del Profile Bounded Context describe la estructura de componentes dedicados a la gestión de perfiles de propietarios de estacionamientos, donde el Owner Car Edit Component permite visualizar y editar información personal, mientras que el OwnerService orquesta las operaciones y coordina con ProfileAssembler para transformar datos entre el frontend y la API RESTful, estableciendo una arquitectura desacoplada que facilita el mantenimiento y la evolución de las funcionalidades de perfil.
 
-<img src="assets/chapter-4/profile-bc-component-webapp.png" alt="profile bc component webapp image" height="350px">
+<img src="assets/chapter-4/profile-bc-component-webapp.png" alt="profile bc component webapp image" width="1000px">
 
 - **MobileApp**
 
 El diagrama de componentes del bounded context Profile muestra los componentes encargados de la gestión de perfiles de conductores en la aplicación móvil, incluyendo un widget para la edición de datos de usuario, un servicio de perfil que centraliza la lógica de negocio relacionada y un ensamblador que adapta los datos entre las estructuras de backend y los modelos del frontend. El flujo parte del Driver Card Edit Widget hacia el DriverService, que transforma los datos usando el ProfileAssembler y gestiona las solicitudes a la API RESTful, permitiendo la edición y recuperación de información de perfil de forma eficiente y estructurada.
 
-<img src="assets/chapter-4/profile-bc-component-mobile.png" alt="profile bc component backend image" height="350px">
-
-<div style="page-break-after: always;"></div>
+<img src="assets/chapter-4/profile-bc-component-mobile.png" alt="profile bc component backend image" width="1000px">
 
 ##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2168,9 +2314,7 @@ El diagrama de clases muestra la relación entre las entidades Driver y ParkingO
 
 El diagrama de base muestra las tablas drivers y parking_owners, así como la relación entre estas.
 
-<img src="assets/chapter-4/bc-profile-diagramabasededatos.png" alt="Profile database image" height="300px">
-
-<div style="page-break-after: always;"></div>
+<img src="assets/chapter-4/bc-profile-diagramabasededatos.png" alt="Profile database image">
 
 #### 4.2.3. Bounded Context: Parking Management
 
@@ -2354,29 +2498,25 @@ La capa de infraestructura implementa los mecanismos de persistencia para los es
 |  existsByNameAndOwnerId(String, Long)   |  Verifica si existe un estacionamiento con el mismo nombre para un propietario.   |
 | existsByAddressAndOwnerId(String, Long) | Verifica si existe un estacionamiento con la misma dirección para un propietario. |
 
-<div style="page-break-after: always;"></div>
-
 ##### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 
 - **Backend**
 
 El Parking Management Bounded Context se encarga de toda la lógica relacionada con la administración de estacionamientos, desde la definición de espacios disponibles hasta la gestión de su estado. Mediante una separación clara por capas, permite recibir solicitudes externas, procesarlas con lógica de aplicación coordinada, aplicar las reglas de dominio y persistir los datos. Ofrece también una fachada que permite a otros bounded contexts consumir funcionalidades específicas del sistema de gestión de parkings de forma segura y acotada.
 
-<img src="assets/chapter-4/parking-bc-component-backend.png" alt="parking bc component backend image" height="350px">
+<img src="assets/chapter-4/parking-bc-component-backend.png" alt="parking bc component backend image" width="1000px">
 
 - **WebApp**
 
 El diagrama de componentes del Parking Management Bounded Context detalla los elementos encargados de administrar los espacios de estacionamiento, incluyendo componentes visuales como Parking Address Picker, Parking Card, Parking List y Parking Spot Viewer, que permiten interactuar con mapas, listas y tarjetas informativas, coordinados por un ParkingService que gestiona la lógica de negocio y delega la transformación de datos a ParkingAssembler, estableciendo un flujo ordenado de interacción entre UI, lógica de negocio y servicios backend.
 
-<img src="assets/chapter-4/parking-bc-component-webapp.png" alt="parking bc component webapp image" height="350px">
+<img src="assets/chapter-4/parking-bc-component-webapp.png" alt="parking bc component webapp image" width="1000px">
 
 - **MobileApp**
 
 El diagrama de componentes del bounded context Parking Management detalla los componentes que permiten a los conductores visualizar y consultar información de los estacionamientos disponibles. Incluye widgets como Parking Card, Parking Info, Parking Map y Parking Spot Viewer, que presentan desde vistas resumidas hasta mapas interactivos y disponibilidad de espacios en tiempo real. Todos los widgets consumen lógica del ParkingService, encargado de coordinar operaciones y transformar datos mediante el ParkingAssembler. Este ensamblador adapta los DTOs del backend a modelos de dominio del frontend, con las solicitudes a la API RESTful realizándose a través de HTTPS y JSON.
 
-<img src="assets/chapter-4/parking-bc-component-mobile.png" alt="parking bc component mobile image" height="350px">
-
-<div style="page-break-after: always;"></div>
+<img src="assets/chapter-4/parking-bc-component-mobile.png" alt="parking bc component mobile image" width="1000px">
 
 ##### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2390,9 +2530,7 @@ En el diagrama de clases se observa la relación entre las entidades Parking y P
 
 El diagrama de base muestra la tabla parkings y parking_spots, así como la relación entre estas.
 
-<img src="assets/chapter-4/bc-parking-diagramabasededatos.png" alt="Parking database image" height="300px">
-
-<div style="page-break-after: always;"></div>
+<img src="assets/chapter-4/bc-parking-diagramabasededatos.png" alt="Parking database image">
 
 #### 4.2.4. Bounded Context: Reservation
 
@@ -2582,7 +2720,7 @@ Administra la persistencia de reservas en la base de datos.
 
 El Reservation Bounded Context permite a los conductores realizar, modificar o cancelar reservas de estacionamiento, conectándose a los sistemas de parqueo y perfil mediante servicios externos. Implementa una arquitectura en capas para organizar la lógica de negocio, persistencia y exposición de servicios vía HTTP, lo que permite una orquestación robusta y modular de las funcionalidades de reserva, manteniendo una clara separación de responsabilidades y promoviendo el desacoplamiento.
 
-<img src="assets/chapter-4/reservation-bc-component-backend.png" alt="reservation bc component backend image" height="350px">
+<img src="assets/chapter-4/reservation-bc-component-backend.png" alt="reservation bc component backend image" width="1000px">
 
 - **WebApp**
 
@@ -2592,8 +2730,7 @@ No aplica para este caso
 
 El diagrama de componentes del bounded context Reservation describe los componentes que gestionan las reservas de estacionamiento realizadas por conductores en la aplicación móvil. Incluye widgets para mostrar tarjetas individuales de reserva y listas filtradas de reservas por estado, ambos conectados a un ReservationService que maneja la lógica de negocio para crear, recuperar y administrar reservas. Un ReservationAssembler se encarga de transformar datos entre DTOs y modelos de dominio, facilitando la presentación adecuada en la aplicación. La API RESTful gestiona las operaciones a través de peticiones seguras JSON sobre HTTPS.
 
-<img src="assets/chapter-4/reservation-bc-component-mobile.png" alt="reservation bc component mobile image" height="350px">
-<div style="page-break-after: always;"></div>
+<img src="assets/chapter-4/reservation-bc-component-mobile.png" alt="reservation bc component mobile image" width="1000px">
 
 ##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2607,9 +2744,7 @@ El diagrama de clases muestra la relación entre las entidades Reservation y Res
 
 El diagrama de base muestra la tabla reservations y reservation_payments, así como la relación entre estas.
 
-<img src="assets/chapter-4/bc-reservation-diagramabasededatos.png" alt="Reservation database image" height="300px">
-
-<div style="page-break-after: always;"></div>
+<img src="assets/chapter-4/bc-reservation-diagramabasededatos.png" alt="Reservation database image">
 
 #### 4.2.5. Bounded Context: Review
 
@@ -2755,31 +2890,25 @@ Administra la persistencia de las reseñas en el sistema.
 | `findAllByDriverIdDriverId(Long driverId)`    | Obtiene todas las reseñas hechas por un conductor. |
 | `findAllByParkingIdParkingId(Long parkingId)` | Obtiene todas las reseñas de un estacionamiento.   |
 
-<div style="page-break-after: always;"></div>
-
 ##### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
 - **Backend**
 
 El Review Bounded Context centraliza la creación, almacenamiento y consulta de reseñas de parkings, integrándose con los bounded contexts de perfil y estacionamiento para enriquecer el contenido y garantizar la autenticidad de las evaluaciones. Gracias a sus capas claramente definidas, puede recibir peticiones HTTP, coordinar la lógica necesaria y persistir los datos, además de interactuar con servicios externos para validar información relacionada con usuarios y parkings.
 
-<img src="assets/chapter-4/review-bc-component-backend.png" alt="review bc component backend image" height="350px">
-
-<div style="page-break-after: always;"></div>
+<img src="assets/chapter-4/review-bc-component-backend.png" alt="review bc component backend image" width="1000px">
 
 - **WebApp**
 
 El diagrama de componentes del Review Bounded Context abarca los elementos responsables de la gestión de reseñas de usuarios sobre estacionamientos y reservas, incluyendo el Review Card Component que muestra reseñas individuales y el Review List Component que permite listar, ordenar y filtrar reseñas, todo gestionado por el ReviewService, el cual administra la lógica y las operaciones de reseñas en conjunto con el ReviewAssembler, encargado de transformar los datos entre backend y frontend para una correcta visualización y manipulación.
 
-<img src="assets/chapter-4/review-bc-component-webapp.png" alt="review bc component webapp image" height="350px">
+<img src="assets/chapter-4/review-bc-component-webapp.png" alt="review bc component webapp image" width="1000px">
 
 - **MobileApp**
 
 El diagrama de componentes del bounded context Review presenta los componentes de la aplicación móvil responsables de la gestión de opiniones y calificaciones de los conductores sobre estacionamientos. Contiene widgets para mostrar reseñas individuales y listados ordenables y filtrables, todos gestionados por el ReviewService, que centraliza la lógica de negocio y la comunicación con el backend. El ReviewAssembler convierte los datos entre estructuras de backend y modelos de presentación, garantizando coherencia y formato adecuado en la aplicación. La interacción con la API RESTful se realiza mediante peticiones HTTPS con contenido en JSON.
 
-<img src="assets/chapter-4/review-bc-component-mobile.png" alt="review bc component mobile image" height="350px">
-
-<div style="page-break-after: always;"></div>
+<img src="assets/chapter-4/review-bc-component-mobile.png" alt="review bc component mobile image" width="1000px">
 
 ##### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2799,9 +2928,7 @@ El diagrama de base de datos del bounded context **Review** muestra tres tablas 
 
 Las relaciones refuerzan la integridad referencial: cada reseña (`reviews`) apunta a un usuario y a un parking, garantizando que solo puedan existir reseñas para usuarios y parkings válidos.
 
-<img src="assets/chapter-4/bc-reviews-diagramabasededatos.png" alt="Review database image" height="300px">
-
-<div style="page-break-after: always;"></div>
+<img src="assets/chapter-4/bc-reviews-diagramabasededatos.png" alt="Review database image">
 
 #### 4.2.6. Bounded Context: Notification
 
@@ -2904,29 +3031,25 @@ Interfaz de mensajería encargada de enviar notificaciones a dispositivos median
 | ----------------------------------- | --------------------------------------------------- |
 | `send(NotificationMessage message)` | Envía una notificación push al dispositivo destino. |
 
-<div style="page-break-after: always;"></div>
-
 ##### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
 
 - **Backend**
 
 El Notification Bounded Context es el encargado del manejo de notificaciones dentro del sistema, este contexto permite a los usuarios recibir alertas y mensajes relevantes relacionados con reservas, pagos o eventos. Sus componentes están organizados para aceptar solicitudes, procesar lógica de envío y gestionar la persistencia de notificaciones.
 
-<img src="assets/chapter-4/notification-bc-component-backend.png" alt="notification bc component backend image" height="350px">
+<img src="assets/chapter-4/notification-bc-component-backend.png" alt="notification bc component backend image" width="1000px">
 
 - **WebApp**
 
 El diagrama de componentes de la Web Application en el bounded context de Notificaciones representa los elementos que gestionan la visualización y recuperación de notificaciones en el frontend web de SmartParking. Incluye componentes como NotificationComponent (interfaz de usuario), NotificationService (lógica para acceder al backend) y NotificationAssembler (utilitario que transforma los modelos del backend a modelos de vista).
 
-<img src="assets/chapter-4/notification-bc-component-webapp.png" alt="notification bc component webapp image" height="350px">
+<img src="assets/chapter-4/notification-bc-component-webapp.png" alt="notification bc component webapp image" width="1000px">
 
 - **MobileApp**
 
 La arquitectura de la aplicación móvil para el contexto de Notificaciones refleja la estructura en capas del frontend Flutter. Comienza con NotificationScreen, el componente de interfaz que presenta las notificaciones al usuario. Esta pantalla delega el control de estado a NotificationBloc, que gestiona los eventos y estados asociados. A su vez, este interactúa con NotificationApiService, el cual comunica con el backend REST y utiliza NotificationAssembler para adaptar los datos.
 
-<img src="assets/chapter-4/notification-bc-component-mobile.png" alt="notification bc component mobile image" height="350px">
-
-<div style="page-break-after: always;"></div>
+<img src="assets/chapter-4/notification-bc-component-mobile.png" alt="notification bc component mobile image" width="1000px">
 
 ##### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2945,9 +3068,7 @@ El diagrama de base de datos del bounded context **Notifications** muestra dos t
 
 La clave foránea `notifications.user_id` asegura que cada notificación esté asociada a un usuario existente, facilitando el seguimiento y filtrado de notificaciones por destinatario.
 
-<img src="assets/chapter-4/bc-notification-diagramabasededatos.png" alt="Notification database image" height="300px">
-
-<div style="page-break-after: always;"></div>
+<img src="assets/chapter-4/bc-notification-diagramabasededatos.png" alt="Notification database image">
 
 #### 4.2.7. Bounded Context: Device Management
 
@@ -3261,27 +3382,23 @@ Gestiona la persistencia de edge servers, permitiendo verificar existencia y con
 |    existsByServerId(String)    | Verifica si un edge server con un identificador dado ya existe en la base de datos. |
 | findByParkingIdParkingId(Long) |    Recupera la lista de edge servers asignados a un estacionamiento específico.     |
 
-<div style="page-break-after: always;"></div>
-
 ##### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
 
 - **Backend**
 
 El diagrama de componentes del Device Management API organiza su lógica en cuatro capas: Domain, Application, Infrastructure e Interfaces, que gestionan las reglas de negocio, casos de uso, persistencia de datos y la exposición de operaciones mediante HTTP. Incluye además un Device Context Facade que permite a otros bounded contexts acceder a funcionalidades específicas. La comunicación con la base de datos se realiza vía JDBC y las aplicaciones cliente interactúan a través de JSON/HTTPS.
 
-<img src="assets/chapter-4/device-bc-component-backend.png" alt="device bc component backend image" height="350px">
+<img src="assets/chapter-4/device-bc-component-backend.png" alt="device bc component backend image" width="1000px">
 
 - **WebApp**
 
 El diagrama de componentes del Device Management Frontend presenta una interfaz web con el Device Table Component, que muestra y gestiona dispositivos registrados, y el Device Monitoring Component, que supervisa su estado en tiempo real. Ambos se apoyan en los servicios Device Service y Edge Server Service para la lógica de gestión y control, delegando a Device Assembler la transformación de datos entre backend y frontend.
 
-<img src="assets/chapter-4/device-bc-component-webapp.png" alt="device bc component webapp image" height="350px">
+<img src="assets/chapter-4/device-bc-component-webapp.png" alt="device bc component webapp image" width="1000px">
 
 - **Mobile**
 
 No aplica para este caso
-
-<div style="page-break-after: always;"></div>
 
 ##### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -3295,9 +3412,7 @@ El diagrama muestra las entidades ParkingSpot e IoTDevice con sus atributos y m�
 
 El esquema de base de datos detalla las tablas parking_spots e iot_devices, sus campos y claves foráneas, reflejando la estructura persistente del dominio para registrar dispositivos asociados a espacios de estacionamiento.
 
-<img src="assets/chapter-4/bc-iot-diagramabasededatos.png" alt="Iot database image" height="300px">
-
-<div style="page-break-after: always;"></div>
+<img src="assets/chapter-4/bc-iot-diagramabasededatos.png" alt="Iot database image">
 
 #### 4.2.8. Bounded Context: Payment
 
@@ -3412,7 +3527,7 @@ Repositorio encargado de gestionar las operaciones de persistencia para el aggre
 
 Payment Bounded Context es el responsable de gestionar los pagos dentro de SmartParking; este contexto permite realizar transacciones seguras, coordinar la lógica asociada y almacenar los datos financieros necesarios. Las capas de interfaz, aplicación, dominio e infraestructura trabajan juntas para ofrecer un procesamiento confiable.
 
-<img src="assets/chapter-4/payment-bc-component-backend.png" alt="payment bc component backend image" height="350px">
+<img src="assets/chapter-4/payment-bc-component-backend.png" alt="payment bc component backend image" width="1000px">
 
 ##### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -3426,7 +3541,7 @@ El diagrama de clases muestra cómo se relacionan las entidades Payment y Paymen
 
 El diagrama de base muestra la tabla `payments` y `payment_methods`, así como la relación entre estas.
 
-<img src="assets/chapter-4/bc-payment-diagramabasededatos.png" alt="Payment database image" height="300px">
+<img src="assets/chapter-4/bc-payment-diagramabasededatos.png" alt="Payment database image">
 
 <div style="page-break-after: always;"></div>
 
@@ -3452,12 +3567,16 @@ La estructura tipográfica se organiza en niveles jerárquicos: **headings** (t�
 
 <img src="assets/chapter-5/Tipografia2.png" alt="Tipografia2" height="500px">
 
+<br>
+
 **Colores**  
 La paleta cromática de ParkeoYa integra gradientes de azul, turquesa y verde. Esta combinación simboliza confiabilidad tecnológica y eficiencia en movilidad urbana:
 
 <img src="assets/chapter-5/ColoresPrincipales.png" alt="ColoresPrincipales" height="500px">
 
 <img src="assets/chapter-5/PaletaDeColores.png" alt="Colores" height="500px">
+
+<br>
 
 **Espaciado**
 El sistema de espaciado sigue una escala base de 4px para mantener un ritmo visual armonioso:
@@ -3569,11 +3688,15 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 En esta sección se mostrarán los wireframes en pantalla Desktop y mobile de la Landing Page.
 
+<div style="page-break-after: always;"></div>
+
 **Desktop**
 
 - **Sección Inicio:**
 
 <img src="assets/chapter-5/WireframesLandingInicio.png" alt="Wireframes Landing Inicio">
+
+<br>
 
 - **Sección Sobre Nosotros:**
 
@@ -3583,21 +3706,31 @@ En esta sección se mostrarán los wireframes en pantalla Desktop y mobile de la
 
 <img src="assets/chapter-5/WireframesLandingCaracterisiticas.png" alt="Wireframes Landing Características">
 
+<div style="page-break-after: always;"></div>
+
 - **Sección Resultados:**
 
 <img src="assets/chapter-5/WireframesLandingResultados.png" alt="Wireframes Landing Resultados">
+
+<div style="page-break-after: always;"></div>
 
 - **Sección Beneficios:**
 
 <img src="assets/chapter-5/WireframesLandingBeneficios.png" alt="Wireframes Landing Beneficios">
 
+<div style="page-break-after: always;"></div>
+
 - **Sección Reseñas Y Contacto:**
 
 <img src="assets/chapter-5/WireframesLandingReseñas.png" alt="Wireframes Landing Reseñas">
 
+<br>
+
 - **Sección Footer:**
 
 <img src="assets/chapter-5/WireframesLandingFooter.png" alt="Wireframes Landing Footer">
+
+<div style="page-break-after: always;"></div>
 
 **Mobile**
 
@@ -3619,13 +3752,19 @@ A continuación se mostrarán los Mockups de la Landing Page tanto para Desktop 
 
 <img src="assets/chapter-5/LandingCaracterisiticas.png" alt="Landing Características">
 
+<div style="page-break-after: always;"></div>
+
 - **Sección Resultados:** En esta sección se muestran los resultados que algunos de nuestros usuarios obtuvieron usando la aplicación.
+
+<div style="page-break-after: always;"></div>
 
 <img src="assets/chapter-5/LandingResultados.png" alt="Landing Resultados">
 
 - **Sección Beneficios:** En esta sección se muestran los beneficios que se puede obtener usando la aplicación.
 
 <img src="assets/chapter-5/LandingBeneficios.png" alt="Landing Beneficios">
+
+<div style="page-break-after: always;"></div>
 
 - **Sección Reseñas Y Contacto:** En esta sección se muestran algunas reseñas de nuestros usuarios y un apartado de contacto.
 
@@ -3634,6 +3773,8 @@ A continuación se mostrarán los Mockups de la Landing Page tanto para Desktop 
 - **Sección Footer:** En esta sección se muestra el Footer con enlaces de Producto, Soporte y Empresa.
 
 <img src="assets/chapter-5/LandingFooter.png" alt="Landing Footer">
+
+<div style="page-break-after: always;"></div>
 
 **Mobile**
 
@@ -3646,6 +3787,8 @@ A continuación se mostrarán los Mockups de la Landing Page tanto para Desktop 
 Para la aplicación de ParkeoYa, se han diseñado los bocetos de las pantallas que luego serán diseñadas más a detalle. A continuación, se presentan los wireframes de las pantallas de las aplicaciones web y móvil.
 
 Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=1-5&t=uBOKGos6nDJyb5z5-1)
+
+<div style="page-break-after: always;"></div>
 
 **App Web - Dueño de Playa de Estacionamiento**
 
@@ -3665,6 +3808,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/WebLoginWireframe.png" alt="Web Login Wireframes">
 
+<br>
+
 - **Dashboard**
 
 <img src="assets/chapter-5/WebDashboardWireframe.png" alt="Web Dashboard Wireframes">
@@ -3673,17 +3818,25 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/WebEstacionamientosWireframe.png" alt="Web Estacionamientos Wireframes">
 
+<div style="page-break-after: always;"></div>
+
 - **Reservas**
 
 <img src="assets/chapter-5/WebReservasWireframe.png" alt="Web Reservas Wireframes">
+
+<div style="page-break-after: always;"></div>
 
 - **Finanzas**
 
 <img src="assets/chapter-5/WebFinanzasWireframe.png" alt="Web Finanzas Wireframes">
 
+<div style="page-break-after: always;"></div>
+
 - **Reseñas**
 
 <img src="assets/chapter-5/WebReseñasWireframe.png" alt="Web Reseñas Wireframes">
+
+<div style="page-break-after: always;"></div>
 
 - **Configuracion**
 
@@ -3695,6 +3848,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/WebConfiguracion4Wireframe.png" alt="Web Configuracion 4 Wireframes">
 
+<div style="page-break-after: always;"></div>
+
 **App Móvil - Conductor**
 
 - **Autenticación**
@@ -3705,6 +3860,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/WireframesHomeMovil.png" alt="WireframesHomeMovil">
 
+<div style="page-break-after: always;"></div>
+
 - **Perfil**
 
 <img src="assets/chapter-5/WireframesPerfilMovil.png" alt="WireframesPerfilMovil">
@@ -3713,13 +3870,19 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/WireframesBusquedaMovil.png" alt="WireframesBusquedaMovil">
 
+<div style="page-break-after: always;"></div>
+
 - **Reservar Estacionamiento**
 
 <img src="assets/chapter-5/WireframesReservaMovil.png" alt="WireframesReservaMovil">
 
+<br>
+
 - **Gestión de Reserva**
 
 <img src="assets/chapter-5/WireframesDetallesReservaMovil.png" alt="WireframesDetallesReservaMovil">
+
+<div style="page-break-after: always;"></div>
 
 #### 5.4.2. Applications Wireflow Diagrams
 
@@ -3733,6 +3896,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/WebWireFlow1.png" alt="WebWireFlow1">
 
+<br>
+
 - **Navegación en Sidebar**
 
   - **User Goal:** Como dueño de una playa de estacionamiento, quiero poder navegar entre las distitnas opciones de la Sidebar.
@@ -3741,6 +3906,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/WebWireFlow2.png" alt="WebWireFlow2">
 
+<br>
+
 - **Configurar Estacionamiento, Perfil, Notificaciones y Seguridad**
 
   - **User Goal:** Como dueño de una playa de estacionamiento, quiero poder configurar los datos de mi cuenta, de mi estacionamiento y preferencias en la aplicación .
@@ -3748,6 +3915,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
   - **Descripción:** Cuando el usuario se encuentra en la pantalla de Configuraciones y quiere configurar algo en especifico, solo deberá elegir el bóton que indique el apartado a modificar.
 
 <img src="assets/chapter-5/WebWireFlow3.png" alt="WebWireFlow3">
+
+<div style="page-break-after: always;"></div>
 
 **App Móvil - Conductor**
 
@@ -3758,6 +3927,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/MobileWireFlow1.png" alt="MobileWireFlow1">
 
+<div style="page-break-after: always;"></div>
+
 - **Recuperación de Contraseña**
 
   - **User Goal:** Como conductor, quiero poder recuperar mi contraseña con mi correo electrónico.
@@ -3765,6 +3936,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
   - **Descripción:** Cuando el usuario se encuentra en la pantalla de inicio de sesión y no recuerda su contraseña, deberá presionar "¿Olvidaste tu Contraseña?", escribir su correo, colocar el codigo de verificación, crear una nueva contraseña, repetirla, confirmar e iniciar sesión con la contraseña actualizada.
 
 <img src="assets/chapter-5/MobileWireFlow2.png" alt="MobileWireFlow2">
+
+<br>
 
 - **Añadir Auto**
 
@@ -3774,6 +3947,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/MobileWireFlow3.png" alt="MobileWireFlow3">
 
+<br>
+
 - **Editar Perfil**
 
   - **User Goal:** Como conductor, quiero poder editar mi perfil en la aplicación.
@@ -3781,6 +3956,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
   - **Descripción:** Cuando el usuario se encuentra en la pantalla de perfil y quiere editar sus datos personales, deberá dar click en "Editar Perfil", modificar sus datos y dar click en "Guardar Cambios".
 
 <img src="assets/chapter-5/MobileWireFlow6.png" alt="MobileWireFlow6">
+
+<br>
 
 - **Reserva de Estacionamiento**
 
@@ -3790,6 +3967,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/MobileWireFlow4.png" alt="MobileWireFlow4">
 
+<br>
+
 - **Visualización de Reservas y Detalles**
 
   - **User Goal:** Como conductor, quiero poder visualizar mis reservas activas y pasadas en la aplicación.
@@ -3797,6 +3976,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
   - **Descripción:** Cuando el usuario se encuentra en la pantalla de Reservas y da click en "Ver detalles", podrá visualizar los detalles de la reserva .
 
 <img src="assets/chapter-5/MobileWireFlow5.png" alt="MobileWireFlow5">
+
+<br>
 
 - **Cancelar Reserva**
 
@@ -3806,6 +3987,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/MobileWireFlow7.png" alt="MobileWireFlow7">
 
+<br>
+
 - **Ver Reseñas y Añadir Reseña a un Parqueo**
 
   - **User Goal:** Como conductor, quiero poder ver las reseñas de un parqueo y escribir una reseña.
@@ -3813,6 +3996,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
   - **Descripción:** Cuando el usuario ha seleccionado un parqueo en el mapa, deberá dar click en "Ver Reseñas" para visualizar las reseñas y si quiere escribir una reseña deberá dar click en el botón "Hacer una Reseña", colocar el numero de estrellas y comentario y dar click en el botón "Enviar Reseña".
 
 <img src="assets/chapter-5/MobileWireFlow8.png" alt="MobileWireFlow8">
+
+<div style="page-break-after: always;"></div>
 
 #### 5.4.3. Applications Mock-ups
 
@@ -3838,25 +4023,37 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/WebLoginMockup.png" alt="Web Login Mockup">
 
+<div style="page-break-after: always;"></div>
+
 - **Dashboard:** Pantalla de Visualización de Reportes y Accesos rápidos.
 
 <img src="assets/chapter-5/WebDashboardMockup.png" alt="Web Dashboard Mockup">
+
+<div style="page-break-after: always;"></div>
 
 - **Estacionamientos:** Pantalla de Visualización de estacionamientos y sus estados en tiempo real.
 
 <img src="assets/chapter-5/WebEstacionamientosMockup.png" alt="Web Estacionamientos Mockup">
 
+<div style="page-break-after: always;"></div>
+
 - **Reservas:** Pantalla de visualización de Reservas de los clientes y sus estados.
 
 <img src="assets/chapter-5/WebReservasMockup.png" alt="Web Reservas Mockup">
+
+<div style="page-break-after: always;"></div>
 
 - **Finanzas:** Pantalla de visualización de los ingresos generados con la aplicación.
 
 <img src="assets/chapter-5/WebFinanzasMockup.png" alt="Web Finanzas Mockup">
 
+<div style="page-break-after: always;"></div>
+
 - **Reseñas:** Pantalla de visualización de Reseñas de la Playa de Estacionamiento hechas por los conductores.
 
 <img src="assets/chapter-5/WebReseñasMockup.png" alt="Web Reseñas Mockup">
+
+<div style="page-break-after: always;"></div>
 
 - **Configuración:** Pantallas de configuración de estacionamientos, perfil, notificaciones y seguridad.
 
@@ -3868,15 +4065,21 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/WebConfiguracion4Mockup.png" alt="Web Configuracion 4 Mockup">
 
+<div style="page-break-after: always;"></div>
+
 **App Móvil - Conductor**
 
 - **Autenticación:** Pantallas de Registro de nuevo usuario, verificación, inicio de sesión y cambio de contraseña.
 
 <img src="assets/chapter-5/MockupsAutenticaciónMovil.png" alt="MockupsAutenticaciónMovil">
 
+<br>
+
 - **Home:** Pantalla Home que dirigira al usuario al resto de funcionalidades
 
 <img src="assets/chapter-5/MockupsHomeMovil.png" alt="MockupsHomeMovil">
+
+<div style="page-break-after: always;"></div>
 
 - **Perfil:** Pantallas que permitirán al usuario ver y modificar sus datos personales.
 
@@ -3885,7 +4088,9 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 - **Busqueda de Estacionamiento:** Pantallas donde el usuario podrá encontrar playas de estacionamiento en el mapa y ver las reseñas de cada uno de ellos.
 
 <img src="assets/chapter-5/MockupsBusquedaMovil.png" alt="MockupsBusquedaMovil">
-  
+
+<div style="page-break-after: always;"></div>
+
 - **Reservar Estacionamiento:** Pantallas que muestran el proceso de reserva de un estaciónamiento en una playa seleccionada.
   
 <img src="assets/chapter-5/MockupsReservaMovil.png" alt="MockupsReservaMovil">
@@ -3893,7 +4098,9 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 - **Gestión de Reserva:** Pantallas que permitirán al usuario ver y cancelar sus reservas realizadas.
 
 <img src="assets/chapter-5/MockupsDetallesReservaMovil.png" alt="MockupsDetallesReservaMovil">
-  
+
+<div style="page-break-after: always;"></div>
+
 #### 5.4.4. Applications User Flow Diagrams
 
 **App Web - Dueño de Playa de Estacionamiento**
@@ -3914,6 +4121,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/WebUserFlow2.png" alt="WebUserFlow2">
 
+<div style="page-break-after: always;"></div>
+
 - **Configurar Estacionamiento, Perfil, Notificaciones y Seguridad**
 
   - **User Goal:** Como dueño de una playa de estacionamiento, quiero poder configurar los datos de mi cuenta, de mi estacionamiento y preferencias en la aplicación .
@@ -3931,6 +4140,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/MobileUserFlow1.png" alt="MobileUserFlow1">
 
+<div style="page-break-after: always;"></div>
+
 - **Recuperación de Contraseña**
 
   - **User Goal:** Como conductor, quiero poder recuperar mi contraseña con mi correo electrónico.
@@ -3938,6 +4149,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
   - **Descripción:** Cuando el usuario se encuentra en la pantalla de inicio de sesión y no recuerda su contraseña, deberá presionar "¿Olvidaste tu Contraseña?", escribir su correo, colocar el codigo de verificación, crear una nueva contraseña, repetirla, confirmar e iniciar sesión con la contraseña actualizada.
 
 <img src="assets/chapter-5/MobileUserFlow2.png" alt="MobileUserFlow2">
+
+<div style="page-break-after: always;"></div>
 
 - **Añadir Auto**
 
@@ -3947,6 +4160,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/MobileUserFlow3.png" alt="MobileUserFlow3">
 
+<div style="page-break-after: always;"></div>
+
 - **Editar Perfil**
 
   - **User Goal:** Como conductor, quiero poder editar mi perfil en la aplicación.
@@ -3954,6 +4169,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
   - **Descripción:** Cuando el usuario se encuentra en la pantalla de perfil y quiere editar sus datos personales, deberá dar click en "Editar Perfil", modificar sus datos y dar click en "Guardar Cambios".
 
 <img src="assets/chapter-5/MobileUserFlow6.png" alt="MobileUserFlow6">
+
+<div style="page-break-after: always;"></div>
 
 - **Reserva de Estacionamiento**
 
@@ -3963,6 +4180,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/MobileUserFlow4.png" alt="MobileUserFlow4">
 
+<div style="page-break-after: always;"></div>
+
 - **Visualización de Reservas y Detalles**
 
   - **User Goal:** Como conductor, quiero poder visualizar mis reservas activas y pasadas en la aplicación.
@@ -3970,6 +4189,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
   - **Descripción:** Cuando el usuario se encuentra en la pantalla de Reservas y da click en "Ver detalles", podrá visualizar los detalles de la reserva .
 
 <img src="assets/chapter-5/MobileUserFlow5.png" alt="MobileUserFlow5">
+
+<div style="page-break-after: always;"></div>
 
 - **Cancelar Reserva**
 
@@ -3979,6 +4200,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
 
 <img src="assets/chapter-5/MobileUserFlow7.png" alt="MobileUserFlow7">
 
+<div style="page-break-after: always;"></div>
+
 - **Ver Reseñas y Añadir Reseña a un Parqueo**
 
   - **User Goal:** Como conductor, quiero poder ver las reseñas de un parqueo y escribir una reseña.
@@ -3986,6 +4209,8 @@ Link del Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/Park
   - **Descripción:** Cuando el usuario ha seleccionado un parqueo en el mapa, deberá dar click en "Ver Reseñas" para visualizar las reseñas y si quiere escribir una reseña deberá dar click en el botón "Hacer una Reseña", colocar el numero de estrellas y comentario y dar click en el botón "Enviar Reseña".
 
 <img src="assets/chapter-5/MobileUserFlow8.png" alt="MobileUserFlow8">
+
+<div style="page-break-after: always;"></div>
 
 ### 5.5. Applications Prototyping
 
@@ -4003,6 +4228,8 @@ Web Aplication
 Link del Prototipo Web: [Prototipo](https://www.figma.com/proto/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=241-2&t=GirfGc0125DKUPcc-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=241%3A2)
 
 Link del video del Prototipo Web: [Video Prototipo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202121935_upc_edu_pe/Eb_z7dFSZD9DlsjUrBBd8_QBX2a72YWYmH_9FKsiSR0saA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=2g4rGx)
+
+<div style="page-break-after: always;"></div>
 
 ## Capítulo VI: Product Implementation, Validation & Deployment
 
@@ -4168,6 +4395,8 @@ Una vez que se tiene listo el proyecto en React, se ejecuta el comando **npm run
 
 <img src="assets/chapter-6/step1-before.png" alt="npm run build">
 
+<br>
+
 <img src="assets/chapter-6/step2-preview.png" alt="d">
 
 Luego entro a la plataforma que usare para desplegar mi Landing Page que en este caso será **Netlify**. Entro a la pagina e inicio sesion con Github para que automaticamente se importen los repositorios que tengo, incluido el de la Landing Page que voy a desplegar
@@ -4279,7 +4508,6 @@ En esta sección, se presentan los commits realizados en el repositorio de la la
 
 [https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend](https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend)
 
----
 
 | **Repository**                                                       | **Branch** | **Commit Id**                              | **Commit Message**                                                                                                                                                                                                                                                                                        | **Commit Message Body** | **Committed on (Date)** |
 | -------------------------------------------------------------------- | ---------- | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | ----------------------- |
@@ -4292,7 +4520,6 @@ En esta sección, se presentan los commits realizados en el repositorio de la la
 |                                                                      |            | `54023ffeb3c53ec4f71b1cfc7a2e5199e03c161e` | [feat: add onboarding steps for capacity, schedule, basic info, pricing, and location pages](https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend/commit/54023ffeb3c53ec4f71b1cfc7a2e5199e03c161e "feat: add onboarding steps for capacity, schedule, basic info, pricing, and location pages")           | -                       | 6 Octubre, 2025         |
 |                                                                      |            | `f35263b605c3a2b02399b4762a928c5a7ae6f6bf` | [feat: update UI colors and styles across various components for consistency](https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend/commit/f35263b605c3a2b02399b4762a928c5a7ae6f6bf "feat: update UI colors and styles across various components for consistency")                                         | -                       | 7 Octubre, 2025         |
 
----
 
 ##### 6.2.1.5. Testing Suite Evidence for Sprint Review
 
@@ -4323,11 +4550,13 @@ Este repositorio contiene la suite completa de pruebas para ParkeoYa, incluyendo
 
 En este sprint logramos, como primera fase de nuestro producto final, desarrollar nuestra landing page usando React y la capa frontend de nuestra web en NextJS. También se implementó un diseño responsive para dispositivos Android e iOS, y el respectivo despliegue de ambos productos se realizó en Netlify.
 
-### Landing Page
+**Landing Page**
 
 <img src="assets/chapter-6/landingpage.png" alt="Landing Page">
 
-### Frontend Web
+<br>
+
+**Frontend Web**
 
 <img src="assets/chapter-6/login.png" alt="Login">
 <img src="assets/chapter-6/register.png" alt="Register">
@@ -4351,7 +4580,7 @@ En el alcance del Sprint 1 se logró desarrollar la landing page y el frontend w
 
 Se adjuntan links y procedimiento del despliegue (realizado en Netfliy y Vercel) tanto del Landing page como de la capa Frontend de la App Web:
 
-#### Landing Page
+**Landing Page**
 
 https://parkeoya-lorem-ipsum.netlify.app/
 
@@ -4381,7 +4610,7 @@ Y abajo de ese resumend del despliegue, podremos ver el log del despliegue y ver
 
 <img src="assets/chapter-6/deploy7.png" alt="Imagen deploy paso 7">
 
-#### Frontend Web
+**Frontend Web**
 
 https://parkeoya.vercel.app/register
 
@@ -4502,6 +4731,14 @@ A continuación se presentan los videos generados como parte del desarrollo del 
 ⦁ Diagramas de contexto, contenedores, componentes: [Diagramas C4](https://online.visual-paradigm.com/share.jsp?id=333233333733382d34)
 
 ⦁ Link Landing Page: [Link de despliegue Landing Page](https://parkeoya-lorem-ipsum.netlify.app/)
+
+⦁	Figma: [Figma](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=0-1&t=JtKhGofsZ7GZ9Q0R-1)
+
+⦁	Trello: [Link de Trello](https://trello.com/invite/b/68e2dcc9e1d60f856ece252e/ATTI08db8008dc8b850e785c7fa6712c707bB2AC1B2E/sprint-1)
+
+⦁	Link del Prototipo: [Prototipo](https://www.figma.com/proto/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=2-110&t=javn3IzdBb8xNEo2-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=2%3A110&show-proto-sidebar=1)
+
+⦁	Link del video del Prototipo: [Prototipo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202017267_upc_edu_pe/ETj3uMZWKpBGgPWEeueSTXoBCMKoZNGsSzuRr0ZumT5Sew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=w7hDFP)
 
 ⦁ Link Frontend Web: [Link de despliegue Frontend Web](https://parkeoya.vercel.app/login)
 
