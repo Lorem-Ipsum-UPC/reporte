@@ -3828,6 +3828,29 @@ Y abajo de ese resumend del despliegue, podremos ver el log del despliegue y ver
 
 https://parkeoya.vercel.app/register
 
+Para configurar el despliegue del web aplication, seguimos los pasos detallados a continuación utilizando Vercel y con CI como plataforma:
+
+Primero se accedemos a vercel.com y agregamos un nuevo proyecto:
+
+<img src="assets/chapter-6/deploy-web-1.png" alt="Imagen deploy web paso 1">
+
+Luego agregamos la organización de GitHub:
+
+<img src="assets/chapter-6/deploy-web-2.png" alt="Imagen deploy paso 2">
+
+Y buscamos el repositorio del frontend web:
+
+<img src="assets/chapter-6/deploy-web-3.png" alt="Imagen deploy paso 3">
+
+Luego verificamos que importe la rama correcta del repositorio de GitHub y el nombre del proyecto. Por ultimo le damos a Deploy.
+
+<img src="assets/chapter-6/deploy-web-4.png" alt="Imagen deploy paso 4">
+
+Listo! El deploy fue un exito [ParkeoYa](https://parkeoya.vercel.app/login)
+
+<img src="assets/chapter-6/deploy-web-5.png" alt="Imagen deploy paso 5">
+
+
 ##### 6.2.1.9. Team Collaboration Insights during Sprint
 
 **Distribución de aportes en el informe:**
@@ -3844,7 +3867,7 @@ Para el desarrollo del informe y aplicaciones en este sprint se distribuyó los 
 | **Barbara**    | Sprint planning 1, Style Guidelines, Web and Landing Page Wireframes and Mockups, Design App Prototyping, Source Code Management, User Flows, Wireflows, Sprint Backlog 1  |
 | **Alessandro** | Sprint 1, Source Code Management, Software Deployment Configuration, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Team Collaboration Insights during Sprint, Landing Page and App Web Development, |
 | **Nelson**     | Sprint 1, testing suite evidence for sprint review |
-| **Juan**       |                                        |
+| **Juan**       | Sprint 1, Software Deployment Evidence for Sprint Review (frontend web), Web Aplication Wireframes, Mockups and video prototyping web |
 
 **Evidencia del commit:**
 
