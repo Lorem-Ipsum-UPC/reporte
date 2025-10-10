@@ -3424,6 +3424,17 @@ El diagrama de base muestra la tabla `payments` y `payment_methods`, así como l
 
 <div style="page-break-after: always;"></div>
 
+
+#### 4.3. Class Diagrams for Web/Mobile Application
+Esta sección presenta los diagramas de clases detallados que definen la arquitectura de software de ParkeoYa, separados por plataforma según las responsabilidades específicas de cada tipo de usuario. Los diagramas han sido diseñados siguiendo principios de diseño orientado a objetos, patrones arquitectónicos modernos y mejores prácticas de desarrollo de software.
+
+**Class Diagram for Application Web**
+<img width="2394" height="2449" alt="AppwebDClases" src="https://github.com/user-attachments/assets/131cb96c-eed2-4e80-8e81-7fd23915e7d7" />
+
+**Class Diagram for Application mobile**
+<img width="4096" height="1647" alt="mobileappdclasesv1" src="https://github.com/user-attachments/assets/ff5bf4d2-7915-4b02-8bfa-56dd2aca526e" />
+
+
 ## Capítulo V: Solution UI/UX Design
 
 ### 5.1. Style Guidelines
