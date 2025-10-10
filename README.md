@@ -4164,11 +4164,11 @@ Link del video del Prototipo Web: [Video Prototipo](https://upcedupe-my.sharepoi
 
 La administración y estructuración de las modificaciones del código se implementaron mediante una organización corporativa en la plataforma GitHub, estableciendo repositorios diferenciados por componente del sistema:
 
-**Organización:** https://github.com/Lorem-Ipsum-UPC  
-**Repositorio Landing Page:** https://github.com/Lorem-Ipsum-UPC/Landing-Page  
-**Repositorio Aplicación Web Frontend:** https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend
+**Organización:** [https://github.com/Lorem-Ipsum-UPC](https://github.com/Lorem-Ipsum-UPC)  
+**Repositorio Landing Page:** [https://github.com/Lorem-Ipsum-UPC/Landing-Page](https://github.com/Lorem-Ipsum-UPC/Landing-Page)  
+**Repositorio Aplicación Web Frontend:** [https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend](https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend)  
 **Repositorio Aplicación Móvil Frontend:** En desarrollo  
-**Repositorio Backend:** En desarrollo
+**Repositorio Backend:** [https://github.com/Lorem-Ipsum-UPC/parkeoya-backend](https://github.com/Lorem-Ipsum-UPC/parkeoya-backend)  
 
 **Estructura de Ramificación**  
 Cada repositorio implementa una estrategia de ramificación basada en GitFlow:
@@ -4635,4 +4635,5 @@ A continuación se presentan los videos generados como parte del desarrollo del 
 
 ⦁ Video Exposición TB1: [Expo TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/Ea50aorvEeNKgYw_99e88oQBsCoptbHVCNW4Ae-fnSQ46A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Gsjoh)
 
-⦁ Video Exposición TP: [Expo TP]()
+⦁ Video Exposición TP: [Expo TP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/EXjfvMZ0IolKhXaCN6kW9g0BvJwc-4tkb4stILLKpblR4w?e=pcUeAz)
+
