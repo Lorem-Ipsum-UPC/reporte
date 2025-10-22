@@ -4579,6 +4579,392 @@ Para el desarrollo del informe y aplicaciones en este sprint se distribuyó los 
 
 <div style="page-break-after: always;"></div>
 
+#### 6.2.2. Sprint 2
+
+##### 6.2.2.1. Sprint Planning 2
+
+| Sprint #                           | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**     |
+| **Date**                           | 21 / 10 / 2025                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Time**                           | 19 : 00 horas                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Location**                       | Discord                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Prepared By**                    | Lorem Ipsum                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Attendees**                      | Calisaya Sánchez, Juan Jesús <br> David Polanco, Alessandro Alonso <br> Espinoza Delgado, Bárbara Antonella <br> Serrano Ircañaupa, Nelson Elias <br> Sotil Vasquez, Tyrone Raí                                                                                                                                                                                                                                               |
+| **Sprint-1 Review Summary**        | Previamente al inicio del Sprint 2, el equipo acordó la asignación de tareas y correcciones a realizar de la entrega anterior.                                                                                                                                                                                                                                                                     |
+| **Sprint-1 Retrospective Summary** | Como puntos de mejora se reconoce la necesidad de que todo el equipo esté comprometido con la realización de las tareas de manera puntual.                                                                                                                                                                                                                         |
+| **Sprint-1 Goal**                  | La meta de este segundo Sprint es terminar la versión final de la aplicación web, realizar una versión inicial de la aplicación móvil y el backend. Esto permitirá que ambos segmentos objetivo puedan probar las aplicaciones, validarlas y opinar sobre ellas, dandonos sugerencias y criticas. |
+| **Sprint-2 Velocity**              | x hours                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Sprint-1 Story Points**          | x                                                                                                                                                                                                                                                                                                                                                                                                                            |
+
+##### 6.2.1.2. Aspect Leaders and Collaborators
+
+Con el fin de garantizar una comunicación efectiva y una ejecución eficiente de las tareas, se desarrolló la **matriz LACX (Leadership and Collaboration Matrix)**, la cual permite identificar qué integrante del equipo lidera cada componente del proyecto y quiénes colaboran en su desarrollo.
+
+En esta segunda iteración se abordaron los siguientes aspectos principales:
+
+- **Aspect Name 1:** Web Móvil Frontend (Conductores)
+- **Aspect Name 2:** Web App Frontend (Dueños)
+- **Aspect Name 3:** RESTful API - Backend Básico
+- **Aspect Name 4:** Infraestructura y Despliegue
+- **Aspect Name 5:** Documentación
+
+| Team Member                             | GitHub User | Aspect Name 1 | Aspect Name 2 | Aspect Name 3 | Aspect Name 4 | Aspect Name 5 |
+| --------------------------------------- | :---------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
+| **Calisaya Sánchez, Juan Jesús**        | JuanCali999 |       C       |       L       |       C       |       C       |       C       |
+| **David Polanco, Alessandro Alonso**    | Alesso2805  |       C       |       L       |       C       |       C       |       C       |
+| **Espinoza Delgado, Bárbara Antonella** |  MesSobble  |       C       |       C       |       C       |       C       |       L       |
+| **Serrano Ircañaupa, Nelson Elias**     |  NelsonUPC  |       C       |       C       |       L       |       C       |       C       |
+| **Sotil Vasquez, Tyrone Raí**           |  Tyrone-J   |       L       |       C       |       C       |       C       |       C       |
+
+##### 6.2.2.3. Sprint Backlog 2
+
+Durante este sprint, se trabajó en desarrollar las user stories referentes a la aplicación web, aplicación móvil y backend.
+
+La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables.
+
+<img src="assets/chapter-6.2/TrelloSprint2.png" alt="Trello Sprint2">
+
+Trello: [https://trello.com/b/7BD2h15m/sprint-1](https://trello.com/b/7BD2h15m/sprint-1)
+
+
+
+##### 6.2.2.4. Development Evidence for Sprint Review
+
+En esta sección, se presentan los commits realizados en el repositorio del frontend de la aplicación móvil y en el repositorio del backend en GitHub. Estos commits reflejan el progreso y las mejoras implementadas durante el Sprint 2, proporcionando una visión detallada de las actividades de desarrollo y las contribuciones del equipo.
+
+
+##### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+En esta sección se explica y presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados, para Web Services relacionados con los User Stories especificados en el Sprint.
+
+<div style="page-break-after: always;"></div>
+
+##### 6.2.2.6. Execution Evidence for Sprint Review
+
+
+##### 6.2.2.7. Services Documentation Evidence for Sprint Review
+
+
+##### 6.2.2.8. Software Deployment Evidence for Sprint Review
+
+
+##### 6.2.1.9. Team Collaboration Insights during Sprint
+
+<div style="page-break-after: always;"></div>
+
+## 6.3. Validation Interviews
+### 6.3.1. Diseño de Entrevistas
+
+**Objetivo:**
+Validar si la propuesta de valor y funcionalidades de la aplicación cubren las necesidades reales de los propietarios de estacionamientos y conductores urbanos, y recoger insights para mejorar la usabilidad, percepción y utilidad de la solución antes y durante su implementación.
+
+**Perfil del entrevistado:**  
+Se establecen 2 perfiles distintos de usuarios a entrevistar, que corresponden a los segmentos objetivos clave definidos:
+
+**Conductor urbano**  
+- Uso frecuente del automóvil en zonas urbanas.
+- Ha experimentado dificultad para encontrar estacionamiento.
+- Tiene acceso y usa smartphones habitualmente.
+- Dispuesto a utilizar aplicaciones móviles que le faciliten su día a día.
+
+**Propietario de estacionamiento**  
+- Persona encargada de administrar uno o varios estacionamientos públicos o privados.
+- Con interés en mejorar la eficiencia, visibilidad o rentabilidad de su espacio.
+- Puede tener experiencia limitada en tecnología, pero apertura a soluciones digitales.
+- Tiene contacto diario con la gestión operativa de espacios de parqueo.
+
+**Preguntas para Conductores**
+
+Aqui se le presentará y mostrarpá la aplicación al usuario previamente a realizar las preguntas  
+1. ¿Cúal fue tu primera impresión al ver la aplicación?
+2. ¿Fue fácil para ti ubicar cada funcionalidad de la aplicación?
+3. ¿Te pareció fácil encontrar estacionamientos disponibles en tu zona?
+4. ¿Qué funcionalidades te parecieron más útiles (mapa, reservas, historial, etc.)?
+5. ¿Has utilizado la función de reservas? ¿Cómo fue tu experiencia?
+6. ¿Has realizado pagos desde la app? ¿Qué tan fluido fue el proceso?
+7. ¿Qué tan confiable te parece la información sobre disponibilidad en tiempo real?
+8. ¿Te ha sucedido que la app marcaba un espacio como libre, pero no lo estaba?
+9. ¿Qué función adicional te gustaría ver en la app?
+10. ¿Recomendarías esta aplicación a otros conductores? ¿Por qué?
+
+**Preguntas para Propietarios de Estacionamiento**
+
+Aqui se le presentará y mostrarpá la aplicación al usuario previamente a realizar las preguntas  
+1. ¿Cómo describirías tu experiencia al registrarte y configurar tu estacionamiento por primera vez?
+2. ¿Qué te pareció el proceso de diseño del plano del estacionamiento en la plataforma?
+3. ¿Sientes que puedes controlar fácilmente tus espacios y reservas desde el panel de gestión?
+4. ¿Qué funcionalidades se te hacen más atractivas?
+5. ¿Te parece útil que los conductores reserven espacios con anticipación?
+6. ¿El proceso para visualizar reservas te parece claro y ordenado?
+7. ¿Qué te parece esta aplicación con respecto a tu método de gestion actual?
+8. ¿Qué parte de la experiencia te ha resultado más útil?
+9. ¿Hay algo que te haya generado confusión o frustración?
+10. ¿Qué te gustaría ver en esta aplicación en futuras versiones?
+
+**Justificación de las preguntas**  
+Las preguntas fueron diseñadas para:
+- Validar que las funcionalidades diseñadas resuelven problemas reales, no solo imaginados.
+- Evaluar la experiencia de los usuarios en la aplicación.
+- Medir el grado de satisfacción y disposición a recomendar o pagar, base para el crecimiento orgánico. 
+
+### 6.3.2. Registro de Entrevistas
+
+**Segmento 1**
+
+**Entrevista 1**
+
+**Nombre:** 
+**Edad:** 
+**Distrito:** 
+
+**Tiempo en el video: 0:00:00**
+
+<div style="page-break-after: always;"></div>
+
+**Entrevista 2**
+
+**Nombre:** 
+**Edad:** 
+**Distrito:** 
+
+
+**Tiempo en el video: 0:00:00**
+
+<div style="page-break-after: always;"></div>
+
+**Entrevista 3**
+
+**Nombre:** 
+
+
+**Tiempo en el video: 0:00:00**
+
+<div style="page-break-after: always;"></div>
+
+**Entrevista 4**
+
+**Nombre:**  
+**Edad:** 
+**Distrito:**  
+
+**Tiempo en el video:** 0:00:00
+
+<div style="page-break-after: always;"></div>
+
+**Segmento 2**
+
+**Entrevista 5**
+
+**Nombre:**  
+**Edad:** 
+**Distrito:** 
+
+**Tiempo en el video:** 0:00:00
+
+<div style="page-break-after: always;"></div>
+
+**Entrevista 6**
+
+**Nombre:** 
+**Edad:** 
+**Distrito:** 
+
+**Tiempo en el video:** 00:00:00
+
+<div style="page-break-after: always;"></div>
+
+### 6.3.3. Evaluaciones según heurísticas
+
+**UX Heuristics & Principles Evaluation – ParkeoYa Web App (Panel Propietarios)**
+
+Usability – Inclusive Design – Information Architecture
+
+| **CARRERA**| Ingeniería de Software                 |
+| -----------| ---------------------------------------|
+| CURSO      | Desarrollo de Soluciones IoT           |
+| SECCIÓN    | SI572-2025-2                           |
+| PROFESORES | Todos                                  |
+| AUDITOR    | Equipo Lorem Ipsum                     |
+| CLIENTE(S) | Propietarios de cocheras entrevistados |
+
+**SITE / APP A EVALUAR:** ParkeoYa – Web App (Panel para propietarios)
+
+**TAREAS A EVALUAR**
+
+1. Registro / inicio de sesión
+2. Creación de estacionamiento y diseño del plano
+3. Consulta de ocupación en tiempo real
+4. Alta y anulación de reservas
+5. Modificación de tarifas y descarga de reportes
+6. Revisión de reseñas y comunicación con conductores
+
+**ESCALA DE SEVERIDAD**
+
+| Nivel | Descripción                                                             |
+| ----- | ----------------------------------------------------------------------- |
+| 1 | Problema superficial; arreglar si hay tiempo                                |
+| 2 | Problema menor; prioridad baja para la próxima entrega                      |
+| 3 | Problema mayor; frecuente o bloquea a algunos usuarios                      |
+| 4 | Problema crítico; impide completar la tarea; corregir antes del lanzamiento |
+
+**TABLA RESUMEN**
+
+| # | Problema                                           | Sev. | Heurística / Principio violado           |
+| - | -------------------------------------------------- | ---- | ---------------------------------------- |
+| 1 | Interfaz carga por defecto en inglés               | 3    | Match sistema-mundo real                 |
+| 2 | Editor de plano exige trazar plaza × plaza         | 3    | Flexibilidad & eficiencia · Ayuda & doc. |
+| 3 | Confiabilidad de ocupación en tiempo real incierta | 4    | Visibilidad del estado · Fiabilidad      |
+| 4 | Comisiones de pasarela poco transparentes          | 3    | Ayuda & doc. · Confianza                 |
+| 5 | Sin precio dinámico por franja horaria             | 3    | Compatibilidad con tareas reales         |
+| 6 | Falta chat / promociones a conductores             | 2    | Visibilidad · Experiencias comparables   |
+| 7 | Gestión de sobre-estancia poco clara               | 2    | Prevención de errores                    |
+
+**DESCRIPCIÓN DE PROBLEMAS (≥ 2)**
+
+**Problema #1 – Interfaz por defecto en inglés**
+
+Severidad 3 · Match sistema-mundo real
+
+Los cuatro propietarios cambiaron manualmente el idioma.
+
+**Recomendación:** detectar Accept-Language, cargar ES-pe y ofrecer selector persistente.
+
+
+**Problema #2 – Editor de plano tedioso**
+
+Severidad 3 · Flexibilidad & eficiencia
+
+Requiere dibujar cada plaza; curva de aprendizaje alta.
+
+**Recomendaciones:** plantillas (L, U, grid), duplicar filas/columnas, tutorial animado inicial.
+
+
+**Problema #3 – Datos de ocupación poco confiables**
+
+Severidad 4 · Visibilidad del estado
+
+Miedo a llegar y hallar el parking lleno.
+
+**Recomendaciones:** timestamp “Actualizado hace X s”, badge “Aforo completo ≥ 95 %”, alerta sensor > 60 s inactivo.
+
+
+**Problema #4 – Comisiones poco clara**
+
+Severidad 3 · Ayuda & doc.
+
+Añadir desglose tarifa / % / neto en la pantalla de tarifas y en reportes.
+
+
+**Problema #5 – Falta de precios dinámicos**
+
+Severidad 3 · Compatibilidad con tareas reales
+
+Permitir reglas de precio por hora/día y modo “automático según ocupación”
+
+**Problema #6 – Sin canal de chat / promociones**
+
+Severidad 2
+
+Incorporar mensajería in-app y envío de cupones.
+
+**Problema #7 – Sobre-estancia sin recargo claro**
+
+Severidad 2
+
+Alertar 10 min antes del vencimiento y aplicar cargo automático por extra-tiempo.
+
+**UX Heuristics & Principles Evaluation – ParkeoYa Mobile App (Conductores)**
+
+Usability – Inclusive Design – Information Architecture
+
+| **CARRERA**| Ingeniería de Software       |
+| ---------- | -----------------------------|
+| CURSO      | Desarrollo de Soluciones IoT |
+| SECCIÓN    | SI572-2025-2                 |
+| PROFESORES | Todos                        |
+| AUDITOR    | Equipo SmartParking          |
+| CLIENTE(S) | Conductores entrevistados    |
+
+**SITE / APP A EVALUAR:** ParkeoYa – Mobile App (Conductores)
+
+**TAREAS A EVALUAR**
+
+1. Login y geolocalización
+2. Búsqueda de estacionamientos cercanos
+3. Selección de plaza y reserva (hora / fecha)
+4. Pago de la reserva
+5. Activar “Estoy aquí” / cancelar
+6. Consulta de historial
+
+**ESCALA DE SEVERIDAD**
+
+| Nivel | Descripción                                                             |
+| ----- | ----------------------------------------------------------------------- |
+| 1 | Problema superficial; arreglar si hay tiempo                                |
+| 2 | Problema menor; prioridad baja para la próxima entrega                      |
+| 3 | Problema mayor; frecuente o bloquea a algunos usuarios                      |
+| 4 | Problema crítico; impide completar la tarea; corregir antes del lanzamiento |
+
+**TABLA RESUMEN**
+
+| # | Problema                                          | Sev. | Heurística violada                |
+| - | ------------------------------------------------- | ---- | --------------------------------- |
+| 1 | Sólo permite reservas dentro del mismo día        | 3    | Flexibilidad & eficiencia         |
+| 2 | Plazas accesibles no etiquetadas / filtro         | 3    | Prevención de errores · Inclusión |
+| 3 | Botones de pago sin feedback / función incompleta | 2    | Visibilidad del estado            |
+| 4 | Pago sin verificación 2-FA / OTP                  | 2    | Seguridad · Prevención de errores |
+| 5 | Fotos del parking insuficientes                   | 1    | Ayuda al reconocimiento           |
+| 6 | Suscripción anual forzosa desincentiva uso        | 1    | Compatibilidad con expectativas   |
+
+**DESCRIPCIÓN DE PROBLEMAS (≥ 2)**
+
+**Problema #1 – Reserva solo mismo-día**
+Severidad 3 · Flexibilidad & eficiencia
+Conductores necesitan reservar con uno o más días de anticipación.
+*Recomendaciones:* selector de rango de fechas, mensaje “Reserva hasta Y días antes”, coste estimado inmediato.
+
+**Problema #2 – Plazas accesibles no etiquetadas**
+Severidad 3 · Inclusión
+Agregar icono “Accesible” y filtro; alertar si el usuario no tiene permiso.
+
+
+
+**Problema #3 – Pago sin feedback claro**
+Severidad 2 · Visibilidad del estado
+Deshabilitar botones no implementados y mostrar barra de progreso + mensaje de éxito/error.
+
+
+**Problema #4 – Falta de 2-FA / 3-D Secure**
+Severidad 2 · Seguridad
+Integrar OTP o 3-D Secure y exhibir sello “Pago seguro”.
+
+
+<div style="page-break-after: always;"></div>
+
+## 6.4. Video About-the-Product
+
+**Nombre del archivo:**
+
+**Duración:** x s  **Formato:** MP4
+
+Se presenta la esencia de **ParkeoYa**: una solución IoT que conecta a conductores con cocheras disponibles y permite a los propietarios gestionar reservas y cobros sin personal. El clip enseña la búsqueda de estacionamientos y la reserva en la app.
+
+**Enlace:** 
+
+<div style="page-break-after: always;"></div>
+
+## 6.5. Video About-the-Team
+
+**Nombre del archivo:**
+
+
+**Duración:** x s  **Formato:** MP4
+
+Se muestra cómo el equipo **Lorem Ipsum** llevó a cabo el proyecto ParkeoYa. Empieza con los **testimonios de los integrantes del equipo**, quienes describen sus responsabilidades y las competencias desarrolladas. 
+
+**Enlaces:** 
+
 # Conclusiones y recomendaciones
 
 ### Conclusiones
