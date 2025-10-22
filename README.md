@@ -4594,8 +4594,8 @@ Para el desarrollo del informe y aplicaciones en este sprint se distribuyó los 
 | **Sprint-1 Review Summary**        | Previamente al inicio del Sprint 2, el equipo acordó la asignación de tareas y correcciones a realizar de la entrega anterior.                                                                                                                                                                                                                                                                     |
 | **Sprint-1 Retrospective Summary** | Como puntos de mejora se reconoce la necesidad de que todo el equipo esté comprometido con la realización de las tareas de manera puntual.                                                                                                                                                                                                                         |
 | **Sprint-1 Goal**                  | La meta de este segundo Sprint es terminar la versión final de la aplicación web, realizar una versión inicial de la aplicación móvil y el backend. Esto permitirá que ambos segmentos objetivo puedan probar las aplicaciones, validarlas y opinar sobre ellas, dandonos sugerencias y criticas. |
-| **Sprint-2 Velocity**              | x hours                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Sprint-1 Story Points**          | x                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Sprint-2 Velocity**              | 40 hours                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Sprint-1 Story Points**          | 42                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 ##### 6.2.1.2. Aspect Leaders and Collaborators
 
@@ -4623,10 +4623,22 @@ Durante este sprint, se trabajó en desarrollar las user stories referentes a la
 
 La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables.
 
-<img src="assets/chapter-6.2/TrelloSprint2.png" alt="Trello Sprint2">
+<img src="assets/chapter-6/TrelloSprint2.png" alt="Trello Sprint2">
 
-Trello: [https://trello.com/b/7BD2h15m/sprint-1](https://trello.com/b/7BD2h15m/sprint-1)
+Trello: [https://trello.com/invite/b/68f8ee78b80c2823919e3804/ATTIfb9c480bd4186597ffc0a854c337329a6F5767A3/sprint-2](https://trello.com/invite/b/68f8ee78b80c2823919e3804/ATTIfb9c480bd4186597ffc0a854c337329a6F5767A3/sprint-2)
 
+| **User Story Id** | **User Story Title**                        | **Task Id** | **Task Title**                                 | **Task Description**                                                | **Estimation (Hours)** | **Assigned To**                   | **Status** |
+| ----------------- | ------------------------------------------- | ----------- | ---------------------------------------------- | ------------------------------------------------------------------- | ---------------------- | --------------------------------- | ---------- |
+| US06              | Perfil de conductor                         | T13         | Desarrollar vista de perfil de conductor        | Implementar gestión de datos personales y vehículo del conductor     | 3                      | Bárbara Espinoza              | Done       |
+| US09              | Reserva con confirmación                    | T14         | Implementar reserva con código QR               | Reservar espacio, procesar pago y recibir código QR                 | 5                      | Alessandro David  | Done       |
+| TS03              | API de reservas                             | T15         | Crear endpoints de reservas                    | Endpoints para crear/consultar reservas y devolución de QR          | 5                      | Nelson Serrano                   | Done       |
+| US10              | Historial de reservas                       | T16         | Desarrollar módulo de historial de reservas    | Ver reservas pasadas con filtros y detalles                         | 3                      |  Juan Calisaya | Done       |
+| US11              | Mapa con distancias a estacionamientos      | T17         | Implementar mapa con distancias                | Mostrar distancia en metros y detalles en el mapa                   | 3                      | Tyrone Sotil | Done       |
+| US13              | Reserva rápida en un solo click             | T18         | Desarrollar reserva rápida                     | Reservas rápidas con mínima fricción y validaciones                 | 3                      | Tyrone Sotil | Done       |
+| US22              | Modelo de comisiones                        | T20         | Crear desglose de comisiones                   | Mostrar desglose de comisiones por transacción para propietarios    | 2                      | Juan Calisaya                   | Done       |
+| US23              | Reportes de ingresos por propietarios       | T21         | Implementar reportes mensuales de ingresos     | Generar reportes mensuales (Excel) de ingresos y comisiones         | 3                      | Alessandro David  | Done       |
+| US31              | App móvil para conductores                  | T24         | Crear app móvil de reservas                    | Desarrollar app para buscar, reservar y gestionar estacionamientos  | 8                      | Tyrone Stotil                    | Done       |
+| TS04              | Detección básica de ocupación               | T25         | Implementar detección de ocupación con sensor  | Lógica del sensor para detectar entrada/salida y reportar ocupación | 5                      | Alessandro David                   | Done       |
 
 
 ##### 6.2.2.4. Development Evidence for Sprint Review
@@ -4638,7 +4650,7 @@ En esta sección, se presentan los commits realizados en el repositorio del fron
 
 En esta sección se explica y presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados, para Web Services relacionados con los User Stories especificados en el Sprint.
 
-<div style="page-break-after: always;"></div>
+
 
 ##### 6.2.2.6. Execution Evidence for Sprint Review
 
@@ -4651,7 +4663,7 @@ En esta sección se explica y presenta el conjunto de Unit Tests, Integration Te
 
 ##### 6.2.1.9. Team Collaboration Insights during Sprint
 
-<div style="page-break-after: always;"></div>
+
 
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
@@ -5028,7 +5040,9 @@ A continuación se presentan los videos generados como parte del desarrollo del 
 
 ⦁	Figma: [https://www.figma.com/design/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=0-1&t=JtKhGofsZ7GZ9Q0R-1](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=0-1&t=JtKhGofsZ7GZ9Q0R-1)
 
-⦁	Trello: [https://trello.com/invite/b/68e2dcc9e1d60f856ece252e/ATTI08db8008dc8b850e785c7fa6712c707bB2AC1B2E/sprint-1](https://trello.com/invite/b/68e2dcc9e1d60f856ece252e/ATTI08db8008dc8b850e785c7fa6712c707bB2AC1B2E/sprint-1)
+⦁	Trello 1: [https://trello.com/invite/b/68e2dcc9e1d60f856ece252e/ATTI08db8008dc8b850e785c7fa6712c707bB2AC1B2E/sprint-1](https://trello.com/invite/b/68e2dcc9e1d60f856ece252e/ATTI08db8008dc8b850e785c7fa6712c707bB2AC1B2E/sprint-1)
+
+Trello 2: [https://trello.com/invite/b/68f8ee78b80c2823919e3804/ATTIfb9c480bd4186597ffc0a854c337329a6F5767A3/sprint-2](https://trello.com/invite/b/68f8ee78b80c2823919e3804/ATTIfb9c480bd4186597ffc0a854c337329a6F5767A3/sprint-2)
 
 ⦁	Link del Prototipo: [https://www.figma.com/proto/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=2-110&t=javn3IzdBb8xNEo2-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=2%3A110&show-proto-sidebar=1](https://www.figma.com/proto/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=2-110&t=javn3IzdBb8xNEo2-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=2%3A110&show-proto-sidebar=1)
 
@@ -5039,4 +5053,6 @@ A continuación se presentan los videos generados como parte del desarrollo del 
 ⦁ Video Exposición TB1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/Ea50aorvEeNKgYw_99e88oQBsCoptbHVCNW4Ae-fnSQ46A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Gsjoh](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/Ea50aorvEeNKgYw_99e88oQBsCoptbHVCNW4Ae-fnSQ46A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Gsjoh)
 
 ⦁ Video Exposición TP: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/EXjfvMZ0IolKhXaCN6kW9g0BvJwc-4tkb4stILLKpblR4w?e=pcUeAz](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/EXjfvMZ0IolKhXaCN6kW9g0BvJwc-4tkb4stILLKpblR4w?e=pcUeAz)
+
+
 
