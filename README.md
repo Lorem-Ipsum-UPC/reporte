@@ -4686,19 +4686,19 @@ Se establecen 2 perfiles distintos de usuarios a entrevistar, que corresponden a
 - Puede tener experiencia limitada en tecnología, pero apertura a soluciones digitales.
 - Tiene contacto diario con la gestión operativa de espacios de parqueo.
 
+**Preguntas generales para ambos segmentos**  
+¿Cuál es tu nombre?  
+¿Cuántos años tienes?  
+
 **Preguntas para Conductores**
 
 Aqui se le presentará y mostrarpá la aplicación al usuario previamente a realizar las preguntas  
-1. ¿Cúal fue tu primera impresión al ver la aplicación?
-2. ¿Fue fácil para ti ubicar cada funcionalidad de la aplicación?
-3. ¿Te pareció fácil encontrar estacionamientos disponibles en tu zona?
-4. ¿Qué funcionalidades te parecieron más útiles (mapa, reservas, historial, etc.)?
-5. ¿Has utilizado la función de reservas? ¿Cómo fue tu experiencia?
-6. ¿Has realizado pagos desde la app? ¿Qué tan fluido fue el proceso?
-7. ¿Qué tan confiable te parece la información sobre disponibilidad en tiempo real?
-8. ¿Te ha sucedido que la app marcaba un espacio como libre, pero no lo estaba?
-9. ¿Qué función adicional te gustaría ver en la app?
-10. ¿Recomendarías esta aplicación a otros conductores? ¿Por qué?
+1. ¿Sentiste que lograste navegar por la app sin complicaciones?
+2. ¿Qué opinas acerca del diseño visual y la presentación de la app?
+3. ¿Tuviste algún problema al buscar estacionamientos cercanos en el mapa?
+4. ¿El proceso de reserva te pareció claro y eficiente?
+5. ¿Tuviste dificultades para completar el pago desde la app?
+6. ¿Tienes alguna sugerencia o comentario que desees compartir para mejorar la experiencia?
 
 **Preguntas para Propietarios de Estacionamiento**
 
@@ -4706,13 +4706,11 @@ Aqui se le presentará y mostrarpá la aplicación al usuario previamente a real
 1. ¿Cómo describirías tu experiencia al registrarte y configurar tu estacionamiento por primera vez?
 2. ¿Qué te pareció el proceso de diseño del plano del estacionamiento en la plataforma?
 3. ¿Sientes que puedes controlar fácilmente tus espacios y reservas desde el panel de gestión?
-4. ¿Qué funcionalidades se te hacen más atractivas?
-5. ¿Te parece útil que los conductores reserven espacios con anticipación?
-6. ¿El proceso para visualizar reservas te parece claro y ordenado?
-7. ¿Qué te parece esta aplicación con respecto a tu método de gestion actual?
-8. ¿Qué parte de la experiencia te ha resultado más útil?
-9. ¿Hay algo que te haya generado confusión o frustración?
-10. ¿Qué te gustaría ver en esta aplicación en futuras versiones?
+4. ¿Te parece útil que los conductores reserven espacios con anticipación?
+5. ¿Qué te parece esta aplicación con respecto a tu método de gestion actual?
+6. ¿Qué te ha parecido la integración de IoT a la experiencia de gestión de estacionamientos?
+7. ¿Hay algo que te haya generado confusión o frustración?
+8. ¿Qué te gustaría ver en esta aplicación en futuras versiones?
 
 **Justificación de las preguntas**  
 Las preguntas fueron diseñadas para:
