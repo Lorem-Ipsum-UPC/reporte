@@ -4720,235 +4720,233 @@ Las preguntas fueron diseñadas para:
 
 ### 6.3.2. Registro de Entrevistas
 
-**Segmento 1**
+**Segmento Dueños de Playa de Estacionamiento**
 
 **Entrevista 1**
 
 **Nombre:** 
 **Edad:** 
-**Distrito:** 
+**Resumen:**  
 
 **Tiempo en el video: 0:00:00**
 
-<div style="page-break-after: always;"></div>
 
 **Entrevista 2**
 
 **Nombre:** 
 **Edad:** 
-**Distrito:** 
+**Resumen:**
 
 
 **Tiempo en el video: 0:00:00**
-
-<div style="page-break-after: always;"></div>
+ 
 
 **Entrevista 3**
 
 **Nombre:** 
+**Edad:** 
+**Resumen:**  
 
 
 **Tiempo en el video: 0:00:00**
 
-<div style="page-break-after: always;"></div>
 
-**Entrevista 4**
+**Segmento Conductores**
 
-**Nombre:**  
-**Edad:** 
-**Distrito:**  
+**Entrevista 1**
 
+**Nombre: Pilar**  
+**Edad:** 38 años  
 **Tiempo en el video:** 0:00:00
 
-<div style="page-break-after: always;"></div>
+**Resumen:**  Pilar de 38 años destacó la facilidad de navegación dentro de la app, especialmente al buscar estacionamientos en el mapa. Elogió el diseño limpio y moderno, y señaló que el proceso de reserva y pago fue rápido y sin errores.
+Como sugerencias, propuso incluir un tutorial inicial para nuevos usuarios y la posibilidad de compartir reservas activas con otros usuarios, aunque resaltó que la app es muy intuitiva en general.
 
-**Segmento 2**
+<img src="assets/chapter-6/EntrevistaPilar.png" alt="EC1">
 
-**Entrevista 5**
-
-**Nombre:**  
-**Edad:** 
-**Distrito:** 
-
-**Tiempo en el video:** 0:00:00
-
-<div style="page-break-after: always;"></div>
-
-**Entrevista 6**
+**Entrevista 2**
 
 **Nombre:** 
 **Edad:** 
-**Distrito:** 
+**Resumen:** 
 
 **Tiempo en el video:** 00:00:00
 
-<div style="page-break-after: always;"></div>
+**Entrevista 3**
+
+**Nombre:** 
+**Edad:** 
+**Resumen:** 
+
+**Tiempo en el video:** 00:00:00
+
 
 ### 6.3.3. Evaluaciones según heurísticas
 
-**UX Heuristics & Principles Evaluation – ParkeoYa Web App (Panel Propietarios)**
+**UX Heuristics & Principles Evaluation – ParkeoYa Web App (Dueños)**
 
-Usability – Inclusive Design – Information Architecture
+| **CARRERA** | Ingeniería de Software       |
+| ----------- | ---------------------------- |
+| CURSO       | Desarrollo de Soluciones IoT |
+| SECCIÓN     | 3428                         |
+| PROFESOR    | Marco Antonio León Baca      |
+| AUDITOR     | Lorem Ipsum                  |
+| CLIENTE(S)  | Dueños entrevistados   |
 
-| **CARRERA**| Ingeniería de Software                 |
-| -----------| ---------------------------------------|
-| CURSO      | Desarrollo de Soluciones IoT           |
-| SECCIÓN    | SI572-2025-2                           |
-| PROFESORES | Todos                                  |
-| AUDITOR    | Equipo Lorem Ipsum                     |
-| CLIENTE(S) | Propietarios de cocheras entrevistados |
-
-**SITE / APP A EVALUAR:** ParkeoYa – Web App (Panel para propietarios)
+**SITE / APP A EVALUAR: ParkeoYa – Web App (Dueños de Estacionamientos)**
 
 **TAREAS A EVALUAR**
-
-1. Registro / inicio de sesión
-2. Creación de estacionamiento y diseño del plano
-3. Consulta de ocupación en tiempo real
-4. Alta y anulación de reservas
-5. Modificación de tarifas y descarga de reportes
-6. Revisión de reseñas y comunicación con conductores
+1. Registro e inicio de sesión como propietario
+2. Gestión del dashboard y visualización de métricas
+3. Administración de reservas y estacionamientos IoT
+4. Configuración de tarifas y perfil del estacionamiento
+5. Revisión y gestión de reseñas
 
 **ESCALA DE SEVERIDAD**
-
 | Nivel | Descripción                                                             |
 | ----- | ----------------------------------------------------------------------- |
-| 1 | Problema superficial; arreglar si hay tiempo                                |
-| 2 | Problema menor; prioridad baja para la próxima entrega                      |
-| 3 | Problema mayor; frecuente o bloquea a algunos usuarios                      |
-| 4 | Problema crítico; impide completar la tarea; corregir antes del lanzamiento |
+| 1     | Problema superficial; arreglar si hay tiempo                            |
+| 2     | Problema menor; prioridad baja para la próxima entrega                  |
+| 3     | Problema mayor; afecta experiencia o genera confusión                   |
+| 4     | Problema crítico; rompe flujo de negocio o genera inconsistencias graves |
 
 **TABLA RESUMEN**
+| #  | Problema                                                          | Sev. | Heurística / Principio violado                      |
+| -- | ----------------------------------------------------------------- | ---- | --------------------------------------------------- |
+| 1  | Sin opción para agregar múltiples estacionamientos                | 4    | Flexibilidad y eficiencia de uso · Escalabilidad del sistema  |
+| 2  | Funcionalidad de likes en reseñas sin equivalente en app móvil    | 3    | Consistencia y estándares · Match entre plataformas |
 
-| # | Problema                                           | Sev. | Heurística / Principio violado           |
-| - | -------------------------------------------------- | ---- | ---------------------------------------- |
-| 1 | Interfaz carga por defecto en inglés               | 3    | Match sistema-mundo real                 |
-| 2 | Editor de plano exige trazar plaza × plaza         | 3    | Flexibilidad & eficiencia · Ayuda & doc. |
-| 3 | Confiabilidad de ocupación en tiempo real incierta | 4    | Visibilidad del estado · Fiabilidad      |
-| 4 | Comisiones de pasarela poco transparentes          | 3    | Ayuda & doc. · Confianza                 |
-| 5 | Sin precio dinámico por franja horaria             | 3    | Compatibilidad con tareas reales         |
-| 6 | Falta chat / promociones a conductores             | 2    | Visibilidad · Experiencias comparables   |
-| 7 | Gestión de sobre-estancia poco clara               | 2    | Prevención de errores                    |
+**DESCRIPCIÓN DE PROBLEMAS**
 
-**DESCRIPCIÓN DE PROBLEMAS (≥ 2)**
+**Problema #1 – Sin opción para agregar múltiples estacionamientos**
 
-**Problema #1 – Interfaz por defecto en inglés**
+**Severidad 4** · Flexibilidad y eficiencia de uso · Escalabilidad del sistema
 
-Severidad 3 · Match sistema-mundo real
+<img src="assets/chapter-6/HW1.png" alt="HW1">
 
-Los cuatro propietarios cambiaron manualmente el idioma.
+**Descripción:** La plataforma web no cuenta con una opción visible o flujo claro para que un propietario pueda agregar y gestionar múltiples estacionamientos si posee más de un local. El sistema parece estar diseñado para la gestión de un único estacionamiento por cuenta, sin menú, botón o sección dedicada a "Agregar nuevo estacionamiento" o "Mis estacionamientos". No existe un selector o switcher que permita cambiar entre diferentes propiedades para visualizar sus métricas, reservas o configuraciones individuales.
 
-**Recomendación:** detectar Accept-Language, cargar ES-pe y ofrecer selector persistente.
+**Impacto:** CRÍTICO para la escalabilidad del negocio. Propietarios con múltiples locales se ven obligados a crear múltiples cuentas separadas para gestionar cada estacionamiento. Esto genera problemas graves: imposibilidad de tener una vista consolidada de todos sus negocios, necesidad de múltiples inicios de sesión, datos fragmentados que dificultan análisis global, duplicación de información personal, y complejidad innecesaria en la operación. Limita severamente el crecimiento de propietarios exitosos y hace la plataforma poco atractiva para operadores profesionales con múltiples ubicaciones.
 
+**Recomendaciones:**
+- Agregar botón prominente "+ Agregar Estacionamiento" en el dashboard principal o menú lateral
+- Implementar flujo de onboarding multi-paso para agregar nuevos estacionamientos sin duplicar información personal
+- Crear dropdown/selector en el header: "Estacionamiento Centro (Seleccionado) ▼" que permita cambiar entre propiedades
+- Desarrollar vista "Todos mis estacionamientos" con cards mostrando métricas agregadas de cada uno
+- Permitir vista consolidada: métricas totales sumadas de todos los estacionamientos (ingresos totales, ocupación promedio)
+- Implementar permisos y roles: permitir asignar gestores/empleados a estacionamientos específicos
+- Agregar filtros por estacionamiento en todas las secciones (Reservas, Reseñas, Configuración)
+- Considerar planes de negocio: "Plan Básico (1 estacionamiento)" vs "Plan Empresarial (ilimitado)"
 
-**Problema #2 – Editor de plano tedioso**
+**Problema #2 – Funcionalidad de likes en reseñas sin equivalente en app móvil**
 
-Severidad 3 · Flexibilidad & eficiencia
+**Severidad 3** · Consistencia y estándares · Match entre plataformas
 
-Requiere dibujar cada plaza; curva de aprendizaje alta.
+<img src="assets/chapter-6/HW2.png" alt="HW2">
 
-**Recomendaciones:** plantillas (L, U, grid), duplicar filas/columnas, tutorial animado inicial.
+**Descripción:** En la sección de Reseñas de la aplicación web, cada comentario de conductor tiene un botón de "útiles". Sin embargo, esta funcionalidad no existe en la aplicación móvil desde la perspectiva del conductor. Los conductores no pueden dar like a reseñas de otros usuarios para indicar que están de acuerdo o que les fue útil, ni pueden ver cuántos likes tiene cada reseña.
 
+**Impacto:** La funcionalidad en web se vuelve inútil al no existir el mecanismo de votación desde el lado de los conductores. Los propietarios pueden dar likes a sus propias reseñas, lo cual no tiene valor real ni representa feedback genuino de la comunidad de usuarios. Esto genera datos sin significado que no aportan información útil para toma de decisiones. Además, crea inconsistencia entre plataformas donde una función existe pero no tiene propósito práctico.
 
-**Problema #3 – Datos de ocupación poco confiables**
-
-Severidad 4 · Visibilidad del estado
-
-Miedo a llegar y hallar el parking lleno.
-
-**Recomendaciones:** timestamp “Actualizado hace X s”, badge “Aforo completo ≥ 95 %”, alerta sensor > 60 s inactivo.
-
-
-**Problema #4 – Comisiones poco clara**
-
-Severidad 3 · Ayuda & doc.
-
-Añadir desglose tarifa / % / neto en la pantalla de tarifas y en reportes.
-
-
-**Problema #5 – Falta de precios dinámicos**
-
-Severidad 3 · Compatibilidad con tareas reales
-
-Permitir reglas de precio por hora/día y modo “automático según ocupación”
-
-**Problema #6 – Sin canal de chat / promociones**
-
-Severidad 2
-
-Incorporar mensajería in-app y envío de cupones.
-
-**Problema #7 – Sobre-estancia sin recargo claro**
-
-Severidad 2
-
-Alertar 10 min antes del vencimiento y aplicar cargo automático por extra-tiempo.
+**Recomendaciones:**
+- Eliminar completamente la funcionalidad de likes de la plataforma web si no se implementará en móvil
+- Alternativamente, implementar sistema de likes en la app móvil permitiendo a conductores votar reseñas útiles
+- Si se implementa en móvil: mostrar contador público "X personas encontraron útil esta reseña"
+- Usar los likes como señal de calidad: destacar reseñas con más likes en la parte superior
+- Sincronizar contadores de likes en tiempo real entre ambas plataformas si se mantiene la funcionalidad
 
 **UX Heuristics & Principles Evaluation – ParkeoYa Mobile App (Conductores)**
 
-Usability – Inclusive Design – Information Architecture
+| **CARRERA** | Ingeniería de Software       |
+| ----------- | ---------------------------- |
+| CURSO       | Desarrollo de Soluciones IoT |
+| SECCIÓN     | 3428                         |
+| PROFESOR    | Marco Antonio León Baca      |
+| AUDITOR     | Lorem Ipsum                  |
+| CLIENTE(S)  | Conductores entrevistados    |
 
-| **CARRERA**| Ingeniería de Software       |
-| ---------- | -----------------------------|
-| CURSO      | Desarrollo de Soluciones IoT |
-| SECCIÓN    | SI572-2025-2                 |
-| PROFESORES | Todos                        |
-| AUDITOR    | Equipo SmartParking          |
-| CLIENTE(S) | Conductores entrevistados    |
-
-**SITE / APP A EVALUAR:** ParkeoYa – Mobile App (Conductores)
+**SITE / APP A EVALUAR: ParkeoYa – Mobile App (Conductores)**
 
 **TAREAS A EVALUAR**
-
-1. Login y geolocalización
-2. Búsqueda de estacionamientos cercanos
-3. Selección de plaza y reserva (hora / fecha)
-4. Pago de la reserva
-5. Activar “Estoy aquí” / cancelar
-6. Consulta de historial
+1. Registro e inicio de sesión como conductor
+2. Búsqueda y selección de estacionamientos
+3. Creación y gestión de reservas
+4. Navegación hasta el estacionamiento
+5. Check-in/Check-out y calificación
 
 **ESCALA DE SEVERIDAD**
-
 | Nivel | Descripción                                                             |
 | ----- | ----------------------------------------------------------------------- |
-| 1 | Problema superficial; arreglar si hay tiempo                                |
-| 2 | Problema menor; prioridad baja para la próxima entrega                      |
-| 3 | Problema mayor; frecuente o bloquea a algunos usuarios                      |
-| 4 | Problema crítico; impide completar la tarea; corregir antes del lanzamiento |
+| 1     | Problema superficial; arreglar si hay tiempo                            |
+| 2     | Problema menor; prioridad baja para la próxima entrega                  |
+| 3     | Problema mayor; afecta experiencia o genera confusión                   |
+| 4     | Problema crítico; rompe flujo de negocio o genera inconsistencias graves |
 
 **TABLA RESUMEN**
-
-| # | Problema                                          | Sev. | Heurística violada                |
-| - | ------------------------------------------------- | ---- | --------------------------------- |
-| 1 | Sólo permite reservas dentro del mismo día        | 3    | Flexibilidad & eficiencia         |
-| 2 | Plazas accesibles no etiquetadas / filtro         | 3    | Prevención de errores · Inclusión |
-| 3 | Botones de pago sin feedback / función incompleta | 2    | Visibilidad del estado            |
-| 4 | Pago sin verificación 2-FA / OTP                  | 2    | Seguridad · Prevención de errores |
-| 5 | Fotos del parking insuficientes                   | 1    | Ayuda al reconocimiento           |
-| 6 | Suscripción anual forzosa desincentiva uso        | 1    | Compatibilidad con expectativas   |
-
-**DESCRIPCIÓN DE PROBLEMAS (≥ 2)**
-
-**Problema #1 – Reserva solo mismo-día**
-Severidad 3 · Flexibilidad & eficiencia
-Conductores necesitan reservar con uno o más días de anticipación.
-*Recomendaciones:* selector de rango de fechas, mensaje “Reserva hasta Y días antes”, coste estimado inmediato.
-
-**Problema #2 – Plazas accesibles no etiquetadas**
-Severidad 3 · Inclusión
-Agregar icono “Accesible” y filtro; alertar si el usuario no tiene permiso.
+| #  | Problema                                                          | Sev. | Heurística / Principio violado                      |
+| -- | ----------------------------------------------------------------- | ---- | --------------------------------------------------- |
+| 1  | Mapa de búsqueda sin botón de "Mi ubicación actual"               | 3    | Control y libertad del usuario · Eficiencia         |
+| 2  | Detalle de reserva sin botón de contacto directo al propietario   | 3    | Flexibilidad · Prevención y recuperación de errores |
+| 3  | Pantalla de selección de parking sin filtros de servicios         | 3    | Flexibilidad y eficiencia de uso · Control          |
 
 
+**DESCRIPCIÓN DE PROBLEMAS**
 
-**Problema #3 – Pago sin feedback claro**
-Severidad 2 · Visibilidad del estado
-Deshabilitar botones no implementados y mostrar barra de progreso + mensaje de éxito/error.
+**Problema #1 – Mapa de búsqueda sin botón de "Mi ubicación actual"**
+
+**Severidad 3** · Control y libertad del usuario · Eficiencia
+
+<img src="assets/chapter-6/HW1.png" alt="HM1">
+
+**Descripción:** La pantalla de búsqueda con mapa permite al usuario explorar estacionamientos en diferentes zonas mediante pan y zoom manual. Sin embargo, no existe un botón flotante de "Centrar en mi ubicación" o "Mi ubicación actual" que permita volver rápidamente a la posición GPS del usuario. Si el usuario explora áreas lejanas, debe hacer zoom out y buscar manualmente su ubicación nuevamente.
+
+**Impacto:** Usuarios que exploran estacionamientos en diferentes zonas pierden su ubicación de referencia y deben reorientarse manualmente, lo cual es frustrante y consume tiempo. En situaciones de urgencia (necesito estacionamiento AHORA), cada segundo cuenta. El flujo ideal es: explorar opciones → volver a mi ubicación → elegir la más cercana. Sin este botón, el proceso es ineficiente. Usuarios menos familiarizados con mapas digitales pueden desorientarse completamente.
+
+**Recomendaciones:**
+- Agregar botón flotante circular en esquina inferior derecha del mapa con ícono de ubicación/crosshair
+- Al presionar, animar transición suave hacia ubicación actual del usuario con zoom apropiado
+- Mostrar temporalmente círculo de precisión GPS alrededor de la ubicación del usuario
+- Incluir tooltip en primera uso: "Presiona aquí para volver a tu ubicación"
+- Considerar vibración háptica sutil al centrar para feedback táctil
+- Si permisos de ubicación están desactivados, mostrar prompt para habilitarlos
 
 
-**Problema #4 – Falta de 2-FA / 3-D Secure**
-Severidad 2 · Seguridad
-Integrar OTP o 3-D Secure y exhibir sello “Pago seguro”.
+**Problema #2 – Detalle de reserva sin botón de contacto directo al propietario**
 
+**Severidad 3** · Flexibilidad · Prevención y recuperación de errores
+
+<img src="assets/chapter-6/HM2.png" alt="HM2">
+
+**Descripción:** Cuando un conductor visualiza los detalles de su reserva activa (horario, espacio asignado, dirección), no existe un botón visible de "Contactar al propietario" o "Necesito ayuda". Si el conductor tiene problemas (no encuentra la entrada, el espacio está ocupado por error, llegó tarde), debe salir de la app para llamar al número que aparece en la información general, o buscar opciones de soporte en menús secundarios.
+
+**Impacto:** En situaciones problemáticas (espacio ocupado incorrectamente, puerta de acceso cerrada, confusión con el número de plaza), el conductor necesita comunicación inmediata con el propietario. La falta de botón directo genera fricción crítica en el momento de mayor necesidad. Conductores frustrados pueden abandonar, cancelar, o dejar malas reseñas sin siquiera intentar resolver el problema. El propietario pierde oportunidad de dar servicio al cliente en tiempo real.
+
+**Recomendaciones:**
+- Agregar botón prominente "Contactar propietario" en la pantalla de detalle de reserva activa
+- Ofrecer múltiples opciones al presionar: "Llamar ahora", "Enviar mensaje", "Chat en vivo" (si disponible)
+- Incluir contexto automático en la comunicación: "Hola, tengo una reserva para el espacio A-15 a las 14:30 y..."
+- Mostrar tiempo promedio de respuesta del propietario: "Responde en ~5 minutos"
+- Agregar botón secundario "Reportar problema" que notifique a soporte de ParkeoYa si propietario no responde
+- Guardar historial de comunicaciones asociado a cada reserva para referencia futura
+
+**Problema #3 – Pantalla de selección de parking sin filtros de servicios**
+
+**Severidad 3** · Flexibilidad y eficiencia de uso · Control
+
+<img src="assets/chapter-6/HM3.png" alt="HM3">
+
+**Descripción:** La pantalla "Select Parking" muestra un grid visual con los espacios de estacionamiento numerados (Floor 1, Floor 2, Floor 3) y sus estados de disponibilidad mediante colores. Sin embargo, no existen filtros o búsqueda para ubicar rápidamente espacios con características específicas que el conductor pueda necesitar: espacios techados, cerca de la entrada, con cargador eléctrico, para vehículos grandes, o accesibles para personas con discapacidad.
+
+**Impacto:** Conductores con necesidades específicas (vehículo eléctrico que requiere carga, vehículo grande, movilidad reducida, quiere evitar sol/lluvia) deben revisar visualmente todo el grid plaza por plaza para identificar opciones adecuadas. Esto es ineficiente y frustrante. En estacionamientos grandes con 50+ espacios, se vuelve prácticamente imposible. Conductores pueden terminar seleccionando espacios inadecuados por no tener forma eficiente de filtrar, generando insatisfacción o necesidad de cambio posterior.
+
+**Recomendaciones:**
+- Agregar barra de filtros rápidos en la parte superior: "Techado", "Cerca entrada", "Cargador EV", "Vehículo grande", "Accesible"
+- Implementar búsqueda por número de espacio: "Buscar espacio #..."
+- Al activar filtro, destacar visualmente solo espacios que cumplan criterio (atenuar los demás)
+- Mostrar contador: "15 espacios techados disponibles"
+- Incluir botón "Limpiar filtros" para volver a vista completa
+- Agregar indicadores visuales en cada espacio (íconos pequeños) mostrando sus características especiales
+- Permitir "vista de lista" alternativa que muestre espacios en formato de tarjetas con todas sus características
 
 <div style="page-break-after: always;"></div>
 
