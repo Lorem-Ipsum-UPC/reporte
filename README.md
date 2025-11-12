@@ -4645,6 +4645,100 @@ Trello: [https://trello.com/invite/b/68f8ee78b80c2823919e3804/ATTIfb9c480bd41865
 
 En esta sección, se presentan los commits realizados en el repositorio del frontend de la aplicación móvil y en el repositorio del backend en GitHub. Estos commits reflejan el progreso y las mejoras implementadas durante el Sprint 2, proporcionando una visión detallada de las actividades de desarrollo y las contribuciones del equipo.
 
+**Repositorio de Frontend Web:**
+
+[https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend](https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend)
+
+
+| **Repository**                    | **Branch**               | **Commit Id** | **Commit Message**                                                                                                                  | **Commit Message Body** | **Committed on (Date)** |
+| --------------------------------- | ------------------------ | ------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | ----------------------- |
+| Lorem-Ipsum-UPC/parkeoya-frontend | main                     | d2873ca       | feat: add error handling and validation messages in forms and onboarding steps                                                      | -                       | Nov 11, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-frontend | main                     | b6f95bd       | feat: update document titles across various pages and enhance button and select styles                                              | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | main                     |aee2c472       | Refactor authentication and user flow                                                                                               | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | main                     | b81e966       | feat: enhance login flow and dashboard functionality                                                                                | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | main                     | 021cfed       | feat: Implement space management with real-time data integration                                                                    | -                       | Nov 8, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | feature/auth-integration | 7af06de       | feat: remove integration summary and troubleshooting documents                                                                      | -                       | Nov 1, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | feature/auth-integration | b151799       | feat(auth): integrate authentication and parking creation with backend                                                              | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-frontend | feature/auth-integration |f35263b6       | feat: update UI colors and styles across various components for consistency                                                         | -                       | Oct 7, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | feature/auth-integration | 54023ff       | feat: add onboarding steps for capacity, schedule, basic info, pricing, and location pages                                          | -                       | Oct 6, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | feature/auth-integration | 166dfb6       | refactor: rename pages and update navigation links for consistency                                                                  | -                       | Oct 6, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | feature/auth-integration | 6f678c1       | fix: resolve version conflict for react-is in package-lock.json                                                                     | -                       | Oct 6, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | feature/auth-integration |57d72a14       | Merge branch 'main' of [https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend](https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend) | -                       | Oct 6, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | feature/auth-integration | cbabe01       | feat: implement space management page with real-time IoT sensor monitoring and status filtering                                     | -                       | Oct 6, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | feature/auth-integration |bba12d51       | fix(deps): Fix dependencies to run the project                                                                                      | -                       | Oct 6, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | feature/auth-integration | 5b3acff       | first commit                                                                                                                        | -                       | Oct 6, 2025             |
+
+
+**Repositorio de Frontend Móvil:**
+
+[https://github.com/Lorem-Ipsum-UPC/parkeoya-appmobil](https://github.com/Lorem-Ipsum-UPC/parkeoya-appmobil)
+
+
+| **Repository**                    | **Branch** | **Commit Id** | **Commit Message**                                 | **Commit Message Body** | **Committed on (Date)** |
+| --------------------------------- | ---------- | ------------- | -------------------------------------------------- | ----------------------- | ----------------------- |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | ac46920       | Merge pull request #2 from Lorem-Ipsum-UPC/develop | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | f5a3bdc       | feat: reservation section v1                       | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | 6288b2d       | feat: reservation v1                               | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | 98aa7e5       | feat: login validation                             | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | 249dfe6       | fix: parking id.tsx fixed                          | -                       | Nov 8, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | cfea9be       | feat: map section v2                               | -                       | Nov 8, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | 2cc630d       | feat: map section v1                               | -                       | Nov 8, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | bebd5e0       | feat: profile section v1                           | -                       | Nov 8, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | ea214c2       | feat: home v1                                      | -                       | Nov 8, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | 9c47eae       | feat: auth section screens                         | -                       | Nov 8, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | 72fa6f7       | feat: parkeoya auth base                           | -                       | Nov 8, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | 1cd9f42       | feat: arquitectura creada                          | -                       | Nov 2, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | be8fe12       | feat: project base created                         | -                       | Nov 1, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | 2767e53       | Initial commit                                     | -                       | Oct 26, 2025            |
+
+
+**Repositorio de Backend:**
+
+[https://github.com/Lorem-Ipsum-UPC/parkeoya-backend](https://github.com/Lorem-Ipsum-UPC/parkeoya-backend)
+
+
+| **Repository**                   | **Branch**               | **Commit Id** | **Commit Message**                                                                                          | **Commit Message Body** | **Committed on (Date)** |
+| -------------------------------- | ------------------------ | ------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------- | ----------------------- |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | f32efe5       | chore: updating configuration for roles and users service                                                   | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 3e2d41a       | feat: added review service                                                                                  | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 41af55a       | feat: added and updated reservation service                                                                 | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 623c3b5       | feat: added payment service                                                                                 | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | e191a90       | feat: added notification and message broker communications                                                  | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 25f31e2       | chore: updating services with minor features                                                                | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | f25e3e9       | feat: firebase configuration                                                                                | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | c89597e       | feat: added edge server feature and updating parking, profile services                                      | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 1aeb81f       | feat: added driver feature                                                                                  | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 91e660b       | feat: device controller and service                                                                         | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 4e6d355       | feat: added payment and reservation                                                                         | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | b1ccb55       | feat: added parking feature and edge server                                                                 | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 1f62718       | feat: updated parking reservation and authentication service                                                | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 60a517a       | chore: initial backend project structure                                                                    | -                       | Oct 10, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | ee0bf3a       | feat: initial folder for shared utilities and components                                                    | -                       | Oct 10, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 0f56056       | feat: initial DDD folder structure for Profile (application, domain, infrastructure, interfaces)            | -                       | Oct 10, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 9fc978a       | feat: initial DDD folder structure for Parking Management (application, domain, infrastructure, interfaces) | -                       | Oct 10, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 6827407       | feat: initial DDD folder structure for IAM (application, domain, infrastructure, interfaces)                | -                       | Oct 10, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | feat-parking             | d08cec6       | feat: implement auto-generation of parking spots in CreateParkingCommand                                      | -                       | Nov 11, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | feat-parking             | 244b49b       | fix: add shouldNotFilter to skip JWT validation on public endpoints                                           | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feat-parking             | c41f00b       | feat: implement update functionality for parking, driver, and parking owner profiles with associated commands | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feat-parking             | 72d30dd       | feat: add method to retrieve driver full name by driver ID and update related services                        | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feat-parking             | 19d35b4       | feat: adding new parking data and information                                                                 | -                       | Nov 7, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feat-parking             | 3ae639c       | feat: add JPA auditing configuration for automatic date management                                            | -                       | Nov 1, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feat-parking             | 7dffe68e      | feat: add comprehensive README with project description, architecture, and setup instructions                 | -                       | Nov 1, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feat-parking             | 8d69153       | fix: update API title and description in OpenApiConfiguration                                                 | -                       | Nov 1, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feat-parking             | b89798b       | feat: backend functional for tests                                                                            | -                       | Oct 30, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | 7d4f794       | security: use environment variables for database credentials                                  | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | 00f0127       | docs: update docker hub username in testing documentation                                     | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | 6c7acf7       | feat: add reservation states management and reviews testing with cleanup                      | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | e6180d8       | feat: add endpoint to filter reservations by parking and status                               | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | 8f583e9       | feat: auto-generate parking spots on parking creation                                         | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | ff4f31c       | chore: update Aiven MySQL credentials for production database                                 | -                       | Nov 7, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | 094c9fd       | Merge branch 'feat-parking' into development                                                  | -                       | Nov 7, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | 882494c       | build: containerize app and push to Docker Hub                                                | -                       | Nov 7, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | 19d35b4       | feat: adding new parking data and information                                                 | -                       | Nov 7, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | 3ae639c       | feat: add JPA auditing configuration for automatic date management                            | -                       | Nov 1, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | 7dffe68e      | feat: add comprehensive README with project description, architecture, and setup instructions | -                       | Nov 1, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | 8d69153       | fix: update API title and description in OpenApiConfiguration                                 | -                       | Nov 1, 2025             |
+
 
 ##### 6.2.2.5. Testing Suite Evidence for Sprint Review
 
@@ -4663,7 +4757,19 @@ En esta sección se explica y presenta el conjunto de Unit Tests, Integration Te
 
 ##### 6.2.1.9. Team Collaboration Insights during Sprint
 
+Evidencia de los commits por cada repositorio:
 
+- **Commits Backend**
+
+<img src="assets/chapter-6/CommitsBackend.png" alt="CommitsBackend">
+
+- **Commits Web Frontend**
+
+<img src="assets/chapter-6/CommitsFrontWeb.png" alt="CommitsFrontWeb">
+
+- **Commits Mobile Frontend**
+
+<img src="assets/chapter-6/CommitsFrontMovil.png" alt="CommitsFrontMovil">
 
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
@@ -5038,7 +5144,7 @@ A continuación se presentan los videos generados como parte del desarrollo del 
 
 ⦁	Trello 1: [https://trello.com/invite/b/68e2dcc9e1d60f856ece252e/ATTI08db8008dc8b850e785c7fa6712c707bB2AC1B2E/sprint-1](https://trello.com/invite/b/68e2dcc9e1d60f856ece252e/ATTI08db8008dc8b850e785c7fa6712c707bB2AC1B2E/sprint-1)
 
-Trello 2: [https://trello.com/invite/b/68f8ee78b80c2823919e3804/ATTIfb9c480bd4186597ffc0a854c337329a6F5767A3/sprint-2](https://trello.com/invite/b/68f8ee78b80c2823919e3804/ATTIfb9c480bd4186597ffc0a854c337329a6F5767A3/sprint-2)
+⦁	Trello 2: [https://trello.com/invite/b/68f8ee78b80c2823919e3804/ATTIfb9c480bd4186597ffc0a854c337329a6F5767A3/sprint-2](https://trello.com/invite/b/68f8ee78b80c2823919e3804/ATTIfb9c480bd4186597ffc0a854c337329a6F5767A3/sprint-2)
 
 ⦁	Link del Prototipo: [https://www.figma.com/proto/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=2-110&t=javn3IzdBb8xNEo2-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=2%3A110&show-proto-sidebar=1](https://www.figma.com/proto/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=2-110&t=javn3IzdBb8xNEo2-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=2%3A110&show-proto-sidebar=1)
 
