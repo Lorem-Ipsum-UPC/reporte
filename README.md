@@ -4872,11 +4872,13 @@ Como sugerencias, propuso incluir un tutorial inicial para nuevos usuarios y la 
 
 **Entrevista 2**
 
-**Nombre:** 
-**Edad:** 
-**Resumen:** 
+**Nombre: William**  
+**Edad:** 23 años  
+**Tiempo en el video:** 0:00:00
 
-**Tiempo en el video:** 00:00:00
+**Resumen:**  William Martin Riega, de 23 años, estudiante y desarrollador de software, destacó la facilidad de uso de la app ParqueoYa y su similitud con aplicaciones de transporte como Uber o Didi, lo que facilitó la navegación en el mapa. Elogió el diseño limpio y los colores, especialmente el azul. Señaló que el proceso de reserva y pago fue rápido y claro. Como sugerencia, propuso integrar métodos de pago como Yape y agregar notificaciones que avisen cuando un estacionamiento libere espacio.
+
+<img src="assets/chapter-6/EntrevistaWilliam.png" alt="EC2">
 
 **Entrevista 3**
 
