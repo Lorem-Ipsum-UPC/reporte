@@ -4744,6 +4744,33 @@ En esta sección, se presentan los commits realizados en el repositorio del fron
 
 En esta sección se explica y presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados, para Web Services relacionados con los User Stories especificados en el Sprint.
 
+En el caso de los tests de BDD debe elaborarse los archivos .feature utilizando el lenguaje Gherkin y los archivos Steps en el lenguaje de programación. En esta sección se debe incluir la relación de tests diseñados. En el caso de los Unit Tests, debe indicarse con qué clases y comportamientos se relacionan. En el caso de los Integration Tests ó Acceptance Tests bajo el enfoque BDD, se incluye el código de los .feature Files, explicando con qué User Stories se relacionan. También debe incluirse la ruta del repositorio de control de versiones para los proyectos de Testing, junto con los id de commits relacionados con los avances en Testing para este Sprint.
+
+#### Repositorio de Testing
+
+**Repositorio:** [https://github.com/Lorem-Ipsum-UPC/ParkeoYa-AcceptanceTests](https://github.com/Lorem-Ipsum-UPC/ParkeoYa-AcceptanceTests)
+
+Este repositorio contiene la suite completa de pruebas de aceptación automatizadas para ParkeoYa Sprint 2, incluyendo:
+
+- **Acceptance Tests (BDD)**: Pruebas con enfoque BDD utilizando Gherkin y Cucumber para los endpoints de API implementados en el Sprint 2
+- **Parking Management Tests**: Pruebas para gestión completa de estacionamientos
+- **Reservation Management Tests**: Pruebas para creación y gestión de reservas con códigos QR
+- **Review Management Tests**: Pruebas para sistema de reseñas y calificaciones
+- **Profile Management Tests**: Pruebas para actualización de perfiles de usuarios
+- **Notification Management Tests**: Pruebas para sistema de notificaciones push con FCM
+- **Common Step Definitions**: Definiciones reutilizables para peticiones HTTP y validaciones
+
+#### Testing Evidence Commits
+
+| **Repository**                | **Branch** | **Commit Id** | **Commit Message**                                   | **Commit Message Body**                                                                                                                                                                | **Committed on (Date)** |
+| ----------------------------- | ---------- | ------------- | ---------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
+| ParkeoYa-AcceptanceTests      | main       | 069a498       | feat: add parking management acceptance tests        | Implementation of BDD acceptance tests for parking management endpoints: GET all parkings, POST parking, GET spots by parking, ADD spot, UPDATE parking, GET parkings by owner          | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | 230b553       | feat: add reservation management acceptance tests    | Implementation of BDD acceptance tests for reservation endpoints: CREATE reservation, UPDATE status, GET by parking, GET by driver and status with QR code generation                  | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | b113d37       | feat: add review management acceptance tests         | Implementation of BDD acceptance tests for review endpoints: CREATE review with rating validation, GET reviews by parking, GET reviews by driver with average calculation              | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | 6ca1b31       | feat: add profile management acceptance tests        | Implementation of BDD acceptance tests for profile endpoints: UPDATE parking owner profile, UPDATE driver profile, GET profiles with data validation                                   | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | 5b1ad1a       | feat: add notification management acceptance tests   | Implementation of BDD acceptance tests for notification endpoints: SEND push notification, REGISTER token, UNREGISTER token with FCM integration                                       | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | 8b41f8f       | feat: add common step definitions for API testing    | Implementation of reusable Cucumber step definitions for HTTP requests (GET, POST, PATCH, DELETE), authentication, and response validation across all acceptance tests                 | 14/11/2025              |
+
 
 
 ##### 6.2.2.6. Execution Evidence for Sprint Review
