@@ -4775,6 +4775,49 @@ Este repositorio contiene la suite completa de pruebas de aceptación automatiza
 
 ##### 6.2.2.6. Execution Evidence for Sprint Review
 
+En este segundo sprint logramos, como segunda  fase de nuestro producto final, desarrollar nuestra app web usando NextJS, la versión movil con Flutter, y el backend con los diferentes servicios implementados con SpringBoot + Java 17 + Maven. La app web se desplegó en Vercel y el backend se desplegó con Render.
+
+##### App web desplegada: https://parkeoya.vercel.app
+
+##### REGISTRO Y LOGIN
+<img src="assets/chapter-6/web-register.png" alt="Registro ParkeoYa">
+<img src="assets/chapter-6/web-login.png" alt="Login ParkeoYa">
+
+##### ONBOARDING PARA CREACION DE ESTACIONAMIENTO
+<img src="assets/chapter-6/onboarding-1.png" alt="Onboarding 1 ParkeoYa">
+<img src="assets/chapter-6/onboarding-2.png" alt="Onboarding 2 ParkeoYa">
+<img src="assets/chapter-6/onboarding-3.png" alt="Onboarding 3 ParkeoYa">
+<img src="assets/chapter-6/onboarding-4.png" alt="Onboarding 4 ParkeoYa">
+<img src="assets/chapter-6/onboarding-5.png" alt="Onboarding 5 ParkeoYa">
+
+##### SECCIONES DE LA APP WEB
+
+###### PANEL GENERAL
+<img src="assets/chapter-6/web-general.png" alt="Panel General ParkeoYa">
+
+###### ESPACIOS IoT
+<img src="assets/chapter-6/web-spots.png" alt="Spots ParkeoYa">
+
+###### RESERVAS
+<img src="assets/chapter-6/web-reservations.png" alt="Reservas ParkeoYa">
+
+###### RESEÑAS
+<img src="assets/chapter-6/web-reviews.png" alt="Reviews ParkeoYa">
+
+###### CONFIGURACIÓN
+<img src="assets/chapter-6/web-config.png" alt="Configuración ParkeoYa">
+
+##### App móvil
+
+
+##### Backend desplegado: https://parkeoya-backend-latest-1.onrender.com/swagger-ui/index.html
+
+<img src="assets/chapter-6/backend-1.png" alt="imagen 1 de backend">
+<img src="assets/chapter-6/backend-2.png" alt="imagen 2 de backend">
+<img src="assets/chapter-6/backend-3.png" alt="imagen 3 de backend">
+<img src="assets/chapter-6/backend-4.png" alt="imagen 4 de backend">
+
+
 
 ##### 6.2.2.7. Services Documentation Evidence for Sprint Review
 
@@ -4834,6 +4877,7 @@ Este repositorio contiene la suite completa de pruebas de aceptación automatiza
 | Profiles: Get driver profile                                | GET         | `userId` (path)                                                                                                                   | `/api/v1/profiles/driver/{userId}`                                       |
 
 ##### 6.2.2.8. Software Deployment Evidence for Sprint Review
+
 
 
 ##### 6.2.1.9. Team Collaboration Insights during Sprint
