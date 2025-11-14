@@ -4751,8 +4751,6 @@ En esta sección se explica y presenta el conjunto de Unit Tests, Integration Te
 
 Este repositorio contiene la suite completa de pruebas automatizadas para ParkeoYa Sprint 2, incluyendo:
 
-- **Integration Tests**: Pruebas de integración para validar la comunicación entre componentes del backend y endpoints de API
-- **Acceptance Tests (BDD)**: Pruebas con enfoque BDD utilizando Gherkin y Cucumber para los endpoints de API implementados en el Sprint 2
 - **Parking Management Tests**: Pruebas para gestión completa de estacionamientos
 - **Reservation Management Tests**: Pruebas para creación y gestión de reservas con códigos QR
 - **Review Management Tests**: Pruebas para sistema de reseñas y calificaciones
@@ -4775,6 +4773,11 @@ Los Unit Tests validan el comportamiento de componentes individuales del sistema
 - **Reservation Management Unit Tests**: Pruebas para servicios y controladores de reservas
   - `ReservationCommandServiceImplTest`: Valida creación, actualización y cancelación de reservas
   - `ReservationsControllerTest`: Pruebas de endpoints REST de reservations
+
+
+**Evidencia de Unit Tests:**
+  <img width="857" height="693" alt="image" src="https://github.com/user-attachments/assets/810e14df-a9eb-4f55-90f5-57076d268fcc" />
+
 
 **Unit Tests Evidence Commits:**
 
@@ -4799,7 +4802,7 @@ Los Integration Tests validan la correcta integración entre los diferentes comp
 
 **Evidencia de Integration Tests:**
 
-<img src="assets/chapter-6/integration-tests-evidence.png" alt="Integration Tests Evidence">
+<img width="804" height="697" alt="image" src="https://github.com/user-attachments/assets/2d2cdcc3-fbda-4171-8cf3-2c4bf6e40a30" />
 
 Los tests de integración verifican:
 - Conectividad con la base de datos y servicios externos
