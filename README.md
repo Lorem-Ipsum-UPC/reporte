@@ -4757,7 +4757,6 @@ Este repositorio contiene la suite completa de pruebas de aceptación automatiza
 - **Review Management Tests**: Pruebas para sistema de reseñas y calificaciones
 - **Profile Management Tests**: Pruebas para actualización de perfiles de usuarios
 - **Notification Management Tests**: Pruebas para sistema de notificaciones push con FCM
-- **Common Step Definitions**: Definiciones reutilizables para peticiones HTTP y validaciones
 
 #### Testing Evidence Commits
 
