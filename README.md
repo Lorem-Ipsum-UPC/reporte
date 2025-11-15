@@ -5165,9 +5165,11 @@ Las preguntas fueron diseñadas para:
 
 **Entrevista 2**
 
-**Nombre:**  
-**Edad:**  
-**Resumen:**
+**Nombre:  Leandro Medina**
+**Edad:**  22
+**Resumen:** Leandro contó que el registro y la configuración inicial fueron simples y guiados, pudiendo dejar su estacionamiento operativo sin ayuda externa . Valora el plano visual porque le permitió replicar sus espacios fácilmente, aunque le gustaría un poco más de precisión al ajustar tamaños . Destacó el panel por darle control inmediato de ocupación, espacios libres e ingresos, con acciones rápidas como bloquear lugares . Considera clave la reserva anticipada porque asegura ingresos y reduce la búsqueda de espacio para los clientes . Frente a su gestión anterior en papel, la app redujo errores y le dio reportes claros para decidir mejor . Al principio dudó del IoT, pero ahora lo ve esencial para medir ocupación y tiempos reales de uso, cobrando de forma justa . La mayor fricción fue configurar tarifas combinadas, y sugiere un tutorial corto . Para el futuro, pide app móvil, sugerencias de precio según demanda e integración contable .
+
+<img width="746" height="417" alt="image" src="https://github.com/user-attachments/assets/e50ce657-2150-4501-937a-c09042076bff" />
 
 
 **Tiempo en el video: 0:00:00**
