@@ -49,7 +49,7 @@
 </body>
 
 <p align="center">
-<br><strong> Octubre, 2025</strong></p>
+<br><strong> Noviembre, 2025</strong></p>
 
 <div style="page-break-after: always;"></div>
 
@@ -63,7 +63,8 @@
 | 1.3         | 15/09/2025 | Juan Calissaya y Alessandro David                                                | Realización del Capítulo 3                             |
 | 1.4         | 20/09/2025 | Alessandro David, Nelson Serrano y Tyrone Sotil                                  | Realización del Capítulo 4                             |
 | 1.5         | 5/10/2025  | Tyrone Sotil, Bárbara Espinoza, Juan Calisaya | Realización del Capítulo 5                        |
-| 1.6         | 8/10/2025  | Alessandro David, Nelson Serrano y Bárbara Espinoza, Juan Calisaya | Realización del Capítulo 6                         |
+| 1.6         | 8/10/2025  | Alessandro David, Nelson Serrano, Bárbara Espinoza y Juan Calisaya | Realización del Capítulo 6                         |
+| 1.7         | 14/11/2025  | Alessandro David, Nelson Serrano, Bárbara Espinoza, Tyrone Sotil y Juan Calisaya | Realización del Capítulo 6.2                         |
 
 # Project Report Collaboration Insights
 
@@ -94,6 +95,18 @@ Enlace al repositorio del informe en GitHub: [Repositorio de GitHub](https://git
 - **Sotil Vasquez, Tyrone Raí**: Colaboré en la elaboración del Capítulo V, enfocándome en el diseño de mobile wireframes y app prototypes dentro del UI/UX Design. Además, participé en la integración visual del design system y en la validación del frontend durante el proceso de implementación y despliegue.
 
 <img src="./assets/chapter-1/CommitsTP.jpg" alt="Commits TP">
+
+## TB2
+
+**Descripción de las actividades realizadas:**
+
+- **Espinoza Delgado, Bárbara Antonella**: Colaboré con la elaboración del Capítulo VI del informe, la realización de la evaluación según heuristicas, una entrevista a un conductor, el sprint backlog y el development evidence for sprint review.
+- **Calisaya Sánchez, Juan Jesús**: Colaboré en la elaboración del Capítulo VI, específicamente en el Software Deployment y en la realizacion de entrevistas de validación.
+- **David Polanco, Alessandro Alonso**: Colaboré en el desarrollo del Capítulo VI, participando en la realización de la evidencia de ejecución y documentación de endpoints. 
+- **Serrano Ircañaupa, Nelson Elias**: Colaboré con la elaboración del Capítulo VI, específicamente en la preparación de evidencias de testing suite y execution para el Sprint Review 2. Apoyé en la validación del producto y en el aseguramiento de la calidad del software, garantizando la correcta verificación de los requisitos funcionales.
+- **Sotil Vasquez, Tyrone Raí**: Colaboré en la elaboración del Capítulo VI, enfocándome en el desarrollo de la app mobile y de una entrevista a un conductor.
+
+<img src="./assets/chapter-1/CommitsTB2.png" alt="Commits TB2">
 
 <div style="page-break-after: always;"></div>
 
@@ -5281,7 +5294,6 @@ Se presenta la esencia de **ParkeoYa**: una solución IoT que conecta a conducto
 ## 6.5. Video About-the-Team
 
 **Nombre del archivo:**
-
 
 **Duración:** x s  **Formato:** MP4
 
