@@ -301,6 +301,7 @@ Enlace al repositorio del informe en GitHub: [Repositorio de GitHub](https://git
 - [Conclusiones](#conclusiones)
 - [TB1](#tb1-1)
 - [TP](#tp-1)
+- [TB2](#tb2-2)
 - [Recomendaciones](#recomendaciones)
 ### [Bibliografia](#bibliografia)
 ### [Anexos](#anexos-1)
@@ -5461,15 +5462,15 @@ A continuación se presentan los videos generados como parte del desarrollo del 
 
 ⦁ Link Landing Page: [https://parkeoya-lorem-ipsum.netlify.app/](https://parkeoya-lorem-ipsum.netlify.app/)
 
-⦁	Figma: [https://www.figma.com/design/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=0-1&t=JtKhGofsZ7GZ9Q0R-1](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=0-1&t=JtKhGofsZ7GZ9Q0R-1)
+⦁ Figma: [https://www.figma.com/design/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=0-1&t=JtKhGofsZ7GZ9Q0R-1](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=0-1&t=JtKhGofsZ7GZ9Q0R-1)
 
-⦁	Trello 1: [https://trello.com/invite/b/68e2dcc9e1d60f856ece252e/ATTI08db8008dc8b850e785c7fa6712c707bB2AC1B2E/sprint-1](https://trello.com/invite/b/68e2dcc9e1d60f856ece252e/ATTI08db8008dc8b850e785c7fa6712c707bB2AC1B2E/sprint-1)
+⦁ Trello 1: [https://trello.com/invite/b/68e2dcc9e1d60f856ece252e/ATTI08db8008dc8b850e785c7fa6712c707bB2AC1B2E/sprint-1](https://trello.com/invite/b/68e2dcc9e1d60f856ece252e/ATTI08db8008dc8b850e785c7fa6712c707bB2AC1B2E/sprint-1)
 
-⦁	Trello 2: [https://trello.com/invite/b/68f8ee78b80c2823919e3804/ATTIfb9c480bd4186597ffc0a854c337329a6F5767A3/sprint-2](https://trello.com/invite/b/68f8ee78b80c2823919e3804/ATTIfb9c480bd4186597ffc0a854c337329a6F5767A3/sprint-2)
+⦁ Trello 2: [https://trello.com/invite/b/68f8ee78b80c2823919e3804/ATTIfb9c480bd4186597ffc0a854c337329a6F5767A3/sprint-2](https://trello.com/invite/b/68f8ee78b80c2823919e3804/ATTIfb9c480bd4186597ffc0a854c337329a6F5767A3/sprint-2)
 
-⦁	Link del Prototipo: [https://www.figma.com/proto/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=2-110&t=javn3IzdBb8xNEo2-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=2%3A110&show-proto-sidebar=1](https://www.figma.com/proto/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=2-110&t=javn3IzdBb8xNEo2-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=2%3A110&show-proto-sidebar=1)
+⦁ Link del Prototipo: [https://www.figma.com/proto/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=2-110&t=javn3IzdBb8xNEo2-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=2%3A110&show-proto-sidebar=1](https://www.figma.com/proto/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=2-110&t=javn3IzdBb8xNEo2-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=2%3A110&show-proto-sidebar=1)
 
-⦁	Link del video del Prototipo: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202017267_upc_edu_pe/ETj3uMZWKpBGgPWEeueSTXoBCMKoZNGsSzuRr0ZumT5Sew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=w7hDFP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202017267_upc_edu_pe/ETj3uMZWKpBGgPWEeueSTXoBCMKoZNGsSzuRr0ZumT5Sew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=w7hDFP)
+⦁ Link del video del Prototipo: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202017267_upc_edu_pe/ETj3uMZWKpBGgPWEeueSTXoBCMKoZNGsSzuRr0ZumT5Sew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=w7hDFP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202017267_upc_edu_pe/ETj3uMZWKpBGgPWEeueSTXoBCMKoZNGsSzuRr0ZumT5Sew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=w7hDFP)
 
 ⦁ Link Frontend Web: [https://parkeoya.vercel.app/login](https://parkeoya.vercel.app/login)
 
