@@ -5156,12 +5156,17 @@ Las preguntas fueron diseñadas para:
 
 **Entrevista 1**
 
-**Nombre:**  
-**Edad:**   
-**Resumen:**  
-
+**Nombre:** Calos Ochoa
+**Edad:** 25 años
 **Tiempo en el video: 0:00:00**
+**Resumen:** Carlos comentó que, en general, la experiencia al registrarse y configurar su estacionamiento fue rápida y sencilla, aunque mencionó que el registro del parking podría tener más claridad, sugiriendo pop-ups de ayuda o guías adicionales.
+Le gustó el diseño del plano y la interfaz, pero notó un problema: los espacios que registró no se reflejaron correctamente; añadió solo 1 spot y la plataforma mostró cerca de 20.
+Destacó que el panel de gestión es ordenado y fácil de usar, permitiéndole visualizar y controlar sus reservas sin complicaciones. También considera útil que los conductores reserven con anticipación, pues mejora la organización.
+Comparado con su método tradicional, ve la aplicación como más eficiente y menos propensa a errores. Valoró también la integración de IoT, destacando la comodidad de ver el estado real de los espacios sin verificar manualmente.
+Solo tuvo confusión con la falta de claridad en el registro inicial y el error en el número de espacios creados.
+Para futuras versiones, le gustaría ver estadísticas más completas, notificaciones automáticas y opciones de promociones, igual que otros entrevistados.
 
+<img width="746" height="417" alt="image" src="" />
 
 **Entrevista 2**
 
@@ -5177,13 +5182,16 @@ Las preguntas fueron diseñadas para:
 
 **Entrevista 3**
 
-**Nombre:**  
-**Edad:**  
-**Resumen:**  
-
-
+**Nombre:** Beth Oneglio
+**Edad:** 24 años
 **Tiempo en el video: 0:00:00**
+**Resumen:** Beth tuvo una experiencia inicial rápida, sencilla e intuitiva al registrarse y configurar su estacionamiento. Consideró que el diseño del plano es práctico, visual y fácil de editar, y destacó que el panel de gestión le permite control total de sus espacios y reservas.
+Valoró que los conductores puedan reservar con anticipación, pues ordena mejor su operación. Comparado con su método actual, la aplicación es más eficiente y reduce su carga de trabajo al centralizar toda la información.
+La integración de IoT le pareció muy útil y moderna, ya que le permite ver el estado de los espacios en tiempo real sin verificar físicamente.
+Solo tuvo una ligera confusión inicial al editar el plano, pero lo resolvió rápidamente.
+Finalmente, le gustaría que se agreguen estadísticas avanzadas, notificaciones automáticas y opciones de promociones en futuras versiones.
 
+<img width="746" height="417" alt="image" src="" />
 
 **Segmento Conductores**
 
