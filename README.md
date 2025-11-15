@@ -4612,6 +4612,693 @@ Para el desarrollo del informe y aplicaciones en este sprint se distribuyó los 
 
 <div style="page-break-after: always;"></div>
 
+#### 6.2.2. Sprint 2
+
+##### 6.2.2.1. Sprint Planning 2
+
+| Sprint #                           | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**     |
+| **Date**                           | 21 / 10 / 2025                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Time**                           | 19 : 00 horas                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Location**                       | Discord                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Prepared By**                    | Lorem Ipsum                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Attendees**                      | Calisaya Sánchez, Juan Jesús <br> David Polanco, Alessandro Alonso <br> Espinoza Delgado, Bárbara Antonella <br> Serrano Ircañaupa, Nelson Elias <br> Sotil Vasquez, Tyrone Raí                                                                                                                                                                                                                                               |
+| **Sprint-1 Review Summary**        | Previamente al inicio del Sprint 2, el equipo acordó la asignación de tareas y correcciones a realizar de la entrega anterior.                                                                                                                                                                                                                                                                     |
+| **Sprint-1 Retrospective Summary** | Como puntos de mejora se reconoce la necesidad de que todo el equipo esté comprometido con la realización de las tareas de manera puntual.                                                                                                                                                                                                                         |
+| **Sprint-1 Goal**                  | La meta de este segundo Sprint es terminar la versión final de la aplicación web, realizar una versión inicial de la aplicación móvil y el backend. Esto permitirá que ambos segmentos objetivo puedan probar las aplicaciones, validarlas y opinar sobre ellas, dandonos sugerencias y criticas. |
+| **Sprint-2 Velocity**              | 40 hours                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Sprint-1 Story Points**          | 42                                                                                                                                                                                                                                                                                                                                                                                                                            |
+
+##### 6.2.1.2. Aspect Leaders and Collaborators
+
+Con el fin de garantizar una comunicación efectiva y una ejecución eficiente de las tareas, se desarrolló la **matriz LACX (Leadership and Collaboration Matrix)**, la cual permite identificar qué integrante del equipo lidera cada componente del proyecto y quiénes colaboran en su desarrollo.
+
+En esta segunda iteración se abordaron los siguientes aspectos principales:
+
+- **Aspect Name 1:** Web Móvil Frontend (Conductores)
+- **Aspect Name 2:** Web App Frontend (Dueños)
+- **Aspect Name 3:** RESTful API - Backend Básico
+- **Aspect Name 4:** Infraestructura y Despliegue
+- **Aspect Name 5:** Documentación
+
+| Team Member                             | GitHub User | Aspect Name 1 | Aspect Name 2 | Aspect Name 3 | Aspect Name 4 | Aspect Name 5 |
+| --------------------------------------- | :---------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
+| **Calisaya Sánchez, Juan Jesús**        | JuanCali999 |       C       |       L       |       C       |       C       |       C       |
+| **David Polanco, Alessandro Alonso**    | Alesso2805  |       C       |       L       |       C       |       C       |       C       |
+| **Espinoza Delgado, Bárbara Antonella** |  MesSobble  |       C       |       C       |       C       |       C       |       L       |
+| **Serrano Ircañaupa, Nelson Elias**     |  NelsonUPC  |       C       |       C       |       L       |       C       |       C       |
+| **Sotil Vasquez, Tyrone Raí**           |  Tyrone-J   |       L       |       C       |       C       |       C       |       C       |
+
+##### 6.2.2.3. Sprint Backlog 2
+
+Durante este sprint, se trabajó en desarrollar las user stories referentes a la aplicación web, aplicación móvil y backend.
+
+La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables.
+
+<img src="assets/chapter-6/TrelloSprint2.png" alt="Trello Sprint2">
+
+Trello: [https://trello.com/invite/b/68f8ee78b80c2823919e3804/ATTIfb9c480bd4186597ffc0a854c337329a6F5767A3/sprint-2](https://trello.com/invite/b/68f8ee78b80c2823919e3804/ATTIfb9c480bd4186597ffc0a854c337329a6F5767A3/sprint-2)
+
+| **User Story Id** | **User Story Title**                        | **Task Id** | **Task Title**                                 | **Task Description**                                                | **Estimation (Hours)** | **Assigned To**                   | **Status** |
+| ----------------- | ------------------------------------------- | ----------- | ---------------------------------------------- | ------------------------------------------------------------------- | ---------------------- | --------------------------------- | ---------- |
+| US06              | Perfil de conductor                         | T13         | Desarrollar vista de perfil de conductor        | Implementar gestión de datos personales y vehículo del conductor     | 3                      | Bárbara Espinoza              | Done       |
+| US09              | Reserva con confirmación                    | T14         | Implementar reserva con código QR               | Reservar espacio, procesar pago y recibir código QR                 | 5                      | Alessandro David  | Done       |
+| TS03              | API de reservas                             | T15         | Crear endpoints de reservas                    | Endpoints para crear/consultar reservas y devolución de QR          | 5                      | Nelson Serrano                   | Done       |
+| US10              | Historial de reservas                       | T16         | Desarrollar módulo de historial de reservas    | Ver reservas pasadas con filtros y detalles                         | 3                      |  Juan Calisaya | Done       |
+| US11              | Mapa con distancias a estacionamientos      | T17         | Implementar mapa con distancias                | Mostrar distancia en metros y detalles en el mapa                   | 3                      | Tyrone Sotil | Done       |
+| US13              | Reserva rápida en un solo click             | T18         | Desarrollar reserva rápida                     | Reservas rápidas con mínima fricción y validaciones                 | 3                      | Tyrone Sotil | Done       |
+| US22              | Modelo de comisiones                        | T20         | Crear desglose de comisiones                   | Mostrar desglose de comisiones por transacción para propietarios    | 2                      | Juan Calisaya                   | Done       |
+| US23              | Reportes de ingresos por propietarios       | T21         | Implementar reportes mensuales de ingresos     | Generar reportes mensuales (Excel) de ingresos y comisiones         | 3                      | Alessandro David  | Done       |
+| US31              | App móvil para conductores                  | T24         | Crear app móvil de reservas                    | Desarrollar app para buscar, reservar y gestionar estacionamientos  | 8                      | Tyrone Stotil                    | Done       |
+| TS04              | Detección básica de ocupación               | T25         | Implementar detección de ocupación con sensor  | Lógica del sensor para detectar entrada/salida y reportar ocupación | 5                      | Alessandro David                   | Done       |
+
+
+##### 6.2.2.4. Development Evidence for Sprint Review
+
+En esta sección, se presentan los commits realizados en el repositorio del frontend de la aplicación móvil y en el repositorio del backend en GitHub. Estos commits reflejan el progreso y las mejoras implementadas durante el Sprint 2, proporcionando una visión detallada de las actividades de desarrollo y las contribuciones del equipo.
+
+**Repositorio de Frontend Web:**
+
+[https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend](https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend)
+
+
+| **Repository**                    | **Branch**               | **Commit Id** | **Commit Message**                                                                                                                  | **Commit Message Body** | **Committed on (Date)** |
+| --------------------------------- | ------------------------ | ------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | ----------------------- |
+| Lorem-Ipsum-UPC/parkeoya-frontend | main                     | d2873ca       | feat: add error handling and validation messages in forms and onboarding steps                                                      | -                       | Nov 11, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-frontend | main                     | b6f95bd       | feat: update document titles across various pages and enhance button and select styles                                              | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | main                     |aee2c472       | Refactor authentication and user flow                                                                                               | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | main                     | b81e966       | feat: enhance login flow and dashboard functionality                                                                                | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | main                     | 021cfed       | feat: Implement space management with real-time data integration                                                                    | -                       | Nov 8, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | feature/auth-integration | 7af06de       | feat: remove integration summary and troubleshooting documents                                                                      | -                       | Nov 1, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | feature/auth-integration | b151799       | feat(auth): integrate authentication and parking creation with backend                                                              | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-frontend | feature/auth-integration |f35263b6       | feat: update UI colors and styles across various components for consistency                                                         | -                       | Oct 7, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | feature/auth-integration | 54023ff       | feat: add onboarding steps for capacity, schedule, basic info, pricing, and location pages                                          | -                       | Oct 6, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | feature/auth-integration | 166dfb6       | refactor: rename pages and update navigation links for consistency                                                                  | -                       | Oct 6, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | feature/auth-integration | 6f678c1       | fix: resolve version conflict for react-is in package-lock.json                                                                     | -                       | Oct 6, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | feature/auth-integration |57d72a14       | Merge branch 'main' of [https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend](https://github.com/Lorem-Ipsum-UPC/parkeoya-frontend) | -                       | Oct 6, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | feature/auth-integration | cbabe01       | feat: implement space management page with real-time IoT sensor monitoring and status filtering                                     | -                       | Oct 6, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | feature/auth-integration |bba12d51       | fix(deps): Fix dependencies to run the project                                                                                      | -                       | Oct 6, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-frontend | feature/auth-integration | 5b3acff       | first commit                                                                                                                        | -                       | Oct 6, 2025             |
+
+
+**Repositorio de Frontend Móvil:**
+
+[https://github.com/Lorem-Ipsum-UPC/parkeoya-appmobil](https://github.com/Lorem-Ipsum-UPC/parkeoya-appmobil)
+
+
+| **Repository**                    | **Branch** | **Commit Id** | **Commit Message**                                 | **Commit Message Body** | **Committed on (Date)** |
+| --------------------------------- | ---------- | ------------- | -------------------------------------------------- | ----------------------- | ----------------------- |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | ac46920       | Merge pull request #2 from Lorem-Ipsum-UPC/develop | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | f5a3bdc       | feat: reservation section v1                       | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | 6288b2d       | feat: reservation v1                               | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | 98aa7e5       | feat: login validation                             | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | 249dfe6       | fix: parking id.tsx fixed                          | -                       | Nov 8, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | cfea9be       | feat: map section v2                               | -                       | Nov 8, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | 2cc630d       | feat: map section v1                               | -                       | Nov 8, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | bebd5e0       | feat: profile section v1                           | -                       | Nov 8, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | ea214c2       | feat: home v1                                      | -                       | Nov 8, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | 9c47eae       | feat: auth section screens                         | -                       | Nov 8, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | 72fa6f7       | feat: parkeoya auth base                           | -                       | Nov 8, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | 1cd9f42       | feat: arquitectura creada                          | -                       | Nov 2, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | be8fe12       | feat: project base created                         | -                       | Nov 1, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-appmobil | main       | 2767e53       | Initial commit                                     | -                       | Oct 26, 2025            |
+
+
+**Repositorio de Backend:**
+
+[https://github.com/Lorem-Ipsum-UPC/parkeoya-backend](https://github.com/Lorem-Ipsum-UPC/parkeoya-backend)
+
+
+| **Repository**                   | **Branch**               | **Commit Id** | **Commit Message**                                                                                          | **Commit Message Body** | **Committed on (Date)** |
+| -------------------------------- | ------------------------ | ------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------- | ----------------------- |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | f32efe5       | chore: updating configuration for roles and users service                                                   | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 3e2d41a       | feat: added review service                                                                                  | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 41af55a       | feat: added and updated reservation service                                                                 | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 623c3b5       | feat: added payment service                                                                                 | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | e191a90       | feat: added notification and message broker communications                                                  | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 25f31e2       | chore: updating services with minor features                                                                | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | f25e3e9       | feat: firebase configuration                                                                                | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | c89597e       | feat: added edge server feature and updating parking, profile services                                      | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 1aeb81f       | feat: added driver feature                                                                                  | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 91e660b       | feat: device controller and service                                                                         | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 4e6d355       | feat: added payment and reservation                                                                         | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | b1ccb55       | feat: added parking feature and edge server                                                                 | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 1f62718       | feat: updated parking reservation and authentication service                                                | -                       | Oct 26, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 60a517a       | chore: initial backend project structure                                                                    | -                       | Oct 10, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | ee0bf3a       | feat: initial folder for shared utilities and components                                                    | -                       | Oct 10, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 0f56056       | feat: initial DDD folder structure for Profile (application, domain, infrastructure, interfaces)            | -                       | Oct 10, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 9fc978a       | feat: initial DDD folder structure for Parking Management (application, domain, infrastructure, interfaces) | -                       | Oct 10, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | main                     | 6827407       | feat: initial DDD folder structure for IAM (application, domain, infrastructure, interfaces)                | -                       | Oct 10, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | feat-parking             | d08cec6       | feat: implement auto-generation of parking spots in CreateParkingCommand                                      | -                       | Nov 11, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | feat-parking             | 244b49b       | fix: add shouldNotFilter to skip JWT validation on public endpoints                                           | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feat-parking             | c41f00b       | feat: implement update functionality for parking, driver, and parking owner profiles with associated commands | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feat-parking             | 72d30dd       | feat: add method to retrieve driver full name by driver ID and update related services                        | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feat-parking             | 19d35b4       | feat: adding new parking data and information                                                                 | -                       | Nov 7, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feat-parking             | 3ae639c       | feat: add JPA auditing configuration for automatic date management                                            | -                       | Nov 1, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feat-parking             | 7dffe68e      | feat: add comprehensive README with project description, architecture, and setup instructions                 | -                       | Nov 1, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feat-parking             | 8d69153       | fix: update API title and description in OpenApiConfiguration                                                 | -                       | Nov 1, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feat-parking             | b89798b       | feat: backend functional for tests                                                                            | -                       | Oct 30, 2025            |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | 7d4f794       | security: use environment variables for database credentials                                  | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | 00f0127       | docs: update docker hub username in testing documentation                                     | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | 6c7acf7       | feat: add reservation states management and reviews testing with cleanup                      | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | e6180d8       | feat: add endpoint to filter reservations by parking and status                               | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | 8f583e9       | feat: auto-generate parking spots on parking creation                                         | -                       | Nov 9, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | ff4f31c       | chore: update Aiven MySQL credentials for production database                                 | -                       | Nov 7, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | 094c9fd       | Merge branch 'feat-parking' into development                                                  | -                       | Nov 7, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | 882494c       | build: containerize app and push to Docker Hub                                                | -                       | Nov 7, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | 19d35b4       | feat: adding new parking data and information                                                 | -                       | Nov 7, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | 3ae639c       | feat: add JPA auditing configuration for automatic date management                            | -                       | Nov 1, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | 7dffe68e      | feat: add comprehensive README with project description, architecture, and setup instructions | -                       | Nov 1, 2025             |
+| Lorem-Ipsum-UPC/parkeoya-backend | feature/reservations     | 8d69153       | fix: update API title and description in OpenApiConfiguration                                 | -                       | Nov 1, 2025             |
+
+
+##### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+En esta sección se explica y presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados, para Web Services relacionados con los User Stories especificados en el Sprint.
+
+
+#### Repositorio de Testing
+
+**Repositorio:** [https://github.com/Lorem-Ipsum-UPC/ParkeoYa-AcceptanceTests](https://github.com/Lorem-Ipsum-UPC/ParkeoYa-AcceptanceTests)
+
+Este repositorio contiene la suite completa de pruebas automatizadas para ParkeoYa Sprint 2, incluyendo:
+
+- **Parking Management Tests**: Pruebas para gestión completa de estacionamientos
+- **Reservation Management Tests**: Pruebas para creación y gestión de reservas con códigos QR
+- **Review Management Tests**: Pruebas para sistema de reseñas y calificaciones
+- **Profile Management Tests**: Pruebas para actualización de perfiles de usuarios
+- **Notification Management Tests**: Pruebas para sistema de notificaciones push con FCM
+
+#### Unit Tests Evidence
+
+Los Unit Tests validan el comportamiento de componentes individuales del sistema de forma aislada:
+
+- **IAM Unit Tests**: Pruebas para servicios de autenticación, gestión de usuarios y roles
+  - `UserCommandServiceImplTest`: Valida creación y gestión de usuarios
+  - `AuthenticationControllerTest`: Pruebas de endpoints de sign-in/sign-up
+  - `RolesControllerTest`: Validación de obtención de roles del sistema
+
+- **Parking Management Unit Tests**: Pruebas para servicios y controladores de estacionamientos
+  - `ParkingCommandServiceImplTest`: Valida lógica de negocio para crear/actualizar estacionamientos
+  - `ParkingsControllerTest`: Pruebas de endpoints REST de parkings
+
+- **Reservation Management Unit Tests**: Pruebas para servicios y controladores de reservas
+  - `ReservationCommandServiceImplTest`: Valida creación, actualización y cancelación de reservas
+  - `ReservationsControllerTest`: Pruebas de endpoints REST de reservations
+
+
+**Evidencia de Unit Tests:**
+  <img width="857" height="693" alt="image" src="https://github.com/user-attachments/assets/810e14df-a9eb-4f55-90f5-57076d268fcc" />
+
+
+**Unit Tests Evidence Commits:**
+
+| **Repository**                | **Branch** | **Commit Id** | **Commit Message**                                                        | **Commit Message Body**                                                                                                                                                                | **Committed on (Date)** |
+| ----------------------------- | ---------- | ------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
+| ParkeoYa-AcceptanceTests      | main       | a1b2c3d       | feat: add IAM unit tests for authentication and user management           | Implementation of UserCommandServiceImplTest with tests for user creation, validation and role assignment. Includes comprehensive coverage for user command service business logic     | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | e4f5g6h       | feat: add authentication controller unit tests                            | Implementation of AuthenticationControllerTest covering sign-in, sign-up endpoints for both parking owners and drivers with JWT token validation                                      | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | i7j8k9l       | feat: add roles controller unit tests                                     | Implementation of RolesControllerTest validating role retrieval endpoints and proper authorization checks for role management                                                          | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | m0n1o2p       | feat: add parking management unit tests                                   | Implementation of ParkingCommandServiceImplTest covering create, update parking operations with spot generation and validation logic                                                   | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | q3r4s5t       | feat: add parkings controller unit tests                                  | Implementation of ParkingsControllerTest validating REST endpoints for parking CRUD operations, spot management and owner-specific queries                                             | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | u6v7w8x       | feat: add reservation command service unit tests                          | Implementation of ReservationCommandServiceImplTest covering reservation creation, status updates, QR code generation and cancellation logic                                           | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | y9z0a1b       | feat: add reservations controller unit tests                              | Implementation of ReservationsControllerTest validating REST endpoints for reservation operations including filtering by parking, driver and status                                    | 14/11/2025              |
+
+#### Integration Tests Evidence
+
+Los Integration Tests validan la correcta integración entre los diferentes componentes del sistema, incluyendo:
+
+- **Authentication Integration Tests**: Validación de endpoints de autenticación y gestión de roles
+- **Parking Integration Tests**: Pruebas de integración para operaciones CRUD de estacionamientos  
+- **Reservation Integration Tests**: Validación de flujo completo de reservas desde creación hasta confirmación
+- **ParkeoyaIntegrationTest**: Pruebas end-to-end que validan el flujo completo del sistema
+
+**Evidencia de Integration Tests:**
+
+<img width="804" height="697" alt="image" src="https://github.com/user-attachments/assets/2d2cdcc3-fbda-4171-8cf3-2c4bf6e40a30" />
+
+Los tests de integración verifican:
+- Conectividad con la base de datos y servicios externos
+- Validación de autenticación JWT en endpoints protegidos
+- Correcta serialización/deserialización de objetos JSON
+- Manejo apropiado de códigos de estado HTTP
+- Validación de reglas de negocio en operaciones complejas
+
+**Integration Tests Evidence Commits:**
+
+| **Repository**                | **Branch** | **Commit Id** | **Commit Message**                                                        | **Commit Message Body**                                                                                                                                                                | **Committed on (Date)** |
+| ----------------------------- | ---------- | ------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
+| ParkeoYa-AcceptanceTests      | main       | c2d3e4f       | feat: add authentication integration tests                                | Implementation of integration tests for authentication endpoints validating sign-in and sign-up flow for parking owners and drivers with proper JWT token generation and validation    | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | g5h6i7j       | feat: add parking management integration tests                            | Implementation of integration tests for parking CRUD operations including parking creation with auto-generated spots, updates and retrieval by owner                                   | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | k8l9m0n       | feat: add reservation flow integration tests                              | Implementation of integration tests validating complete reservation flow from creation to confirmation including parking spot availability checks and QR code generation                | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | o1p2q3r       | feat: add roles and permissions integration tests                         | Implementation of integration tests for role management endpoints validating proper authorization and role retrieval with HTTP status code verification                                | 14/11/2025              |
+
+#### Acceptance Tests Evidence Commits
+
+| **Repository**                | **Branch** | **Commit Id** | **Commit Message**                                   | **Commit Message Body**                                                                                                                                                                | **Committed on (Date)** |
+| ----------------------------- | ---------- | ------------- | ---------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
+| ParkeoYa-AcceptanceTests      | main       | 069a498       | feat: add parking management acceptance tests        | Implementation of BDD acceptance tests for parking management endpoints: GET all parkings, POST parking, GET spots by parking, ADD spot, UPDATE parking, GET parkings by owner          | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | 230b553       | feat: add reservation management acceptance tests    | Implementation of BDD acceptance tests for reservation endpoints: CREATE reservation, UPDATE status, GET by parking, GET by driver and status with QR code generation                  | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | b113d37       | feat: add review management acceptance tests         | Implementation of BDD acceptance tests for review endpoints: CREATE review with rating validation, GET reviews by parking, GET reviews by driver with average calculation              | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | 6ca1b31       | feat: add profile management acceptance tests        | Implementation of BDD acceptance tests for profile endpoints: UPDATE parking owner profile, UPDATE driver profile, GET profiles with data validation                                   | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | 5b1ad1a       | feat: add notification management acceptance tests   | Implementation of BDD acceptance tests for notification endpoints: SEND push notification, REGISTER token, UNREGISTER token with FCM integration                                       | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | 8b41f8f       | feat: add common step definitions for API testing    | Implementation of reusable Cucumber step definitions for HTTP requests (GET, POST, PATCH, DELETE), authentication, and response validation across all acceptance tests                 | 14/11/2025              |
+
+
+
+##### 6.2.2.6. Execution Evidence for Sprint Review
+
+En este segundo sprint logramos, como segunda  fase de nuestro producto final, desarrollar nuestra app web usando NextJS, la versión movil con Flutter, y el backend con los diferentes servicios implementados con SpringBoot + Java 17 + Maven. La app web se desplegó en Vercel y el backend se desplegó con Render.
+
+##### App web desplegada: https://parkeoya.vercel.app
+
+##### REGISTRO Y LOGIN
+<img src="assets/chapter-6/web-register.png" alt="Registro ParkeoYa">
+<img src="assets/chapter-6/web-login.png" alt="Login ParkeoYa">
+
+##### ONBOARDING PARA CREACION DE ESTACIONAMIENTO
+<img src="assets/chapter-6/onboarding-1.png" alt="Onboarding 1 ParkeoYa">
+<img src="assets/chapter-6/onboarding-2.png" alt="Onboarding 2 ParkeoYa">
+<img src="assets/chapter-6/onboarding-3.png" alt="Onboarding 3 ParkeoYa">
+<img src="assets/chapter-6/onboarding-4.png" alt="Onboarding 4 ParkeoYa">
+<img src="assets/chapter-6/onboarding-5.png" alt="Onboarding 5 ParkeoYa">
+
+##### SECCIONES DE LA APP WEB
+
+###### PANEL GENERAL
+<img src="assets/chapter-6/web-general.png" alt="Panel General ParkeoYa">
+
+###### ESPACIOS IoT
+<img src="assets/chapter-6/web-spots.png" alt="Spots ParkeoYa">
+
+###### RESERVAS
+<img src="assets/chapter-6/web-reservations.png" alt="Reservas ParkeoYa">
+
+###### RESEÑAS
+<img src="assets/chapter-6/web-reviews.png" alt="Reviews ParkeoYa">
+
+###### CONFIGURACIÓN
+<img src="assets/chapter-6/web-config.png" alt="Configuración ParkeoYa">
+
+##### App móvil
+
+
+##### Backend desplegado: https://parkeoya-backend-latest-1.onrender.com/swagger-ui/index.html
+
+<img src="assets/chapter-6/backend-1.png" alt="imagen 1 de backend">
+<img src="assets/chapter-6/backend-2.png" alt="imagen 2 de backend">
+<img src="assets/chapter-6/backend-3.png" alt="imagen 3 de backend">
+<img src="assets/chapter-6/backend-4.png" alt="imagen 4 de backend">
+
+
+
+##### 6.2.2.7. Services Documentation Evidence for Sprint Review
+
+- **Link de repositorio:** [https://github.com/Lorem-Ipsum-UPC/parkeoya-backend](https://github.com/Lorem-Ipsum-UPC/parkeoya-backend)
+- **Link de Web services desplegados:** [https://parkeoya-backend-latest-1.onrender.com/swagger-ui/index.html](https://parkeoya-backend-latest-1.onrender.com/swagger-ui/index.html)
+
+|    Endpoint       |                                         Details                                        |
+| :---------------: | :------------------------------------------------------------------------------------- |
+| Parking           | Gestión completa de estacionamientos.                                                  |
+| Authentication    | Registro e inicio de sesión de usuarios.                                               |
+| Edge Server       | Creación y consulta de edge servers asignados a estacionamientos.                      |
+| Review            | Publicación y obtención de reseñas por estacionamiento con calificación y comentarios. |
+| Reservation       | Creación de reservas de espacios y consulta por estacionamiento.                       |
+| Roles             | Obtención de los roles disponibles en el sistema para control de acceso y permisos.    |
+| Payment           | Registro de pagos por reservas.                                                        |
+| Notifications     | Gestión de notificaciones push para dispositivos.                                      |
+| Device            | Gestión de dispositivos IoT.                                                           |
+| Users             | Consulta de usuarios registrados en el sistema.                                        |
+| Profiles          | Consulta y actualización de perfiles detallados de usuarios.                           |
+
+|                         Endpoint                            | Operaciones |                                                                Parámetros                                                         | URL                                                                      |
+|:------------------------------------------------------------|:-----------:|:----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| Parking: Get all parkings                                   | GET         | –                                                                                                                                 | `/api/v1/parkings`                                                       |
+| Parking: Create new parking                                 | POST        | body: `ownerId` (string), `name` (string), `description` (string), `address` (string), `city` (string), `country` (string), `lat` (number), `lng` (number), `ratePerHour` (number), `dailyRate` (number), `totalSpots` (number), `availableSpots` (number), `totalRows` (number), `totalColumns` (number), `facilities` (array), `imageUrl` (string), `openingTime` (string), `closingTime` (string) | `/api/v1/parkings`                                     |
+| Parking: Get parking spots by ID                            | GET         | `parkingId` (path)                                                                                                                | `/api/v1/parkings/{parkingId}/spots`                                     |
+| Parking: Add parking spot                                   | POST        | `parkingId` (path), body: `row` (number), `column` (number), `label` (string)                                                     | `/api/v1/parkings/{parkingId}/spots`                                     |
+| Parking: Get parking by ID                                  | GET         | `parkingId` (path)                                                                                                                | `/api/v1/parkings/{parkingId}`                                           |
+| Parking: Update parking                                     | PATCH       | `parkingId` (path), body: parking fields to update                                                                                | `/api/v1/parkings/{parkingId}`                                           |
+| Parking: Get parkings by owner ID                           | GET         | `ownerId` (path)                                                                                                                  | `/api/v1/parkings/owner/{ownerId}`                                       |
+| Authentication: Sign up parking owner                       | POST        | body: `email` (string), `password` (string), `fullName` (string), `city` (string), `country` (string), `phone` (string), `companyName` (string), `ruc` (string) | `/api/v1/authentication/sign-up/parking-owner`                           |
+| Authentication: Sign up driver                              | POST        | body: `email` (string), `password` (string), `fullName` (string), `city` (string), `country` (string), `phone` (string), `dni` (string) | `/api/v1/authentication/sign-up/driver`                                  |
+| Authentication: Sign in                                     | POST        | body: `email` (string), `password` (string)                                                                                       | `/api/v1/authentication/sign-in`                                         |
+| Edge Server: Create edge server                             | POST        | body: `serverId` (string), `apiKey` (string), `macAddress` (string), `status` (string), `parkingId` (number)                      | `/api/v1/edge-servers`                                                   |
+| Edge Server: Update edge server mac address                 | PATCH       | `serverId` (path), body: `macAddress` (string)                                                                                    | `/api/v1/edge-servers/{serverId}`                                        |
+| Edge Server: Get edge servers by parking                    | GET         | `parkingId` (path)                                                                                                                | `/api/v1/edge-servers/parking/{parkingId}`                               |
+| Review: Create review                                       | POST        | body: `driverId` (number), `parkingId` (number), `comment` (string), `rating` (number)                                            | `/api/v1/reviews`                                                        |
+| Review: Get reviews by parking ID                           | GET         | `parkingId` (path)                                                                                                                | `/api/v1/reviews/parking/{parkingId}`                                    |
+| Review: Get reviews by driver ID                            | GET         | `driverId` (path)                                                                                                                 | `/api/v1/reviews/driver/{driverId}`                                      |
+| Reservation: Create reservation                             | POST        | body: `driverId` (number), `vehiclePlate` (string), `parkingId` (number), `parkingSpotId` (string), `startTime` (string), `endTime` (string) | `/api/v1/reservations`                                                   |
+| Reservation: Update reservation status                      | PATCH       | `reservationId` (path), body: `status` (string)                                                                                   | `/api/v1/reservations/{reservationId}`                                   |
+| Reservation: Get reservations by parking                    | GET         | `parkingId` (path)                                                                                                                | `/api/v1/reservations/parking/{parkingId}`                               |
+| Reservation: Get reservations by driver and status          | GET         | `driverId` (path), `status` (path)                                                                                                | `/api/v1/reservations/driver/{driverId}/status/{status}`                 |
+| Roles: Get all roles                                        | GET         | –                                                                                                                                 | `/api/v1/roles`                                                          |
+| Payment: Create reservation payment                         | POST        | `reservationId` (path), body: `userId` (number), `amount` (number), `cardNumber` (string), `cardExpiryDate` (string)              | `/api/v1/payments/reservation/{reservationId}`                           |
+| Notifications: Send push notification                       | POST        | body: `token` (string, query), `title` (string, query), `body` (string, query)                                                   | `/api/v1/notifications/send`                                             |
+| Notifications: Register notification token                  | POST        | body: `userId` (number), `token` (string)                                                                                         | `/api/v1/notifications/register-token`                                   |
+| Notifications: Unregister notification token                | DELETE      | body: `token` (string)                                                                                                            | `/api/v1/notifications/unregister-token`                                 |
+| Device: Update device                                       | PUT         | `deviceId` (path), body: `edgeId` (string), `macAddress` (string), `type` (string)                                               | `/api/v1/devices/{deviceId}`                                             |
+| Device: Update device mac address by id                     | PATCH       | `deviceId` (path), body: `macAddress` (string)                                                                                    | `/api/v1/devices/{deviceId}`                                             |
+| Device: Get unassigned devices                              | GET         | `parkingId` (path)                                                                                                                | `/api/v1/devices/unassigned/{parkingId}`                                 |
+| Device: Get devices by edge server                          | GET         | `edgeServerId` (path)                                                                                                             | `/api/v1/devices/edge-server/{edgeServerId}`                             |
+| Users: Get all users                                        | GET         | –                                                                                                                                 | `/api/v1/users`                                                          |
+| Users: Get user by ID                                       | GET         | `userId` (path)                                                                                                                   | `/api/v1/users/{userId}`                                                 |
+| Profiles: Update parking owner profile                      | PATCH       | `parkingOwnerId` (path), body: `fullName` (string), `city` (string), `country` (string), `phone` (string), `companyName` (string), `ruc` (string) | `/api/v1/profiles/parking-owner/{parkingOwnerId}`                        |
+| Profiles: Update driver profile                             | PATCH       | `driverId` (path), body: `fullName` (string), `city` (string), `country` (string), `phone` (string), `dni` (string)              | `/api/v1/profiles/driver/{driverId}`                                     |
+| Profiles: Get parking owner profile                         | GET         | `userId` (path)                                                                                                                   | `/api/v1/profiles/parking-owner/{userId}`                                |
+| Profiles: Get driver profile                                | GET         | `userId` (path)                                                                                                                   | `/api/v1/profiles/driver/{userId}`                                       |
+
+##### 6.2.2.8. Software Deployment Evidence for Sprint Review
+
+
+
+##### 6.2.1.9. Team Collaboration Insights during Sprint
+
+Evidencia de los commits por cada repositorio:
+
+- **Commits Backend**
+
+<img src="assets/chapter-6/CommitsBackend.png" alt="CommitsBackend">
+
+- **Commits Web Frontend**
+
+<img src="assets/chapter-6/CommitsFrontWeb.png" alt="CommitsFrontWeb">
+
+- **Commits Mobile Frontend**
+
+<img src="assets/chapter-6/CommitsFrontMovil.png" alt="CommitsFrontMovil">
+
+## 6.3. Validation Interviews
+### 6.3.1. Diseño de Entrevistas
+
+**Objetivo:**
+Validar si la propuesta de valor y funcionalidades de la aplicación cubren las necesidades reales de los propietarios de estacionamientos y conductores urbanos, y recoger insights para mejorar la usabilidad, percepción y utilidad de la solución antes y durante su implementación.
+
+**Perfil del entrevistado:**  
+Se establecen 2 perfiles distintos de usuarios a entrevistar, que corresponden a los segmentos objetivos clave definidos:
+
+**Conductor urbano**  
+- Uso frecuente del automóvil en zonas urbanas.
+- Ha experimentado dificultad para encontrar estacionamiento.
+- Tiene acceso y usa smartphones habitualmente.
+- Dispuesto a utilizar aplicaciones móviles que le faciliten su día a día.
+
+**Propietario de estacionamiento**  
+- Persona encargada de administrar uno o varios estacionamientos públicos o privados.
+- Con interés en mejorar la eficiencia, visibilidad o rentabilidad de su espacio.
+- Puede tener experiencia limitada en tecnología, pero apertura a soluciones digitales.
+- Tiene contacto diario con la gestión operativa de espacios de parqueo.
+
+**Preguntas generales para ambos segmentos**  
+¿Cuál es tu nombre?  
+¿Cuántos años tienes?  
+
+**Preguntas para Conductores**
+
+Aqui se le presentará y mostrarpá la aplicación al usuario previamente a realizar las preguntas  
+1. ¿Sentiste que lograste navegar por la app sin complicaciones?
+2. ¿Qué opinas acerca del diseño visual y la presentación de la app?
+3. ¿Tuviste algún problema al buscar estacionamientos cercanos en el mapa?
+4. ¿El proceso de reserva te pareció claro y eficiente?
+5. ¿Tuviste dificultades para completar el pago desde la app?
+6. ¿Tienes alguna sugerencia o comentario que desees compartir para mejorar la experiencia?
+
+**Preguntas para Propietarios de Estacionamiento**
+
+Aqui se le presentará y mostrarpá la aplicación al usuario previamente a realizar las preguntas  
+1. ¿Cómo describirías tu experiencia al registrarte y configurar tu estacionamiento por primera vez?
+2. ¿Qué te pareció el proceso de diseño del plano del estacionamiento en la plataforma?
+3. ¿Sientes que puedes controlar fácilmente tus espacios y reservas desde el panel de gestión?
+4. ¿Te parece útil que los conductores reserven espacios con anticipación?
+5. ¿Qué te parece esta aplicación con respecto a tu método de gestion actual?
+6. ¿Qué te ha parecido la integración de IoT a la experiencia de gestión de estacionamientos?
+7. ¿Hay algo que te haya generado confusión o frustración?
+8. ¿Qué te gustaría ver en esta aplicación en futuras versiones?
+
+**Justificación de las preguntas**  
+Las preguntas fueron diseñadas para:
+- Validar que las funcionalidades diseñadas resuelven problemas reales, no solo imaginados.
+- Evaluar la experiencia de los usuarios en la aplicación.
+- Medir el grado de satisfacción y disposición a recomendar o pagar, base para el crecimiento orgánico. 
+
+### 6.3.2. Registro de Entrevistas
+
+**Segmento Dueños de Playa de Estacionamiento**
+
+**Entrevista 1**
+
+**Nombre:** 
+**Edad:** 
+**Resumen:**  
+
+**Tiempo en el video: 0:00:00**
+
+
+**Entrevista 2**
+
+**Nombre:** 
+**Edad:** 
+**Resumen:**
+
+
+**Tiempo en el video: 0:00:00**
+ 
+
+**Entrevista 3**
+
+**Nombre:** 
+**Edad:** 
+**Resumen:**  
+
+
+**Tiempo en el video: 0:00:00**
+
+
+**Segmento Conductores**
+
+**Entrevista 1**
+
+**Nombre: Pilar**  
+**Edad:** 38 años  
+**Tiempo en el video:** 0:00:00
+
+**Resumen:**  Pilar de 38 años destacó la facilidad de navegación dentro de la app, especialmente al buscar estacionamientos en el mapa. Elogió el diseño limpio y moderno, y señaló que el proceso de reserva y pago fue rápido y sin errores.
+Como sugerencias, propuso incluir un tutorial inicial para nuevos usuarios y la posibilidad de compartir reservas activas con otros usuarios, aunque resaltó que la app es muy intuitiva en general.
+
+<img src="assets/chapter-6/EntrevistaPilar.png" alt="EC1">
+
+**Entrevista 2**
+
+**Nombre: William**  
+**Edad:** 23 años  
+**Tiempo en el video:** 0:00:00
+
+**Resumen:**  William Martin Riega, de 23 años, estudiante y desarrollador de software, destacó la facilidad de uso de la app ParqueoYa y su similitud con aplicaciones de transporte como Uber o Didi, lo que facilitó la navegación en el mapa. Elogió el diseño limpio y los colores, especialmente el azul. Señaló que el proceso de reserva y pago fue rápido y claro. Como sugerencia, propuso integrar métodos de pago como Yape y agregar notificaciones que avisen cuando un estacionamiento libere espacio.
+
+<img src="assets/chapter-6/EntrevistaWilliam.png" alt="EC2">
+
+**Entrevista 3**
+
+**Nombre:** 
+**Edad:** 
+**Resumen:** 
+
+**Tiempo en el video:** 00:00:00
+
+
+### 6.3.3. Evaluaciones según heurísticas
+
+**UX Heuristics & Principles Evaluation – ParkeoYa Web App (Dueños)**
+
+| **CARRERA** | Ingeniería de Software       |
+| ----------- | ---------------------------- |
+| CURSO       | Desarrollo de Soluciones IoT |
+| SECCIÓN     | 3428                         |
+| PROFESOR    | Marco Antonio León Baca      |
+| AUDITOR     | Lorem Ipsum                  |
+| CLIENTE(S)  | Dueños entrevistados   |
+
+**SITE / APP A EVALUAR: ParkeoYa – Web App (Dueños de Estacionamientos)**
+
+**TAREAS A EVALUAR**
+1. Registro e inicio de sesión como propietario
+2. Gestión del dashboard y visualización de métricas
+3. Administración de reservas y estacionamientos IoT
+4. Configuración de tarifas y perfil del estacionamiento
+5. Revisión y gestión de reseñas
+
+**ESCALA DE SEVERIDAD**
+| Nivel | Descripción                                                             |
+| ----- | ----------------------------------------------------------------------- |
+| 1     | Problema superficial; arreglar si hay tiempo                            |
+| 2     | Problema menor; prioridad baja para la próxima entrega                  |
+| 3     | Problema mayor; afecta experiencia o genera confusión                   |
+| 4     | Problema crítico; rompe flujo de negocio o genera inconsistencias graves |
+
+**TABLA RESUMEN**
+| #  | Problema                                                          | Sev. | Heurística / Principio violado                      |
+| -- | ----------------------------------------------------------------- | ---- | --------------------------------------------------- |
+| 1  | Sin opción para agregar múltiples estacionamientos                | 4    | Flexibilidad y eficiencia de uso · Escalabilidad del sistema  |
+| 2  | Funcionalidad de likes en reseñas sin equivalente en app móvil    | 3    | Consistencia y estándares · Match entre plataformas |
+
+**DESCRIPCIÓN DE PROBLEMAS**
+
+**Problema #1 – Sin opción para agregar múltiples estacionamientos**
+
+**Severidad 4** · Flexibilidad y eficiencia de uso · Escalabilidad del sistema
+
+<img src="assets/chapter-6/HW1.png" alt="HW1">
+
+**Descripción:** La plataforma web no cuenta con una opción visible o flujo claro para que un propietario pueda agregar y gestionar múltiples estacionamientos si posee más de un local. El sistema parece estar diseñado para la gestión de un único estacionamiento por cuenta, sin menú, botón o sección dedicada a "Agregar nuevo estacionamiento" o "Mis estacionamientos". No existe un selector o switcher que permita cambiar entre diferentes propiedades para visualizar sus métricas, reservas o configuraciones individuales.
+
+**Impacto:** CRÍTICO para la escalabilidad del negocio. Propietarios con múltiples locales se ven obligados a crear múltiples cuentas separadas para gestionar cada estacionamiento. Esto genera problemas graves: imposibilidad de tener una vista consolidada de todos sus negocios, necesidad de múltiples inicios de sesión, datos fragmentados que dificultan análisis global, duplicación de información personal, y complejidad innecesaria en la operación. Limita severamente el crecimiento de propietarios exitosos y hace la plataforma poco atractiva para operadores profesionales con múltiples ubicaciones.
+
+**Recomendaciones:**
+- Agregar botón prominente "+ Agregar Estacionamiento" en el dashboard principal o menú lateral
+- Implementar flujo de onboarding multi-paso para agregar nuevos estacionamientos sin duplicar información personal
+- Crear dropdown/selector en el header: "Estacionamiento Centro (Seleccionado) ▼" que permita cambiar entre propiedades
+- Desarrollar vista "Todos mis estacionamientos" con cards mostrando métricas agregadas de cada uno
+- Permitir vista consolidada: métricas totales sumadas de todos los estacionamientos (ingresos totales, ocupación promedio)
+- Implementar permisos y roles: permitir asignar gestores/empleados a estacionamientos específicos
+- Agregar filtros por estacionamiento en todas las secciones (Reservas, Reseñas, Configuración)
+- Considerar planes de negocio: "Plan Básico (1 estacionamiento)" vs "Plan Empresarial (ilimitado)"
+
+**Problema #2 – Funcionalidad de likes en reseñas sin equivalente en app móvil**
+
+**Severidad 3** · Consistencia y estándares · Match entre plataformas
+
+<img src="assets/chapter-6/HW2.png" alt="HW2">
+
+**Descripción:** En la sección de Reseñas de la aplicación web, cada comentario de conductor tiene un botón de "útiles". Sin embargo, esta funcionalidad no existe en la aplicación móvil desde la perspectiva del conductor. Los conductores no pueden dar like a reseñas de otros usuarios para indicar que están de acuerdo o que les fue útil, ni pueden ver cuántos likes tiene cada reseña.
+
+**Impacto:** La funcionalidad en web se vuelve inútil al no existir el mecanismo de votación desde el lado de los conductores. Los propietarios pueden dar likes a sus propias reseñas, lo cual no tiene valor real ni representa feedback genuino de la comunidad de usuarios. Esto genera datos sin significado que no aportan información útil para toma de decisiones. Además, crea inconsistencia entre plataformas donde una función existe pero no tiene propósito práctico.
+
+**Recomendaciones:**
+- Eliminar completamente la funcionalidad de likes de la plataforma web si no se implementará en móvil
+- Alternativamente, implementar sistema de likes en la app móvil permitiendo a conductores votar reseñas útiles
+- Si se implementa en móvil: mostrar contador público "X personas encontraron útil esta reseña"
+- Usar los likes como señal de calidad: destacar reseñas con más likes en la parte superior
+- Sincronizar contadores de likes en tiempo real entre ambas plataformas si se mantiene la funcionalidad
+
+**UX Heuristics & Principles Evaluation – ParkeoYa Mobile App (Conductores)**
+
+| **CARRERA** | Ingeniería de Software       |
+| ----------- | ---------------------------- |
+| CURSO       | Desarrollo de Soluciones IoT |
+| SECCIÓN     | 3428                         |
+| PROFESOR    | Marco Antonio León Baca      |
+| AUDITOR     | Lorem Ipsum                  |
+| CLIENTE(S)  | Conductores entrevistados    |
+
+**SITE / APP A EVALUAR: ParkeoYa – Mobile App (Conductores)**
+
+**TAREAS A EVALUAR**
+1. Registro e inicio de sesión como conductor
+2. Búsqueda y selección de estacionamientos
+3. Creación y gestión de reservas
+4. Navegación hasta el estacionamiento
+5. Check-in/Check-out y calificación
+
+**ESCALA DE SEVERIDAD**
+| Nivel | Descripción                                                             |
+| ----- | ----------------------------------------------------------------------- |
+| 1     | Problema superficial; arreglar si hay tiempo                            |
+| 2     | Problema menor; prioridad baja para la próxima entrega                  |
+| 3     | Problema mayor; afecta experiencia o genera confusión                   |
+| 4     | Problema crítico; rompe flujo de negocio o genera inconsistencias graves |
+
+**TABLA RESUMEN**
+| #  | Problema                                                          | Sev. | Heurística / Principio violado                      |
+| -- | ----------------------------------------------------------------- | ---- | --------------------------------------------------- |
+| 1  | Mapa de búsqueda sin botón de "Mi ubicación actual"               | 3    | Control y libertad del usuario · Eficiencia         |
+| 2  | Detalle de reserva sin botón de contacto directo al propietario   | 3    | Flexibilidad · Prevención y recuperación de errores |
+| 3  | Pantalla de selección de parking sin filtros de servicios         | 3    | Flexibilidad y eficiencia de uso · Control          |
+
+
+**DESCRIPCIÓN DE PROBLEMAS**
+
+**Problema #1 – Mapa de búsqueda sin botón de "Mi ubicación actual"**
+
+**Severidad 3** · Control y libertad del usuario · Eficiencia
+
+<img src="assets/chapter-6/HW1.png" alt="HM1">
+
+**Descripción:** La pantalla de búsqueda con mapa permite al usuario explorar estacionamientos en diferentes zonas mediante pan y zoom manual. Sin embargo, no existe un botón flotante de "Centrar en mi ubicación" o "Mi ubicación actual" que permita volver rápidamente a la posición GPS del usuario. Si el usuario explora áreas lejanas, debe hacer zoom out y buscar manualmente su ubicación nuevamente.
+
+**Impacto:** Usuarios que exploran estacionamientos en diferentes zonas pierden su ubicación de referencia y deben reorientarse manualmente, lo cual es frustrante y consume tiempo. En situaciones de urgencia (necesito estacionamiento AHORA), cada segundo cuenta. El flujo ideal es: explorar opciones → volver a mi ubicación → elegir la más cercana. Sin este botón, el proceso es ineficiente. Usuarios menos familiarizados con mapas digitales pueden desorientarse completamente.
+
+**Recomendaciones:**
+- Agregar botón flotante circular en esquina inferior derecha del mapa con ícono de ubicación/crosshair
+- Al presionar, animar transición suave hacia ubicación actual del usuario con zoom apropiado
+- Mostrar temporalmente círculo de precisión GPS alrededor de la ubicación del usuario
+- Incluir tooltip en primera uso: "Presiona aquí para volver a tu ubicación"
+- Considerar vibración háptica sutil al centrar para feedback táctil
+- Si permisos de ubicación están desactivados, mostrar prompt para habilitarlos
+
+
+**Problema #2 – Detalle de reserva sin botón de contacto directo al propietario**
+
+**Severidad 3** · Flexibilidad · Prevención y recuperación de errores
+
+<img src="assets/chapter-6/HM2.png" alt="HM2">
+
+**Descripción:** Cuando un conductor visualiza los detalles de su reserva activa (horario, espacio asignado, dirección), no existe un botón visible de "Contactar al propietario" o "Necesito ayuda". Si el conductor tiene problemas (no encuentra la entrada, el espacio está ocupado por error, llegó tarde), debe salir de la app para llamar al número que aparece en la información general, o buscar opciones de soporte en menús secundarios.
+
+**Impacto:** En situaciones problemáticas (espacio ocupado incorrectamente, puerta de acceso cerrada, confusión con el número de plaza), el conductor necesita comunicación inmediata con el propietario. La falta de botón directo genera fricción crítica en el momento de mayor necesidad. Conductores frustrados pueden abandonar, cancelar, o dejar malas reseñas sin siquiera intentar resolver el problema. El propietario pierde oportunidad de dar servicio al cliente en tiempo real.
+
+**Recomendaciones:**
+- Agregar botón prominente "Contactar propietario" en la pantalla de detalle de reserva activa
+- Ofrecer múltiples opciones al presionar: "Llamar ahora", "Enviar mensaje", "Chat en vivo" (si disponible)
+- Incluir contexto automático en la comunicación: "Hola, tengo una reserva para el espacio A-15 a las 14:30 y..."
+- Mostrar tiempo promedio de respuesta del propietario: "Responde en ~5 minutos"
+- Agregar botón secundario "Reportar problema" que notifique a soporte de ParkeoYa si propietario no responde
+- Guardar historial de comunicaciones asociado a cada reserva para referencia futura
+
+**Problema #3 – Pantalla de selección de parking sin filtros de servicios**
+
+**Severidad 3** · Flexibilidad y eficiencia de uso · Control
+
+<img src="assets/chapter-6/HM3.png" alt="HM3">
+
+**Descripción:** La pantalla "Select Parking" muestra un grid visual con los espacios de estacionamiento numerados (Floor 1, Floor 2, Floor 3) y sus estados de disponibilidad mediante colores. Sin embargo, no existen filtros o búsqueda para ubicar rápidamente espacios con características específicas que el conductor pueda necesitar: espacios techados, cerca de la entrada, con cargador eléctrico, para vehículos grandes, o accesibles para personas con discapacidad.
+
+**Impacto:** Conductores con necesidades específicas (vehículo eléctrico que requiere carga, vehículo grande, movilidad reducida, quiere evitar sol/lluvia) deben revisar visualmente todo el grid plaza por plaza para identificar opciones adecuadas. Esto es ineficiente y frustrante. En estacionamientos grandes con 50+ espacios, se vuelve prácticamente imposible. Conductores pueden terminar seleccionando espacios inadecuados por no tener forma eficiente de filtrar, generando insatisfacción o necesidad de cambio posterior.
+
+**Recomendaciones:**
+- Agregar barra de filtros rápidos en la parte superior: "Techado", "Cerca entrada", "Cargador EV", "Vehículo grande", "Accesible"
+- Implementar búsqueda por número de espacio: "Buscar espacio #..."
+- Al activar filtro, destacar visualmente solo espacios que cumplan criterio (atenuar los demás)
+- Mostrar contador: "15 espacios techados disponibles"
+- Incluir botón "Limpiar filtros" para volver a vista completa
+- Agregar indicadores visuales en cada espacio (íconos pequeños) mostrando sus características especiales
+- Permitir "vista de lista" alternativa que muestre espacios en formato de tarjetas con todas sus características
+
+<div style="page-break-after: always;"></div>
+
+## 6.4. Video About-the-Product
+
+**Nombre del archivo:**
+
+**Duración:** x s  **Formato:** MP4
+
+Se presenta la esencia de **ParkeoYa**: una solución IoT que conecta a conductores con cocheras disponibles y permite a los propietarios gestionar reservas y cobros sin personal. El clip enseña la búsqueda de estacionamientos y la reserva en la app.
+
+**Enlace:** 
+
+<div style="page-break-after: always;"></div>
+
+## 6.5. Video About-the-Team
+
+**Nombre del archivo:**
+
+
+**Duración:** x s  **Formato:** MP4
+
+Se muestra cómo el equipo **Lorem Ipsum** llevó a cabo el proyecto ParkeoYa. Empieza con los **testimonios de los integrantes del equipo**, quienes describen sus responsabilidades y las competencias desarrolladas. 
+
+**Enlaces:** 
+
 # Conclusiones y recomendaciones
 
 ### Conclusiones
@@ -4679,7 +5366,9 @@ A continuación se presentan los videos generados como parte del desarrollo del 
 
 ⦁	Figma: [https://www.figma.com/design/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=0-1&t=JtKhGofsZ7GZ9Q0R-1](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=0-1&t=JtKhGofsZ7GZ9Q0R-1)
 
-⦁	Trello: [https://trello.com/invite/b/68e2dcc9e1d60f856ece252e/ATTI08db8008dc8b850e785c7fa6712c707bB2AC1B2E/sprint-1](https://trello.com/invite/b/68e2dcc9e1d60f856ece252e/ATTI08db8008dc8b850e785c7fa6712c707bB2AC1B2E/sprint-1)
+⦁	Trello 1: [https://trello.com/invite/b/68e2dcc9e1d60f856ece252e/ATTI08db8008dc8b850e785c7fa6712c707bB2AC1B2E/sprint-1](https://trello.com/invite/b/68e2dcc9e1d60f856ece252e/ATTI08db8008dc8b850e785c7fa6712c707bB2AC1B2E/sprint-1)
+
+⦁	Trello 2: [https://trello.com/invite/b/68f8ee78b80c2823919e3804/ATTIfb9c480bd4186597ffc0a854c337329a6F5767A3/sprint-2](https://trello.com/invite/b/68f8ee78b80c2823919e3804/ATTIfb9c480bd4186597ffc0a854c337329a6F5767A3/sprint-2)
 
 ⦁	Link del Prototipo: [https://www.figma.com/proto/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=2-110&t=javn3IzdBb8xNEo2-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=2%3A110&show-proto-sidebar=1](https://www.figma.com/proto/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=2-110&t=javn3IzdBb8xNEo2-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=2%3A110&show-proto-sidebar=1)
 
@@ -4690,4 +5379,6 @@ A continuación se presentan los videos generados como parte del desarrollo del 
 ⦁ Video Exposición TB1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/Ea50aorvEeNKgYw_99e88oQBsCoptbHVCNW4Ae-fnSQ46A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Gsjoh](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/Ea50aorvEeNKgYw_99e88oQBsCoptbHVCNW4Ae-fnSQ46A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Gsjoh)
 
 ⦁ Video Exposición TP: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/EXjfvMZ0IolKhXaCN6kW9g0BvJwc-4tkb4stILLKpblR4w?e=pcUeAz](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/EXjfvMZ0IolKhXaCN6kW9g0BvJwc-4tkb4stILLKpblR4w?e=pcUeAz)
+
+
 
