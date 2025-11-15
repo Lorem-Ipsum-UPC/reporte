@@ -4972,7 +4972,6 @@ En este segundo sprint logramos, como segunda  fase de nuestro producto final, d
 ##### 6.2.2.8. Software Deployment Evidence for Sprint Review
 
 
-
 ##### 6.2.1.9. Team Collaboration Insights during Sprint
 
 Evidencia de los commits por cada repositorio:
@@ -5048,8 +5047,8 @@ Las preguntas fueron diseñadas para:
 
 **Entrevista 1**
 
-**Nombre:** 
-**Edad:** 
+**Nombre:**  
+**Edad:**   
 **Resumen:**  
 
 **Tiempo en el video: 0:00:00**
@@ -5057,8 +5056,8 @@ Las preguntas fueron diseñadas para:
 
 **Entrevista 2**
 
-**Nombre:** 
-**Edad:** 
+**Nombre:**  
+**Edad:**  
 **Resumen:**
 
 
@@ -5067,8 +5066,8 @@ Las preguntas fueron diseñadas para:
 
 **Entrevista 3**
 
-**Nombre:** 
-**Edad:** 
+**Nombre:**  
+**Edad:**  
 **Resumen:**  
 
 
@@ -5097,15 +5096,6 @@ Como sugerencias, propuso incluir un tutorial inicial para nuevos usuarios y la 
 **Resumen:**  William Martin Riega, de 23 años, estudiante y desarrollador de software, destacó la facilidad de uso de la app ParqueoYa y su similitud con aplicaciones de transporte como Uber o Didi, lo que facilitó la navegación en el mapa. Elogió el diseño limpio y los colores, especialmente el azul. Señaló que el proceso de reserva y pago fue rápido y claro. Como sugerencia, propuso integrar métodos de pago como Yape y agregar notificaciones que avisen cuando un estacionamiento libere espacio.
 
 <img src="assets/chapter-6/EntrevistaWilliam.png" alt="EC2">
-
-**Entrevista 3**
-
-**Nombre:** 
-**Edad:** 
-**Resumen:** 
-
-**Tiempo en el video:** 00:00:00
-
 
 ### 6.3.3. Evaluaciones según heurísticas
 
