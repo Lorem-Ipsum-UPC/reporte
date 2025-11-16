@@ -5166,7 +5166,7 @@ Comparado con su método tradicional, ve la aplicación como más eficiente y me
 Solo tuvo confusión con la falta de claridad en el registro inicial y el error en el número de espacios creados.
 Para futuras versiones, le gustaría ver estadísticas más completas, notificaciones automáticas y opciones de promociones, igual que otros entrevistados.
 
-<img width="746" height="417" alt="image" src="" />
+<img width="746" height="417" alt="image" src="./assets/chapter-6/entrevista-dueño-carlos.jpg" />
 
 **Entrevista 2**
 
@@ -5191,7 +5191,7 @@ La integración de IoT le pareció muy útil y moderna, ya que le permite ver el
 Solo tuvo una ligera confusión inicial al editar el plano, pero lo resolvió rápidamente.
 Finalmente, le gustaría que se agreguen estadísticas avanzadas, notificaciones automáticas y opciones de promociones en futuras versiones.
 
-<img width="746" height="417" alt="image" src="" />
+<img width="746" height="417" alt="image" src="./assets/chapter-6/entrevista-dueño-beth.jpg" />
 
 **Segmento Conductores**
 
