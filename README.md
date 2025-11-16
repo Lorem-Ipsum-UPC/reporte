@@ -5152,6 +5152,9 @@ Las preguntas fueron diseñadas para:
 
 ### 6.3.2. Registro de Entrevistas
 
+Link Entrevistas: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/IQCd4Ph_mufeSp-hkAOCDHbDAWMH0F0CSO3Veo1s4AZDb1Q](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/IQCd4Ph_mufeSp-hkAOCDHbDAWMH0F0CSO3Veo1s4AZDb1Q)
+
+
 **Segmento Dueños de Playa de Estacionamiento**
 
 **Entrevista 1**
@@ -5177,14 +5180,14 @@ Para futuras versiones, le gustaría ver estadísticas más completas, notificac
 <img width="746" height="417" alt="image" src="https://github.com/user-attachments/assets/e50ce657-2150-4501-937a-c09042076bff" />
 
 
-**Tiempo en el video: 0:00:00**
+**Tiempo en el video: 0:18:08**
  
 
 **Entrevista 3**
 
 **Nombre:** Beth Oneglio
 **Edad:** 24 años
-**Tiempo en el video: 0:00:00**
+**Tiempo en el video: 0:28:05**
 **Resumen:** Beth tuvo una experiencia inicial rápida, sencilla e intuitiva al registrarse y configurar su estacionamiento. Consideró que el diseño del plano es práctico, visual y fácil de editar, y destacó que el panel de gestión le permite control total de sus espacios y reservas.
 Valoró que los conductores puedan reservar con anticipación, pues ordena mejor su operación. Comparado con su método actual, la aplicación es más eficiente y reduce su carga de trabajo al centralizar toda la información.
 La integración de IoT le pareció muy útil y moderna, ya que le permite ver el estado de los espacios en tiempo real sin verificar físicamente.
@@ -5199,7 +5202,7 @@ Finalmente, le gustaría que se agreguen estadísticas avanzadas, notificaciones
 
 **Nombre: Pilar**  
 **Edad:** 38 años  
-**Tiempo en el video:** 0:00:00
+**Tiempo en el video:** 0:37:01
 
 **Resumen:**  Pilar de 38 años destacó la facilidad de navegación dentro de la app, especialmente al buscar estacionamientos en el mapa. Elogió el diseño limpio y moderno, y señaló que el proceso de reserva y pago fue rápido y sin errores.
 Como sugerencias, propuso incluir un tutorial inicial para nuevos usuarios y la posibilidad de compartir reservas activas con otros usuarios, aunque resaltó que la app es muy intuitiva en general.
@@ -5210,7 +5213,7 @@ Como sugerencias, propuso incluir un tutorial inicial para nuevos usuarios y la 
 
 **Nombre: William**  
 **Edad:** 23 años  
-**Tiempo en el video:** 0:00:00
+**Tiempo en el video:** 0:39:37
 
 **Resumen:**  William Martin Riega, de 23 años, estudiante y desarrollador de software, destacó la facilidad de uso de la app ParqueoYa y su similitud con aplicaciones de transporte como Uber o Didi, lo que facilitó la navegación en el mapa. Elogió el diseño limpio y los colores, especialmente el azul. Señaló que el proceso de reserva y pago fue rápido y claro. Como sugerencia, propuso integrar métodos de pago como Yape y agregar notificaciones que avisen cuando un estacionamiento libere espacio.
 
@@ -5488,9 +5491,17 @@ A continuación se presentan los videos generados como parte del desarrollo del 
 
 ⦁ Link Frontend Web: [https://parkeoya.vercel.app/login](https://parkeoya.vercel.app/login)
 
+⦁ Link Entrevistas de Validación: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/IQCd4Ph_mufeSp-hkAOCDHbDAWMH0F0CSO3Veo1s4AZDb1Q](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/IQCd4Ph_mufeSp-hkAOCDHbDAWMH0F0CSO3Veo1s4AZDb1Q)
+
+Link About The Product:  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/IQAUZbSAAhmRToYJXp9BZxo_ASyw9lJtRjNEMu7EuBC3Nyg?e=NcaGvK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/IQAUZbSAAhmRToYJXp9BZxo_ASyw9lJtRjNEMu7EuBC3Nyg?e=NcaGvK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Link About The Team:  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/IQAiTtEDuMeuSbZARmYKF9rhAaXniHsIyt7wwvmQA3htniU?e=dNolQa](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/IQAiTtEDuMeuSbZARmYKF9rhAaXniHsIyt7wwvmQA3htniU?e=dNolQa)
+
 ⦁ Video Exposición TB1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/Ea50aorvEeNKgYw_99e88oQBsCoptbHVCNW4Ae-fnSQ46A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Gsjoh](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/Ea50aorvEeNKgYw_99e88oQBsCoptbHVCNW4Ae-fnSQ46A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Gsjoh)
 
 ⦁ Video Exposición TP: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/EXjfvMZ0IolKhXaCN6kW9g0BvJwc-4tkb4stILLKpblR4w?e=pcUeAz](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/EXjfvMZ0IolKhXaCN6kW9g0BvJwc-4tkb4stILLKpblR4w?e=pcUeAz)
+
+⦁ Video Exposición TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/IQAP-QEo9NyRT6XnoHAy-5j3AbACA_drbVSrP5Ik9hlyqbg?e=kVeqnC](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/IQAP-QEo9NyRT6XnoHAy-5j3AbACA_drbVSrP5Ik9hlyqbg?e=kVeqnC)
 
 
 
