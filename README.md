@@ -5159,9 +5159,9 @@ Link Entrevistas: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_
 
 **Entrevista 1**
 
-**Nombre:** Calos Ochoa
-**Edad:** 25 años
-**Tiempo en el video: 0:00:00**
+**Nombre:** Calos Ochoa  
+**Edad:** 25 años  
+**Tiempo en el video: 0:00:00**  
 **Resumen:** Carlos comentó que, en general, la experiencia al registrarse y configurar su estacionamiento fue rápida y sencilla, aunque mencionó que el registro del parking podría tener más claridad, sugiriendo pop-ups de ayuda o guías adicionales.
 Le gustó el diseño del plano y la interfaz, pero notó un problema: los espacios que registró no se reflejaron correctamente; añadió solo 1 spot y la plataforma mostró cerca de 20.
 Destacó que el panel de gestión es ordenado y fácil de usar, permitiéndole visualizar y controlar sus reservas sin complicaciones. También considera útil que los conductores reserven con anticipación, pues mejora la organización.
@@ -5173,8 +5173,8 @@ Para futuras versiones, le gustaría ver estadísticas más completas, notificac
 
 **Entrevista 2**
 
-**Nombre: Leandro Medina**
-**Edad:** 22
+**Nombre: Leandro Medina**  
+**Edad:** 22  
 **Resumen:** Leandro contó que el registro y la configuración inicial fueron simples y guiados, pudiendo dejar su estacionamiento operativo sin ayuda externa . Valora el plano visual porque le permitió replicar sus espacios fácilmente, aunque le gustaría un poco más de precisión al ajustar tamaños . Destacó el panel por darle control inmediato de ocupación, espacios libres e ingresos, con acciones rápidas como bloquear lugares . Considera clave la reserva anticipada porque asegura ingresos y reduce la búsqueda de espacio para los clientes . Frente a su gestión anterior en papel, la app redujo errores y le dio reportes claros para decidir mejor . Al principio dudó del IoT, pero ahora lo ve esencial para medir ocupación y tiempos reales de uso, cobrando de forma justa . La mayor fricción fue configurar tarifas combinadas, y sugiere un tutorial corto . Para el futuro, pide app móvil, sugerencias de precio según demanda e integración contable .
 
 <img width="746" height="417" alt="image" src="https://github.com/user-attachments/assets/e50ce657-2150-4501-937a-c09042076bff" />
@@ -5185,9 +5185,9 @@ Para futuras versiones, le gustaría ver estadísticas más completas, notificac
 
 **Entrevista 3**
 
-**Nombre:** Beth Oneglio
-**Edad:** 24 años
-**Tiempo en el video: 0:28:05**
+**Nombre:** Beth Oneglio  
+**Edad:** 24 años  
+**Tiempo en el video: 0:28:05**  
 **Resumen:** Beth tuvo una experiencia inicial rápida, sencilla e intuitiva al registrarse y configurar su estacionamiento. Consideró que el diseño del plano es práctico, visual y fácil de editar, y destacó que el panel de gestión le permite control total de sus espacios y reservas.
 Valoró que los conductores puedan reservar con anticipación, pues ordena mejor su operación. Comparado con su método actual, la aplicación es más eficiente y reduce su carga de trabajo al centralizar toda la información.
 La integración de IoT le pareció muy útil y moderna, ya que le permite ver el estado de los espacios en tiempo real sin verificar físicamente.
