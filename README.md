@@ -5401,13 +5401,15 @@ Se presenta la esencia de **ParkeoYa**: una solución IoT que conecta a conducto
 
 ## 6.5. Video About-the-Team
 
-**Nombre del archivo:** 
+**Nombre del archivo:** AboutTheTeamIOT
 
-**Duración:** x s  **Formato:** MP4
+**Duración:** 4:06 min  **Formato:** MP4
 
 Se muestra cómo el equipo **Lorem Ipsum** llevó a cabo el proyecto ParkeoYa. Empieza con los **testimonios de los integrantes del equipo**, quienes describen sus responsabilidades y las competencias desarrolladas. 
 
-**Enlaces:** 
+**Enlaces:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/IQBLCh0dNM26SbbDoQpdWnp1ARAbsRSJOLJ6TboVZtSGNVY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5HANMT](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/IQBLCh0dNM26SbbDoQpdWnp1ARAbsRSJOLJ6TboVZtSGNVY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5HANMT)
+
+<img src="assets/chapter-6/AboutTheTeam.png" alt="ATT">
 
 # Conclusiones y recomendaciones
 
