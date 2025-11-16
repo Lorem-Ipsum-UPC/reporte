@@ -5387,19 +5387,21 @@ Como sugerencias, propuso incluir un tutorial inicial para nuevos usuarios y la 
 
 ## 6.4. Video About-the-Product
 
-**Nombre del archivo:**
+**Nombre del archivo:** VID-20251115-WA0165
 
-**Duración:** x s  **Formato:** MP4
+**Duración:** 1:03 min  **Formato:** MP4
 
 Se presenta la esencia de **ParkeoYa**: una solución IoT que conecta a conductores con cocheras disponibles y permite a los propietarios gestionar reservas y cobros sin personal. El clip enseña la búsqueda de estacionamientos y la reserva en la app.
 
-**Enlace:** 
+**Enlace:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/IQAUZbSAAhmRToYJXp9BZxo_ASyw9lJtRjNEMu7EuBC3Nyg?e=NcaGvK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/IQAUZbSAAhmRToYJXp9BZxo_ASyw9lJtRjNEMu7EuBC3Nyg?e=NcaGvK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<img src="assets/chapter-6/AboutTheProduct.png" alt="ATP">
 
 <div style="page-break-after: always;"></div>
 
 ## 6.5. Video About-the-Team
 
-**Nombre del archivo:**
+**Nombre del archivo:** 
 
 **Duración:** x s  **Formato:** MP4
 
