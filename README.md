@@ -5111,6 +5111,21 @@ Evidencia de los commits por cada repositorio:
 
 ##### 6.2.3.1. Sprint Planning 3
 
+| Sprint #                           | Sprint 3                                                                                                                                                                                                                                                                                                                         |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**     |                                                                                                                                                                                                                                                                                                                                  |
+| **Date**                           | 28 / 11 / 2025                                                                                                                                                                                                                                                                                                                   |
+| **Time**                           | 19 : 00 horas                                                                                                                                                                                                                                                                                                                    |
+| **Location**                       | Discord                                                                                                                                                                                                                                                                                                                          |
+| **Prepared By**                    | Lorem Ipsum                                                                                                                                                                                                                                                                                                                      |
+| **Attendees**                      | Calisaya Sánchez, Juan Jesús <br> David Polanco, Alessandro Alonso <br> Espinoza Delgado, Bárbara Antonella <br> Serrano Ircañaupa, Nelson Elias <br> Sotil Vasquez, Tyrone Raí                                                                                                                                                  |
+| **Sprint-2 Review Summary**        | Antes del inicio del Sprint 3, el equipo revisó los entregables del Sprint 2, incluyendo la aplicación web final, la versión inicial móvil, el backend y los resultados de las evaluaciones heurísticas. También se identificaron mejoras adicionales propuestas por los usuarios durante las entrevistas de validación.         |
+| **Sprint-2 Retrospective Summary** | Se destacó la importancia de mejorar la comunicación interna y la sincronización de tareas entre frontend web, móvil y backend, con el fin de optimizar tiempos y evitar reprocesos.                                                                                                                                             |
+| **Sprint-2 Goal**                  | La meta del Sprint 3 es integrar las funcionalidades avanzadas, completar mejoras pendientes del módulo de gestión financiera, optimizar la aplicación móvil y finalizar la API del backend para garantizar consistencia entre ambas plataformas. También se busca preparar el sistema para pruebas finales con usuarios reales. |
+| **Sprint-3 Velocity**              | **54 hours**                            |
+| **Sprint-3 Story Points**          | **49**                                  |
+
+
 ##### 6.2.3.2. Aspect Leaders and Collaborators
 
 Con el fin de garantizar una comunicación efectiva y una ejecución eficiente de las tareas, se desarrolló la **matriz LACX (Leadership and Collaboration Matrix)**, la cual permite identificar qué integrante del equipo lidera cada componente del proyecto y quiénes colaboran en su desarrollo.
@@ -5138,9 +5153,32 @@ Durante este sprint, se trabajó en desarrollar las user stories restantes del p
 
 La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables.
 
-<img src="assets/chapter-6/TrelloSprint3.png" alt="Trello Sprint3">
+<img src="assets/chapter-6/Trello Sprint3.png" alt="Trello Sprint3">
 
 Trello: [https://trello.com/invite/b/692a05a249c4081392edc351/ATTI4a7faf8a7dd2a1e7694dc64de2ccf7132F429E32/sprint-3](https://trello.com/invite/b/692a05a249c4081392edc351/ATTI4a7faf8a7dd2a1e7694dc64de2ccf7132F429E32/sprint-3)
+
+| User Story Id | User Story Title                                  | Task Id | Task Title                                    | Task Description                                 | Estimation (Hours) | Assigned To      | Status          |
+| ------------- | ------------------------------------------------- | ------- | --------------------------------------------- | ------------------------------------------------ | ------------------ | ---------------- | --------------- |
+| **US08**      | Búsqueda simple de estacionamientos en mapa       | T26     | Implementar búsqueda básica en mapa           | Mostrar estacionamientos disponibles en el mapa  | 5                  | Tyrone Sotil     | **In-Progress** |
+| **US12**      | Mapa en tiempo real con confirmación por sensores | T27     | Implementar mapa en tiempo real               | Visualizar disponibilidad basada en sensores IoT | 5                  | Tyrone Sotil     | **In-Progress** |
+| **US14**      | Cobro automático por tiempo real                  | T28     | Desarrollar módulo de cobro automático        | Cobro según tiempo detectado por sensores/QR     | 5                  | Tyrone Sotil     | **To-Do**       |
+| **US15**      | Extender tiempo de reserva                        | T29     | Implementar extensión de reserva              | Permitir extender reserva si hay disponibilidad  | 3                  | Tyrone Sotil     | **To-Do**       |
+| **US16**      | Compensación automática por fallo de espacio      | T30     | Implementar compensación automática           | Reembolso o alternativa si el espacio falla      | 5                  | Tyrone Sotil     | **To-Do**       |
+| **US17**      | Notificación de nuevos espacios cercanos          | T31     | Implementar notificaciones de espacios libres | Notificaciones push cuando se liberen plazas     | 3                  | Tyrone Sotil     | **In-Progress** |
+| **US21**      | Retención automática de comisión                  | T32     | Implementar retención automática              | Calcular y retener comisión por reserva          | 2                  | Alessandro David | **In-Progress** |
+| **US22**      | Modelo de comisiones                              | T20     | Crear desglose de comisiones                  | Desglose de comisiones para propietarios         | 2                  | Juan Calisaya    | **Done**        |
+| **US23**      | Reportes de ingresos por comisiones               | T21     | Implementar reportes mensuales                | Reportes Excel de ingresos y comisiones          | 5                  | Alessandro David | **Done**        |
+| **US24**      | Calificación post-uso de estacionamientos         | T33     | Implementar sistema de calificación           | Calificar y comentar tras uso                    | 2                  | Alessandro David | **In-Progress** |
+| **US25**      | Visualización de reseñas antes de reservar        | T34     | Implementar vista previa de reseñas           | Mostrar promedio y comentarios recientes         | 3                  | Barbara Espinoza | **Done**        |
+| **US26**      | Alertas de vencimiento estándar                   | T35     | Implementar alertas estándar                  | Notificaciones antes del fin de la reserva       | 3                  | Alessandro David | **In-Progress** |
+| **US27**      | Configuración de alertas progresivas              | T36     | Implementar alertas progresivas               | Configurar intervalos personalizados             | 3                  | Alessandro David | **To-Do**       |
+| **US28**      | Soporte básico a usuarios                         | T37     | Implementar módulo de soporte                 | Herramientas para admins que gestionan casos     | 3                  | Alessandro David | **Done**        |
+| **US29**      | Dashboard administrativo básico                   | T38     | Implementar dashboard administrativo          | Panel con métricas en tiempo real                | 5                  | Juan Calisaya    | **Done**        |
+| **US30**      | Gestión básica de incidencias                     | T39     | Implementar módulo de incidencias             | Ver y resolver reportes desde admin panel        | 3                  | Juan Calisaya    | **Done**        |
+| **US32**      | Panel web para propietarios                       | T40     | Implementar panel web para propietarios       | Gestión completa y métricas de estacionamientos  | 5                  | Alessandro David | **Done**        |
+| **US33**      | Pago básico con tarjeta                           | T41     | Implementar pagos con tarjeta                 | Procesar pagos y manejar errores/reintentos      | 5                  | Tyrone Sotil     | **In-Progress** |
+| **TS05**      | Sincronización Edge-Cloud                         | T42     | Implementar integración Edge-Cloud            | Enviar batch de eventos y manejar desconexiones  | 5                  | Nelson Serrano   | **To-Do**       |
+
 
 ##### 6.2.3.4. Development Evidence for Sprint Review
 
