@@ -2,7 +2,7 @@
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
     <strong>Ingeniería de Software</strong><br>
-    <br><strong>Ciclo: 7mo</strong><br>
+    <br><strong>Ciclo: 2025-20</strong><br>
     <br><strong>1ASI0572 - Desarrollo de Soluciones IOT - 3428</strong><br>
     <br><strong>Docente: Marco Antonio Leon Baca</strong><br>
     <br><strong>"Informe de Trabajo Final"
@@ -289,6 +289,16 @@ Enlace al repositorio del informe en GitHub: [Repositorio de GitHub](https://git
       - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
       - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
       - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
+    - [6.2.3. Sprint 3](#623-sprint-3)
+      - [6.2.3.1. Sprint Planning 3](#6231-sprint-planning-3)
+      - [6.2.3.2. Aspect Leaders and Collaborators](#6232-aspect-leaders-and-collaborators)
+      - [6.2.3.3. Sprint Backlog 3](#6233-sprint-backlog-3)
+      - [6.2.3.4. Development Evidence for Sprint Review](#6234-development-evidence-for-sprint-review)
+      - [6.2.3.5. Testing Suite Evidence for Sprint Review](#6235-testing-suite-evidence-for-sprint-review)
+      - [6.2.3.6. Execution Evidence for Sprint Review](#6236-execution-evidence-for-sprint-review)
+      - [6.2.3.7. Services Documentation Evidence for Sprint Review](#6237-services-documentation-evidence-for-sprint-review)
+      - [6.2.3.8. Software Deployment Evidence for Sprint Review](#6238-software-deployment-evidence-for-sprint-review)
+      - [6.2.3.9. Team Collaboration Insights during Sprint](#6239-team-collaboration-insights-during-sprint)
 - [6.3. Validation Interviews](#63-validation-interviews)
   - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
   - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -5096,6 +5106,102 @@ Evidencia de los commits por cada repositorio:
 - **Commits Mobile Frontend**
 
 <img src="assets/chapter-6/CommitsFrontMovil.png" alt="CommitsFrontMovil">
+
+#### 6.2.3. Sprint 3
+
+##### 6.2.3.1. Sprint Planning 3
+
+##### 6.2.3.2. Aspect Leaders and Collaborators
+
+Con el fin de garantizar una comunicación efectiva y una ejecución eficiente de las tareas, se desarrolló la **matriz LACX (Leadership and Collaboration Matrix)**, la cual permite identificar qué integrante del equipo lidera cada componente del proyecto y quiénes colaboran en su desarrollo.
+
+En esta tercera iteración se abordaron los siguientes aspectos principales:
+
+- **Aspect Name 1:** Web Móvil Frontend (Conductores)
+- **Aspect Name 2:** Web App Frontend (Dueños)
+- **Aspect Name 3:** RESTful API - Backend Terminado
+- **Aspect Name 4:** Infraestructura y Despliegue
+- **Aspect Name 5:** Documentación
+
+| Team Member                             | GitHub User | Aspect Name 1 | Aspect Name 2 | Aspect Name 3 | Aspect Name 4 | Aspect Name 5 |
+| --------------------------------------- | :---------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
+| **Calisaya Sánchez, Juan Jesús**        | JuanCali999 |       C       |       L       |       C       |       C       |       C       |
+| **David Polanco, Alessandro Alonso**    | Alesso2805  |       C       |       L       |       C       |       C       |       C       |
+| **Espinoza Delgado, Bárbara Antonella** |  MesSobble  |       C       |       C       |       C       |       C       |       L       |
+| **Serrano Ircañaupa, Nelson Elias**     |  NelsonUPC  |       C       |       C       |       L       |       C       |       C       |
+| **Sotil Vasquez, Tyrone Raí**           |  Tyrone-J   |       L       |       C       |       C       |       C       |       C       |
+
+
+##### 6.2.3.3. Sprint Backlog 3
+
+##### 6.2.3.4. Development Evidence for Sprint Review
+
+##### 6.2.3.5. Testing Suite Evidence for Sprint Review
+
+##### 6.2.3.6. Execution Evidence for Sprint Review
+
+##### 6.2.3.7. Services Documentation Evidence for Sprint Review
+
+- **Link de repositorio:** [https://github.com/Lorem-Ipsum-UPC/parkeoya-backend](https://github.com/Lorem-Ipsum-UPC/parkeoya-backend)
+- **Link de Web services desplegados:** [https://parkeoya-backend-latest-1.onrender.com/swagger-ui/index.html](https://parkeoya-backend-latest-1.onrender.com/swagger-ui/index.html)
+
+|    Endpoint       |                                         Details                                        |
+| :---------------: | :------------------------------------------------------------------------------------- |
+| Parking           | Gestión completa de estacionamientos.                                                  |
+| Authentication    | Registro e inicio de sesión de usuarios.                                               |
+| Edge Server       | Creación y consulta de edge servers asignados a estacionamientos.                      |
+| Review            | Publicación y obtención de reseñas por estacionamiento con calificación y comentarios. |
+| Reservation       | Creación de reservas de espacios y consulta por estacionamiento.                       |
+| Roles             | Obtención de los roles disponibles en el sistema para control de acceso y permisos.    |
+| Payment           | Registro de pagos por reservas.                                                        |
+| Notifications     | Gestión de notificaciones push para dispositivos.                                      |
+| Device            | Gestión de dispositivos IoT.                                                           |
+| Users             | Consulta de usuarios registrados en el sistema.                                        |
+| Profiles          | Consulta y actualización de perfiles detallados de usuarios.                           |
+
+|                         Endpoint                            | Operaciones |                                                                Parámetros                                                         | URL                                                                      |
+|:------------------------------------------------------------|:-----------:|:----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| Parking: Get all parkings                                   | GET         | –                                                                                                                                 | `/api/v1/parkings`                                                       |
+| Parking: Create new parking                                 | POST        | body: `ownerId` (string), `name` (string), `description` (string), `address` (string), `city` (string), `country` (string), `lat` (number), `lng` (number), `ratePerHour` (number), `dailyRate` (number), `totalSpots` (number), `availableSpots` (number), `totalRows` (number), `totalColumns` (number), `facilities` (array), `imageUrl` (string), `openingTime` (string), `closingTime` (string) | `/api/v1/parkings`                                     |
+| Parking: Get parking spots by ID                            | GET         | `parkingId` (path)                                                                                                                | `/api/v1/parkings/{parkingId}/spots`                                     |
+| Parking: Add parking spot                                   | POST        | `parkingId` (path), body: `row` (number), `column` (number), `label` (string)                                                     | `/api/v1/parkings/{parkingId}/spots`                                     |
+| Parking: Get parking by ID                                  | GET         | `parkingId` (path)                                                                                                                | `/api/v1/parkings/{parkingId}`                                           |
+| Parking: Update parking                                     | PATCH       | `parkingId` (path), body: parking fields to update                                                                                | `/api/v1/parkings/{parkingId}`                                           |
+| Parking: Get parkings by owner ID                           | GET         | `ownerId` (path)                                                                                                                  | `/api/v1/parkings/owner/{ownerId}`                                       |
+| Authentication: Sign up parking owner                       | POST        | body: `email` (string), `password` (string), `fullName` (string), `city` (string), `country` (string), `phone` (string), `companyName` (string), `ruc` (string) | `/api/v1/authentication/sign-up/parking-owner`                           |
+| Authentication: Sign up driver                              | POST        | body: `email` (string), `password` (string), `fullName` (string), `city` (string), `country` (string), `phone` (string), `dni` (string) | `/api/v1/authentication/sign-up/driver`                                  |
+| Authentication: Sign in                                     | POST        | body: `email` (string), `password` (string)                                                                                       | `/api/v1/authentication/sign-in`                                         |
+| Edge Server: Create edge server                             | POST        | body: `serverId` (string), `apiKey` (string), `macAddress` (string), `status` (string), `parkingId` (number)                      | `/api/v1/edge-servers`                                                   |
+| Edge Server: Update edge server mac address                 | PATCH       | `serverId` (path), body: `macAddress` (string)                                                                                    | `/api/v1/edge-servers/{serverId}`                                        |
+| Edge Server: Get edge servers by parking                    | GET         | `parkingId` (path)                                                                                                                | `/api/v1/edge-servers/parking/{parkingId}`                               |
+| Review: Create review                                       | POST        | body: `driverId` (number), `parkingId` (number), `comment` (string), `rating` (number)                                            | `/api/v1/reviews`                                                        |
+| Review: Get reviews by parking ID                           | GET         | `parkingId` (path)                                                                                                                | `/api/v1/reviews/parking/{parkingId}`                                    |
+| Review: Get reviews by driver ID                            | GET         | `driverId` (path)                                                                                                                 | `/api/v1/reviews/driver/{driverId}`                                      |
+| Reservation: Create reservation                             | POST        | body: `driverId` (number), `vehiclePlate` (string), `parkingId` (number), `parkingSpotId` (string), `startTime` (string), `endTime` (string) | `/api/v1/reservations`                                                   |
+| Reservation: Update reservation status                      | PATCH       | `reservationId` (path), body: `status` (string)                                                                                   | `/api/v1/reservations/{reservationId}`                                   |
+| Reservation: Get reservations by parking                    | GET         | `parkingId` (path)                                                                                                                | `/api/v1/reservations/parking/{parkingId}`                               |
+| Reservation: Get reservations by driver and status          | GET         | `driverId` (path), `status` (path)                                                                                                | `/api/v1/reservations/driver/{driverId}/status/{status}`                 |
+| Roles: Get all roles                                        | GET         | –                                                                                                                                 | `/api/v1/roles`                                                          |
+| Payment: Create reservation payment                         | POST        | `reservationId` (path), body: `userId` (number), `amount` (number), `cardNumber` (string), `cardExpiryDate` (string)              | `/api/v1/payments/reservation/{reservationId}`                           |
+| Notifications: Send push notification                       | POST        | body: `token` (string, query), `title` (string, query), `body` (string, query)                                                   | `/api/v1/notifications/send`                                             |
+| Notifications: Register notification token                  | POST        | body: `userId` (number), `token` (string)                                                                                         | `/api/v1/notifications/register-token`                                   |
+| Notifications: Unregister notification token                | DELETE      | body: `token` (string)                                                                                                            | `/api/v1/notifications/unregister-token`                                 |
+| Device: Update device                                       | PUT         | `deviceId` (path), body: `edgeId` (string), `macAddress` (string), `type` (string)                                               | `/api/v1/devices/{deviceId}`                                             |
+| Device: Update device mac address by id                     | PATCH       | `deviceId` (path), body: `macAddress` (string)                                                                                    | `/api/v1/devices/{deviceId}`                                             |
+| Device: Get unassigned devices                              | GET         | `parkingId` (path)                                                                                                                | `/api/v1/devices/unassigned/{parkingId}`                                 |
+| Device: Get devices by edge server                          | GET         | `edgeServerId` (path)                                                                                                             | `/api/v1/devices/edge-server/{edgeServerId}`                             |
+| Users: Get all users                                        | GET         | –                                                                                                                                 | `/api/v1/users`                                                          |
+| Users: Get user by ID                                       | GET         | `userId` (path)                                                                                                                   | `/api/v1/users/{userId}`                                                 |
+| Profiles: Update parking owner profile                      | PATCH       | `parkingOwnerId` (path), body: `fullName` (string), `city` (string), `country` (string), `phone` (string), `companyName` (string), `ruc` (string) | `/api/v1/profiles/parking-owner/{parkingOwnerId}`                        |
+| Profiles: Update driver profile                             | PATCH       | `driverId` (path), body: `fullName` (string), `city` (string), `country` (string), `phone` (string), `dni` (string)              | `/api/v1/profiles/driver/{driverId}`                                     |
+| Profiles: Get parking owner profile                         | GET         | `userId` (path)                                                                                                                   | `/api/v1/profiles/parking-owner/{userId}`                                |
+| Profiles: Get driver profile                                | GET         | `userId` (path)                                                                                                                   | `/api/v1/profiles/driver/{userId}`                                       |
+
+
+##### 6.2.3.8. Software Deployment Evidence for Sprint Review
+
+##### 6.2.3.9. Team Collaboration Insights during Sprint
+
 
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
