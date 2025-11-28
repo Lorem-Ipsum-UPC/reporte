@@ -5134,6 +5134,14 @@ En esta tercera iteración se abordaron los siguientes aspectos principales:
 
 ##### 6.2.3.3. Sprint Backlog 3
 
+Durante este sprint, se trabajó en desarrollar las user stories restantes del proyecto (aplicación web, aplicación móvil, backend y edge).
+
+La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables.
+
+<img src="assets/chapter-6/TrelloSprint3.png" alt="Trello Sprint3">
+
+Trello: [https://trello.com/invite/b/692a05a249c4081392edc351/ATTI4a7faf8a7dd2a1e7694dc64de2ccf7132F429E32/sprint-3](https://trello.com/invite/b/692a05a249c4081392edc351/ATTI4a7faf8a7dd2a1e7694dc64de2ccf7132F429E32/sprint-3)
+
 ##### 6.2.3.4. Development Evidence for Sprint Review
 
 ##### 6.2.3.5. Testing Suite Evidence for Sprint Review
@@ -5569,44 +5577,66 @@ ParkeoYa debería reforzar su rol en la movilidad sostenible, impulsando iniciat
 
 A continuación se presentan los videos generados como parte del desarrollo del proyecto.
 
-⦁ Needfinding Interviews: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/EYQhtWUIDpVJmC_4vrNvyeEBVwPe0lza4GruF-bIEb73Ww?e=OLnD12
+- **Needfinding Interviews:**  
+  [https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u201911727_upc_edu_pe/EYQhtWUIDpVJmC_4vrNvyeEBVwPe0lza4GruF-bIEb73Ww?e=OLnD12](https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u201911727_upc_edu_pe/EYQhtWUIDpVJmC_4vrNvyeEBVwPe0lza4GruF-bIEb73Ww?e=OLnD12)
 
-⦁ Forms Conductores: [https://forms.gle/4iHuvEREBSzFWc9y6](https://forms.gle/4iHuvEREBSzFWc9y6)
+- **Forms Conductores:**  
+  [https://forms.gle/4iHuvEREBSzFWc9y6](https://forms.gle/4iHuvEREBSzFWc9y6)
 
-⦁ Forms Dueños: [https://forms.gle/TszFqNakzyBn1D6o7](https://forms.gle/TszFqNakzyBn1D6o7)
+- **Forms Dueños:**  
+  [https://forms.gle/TszFqNakzyBn1D6o7](https://forms.gle/TszFqNakzyBn1D6o7)
 
-⦁ Miro Big Picture EventStorming: [https://miro.com/app/board/uXjVJHVh__o=/?share_link_id=669977582700](https://miro.com/app/board/uXjVJHVh__o=/?share_link_id=669977582700)
+- **Miro Big Picture EventStorming:**  
+  [https://miro.com/app/board/uXjVJHVh__o=/?share_link_id=669977582700](https://miro.com/app/board/uXjVJHVh__o=/?share_link_id=669977582700)
 
-⦁ Lucidchart Diagrama de clases: [https://lucid.app/lucidchart/3c51363f-6bff-443d-b016-ebfeac3b1a74/edit?viewport_loc=-2574%2C-858%2C3244%2C1620%2C0_0&invitationId=inv_656ffc0a-b4cc-4dc0-9388-35c5fca0ce82](https://lucid.app/lucidchart/3c51363f-6bff-443d-b016-ebfeac3b1a74/edit?viewport_loc=-2574%2C-858%2C3244%2C1620%2C0_0&invitationId=inv_656ffc0a-b4cc-4dc0-9388-35c5fca0ce82)
+- **Lucidchart – Diagrama de clases:**  
+  [https://lucid.app/lucidchart/3c51363f-6bff-443d-b016-ebfeac3b1a74/edit?viewport_loc=-2574%2C-858%2C3244%2C1620%2C0_0&invitationId=inv_656ffc0a-b4cc-4dc0-9388-35c5fca0ce82](https://lucid.app/lucidchart/3c51363f-6bff-443d-b016-ebfeac3b1a74/edit?viewport_loc=-2574%2C-858%2C3244%2C1620%2C0_0&invitationId=inv_656ffc0a-b4cc-4dc0-9388-35c5fca0ce82)
 
-⦁ Vertabelo Diagrama de base de datos: [Diagrama de Base de Datos](https://my.vertabelo.com/doc/EtM0WmAwKaJIYXqhDB3EQZ8O5SrO8hll)
+- **Vertabelo – Diagrama de base de datos:**  
+  [https://my.vertabelo.com/doc/EtM0WmAwKaJIYXqhDB3EQZ8O5SrO8hll](https://my.vertabelo.com/doc/EtM0WmAwKaJIYXqhDB3EQZ8O5SrO8hll)
 
-⦁ Diagramas de contexto, contenedores, componentes: [https://online.visual-paradigm.com/share.jsp?id=333233333733382d34](https://online.visual-paradigm.com/share.jsp?id=333233333733382d34)
+- **Diagramas de contexto, contenedores, componentes:**  
+  [https://online.visual-paradigm.com/share.jsp?id=333233333733382d34](https://online.visual-paradigm.com/share.jsp?id=333233333733382d34)
 
-⦁ Link Landing Page: [https://parkeoya-lorem-ipsum.netlify.app/](https://parkeoya-lorem-ipsum.netlify.app/)
+- **Link Landing Page:**  
+  [https://parkeoya-lorem-ipsum.netlify.app/](https://parkeoya-lorem-ipsum.netlify.app/)
 
-⦁ Figma: [https://www.figma.com/design/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=0-1&t=JtKhGofsZ7GZ9Q0R-1](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=0-1&t=JtKhGofsZ7GZ9Q0R-1)
+- **Figma – Diseño:**  
+  [https://www.figma.com/design/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=0-1&t=JtKhGofsZ7GZ9Q0R-1](https://www.figma.com/design/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=0-1&t=JtKhGofsZ7GZ9Q0R-1)
 
-⦁ Trello 1: [https://trello.com/invite/b/68e2dcc9e1d60f856ece252e/ATTI08db8008dc8b850e785c7fa6712c707bB2AC1B2E/sprint-1](https://trello.com/invite/b/68e2dcc9e1d60f856ece252e/ATTI08db8008dc8b850e785c7fa6712c707bB2AC1B2E/sprint-1)
+- **Trello 1:**  
+  [https://trello.com/invite/b/68e2dcc9e1d60f856ece252e/ATTI08db8008dc8b850e785c7fa6712c707bB2AC1B2E/sprint-1](https://trello.com/invite/b/68e2dcc9e1d60f856ece252e/ATTI08db8008dc8b850e785c7fa6712c707bB2AC1B2E/sprint-1)
 
-⦁ Trello 2: [https://trello.com/invite/b/68f8ee78b80c2823919e3804/ATTIfb9c480bd4186597ffc0a854c337329a6F5767A3/sprint-2](https://trello.com/invite/b/68f8ee78b80c2823919e3804/ATTIfb9c480bd4186597ffc0a854c337329a6F5767A3/sprint-2)
+- **Trello 2:**  
+  [https://trello.com/invite/b/68f8ee78b80c2823919e3804/ATTIfb9c480bd4186597ffc0a854c337329a6F5767A3/sprint-2](https://trello.com/invite/b/68f8ee78b80c2823919e3804/ATTIfb9c480bd4186597ffc0a854c337329a6F5767A3/sprint-2)
 
-⦁ Link del Prototipo: [https://www.figma.com/proto/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=2-110&t=javn3IzdBb8xNEo2-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=2%3A110&show-proto-sidebar=1](https://www.figma.com/proto/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=2-110&t=javn3IzdBb8xNEo2-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=2%3A110&show-proto-sidebar=1)
+- **Trello 3:**  
+  [https://trello.com/invite/b/692a05a249c4081392edc351/ATTI4a7faf8a7dd2a1e7694dc64de2ccf7132F429E32/sprint-3](https://trello.com/invite/b/692a05a249c4081392edc351/ATTI4a7faf8a7dd2a1e7694dc64de2ccf7132F429E32/sprint-3)
 
-⦁ Link del video del Prototipo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202017267_upc_edu_pe/ETj3uMZWKpBGgPWEeueSTXoBCMKoZNGsSzuRr0ZumT5Sew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=w7hDFP
+- **Link del Prototipo:**  
+  [https://www.figma.com/proto/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=2-110&t=javn3IzdBb8xNEo2-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=2%3A110&show-proto-sidebar=1](https://www.figma.com/proto/J4QynUoONIuJKQPABMteja/ParkeoYa?node-id=2-110&t=javn3IzdBb8xNEo2-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=2%3A110&show-proto-sidebar=1)
 
-⦁ Link Frontend Web: [https://parkeoya.vercel.app/login](https://parkeoya.vercel.app/login)
+- **Link del video del Prototipo:**  
+  [https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u202017267_upc_edu_pe/ETj3uMZWKpBGgPWEeueSTXoBCMKoZNGsSzuRr0ZumT5Sew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=w7hDFP](https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u202017267_upc_edu_pe/ETj3uMZWKpBGgPWEeueSTXoBCMKoZNGsSzuRr0ZumT5Sew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=w7hDFP)
 
-⦁ Link Entrevistas de Validación: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/IQCd4Ph_mufeSp-hkAOCDHbDAWMH0F0CSO3Veo1s4AZDb1Q
+- **Link Frontend Web:**  
+  [https://parkeoya.vercel.app/login](https://parkeoya.vercel.app/login)
 
-Link About The Product:  https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/IQAUZbSAAhmRToYJXp9BZxo_ASyw9lJtRjNEMu7EuBC3Nyg?e=NcaGvK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- **Link Entrevistas de Validación:**  
+  [https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u201911727_upc_edu_pe/IQCd4Ph_mufeSp-hkAOCDHbDAWMH0F0CSO3Veo1s4AZDb1Q](https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u201911727_upc_edu_pe/IQCd4Ph_mufeSp-hkAOCDHbDAWMH0F0CSO3Veo1s4AZDb1Q)
 
-Link About The Team:  https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/IQAiTtEDuMeuSbZARmYKF9rhAaXniHsIyt7wwvmQA3htniU?e=dNolQa
+- **Link About The Product:**  
+  [https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u201911727_upc_edu_pe/IQAUZbSAAhmRToYJXp9BZxo_ASyw9lJtRjNEMu7EuBC3Nyg?e=NcaGvK](https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u201911727_upc_edu_pe/IQAUZbSAAhmRToYJXp9BZxo_ASyw9lJtRjNEMu7EuBC3Nyg?e=NcaGvK)
 
-⦁ Video Exposición TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/Ea50aorvEeNKgYw_99e88oQBsCoptbHVCNW4Ae-fnSQ46A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Gsjoh
+- **Link About The Team:**  
+  [https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u201911727_upc_edu_pe/IQAiTtEDuMeuSbZARmYKF9rhAaXniHsIyt7wwvmQA3htniU?e=dNolQa](https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u201911727_upc_edu_pe/IQAiTtEDuMeuSbZARmYKF9rhAaXniHsIyt7wwvmQA3htniU?e=dNolQa)
 
-⦁ Video Exposición TP: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/EXjfvMZ0IolKhXaCN6kW9g0BvJwc-4tkb4stILLKpblR4w?e=pcUeAz
+- **Video Exposición TB1:**  
+  [https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u201911727_upc_edu_pe/Ea50aorvEeNKgYw_99e88oQBsCoptbHVCNW4Ae-fnSQ46A](https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u201911727_upc_edu_pe/Ea50aorvEeNKgYw_99e88oQBsCoptbHVCNW4Ae-fnSQ46A)
 
-⦁ Video Exposición TB2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911727_upc_edu_pe/IQAP-QEo9NyRT6XnoHAy-5j3AbACA_drbVSrP5Ik9hlyqbg?e=kVeqnC
+- **Video Exposición TP:**  
+  [https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u201911727_upc_edu_pe/EXjfvMZ0IolKhXaCN6kW9g0BvJwc-4tkb4stILLKpblR4w?e=pcUeAz](https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u201911727_upc_edu_pe/EXjfvMZ0IolKhXaCN6kW9g0BvJwc-4tkb4stILLKpblR4w?e=pcUeAz)
 
+- **Video Exposición TB2:**  
+  [https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u201911727_upc_edu_pe/IQAP-QEo9NyRT6XnoHAy-5j3AbACA_drbVSrP5Ik9hlyqbg?e=kVeqnC](https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u201911727_upc_edu_pe/IQAP-QEo9NyRT6XnoHAy-5j3AbACA_drbVSrP5Ik9hlyqbg?e=kVeqnC)
 
