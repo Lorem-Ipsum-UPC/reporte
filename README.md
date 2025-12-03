@@ -49,7 +49,7 @@
 </body>
 
 <p align="center">
-<br><strong> Noviembre, 2025</strong></p>
+<br><strong> Diciembre, 2025</strong></p>
 
 <div style="page-break-after: always;"></div>
 
@@ -65,6 +65,7 @@
 | 1.5         | 5/10/2025  | Tyrone Sotil, Bárbara Espinoza, Juan Calisaya | Realización del Capítulo 5                        |
 | 1.6         | 8/10/2025  | Alessandro David, Nelson Serrano, Bárbara Espinoza y Juan Calisaya | Realización del Capítulo 6                         |
 | 1.7         | 14/11/2025  | Alessandro David, Nelson Serrano, Bárbara Espinoza, Tyrone Sotil y Juan Calisaya | Realización del Capítulo 6.2                         |
+| 1.8         | 3/12/2025  | Alessandro David, Nelson Serrano, Bárbara Espinoza, Tyrone Sotil y Juan Calisaya | Realización del Capítulo 6.3                         |
 
 # Project Report Collaboration Insights
 
@@ -107,6 +108,18 @@ Enlace al repositorio del informe en GitHub: [Repositorio de GitHub](https://git
 - **Sotil Vasquez, Tyrone Raí**: Colaboré en la elaboración del Capítulo VI, enfocándome en el desarrollo de la app mobile y de una entrevista a un conductor.
 
 <img src="./assets/chapter-1/CommitsTB2.png" alt="Commits TB2">
+
+## TF
+
+**Descripción de las actividades realizadas:**
+
+- **Espinoza Delgado, Bárbara Antonella**: Colaboré con la elaboración del Capítulo VI del informe, la realización del prototipo fisico con conexion de sensores y Arduino IDE.
+- **Calisaya Sánchez, Juan Jesús**: Colaboré en la elaboración del Capítulo VI y la elaboración del simulador en wokwi.
+- **David Polanco, Alessandro Alonso**: Colaboré en el desarrollo del Capítulo VI y ultimas mejoras del frontend web. 
+- **Serrano Ircañaupa, Nelson Elias**: Colaboré con la elaboración del Capítulo VI, específicamente en la preparación de evidencias de testing suite y execution para el Sprint Review 2. Además realice la conexión del prototipo a las aplicaciones.
+- **Sotil Vasquez, Tyrone Raí**: Colaboré en la elaboración del Capítulo VI, enfocándome en el desarrollo de la app mobile y su conexión con el backend.
+
+<img src="./assets/chapter-1/CommitsTF.png" alt="Commits TF">
 
 <div style="page-break-after: always;"></div>
 
@@ -353,6 +366,8 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
       Lideré la organización y seguimiento de tareas del sprint, promoviendo la comunicación interna, el cumplimiento de plazos y la alineación entre diseño, desarrollo y validación.<br><br>
       <b>TB2:</b>
       Coordiné la planificación general del proyecto, estableciendo objetivos claros para cada fase. Realicé la evaluación heurística del producto, analizando su usabilidad y consistencia visual.<br><br>
+        <b>TF:</b>
+      Coordiné la planificación del cierre del proyecto, estableciendo tiempos y tareas para las partes restantes del trabajo en la entrega final.<br><br>
       <b>Serrano Ircañaupa, Nelson Elias:</b><br><br>
       <b>TB1:</b>
       Participé en la elaboración de diagramas C4 y bounded contexts, aportando a la definición estructural del sistema mediante herramientas colaborativas de modelado.<br><br>
@@ -366,12 +381,15 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
       <b>TP:</b>
       Lideré la parte visual y técnica del frontend móvil, asegurando la coherencia con los lineamientos de diseño y mejorando la experiencia del usuario.<br><br>
       <b>TB2:</b>
-      Desarrollé las vistas principales de la aplicación móvil utilizando Flutter, aplicando principios de diseño responsivo y optimización de rendimiento.<br><br>
+      Desarrollé las vistas principales de la aplicación móvil, aplicando principios de diseño responsivo y optimización de rendimiento.<br><br>
+        <b>TF:</b>
+      Desarrollé la versión final de la aplicación móvil, conectandola al backend y desplegandola.<br><br>
     </td>
     <td>
       <b>TB1:</b> El equipo mostró una organización efectiva y un liderazgo compartido que permitió cumplir los objetivos iniciales. La comunicación constante y la claridad en las responsabilidades fortalecieron la dinámica grupal.<br><br>
       <b>TP:</b> El grupo demostró madurez en la gestión colaborativa, consolidando un liderazgo equilibrado basado en la responsabilidad, la cooperación y la orientación a resultados.<br><br>
-      <b>TB2:</b> Durante esta etapa, el liderazgo se evidenció en la autonomía de cada miembro para cumplir con sus entregables técnicos. La coordinación y el compromiso individual garantizaron el progreso sostenido del proyecto.
+      <b>TB2:</b> Durante esta etapa, el liderazgo se evidenció en la autonomía de cada miembro para cumplir con sus entregables técnicos. La coordinación y el compromiso individual garantizaron el progreso sostenido del proyecto.<br><br>
+      <b>TF:</b> Durante esta etapa final, el liderazgo se evidenció al cada integrante haciendose responsable de una tarea especifica y culminandola en su totalidad.
     </td>
   </tr>
   <tr>
@@ -398,6 +416,8 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
       Aseguré la coordinación integral de las actividades y la coherencia del proceso de trabajo, garantizando que las metas fueran alcanzadas en los plazos definidos.<br><br>
       <b>TB2:</b>
       Planifiqué las metas del sprint y organicé las revisiones de avance, fomentando un entorno inclusivo donde cada miembro aportó sus ideas y avances.<br><br>
+        <b>TF:</b>
+      Planifiqué las metas del último sprint y organicé las revisiones de la versión final, fomentando un entorno inclusivo donde cada miembro cumplió con las tareas asignadas.<br><br>
       <b>Serrano Ircañaupa, Nelson Elias:</b><br><br>
       <b>TB1:</b>
       Aporté al desarrollo de los diagramas estructurales y validé los avances técnicos con el equipo, cumpliendo los plazos de entrega establecidos.<br><br>
@@ -412,11 +432,14 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
       Implementé mejoras en la experiencia del usuario móvil, optimizando la navegación y el desempeño general de la aplicación.<br><br>
       <b>TB2:</b>
       Desarrollé interfaces móviles funcionales, cumpliendo con las metas semanales definidas en la planificación del equipo.<br><br>
+        <b>TF:</b>
+      Desarrollé interfaces móviles faltantes de la entrega anterior, cumpliendo con el plazo de tiempo asignado.<br><br>
     </td>
     <td>
       <b>TB1:</b> El grupo demostró un alto nivel de colaboración y compromiso, cumpliendo con las metas establecidas a través de una comunicación fluida y un trabajo equitativo.<br><br>
       <b>TP:</b> Se consolidó un entorno inclusivo y participativo, donde cada miembro aportó desde su especialidad para lograr un producto funcional, coherente y entregado dentro de los plazos establecidos.<br><br>
-      <b>TB2:</b> El equipo mantuvo una organización sólida, caracterizada por la planificación efectiva de tareas y la responsabilidad individual en los distintos módulos de desarrollo. La cooperación permitió cumplir con los objetivos del sprint sin contratiempos.
+      <b>TB2:</b> El equipo mantuvo una organización sólida, caracterizada por la planificación efectiva de tareas y la responsabilidad individual en los distintos módulos de desarrollo. La cooperación permitió cumplir con los objetivos del sprint sin contratiempos.<br><br>
+      <b>TF:</b> El equipo mantuvo una correcta organización durante el cierre del proyecto, culminandolo a tiempo y cumpliendose las metas establecidas.
     </td>
   </tr>
 </table>
@@ -5604,6 +5627,10 @@ Para esta segunda entrega se logro realizar una Landing Page consistente de acue
 
 Para esta tercera entrega se logró consolidar de manera significativa el desarrollo del producto mediante la implementación del frontend móvil (primera versión), el frontend web (segunda versión) y la integración del backend, alcanzando un funcionamiento coherente entre los distintos componentes del sistema. Se realizaron entrevistas de validación con usuarios reales, lo que permitió obtener retroalimentación valiosa sobre la usabilidad y la experiencia general del producto. Asimismo, se aplicó una evaluación según las heurísticas, identificando áreas de mejora que posteriormente fueron abordadas mediante correcciones y optimizaciones en la interfaz y flujo de navegación.
 
+### TF
+
+Para esta última entrega se logró consolidar de manera significativa el desarrollo del producto mediante la implementación del frontend móvil, el frontend web y la integración del backend y edge, alcanzando un funcionamiento coherente entre los distintos componentes del sistema y el prototipo físicp. Se realizó una simulación en wokwi para tener una idea de construcción y configuración de los sensores y se conectó el prototipo con las aplicaciónes, logrando una pequeña simulación del funcionmamiento del producto en un caso real.
+
 ### Recomendaciones
 
 ⦁ **Ampliación de funcionalidades:**
@@ -5700,3 +5727,4 @@ A continuación se presentan los videos generados como parte del desarrollo del 
 - **Video Exposición TB2:**  
   [https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u201911727_upc_edu_pe/IQAP-QEo9NyRT6XnoHAy-5j3AbACA_drbVSrP5Ik9hlyqbg?e=kVeqnC](https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u201911727_upc_edu_pe/IQAP-QEo9NyRT6XnoHAy-5j3AbACA_drbVSrP5Ik9hlyqbg?e=kVeqnC)
 
+- **Video Exposición TF:** 
