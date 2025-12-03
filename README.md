@@ -5357,7 +5357,6 @@ Para desarrollo y pruebas, se creó una simulación completa del sistema IoT en 
 La simulación incluye:
 - ESP32 con sensor ultrasónico HC-SR04
 - Lógica de detección de ocupación
-- Comunicación MQTT simulada
 - Visualización del estado mediante LEDs
 
 <img width="1586" height="980" alt="image" src="https://github.com/user-attachments/assets/56fc3267-8c1c-43aa-94a9-d1013658c3a4" />
