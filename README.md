@@ -5344,191 +5344,8 @@ Se implementó el sistema de detección de ocupación utilizando sensores ultras
 - **Microcontrolador ESP32**: Procesa datos del sensor y comunica con el Edge Server
 - **Alimentación**: 5V mediante adaptador o batería
 
-[Espacio para imagen del diagrama de conexión del sensor con el ESP32]
+<img width="491" height="432" alt="image" src="https://github.com/user-attachments/assets/1f2f3aa3-74a2-4b40-a71a-a66c0e710d66" />
 
-**Implementación Física:**
-
-Se implementó el sensor físico con las siguientes características:
-- Detección de ocupación mediante umbral de distancia (< 30cm = ocupado)
-- Comunicación WiFi para transmisión de datos
-- Indicadores LED para estado de conexión y ocupación
-- Actualización de estado cada 2 segundos
-
-[Espacio para imagen del hardware físico ensamblado]
-
-[Espacio para imagen del sensor en funcionamiento detectando un vehículo]
-
-**Configuración del Firmware mediante Arduino IDE:**
-
-Para programar el ESP32 se utilizó Arduino IDE con los siguientes pasos:
-
-**1. Instalación de Arduino IDE:**
-
-Se descargó e instaló Arduino IDE desde [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)
-
-[Espacio para imagen de la descarga e instalación de Arduino IDE]
-
-**2. Configuración del soporte para ESP32:**
-
-Se agregó el gestor de placas ESP32 en Arduino IDE:
-
-- Ir a `File` > `Preferences` > `Additional Board Manager URLs`
-- Agregar: `https://dl.espressif.com/dl/package_esp32_index.json`
-
-[Espacio para imagen de la configuración de Board Manager URLs en Arduino IDE]
-
-- Abrir `Tools` > `Board` > `Boards Manager`
-- Buscar "ESP32" e instalar "ESP32 by Espressif Systems"
-
-[Espacio para imagen del Boards Manager instalando ESP32]
-
-**3. Instalación de librerías necesarias:**
-
-Se instalaron las siguientes librerías mediante `Sketch` > `Include Library` > `Manage Libraries`:
-
-- **PubSubClient** (para comunicación MQTT)
-- **WiFi** (incluida por defecto con ESP32)
-- **ArduinoJson** (para procesamiento de datos JSON)
-
-[Espacio para imagen del Library Manager mostrando las librerías instaladas]
-
-**4. Configuración de la placa ESP32:**
-
-En Arduino IDE se configuró:
-- `Tools` > `Board` > `ESP32 Dev Module`
-- `Tools` > `Upload Speed` > `115200`
-- `Tools` > `CPU Frequency` > `240MHz`
-- `Tools` > `Flash Frequency` > `80MHz`
-- `Tools` > `Port` > Seleccionar el puerto COM correspondiente
-
-[Espacio para imagen de la configuración de la placa en Arduino IDE]
-
-**5. Código del Firmware:**
-
-Se implementó el siguiente código en Arduino IDE:
-
-```cpp
-#include <WiFi.h>
-#include <PubSubClient.h>
-
-// Configuración de pines
-#define TRIG_PIN 5
-#define ECHO_PIN 18
-#define LED_OCCUPIED 2
-#define LED_FREE 4
-
-// Umbral de detección (en cm)
-#define THRESHOLD_DISTANCE 30
-
-// Configuración WiFi
-const char* ssid = "ParkeoYa_Network";
-const char* password = "********";
-
-// Configuración MQTT
-const char* mqtt_server = "192.168.1.100";
-const int mqtt_port = 1883;
-const char* mqtt_topic = "parkeoya/spaces/status";
-const char* mqtt_client_id = "ESP32_Sensor_01";
-
-WiFiClient espClient;
-PubSubClient client(espClient);
-
-void setup() {
-  Serial.begin(115200);
-  
-  pinMode(TRIG_PIN, OUTPUT);
-  pinMode(ECHO_PIN, INPUT);
-  pinMode(LED_OCCUPIED, OUTPUT);
-  pinMode(LED_FREE, OUTPUT);
-  
-  setupWiFi();
-  client.setServer(mqtt_server, mqtt_port);
-}
-
-void loop() {
-  if (!client.connected()) {
-    reconnectMQTT();
-  }
-  client.loop();
-  
-  long distance = measureDistance();
-  bool isOccupied = (distance < THRESHOLD_DISTANCE);
-  
-  updateLEDs(isOccupied);
-  publishOccupancyStatus(isOccupied);
-  
-  delay(2000);
-}
-
-void setupWiFi() {
-  WiFi.begin(ssid, password);
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(500);
-    Serial.print(".");
-  }
-  Serial.println("\nWiFi conectado");
-}
-
-long measureDistance() {
-  digitalWrite(TRIG_PIN, LOW);
-  delayMicroseconds(2);
-  digitalWrite(TRIG_PIN, HIGH);
-  delayMicroseconds(10);
-  digitalWrite(TRIG_PIN, LOW);
-  
-  long duration = pulseIn(ECHO_PIN, HIGH);
-  long distance = duration * 0.034 / 2;
-  
-  return distance;
-}
-
-void updateLEDs(bool occupied) {
-  digitalWrite(LED_OCCUPIED, occupied ? HIGH : LOW);
-  digitalWrite(LED_FREE, occupied ? LOW : HIGH);
-}
-
-void publishOccupancyStatus(bool occupied) {
-  String payload = occupied ? "OCCUPIED" : "FREE";
-  client.publish(mqtt_topic, payload.c_str());
-  Serial.println("Estado publicado: " + payload);
-}
-
-void reconnectMQTT() {
-  while (!client.connected()) {
-    if (client.connect(mqtt_client_id)) {
-      Serial.println("Conectado al broker MQTT");
-    } else {
-      delay(5000);
-    }
-  }
-}
-```
-
-[Espacio para imagen del código completo en Arduino IDE]
-
-**6. Compilación y Carga del Firmware:**
-
-- Verificar el código: Botón ✓ (Verify) en Arduino IDE
-- Cargar al ESP32: Botón → (Upload)
-
-[Espacio para imagen del proceso de compilación en Arduino IDE]
-
-[Espacio para imagen del proceso de carga exitosa mostrando "Done uploading"]
-
-**7. Monitor Serial:**
-
-Se utilizó el Monitor Serial (`Tools` > `Serial Monitor`) para verificar el funcionamiento:
-
-```
-WiFi conectado
-Conectado al broker MQTT
-Distancia: 45 cm - Estado: FREE
-Estado publicado: FREE
-Distancia: 25 cm - Estado: OCCUPIED
-Estado publicado: OCCUPIED
-```
-
-[Espacio para imagen del Serial Monitor mostrando los mensajes de depuración]
 
 **Simulación en Wokwi:**
 
@@ -5542,28 +5359,24 @@ La simulación incluye:
 - Comunicación MQTT simulada
 - Visualización del estado mediante LEDs
 
-[Espacio para imagen de la simulación en Wokwi mostrando el circuito completo]
-
-[Espacio para imagen del código en Wokwi con la lógica del sensor]
+<img width="1586" height="980" alt="image" src="https://github.com/user-attachments/assets/56fc3267-8c1c-43aa-94a9-d1013658c3a4" />
 
 
 
 
 **Edge Server**
 
-Se implementó un servidor Edge local en cada estacionamiento para procesar datos de sensores en tiempo real y reducir latencia.
-
-
+Se implementó un servidor Edge local en cada spot de estacionamiento para procesar datos de sensores en tiempo real y reducir latencia.
 
 **Despliegue del Edge Server:**
 
 El Edge Server se desplegó utilizando Docker en el servicio de Render.
 
 
-[Espacio para imagen del Dockerfile del Edge Server]
+<img width="1263" height="500" alt="image" src="https://github.com/user-attachments/assets/38daf330-f139-4cf5-a753-08f57dc93eb6" />
 
-[Espacio para imagen del Edge Server corriendo en la Raspberry Pi]
 
+<img width="1250" height="550" alt="image" src="https://github.com/user-attachments/assets/7071ed29-b5d3-48f4-bdee-a979bb88f05c" />
 
 
 
@@ -5571,15 +5384,45 @@ El Edge Server se desplegó utilizando Docker en el servicio de Render.
 
 El Edge Server sincroniza periódicamente los datos de ocupación con el backend principal en Render mediante API REST.
 
-**Endpoints de sincronización:**
+<img width="1258" height="200" alt="image" src="https://github.com/user-attachments/assets/400f800d-2f20-4e7e-a057-42dcdb959a27" />
 
 
-[Espacio para imagen de la documentación Swagger mostrando los endpoints IoT]
+**Implementación Física:**
 
+Se implementó el sensor físico con las siguientes características:
+- Detección de ocupación mediante umbral de distancia (< 30cm = ocupado)
+- Comunicación WiFi para transmisión de datos
+- Indicadores LED para estado de conexión y ocupación
+- Actualización de estado cada 2 segundos
+
+<img width="782" height="516" alt="image" src="https://github.com/user-attachments/assets/051686b8-bade-4e28-9bf3-7828726f1433" />
+
+
+**Configuración del Firmware mediante Arduino IDE:**
+
+Para programar el ESP32 se utilizó Arduino IDE:
+
+**Código del Firmware:**
+
+Se implementó el siguiente código en Arduino IDE:
+
+<img width="1193" height="1094" alt="image" src="https://github.com/user-attachments/assets/875197f0-f7fd-412b-9816-da9516f37833" />
+
+**Monitor Serial:**
+
+Para verificar el funcionamiento real del sensor mediante el monitor serial de ArduinoIDE:
+
+<img width="1160" height="812" alt="image" src="https://github.com/user-attachments/assets/cd700880-a2f6-4be6-8768-64a292bab562" />
+
+
+**Funcionamiento real:**
+
+Evidencia del funcionamiento del sensor conectado:
+
+<img width="1241" height="1084" alt="image" src="https://github.com/user-attachments/assets/3157781e-1780-4a6a-8501-61ce09186cf9" />
 
 
 ---
-
 
 
 
