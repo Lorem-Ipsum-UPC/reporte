@@ -5285,6 +5285,304 @@ Trello: [https://trello.com/invite/b/692a05a249c4081392edc351/ATTI4a7faf8a7dd2a1
 
 ##### 6.2.3.8. Software Deployment Evidence for Sprint Review
 
+En este Sprint 3 se enfocó en el despliegue e implementación de la solución IoT completa, incluyendo la aplicación móvil para conductores, el sistema de sensores de ocupación, el Edge Server para procesamiento local de datos, y la integración con los servicios cloud existentes.
+
+---
+
+**Aplicación Móvil (React Native + Expo)**
+
+Durante el Sprint 3 se implementó el despliegue de la aplicación móvil utilizando Expo para facilitar las pruebas con usuarios reales y la distribución interna.
+
+**Configuración del proyecto en Expo:**
+
+Se configuró el archivo `app.json` con los detalles de la aplicación, permisos necesarios y configuración de build:
+
+[Espacio para imagen mostrando la configuración de `app.json` con detalles como nombre, versión, permisos de ubicación, etc.]
+
+**Build y publicación en Expo:**
+
+La aplicación se publicó en Expo mediante los siguientes comandos:
+
+```bash
+expo login
+expo publish
+```
+
+[Espacio para imagen del terminal mostrando el proceso de publicación exitosa en Expo]
+
+**Acceso a la aplicación mediante Expo Go:**
+
+La aplicación móvil se encuentra disponible para pruebas mediante Expo Go escaneando el siguiente QR:
+
+[Espacio para imagen del código QR de Expo para acceder a la aplicación]
+
+**Link de la aplicación en Expo:**
+
+[Espacio para colocar el enlace de la aplicación en Expo]
+
+**APK de prueba para Android:**
+
+Se generó un APK standalone para pruebas en dispositivos Android sin necesidad de Expo Go:
+
+```bash
+eas build --platform android --profile preview
+```
+
+[Espacio para imagen del proceso de build en EAS (Expo Application Services)]
+
+[Espacio para imagen del APK generado o link de descarga]
+
+---
+
+**Sistema de Sensores IoT**
+
+Se implementó el sistema de detección de ocupación utilizando sensores ultrasónicos conectados a microcontroladores ESP32, con implementación tanto física como mediante simulación en Wokwi.
+
+**Configuración del Hardware:**
+
+- **Sensor ultrasónico HC-SR04**: Mide la distancia para detectar presencia de vehículos
+- **Microcontrolador ESP32**: Procesa datos del sensor y comunica con el Edge Server
+- **Alimentación**: 5V mediante adaptador o batería
+
+[Espacio para imagen del diagrama de conexión del sensor con el ESP32]
+
+**Implementación Física:**
+
+Se implementó el sensor físico con las siguientes características:
+- Detección de ocupación mediante umbral de distancia (< 30cm = ocupado)
+- Comunicación WiFi para transmisión de datos
+- Indicadores LED para estado de conexión y ocupación
+- Actualización de estado cada 2 segundos
+
+[Espacio para imagen del hardware físico ensamblado]
+
+[Espacio para imagen del sensor en funcionamiento detectando un vehículo]
+
+**Configuración del Firmware mediante Arduino IDE:**
+
+Para programar el ESP32 se utilizó Arduino IDE con los siguientes pasos:
+
+**1. Instalación de Arduino IDE:**
+
+Se descargó e instaló Arduino IDE desde [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)
+
+[Espacio para imagen de la descarga e instalación de Arduino IDE]
+
+**2. Configuración del soporte para ESP32:**
+
+Se agregó el gestor de placas ESP32 en Arduino IDE:
+
+- Ir a `File` > `Preferences` > `Additional Board Manager URLs`
+- Agregar: `https://dl.espressif.com/dl/package_esp32_index.json`
+
+[Espacio para imagen de la configuración de Board Manager URLs en Arduino IDE]
+
+- Abrir `Tools` > `Board` > `Boards Manager`
+- Buscar "ESP32" e instalar "ESP32 by Espressif Systems"
+
+[Espacio para imagen del Boards Manager instalando ESP32]
+
+**3. Instalación de librerías necesarias:**
+
+Se instalaron las siguientes librerías mediante `Sketch` > `Include Library` > `Manage Libraries`:
+
+- **PubSubClient** (para comunicación MQTT)
+- **WiFi** (incluida por defecto con ESP32)
+- **ArduinoJson** (para procesamiento de datos JSON)
+
+[Espacio para imagen del Library Manager mostrando las librerías instaladas]
+
+**4. Configuración de la placa ESP32:**
+
+En Arduino IDE se configuró:
+- `Tools` > `Board` > `ESP32 Dev Module`
+- `Tools` > `Upload Speed` > `115200`
+- `Tools` > `CPU Frequency` > `240MHz`
+- `Tools` > `Flash Frequency` > `80MHz`
+- `Tools` > `Port` > Seleccionar el puerto COM correspondiente
+
+[Espacio para imagen de la configuración de la placa en Arduino IDE]
+
+**5. Código del Firmware:**
+
+Se implementó el siguiente código en Arduino IDE:
+
+```cpp
+#include <WiFi.h>
+#include <PubSubClient.h>
+
+// Configuración de pines
+#define TRIG_PIN 5
+#define ECHO_PIN 18
+#define LED_OCCUPIED 2
+#define LED_FREE 4
+
+// Umbral de detección (en cm)
+#define THRESHOLD_DISTANCE 30
+
+// Configuración WiFi
+const char* ssid = "ParkeoYa_Network";
+const char* password = "********";
+
+// Configuración MQTT
+const char* mqtt_server = "192.168.1.100";
+const int mqtt_port = 1883;
+const char* mqtt_topic = "parkeoya/spaces/status";
+const char* mqtt_client_id = "ESP32_Sensor_01";
+
+WiFiClient espClient;
+PubSubClient client(espClient);
+
+void setup() {
+  Serial.begin(115200);
+  
+  pinMode(TRIG_PIN, OUTPUT);
+  pinMode(ECHO_PIN, INPUT);
+  pinMode(LED_OCCUPIED, OUTPUT);
+  pinMode(LED_FREE, OUTPUT);
+  
+  setupWiFi();
+  client.setServer(mqtt_server, mqtt_port);
+}
+
+void loop() {
+  if (!client.connected()) {
+    reconnectMQTT();
+  }
+  client.loop();
+  
+  long distance = measureDistance();
+  bool isOccupied = (distance < THRESHOLD_DISTANCE);
+  
+  updateLEDs(isOccupied);
+  publishOccupancyStatus(isOccupied);
+  
+  delay(2000);
+}
+
+void setupWiFi() {
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println("\nWiFi conectado");
+}
+
+long measureDistance() {
+  digitalWrite(TRIG_PIN, LOW);
+  delayMicroseconds(2);
+  digitalWrite(TRIG_PIN, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(TRIG_PIN, LOW);
+  
+  long duration = pulseIn(ECHO_PIN, HIGH);
+  long distance = duration * 0.034 / 2;
+  
+  return distance;
+}
+
+void updateLEDs(bool occupied) {
+  digitalWrite(LED_OCCUPIED, occupied ? HIGH : LOW);
+  digitalWrite(LED_FREE, occupied ? LOW : HIGH);
+}
+
+void publishOccupancyStatus(bool occupied) {
+  String payload = occupied ? "OCCUPIED" : "FREE";
+  client.publish(mqtt_topic, payload.c_str());
+  Serial.println("Estado publicado: " + payload);
+}
+
+void reconnectMQTT() {
+  while (!client.connected()) {
+    if (client.connect(mqtt_client_id)) {
+      Serial.println("Conectado al broker MQTT");
+    } else {
+      delay(5000);
+    }
+  }
+}
+```
+
+[Espacio para imagen del código completo en Arduino IDE]
+
+**6. Compilación y Carga del Firmware:**
+
+- Verificar el código: Botón ✓ (Verify) en Arduino IDE
+- Cargar al ESP32: Botón → (Upload)
+
+[Espacio para imagen del proceso de compilación en Arduino IDE]
+
+[Espacio para imagen del proceso de carga exitosa mostrando "Done uploading"]
+
+**7. Monitor Serial:**
+
+Se utilizó el Monitor Serial (`Tools` > `Serial Monitor`) para verificar el funcionamiento:
+
+```
+WiFi conectado
+Conectado al broker MQTT
+Distancia: 45 cm - Estado: FREE
+Estado publicado: FREE
+Distancia: 25 cm - Estado: OCCUPIED
+Estado publicado: OCCUPIED
+```
+
+[Espacio para imagen del Serial Monitor mostrando los mensajes de depuración]
+
+**Simulación en Wokwi:**
+
+Para desarrollo y pruebas, se creó una simulación completa del sistema IoT en Wokwi:
+
+**Proyecto Wokwi**: [https://wokwi.com/projects/449171859543600129](https://wokwi.com/projects/449171859543600129)
+
+La simulación incluye:
+- ESP32 con sensor ultrasónico HC-SR04
+- Lógica de detección de ocupación
+- Comunicación MQTT simulada
+- Visualización del estado mediante LEDs
+
+[Espacio para imagen de la simulación en Wokwi mostrando el circuito completo]
+
+[Espacio para imagen del código en Wokwi con la lógica del sensor]
+
+
+
+
+**Edge Server**
+
+Se implementó un servidor Edge local en cada estacionamiento para procesar datos de sensores en tiempo real y reducir latencia.
+
+
+
+**Despliegue del Edge Server:**
+
+El Edge Server se desplegó utilizando Docker en el servicio de Render.
+
+
+[Espacio para imagen del Dockerfile del Edge Server]
+
+[Espacio para imagen del Edge Server corriendo en la Raspberry Pi]
+
+
+
+
+**Integración IoT con Backend Cloud**
+
+El Edge Server sincroniza periódicamente los datos de ocupación con el backend principal en Render mediante API REST.
+
+**Endpoints de sincronización:**
+
+
+[Espacio para imagen de la documentación Swagger mostrando los endpoints IoT]
+
+
+
+---
+
+
+
+
 ##### 6.2.3.9. Team Collaboration Insights during Sprint
 
 Evidencia de los commits por cada repositorio:
