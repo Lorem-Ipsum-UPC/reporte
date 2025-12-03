@@ -5347,6 +5347,7 @@ Se implementó el sistema de detección de ocupación utilizando sensores ultras
 <img width="491" height="432" alt="image" src="https://github.com/user-attachments/assets/1f2f3aa3-74a2-4b40-a71a-a66c0e710d66" />
 
 
+
 **Simulación en Wokwi:**
 
 Para desarrollo y pruebas, se creó una simulación completa del sistema IoT en Wokwi:
@@ -5380,11 +5381,13 @@ El Edge Server se desplegó utilizando Docker en el servicio de Render.
 
 
 
+
 **Integración IoT con Backend Cloud**
 
 El Edge Server sincroniza periódicamente los datos de ocupación con el backend principal en Render mediante API REST.
 
 <img width="1258" height="200" alt="image" src="https://github.com/user-attachments/assets/400f800d-2f20-4e7e-a057-42dcdb959a27" />
+
 
 
 **Implementación Física:**
@@ -5398,6 +5401,7 @@ Se implementó el sensor físico con las siguientes características:
 <img width="782" height="516" alt="image" src="https://github.com/user-attachments/assets/051686b8-bade-4e28-9bf3-7828726f1433" />
 
 
+
 **Configuración del Firmware mediante Arduino IDE:**
 
 Para programar el ESP32 se utilizó Arduino IDE:
@@ -5408,11 +5412,14 @@ Se implementó el siguiente código en Arduino IDE:
 
 <img width="1193" height="1094" alt="image" src="https://github.com/user-attachments/assets/875197f0-f7fd-412b-9816-da9516f37833" />
 
+
+
 **Monitor Serial:**
 
 Para verificar el funcionamiento real del sensor mediante el monitor serial de ArduinoIDE:
 
 <img width="1160" height="812" alt="image" src="https://github.com/user-attachments/assets/cd700880-a2f6-4be6-8768-64a292bab562" />
+
 
 
 **Funcionamiento real:**
