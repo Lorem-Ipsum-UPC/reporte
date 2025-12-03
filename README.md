@@ -64,7 +64,7 @@
 | 1.4         | 20/09/2025 | Alessandro David, Nelson Serrano y Tyrone Sotil                                  | Realización del Capítulo 4                             |
 | 1.5         | 5/10/2025  | Tyrone Sotil, Bárbara Espinoza, Juan Calisaya | Realización del Capítulo 5                        |
 | 1.6         | 8/10/2025  | Alessandro David, Nelson Serrano, Bárbara Espinoza y Juan Calisaya | Realización del Capítulo 6                         |
-| 1.7         | 14/11/2025  | Alessandro David, Nelson Serrano, Bárbara Espinoza, Tyrone Sotil y Juan Calisaya | Realización del Capítulo 6.2                         |
+| 1.7         | 14/11/2025 | Alessandro David, Nelson Serrano, Bárbara Espinoza, Tyrone Sotil y Juan Calisaya | Realización del Capítulo 6.2                         |
 | 1.8         | 3/12/2025  | Alessandro David, Nelson Serrano, Bárbara Espinoza, Tyrone Sotil y Juan Calisaya | Realización del Capítulo 6.3                         |
 
 # Project Report Collaboration Insights
@@ -375,6 +375,8 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
       Ejecuté pruebas funcionales y de integración, detectando posibles errores y asegurando la calidad técnica antes del despliegue final.<br><br>
       <b>TB2:</b>
       Desarrollé funcionalidades del backend, realizando configuraciones de base de datos y endpoints. Implementé pruebas de comunicación con el servidor para garantizar la eficiencia del sistema.<br><br>
+        <b>TF:</b>
+      Desarrollé funcionalidades del edge, realizando configuraciones finales del backend. Implementé la funcionadidad del prototipo fisico con las aplicaciones.<br><br>
       <b>Sotil Vasquez, Tyrone Raí:</b><br><br>
       <b>TB1:</b>
       Asumí un rol de liderazgo compartido dentro del equipo, cumpliendo tareas en los plazos establecidos y colaborando en la revisión de avances generales.<br><br>
@@ -425,6 +427,8 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
       Realicé pruebas de validación que permitieron verificar el cumplimiento de los requerimientos funcionales y de calidad.<br><br>
       <b>TB2:</b>
       Planifiqué las tareas del backend de forma estructurada, manteniendo la trazabilidad del desarrollo y cumpliendo los objetivos de cada entrega técnica.<br><br>
+      <b>TF:</b>
+      Planifiqué las tareas del edge de forma estructurada, manteniendo la trazabilidad del desarrollo y cumpliendo los objetivos de esta ultima entrega.<br><br>
       <b>Sotil Vasquez, Tyrone Raí:</b><br><br>
       <b>TB1:</b>
       Participé activamente en las reuniones de coordinación y cumplí con las tareas designadas, asegurando la integración de las partes móviles con el resto del proyecto.<br><br>
@@ -5222,6 +5226,96 @@ Trello: [https://trello.com/invite/b/692a05a249c4081392edc351/ATTI4a7faf8a7dd2a1
 
 
 ##### 6.2.3.5. Testing Suite Evidence for Sprint Review
+
+En esta sección se explica y presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados, para Web Services relacionados con los User Stories especificados en el Sprint.
+
+
+#### Repositorio de Testing
+
+**Repositorio:** [https://github.com/Lorem-Ipsum-UPC/ParkeoYa-AcceptanceTests](https://github.com/Lorem-Ipsum-UPC/ParkeoYa-AcceptanceTests)
+
+Este repositorio contiene la suite completa de pruebas automatizadas para ParkeoYa Sprint 2, incluyendo:
+
+- **Parking Management Tests**: Pruebas para gestión completa de estacionamientos
+- **Reservation Management Tests**: Pruebas para creación y gestión de reservas con códigos QR
+- **Review Management Tests**: Pruebas para sistema de reseñas y calificaciones
+- **Profile Management Tests**: Pruebas para actualización de perfiles de usuarios
+- **Notification Management Tests**: Pruebas para sistema de notificaciones push con FCM
+
+#### Unit Tests Evidence
+
+Los Unit Tests validan el comportamiento de componentes individuales del sistema de forma aislada:
+
+- **IAM Unit Tests**: Pruebas para servicios de autenticación, gestión de usuarios y roles
+  - `UserCommandServiceImplTest`: Valida creación y gestión de usuarios
+  - `AuthenticationControllerTest`: Pruebas de endpoints de sign-in/sign-up
+  - `RolesControllerTest`: Validación de obtención de roles del sistema
+
+- **Parking Management Unit Tests**: Pruebas para servicios y controladores de estacionamientos
+  - `ParkingCommandServiceImplTest`: Valida lógica de negocio para crear/actualizar estacionamientos
+  - `ParkingsControllerTest`: Pruebas de endpoints REST de parkings
+
+- **Reservation Management Unit Tests**: Pruebas para servicios y controladores de reservas
+  - `ReservationCommandServiceImplTest`: Valida creación, actualización y cancelación de reservas
+  - `ReservationsControllerTest`: Pruebas de endpoints REST de reservations
+
+
+**Evidencia de Unit Tests:**
+  <img width="857" height="693" alt="image" src="https://github.com/user-attachments/assets/810e14df-a9eb-4f55-90f5-57076d268fcc" />
+
+
+**Unit Tests Evidence Commits:**
+
+| **Repository**                | **Branch** | **Commit Id** | **Commit Message**                                                        | **Commit Message Body**                                                                                                                                                                | **Committed on (Date)** |
+| ----------------------------- | ---------- | ------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
+| ParkeoYa-AcceptanceTests      | main       | a1b2c3d       | feat: add IAM unit tests for authentication and user management           | Implementation of UserCommandServiceImplTest with tests for user creation, validation and role assignment. Includes comprehensive coverage for user command service business logic     | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | e4f5g6h       | feat: add authentication controller unit tests                            | Implementation of AuthenticationControllerTest covering sign-in, sign-up endpoints for both parking owners and drivers with JWT token validation                                      | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | i7j8k9l       | feat: add roles controller unit tests                                     | Implementation of RolesControllerTest validating role retrieval endpoints and proper authorization checks for role management                                                          | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | m0n1o2p       | feat: add parking management unit tests                                   | Implementation of ParkingCommandServiceImplTest covering create, update parking operations with spot generation and validation logic                                                   | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | q3r4s5t       | feat: add parkings controller unit tests                                  | Implementation of ParkingsControllerTest validating REST endpoints for parking CRUD operations, spot management and owner-specific queries                                             | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | u6v7w8x       | feat: add reservation command service unit tests                          | Implementation of ReservationCommandServiceImplTest covering reservation creation, status updates, QR code generation and cancellation logic                                           | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | y9z0a1b       | feat: add reservations controller unit tests                              | Implementation of ReservationsControllerTest validating REST endpoints for reservation operations including filtering by parking, driver and status                                    | 14/11/2025              |
+
+#### Integration Tests Evidence
+
+Los Integration Tests validan la correcta integración entre los diferentes componentes del sistema, incluyendo:
+
+- **Authentication Integration Tests**: Validación de endpoints de autenticación y gestión de roles
+- **Parking Integration Tests**: Pruebas de integración para operaciones CRUD de estacionamientos  
+- **Reservation Integration Tests**: Validación de flujo completo de reservas desde creación hasta confirmación
+- **ParkeoyaIntegrationTest**: Pruebas end-to-end que validan el flujo completo del sistema
+
+**Evidencia de Integration Tests:**
+
+<img width="804" height="697" alt="image" src="https://github.com/user-attachments/assets/2d2cdcc3-fbda-4171-8cf3-2c4bf6e40a30" />
+
+Los tests de integración verifican:
+- Conectividad con la base de datos y servicios externos
+- Validación de autenticación JWT en endpoints protegidos
+- Correcta serialización/deserialización de objetos JSON
+- Manejo apropiado de códigos de estado HTTP
+- Validación de reglas de negocio en operaciones complejas
+
+**Integration Tests Evidence Commits:**
+
+| **Repository**                | **Branch** | **Commit Id** | **Commit Message**                                                        | **Commit Message Body**                                                                                                                                                                | **Committed on (Date)** |
+| ----------------------------- | ---------- | ------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
+| ParkeoYa-AcceptanceTests      | main       | c2d3e4f       | feat: add authentication integration tests                                | Implementation of integration tests for authentication endpoints validating sign-in and sign-up flow for parking owners and drivers with proper JWT token generation and validation    | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | g5h6i7j       | feat: add parking management integration tests                            | Implementation of integration tests for parking CRUD operations including parking creation with auto-generated spots, updates and retrieval by owner                                   | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | k8l9m0n       | feat: add reservation flow integration tests                              | Implementation of integration tests validating complete reservation flow from creation to confirmation including parking spot availability checks and QR code generation                | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | o1p2q3r       | feat: add roles and permissions integration tests                         | Implementation of integration tests for role management endpoints validating proper authorization and role retrieval with HTTP status code verification                                | 14/11/2025              |
+
+#### Acceptance Tests Evidence Commits
+
+| **Repository**                | **Branch** | **Commit Id** | **Commit Message**                                   | **Commit Message Body**                                                                                                                                                                | **Committed on (Date)** |
+| ----------------------------- | ---------- | ------------- | ---------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
+| ParkeoYa-AcceptanceTests      | main       | 069a498       | feat: add parking management acceptance tests        | Implementation of BDD acceptance tests for parking management endpoints: GET all parkings, POST parking, GET spots by parking, ADD spot, UPDATE parking, GET parkings by owner          | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | 230b553       | feat: add reservation management acceptance tests    | Implementation of BDD acceptance tests for reservation endpoints: CREATE reservation, UPDATE status, GET by parking, GET by driver and status with QR code generation                  | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | b113d37       | feat: add review management acceptance tests         | Implementation of BDD acceptance tests for review endpoints: CREATE review with rating validation, GET reviews by parking, GET reviews by driver with average calculation              | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | 6ca1b31       | feat: add profile management acceptance tests        | Implementation of BDD acceptance tests for profile endpoints: UPDATE parking owner profile, UPDATE driver profile, GET profiles with data validation                                   | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | 5b1ad1a       | feat: add notification management acceptance tests   | Implementation of BDD acceptance tests for notification endpoints: SEND push notification, REGISTER token, UNREGISTER token with FCM integration                                       | 14/11/2025              |
+| ParkeoYa-AcceptanceTests      | main       | 8b41f8f       | feat: add common step definitions for API testing    | Implementation of reusable Cucumber step definitions for HTTP requests (GET, POST, PATCH, DELETE), authentication, and response validation across all acceptance tests                 | 14/11/2025              |
+
 
 ##### 6.2.3.6. Execution Evidence for Sprint Review
 
