@@ -5323,6 +5323,39 @@ Los tests de integración verifican:
 
 ##### 6.2.3.6. Execution Evidence for Sprint Review
 
+
+
+En este sprint logramos, como fase de nuestro producto final, desarrollar nuestra app mobile usando React Native con Expo vinculandolo al api, La APK del app mobile se desplegó en Expo Dev y Firebase.
+
+##### App Mobile desplegada: https://parkeoya.vercel.app
+
+##### REGISTRO Y LOGIN
+<img src="assets/chapter-6/app-mobile-ss1.jpg" width="200" alt="Registro ParkeoYa">
+<img src="assets/chapter-6/app-mobile-ss2.jpg" width="200" alt="Login ParkeoYa">
+<img src="assets/chapter-6/app-mobile-ss3.jpg" width="200" alt="Login ParkeoYa">
+
+##### Home
+<img src="assets/chapter-6/app-mobile-ss4.jpg" width="200" alt="Imagen app mobile">
+<img src="assets/chapter-6/app-mobile-ss5.jpg" width="200" alt="Imagen app mobile">
+
+##### Parking Section
+<img src="assets/chapter-6/app-mobile-ss6.jpg" width="200" alt="Imagen app mobile">
+<img src="assets/chapter-6/app-mobile-ss7.jpg" width="200" alt="Imagen app mobile">
+<img src="assets/chapter-6/app-mobile-ss8.jpg" width="200" alt="Imagen app mobile">
+<img src="assets/chapter-6/app-mobile-ss9.jpg" width="200" alt="Imagen app mobile">
+<img src="assets/chapter-6/app-mobile-ss10.jpg" width="200" alt="Imagen app mobile">
+<img src="assets/chapter-6/app-mobile-ss11.jpg" width="200" alt="Imagen app mobile">
+<img src="assets/chapter-6/app-mobile-ss12.jpg" width="200" alt="Imagen app mobile">
+<img src="assets/chapter-6/app-mobile-ss13.jpg" width="200" alt="Imagen app mobile">
+
+##### Profile Section
+<img src="assets/chapter-6/app-mobile-ss14.jpg" width="200" alt="Imagen app mobile">
+<img src="assets/chapter-6/app-mobile-ss15.jpg" width="200" alt="Imagen app mobile">
+
+
+
+
+
 ##### 6.2.3.7. Services Documentation Evidence for Sprint Review
 
 - **Link de repositorio:** [https://github.com/Lorem-Ipsum-UPC/parkeoya-backend](https://github.com/Lorem-Ipsum-UPC/parkeoya-backend)
