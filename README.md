@@ -352,6 +352,9 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
       Lideré la implementación de secciones visuales del frontend, garantizando coherencia con el diseño general y aportando soluciones de usabilidad en el desarrollo web.<br><br>
       <b>TB2:</b>
       Desarrollé componentes visuales del frontend web, aplicando buenas prácticas de diseño y estructura. Mostré iniciativa en la implementación de mejoras en la interfaz y mantuve un rol activo en la resolución de problemas técnicos.<br><br>
+      <b>TF:</b>
+      Coordine y seguí realizando implementaciones para las nuevas conexiones con el web service y el frontend web realizado en este sprint en equipo.
+      <br><br>
       <b>David Polanco, Alessandro Alonso:</b><br><br>
       <b>TB1:</b>
       Organicé y dirigí el flujo de actividades durante la sesión de EventStorming, proponiendo la estructura del tablero en Miro y definiendo los eventos principales del sistema.<br><br>
@@ -406,6 +409,8 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
       Contribuí al desarrollo estructurado del frontend web, cumpliendo los plazos y garantizando la consistencia visual con la landing page.<br><br>
       <b>TB2:</b>
       Planifiqué mis tareas del frontend web priorizando la integración visual con los demás módulos, cumpliendo los objetivos técnicos y de diseño asignados.<br><br>
+      <b>TF:</b>
+      Se coordino las tareas del frontend y documentacion, asi gestionando la conexión efectiva entre la el web server y el frontend<br><br>
       <b>David Polanco, Alessandro Alonso:</b><br><br>
       <b>TB1:</b>
       Participé en reuniones de planificación donde se definieron metas y responsabilidades, fomentando la participación equitativa y la transparencia en los avances.<br><br>
