@@ -359,6 +359,8 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
       Supervisé la correcta integración del código y la configuración del entorno de desarrollo, manteniendo la calidad técnica del proyecto durante el sprint.<br><br>
       <b>TB2:</b>
       Desarrollé la arquitectura y los servicios del backend, aplicando principios de modularidad y escalabilidad. Realicé validaciones de endpoints para asegurar la estabilidad del sistema.<br><br>
+      <b>TF:</b>
+      Seguí realizando implementaciones para las nuevas conexiones con la capa edge y el dispositivo IoT realizado en este sprint.<br><br>
       <b>Espinoza Delgado, Bárbara Antonella:</b><br><br>
       <b>TB1:</b>
       Organicé las actividades del equipo, asegurando la distribución equitativa de responsabilidades. Fomenté la colaboración y la comunicación constante a través de herramientas digitales.<br><br>
@@ -411,6 +413,8 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
       Aseguré la correcta documentación del backend, cumpliendo con los estándares técnicos establecidos.<br><br>
       <b>TB2:</b>
       Organicé las tareas del backend, gestionando la implementación de servicios y estableciendo un flujo de trabajo ordenado mediante GitHub.<br><br>
+      <b>TF:</b>
+      Organicé las tareas del frontend, asi gestionando la conexión efectiva entre la capa edge y la capa frontend para que el sensor implementado reflejara su conexión visualmente en la app web de ParkeoYa<br><br>
       <b>Espinoza Delgado, Bárbara Antonella:</b><br><br>
       <b>TB1:</b>
       Coordiné la distribución de tareas y los tiempos de entrega, manteniendo una comunicación activa con el equipo mediante reuniones y herramientas colaborativas.<br><br>
