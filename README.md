@@ -5424,6 +5424,8 @@ En este Sprint 3 se enfocó en el despliegue e implementación de la solución I
 
 Durante el Sprint 3 se implementó el despliegue de la aplicación móvil utilizando Expo para facilitar las pruebas con usuarios reales y la distribución interna.
 
+<img src="assets/chapter-6/expo-deploy-image.jpg" width="500" alt="Imagen expo deploy">
+
 **Configuración del proyecto en Expo:**
 
 Se configuró el archivo `app.json` con los detalles de la aplicación, permisos necesarios y configuración de build:
@@ -5441,15 +5443,10 @@ expo publish
 
 [Espacio para imagen del terminal mostrando el proceso de publicación exitosa en Expo]
 
-**Acceso a la aplicación mediante Expo Go:**
 
-La aplicación móvil se encuentra disponible para pruebas mediante Expo Go escaneando el siguiente QR:
 
-[Espacio para imagen del código QR de Expo para acceder a la aplicación]
+https://expo.dev/accounts/jhinta77/projects/parkeo-ya
 
-**Link de la aplicación en Expo:**
-
-[Espacio para colocar el enlace de la aplicación en Expo]
 
 **APK de prueba para Android:**
 
@@ -5457,13 +5454,20 @@ Se generó un APK standalone para pruebas en dispositivos Android sin necesidad 
 
 ```bash
 eas build --platform android --profile preview
+
 ```
 
-[Espacio para imagen del proceso de build en EAS (Expo Application Services)]
-
-[Espacio para imagen del APK generado o link de descarga]
+<img src="assets/chapter-6/local-deploy-image.jpg" width="500" alt="Imagen expo deploy">
 
 ---
+
+**Firebase:**
+
+Adicionalmente tambien se deploya la aplicacion mediante el servicio de firebase
+
+<img src="assets/chapter-6/firebase-deploy-image.jpg" width="500" alt="Imagen expo deploy">
+
+
 
 **Sistema de Sensores IoT**
 
