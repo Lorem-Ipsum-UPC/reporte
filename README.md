@@ -6014,4 +6014,4 @@ A continuación se presentan los videos generados como parte del desarrollo del 
 - **Video Exposición TB2:**  
   [https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u201911727_upc_edu_pe/IQAP-QEo9NyRT6XnoHAy-5j3AbACA_drbVSrP5Ik9hlyqbg?e=kVeqnC](https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u201911727_upc_edu_pe/IQAP-QEo9NyRT6XnoHAy-5j3AbACA_drbVSrP5Ik9hlyqbg?e=kVeqnC)
 
-- **Video Exposición TF:** 
+- **Video Exposición TF:** [https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u201911727_upc_edu_pe/IQA2DP78WEizQLbV4wbOPYXmAejmjcrU48E9WPYYvFkWIjo?e=4FgeB7](https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u201911727_upc_edu_pe/IQA2DP78WEizQLbV4wbOPYXmAejmjcrU48E9WPYYvFkWIjo?e=4FgeB7)
